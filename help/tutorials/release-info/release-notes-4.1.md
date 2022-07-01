@@ -1,9 +1,10 @@
 ---
 title: 發行說明 |Adobe Experience Manager指南4.1版
-description: '最新版《Adobe Experience Manager指南》 '
-source-git-commit: 714d335d95c54fb02b0fe02ad112fa36719dc970
+description: 最新版《Adobe Experience Manager指南》
+exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
+source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2973'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 3%
 * 如果您使用3.8.5版，則需要先升級到4.0.x版，然後再升級到4.1版。
 * 如果您的版本是3.8.5之前的版本，請參閱產品特定安裝指南中的升級部分。
 
-有關詳細資訊，請參閱 [升級說明](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf)。
+有關詳細資訊，請參閱 [升級說明](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf)。
 
 ## 相容性矩陣
 
@@ -289,4 +290,3 @@ Guides AEM 4.1版本提供了整合在Web編輯器中的基線功能。 現在�
 * SVG在XML編輯器的作者模式下無法正確呈現的影像。 (9426)
 * 通過Salesforce發佈時未遵守基線。 (8953)
 * 無法從用戶首選項設定中清除rootmap。 (8534)
-
