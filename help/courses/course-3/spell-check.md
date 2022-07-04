@@ -2,7 +2,7 @@
 title: 拼寫檢查和查找/替換
 description: 在參考線中使用拼寫檢查和查找/替AEM換
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -37,9 +37,9 @@ ht-degree: 0%
 
 3. 有兩種選擇：
 
-   · **瀏覽器拼寫檢查**  — 拼寫檢查使用瀏覽器的內置詞典的預設設定。
+   - **瀏覽器拼寫檢查**  — 拼寫檢查使用瀏覽器的內置詞典的預設設定。
 
-   · **拼AEM寫檢查**  — 使用此命令使用自定義詞典生成自AEM定義詞清單。
+   - **拼AEM寫檢查**  — 使用此命令使用自定義詞典生成自AEM定義詞清單。
 
 4. 選擇 **拼AEM寫檢查**。
 
@@ -59,19 +59,17 @@ ht-degree: 0%
 
    ![CRXDE Lite配置節點](images/lesson-11/config-node.png)
 
-
 4. 建立新檔案。
 
    a.按一下右鍵配置資料夾。
-b.選擇 **建立>建立檔案**。
+
+   b.選擇 **建立>建立檔案**。
 
    ![新建字典檔案建立](images/lesson-11/new-dictionary-file.png)
-
 
    c.命名檔案 _**user_dictionary.txt**_。
 
    ![用戶詞典文本](images/lesson-11/user-dictionary.png)
-
 
    d.按一下 [!UICONTROL **確定**]。
 
@@ -109,12 +107,11 @@ b.選擇 **建立>建立檔案**。
 
 4. 選擇
 
-   · **替換前簽出檔案**  — 如果由管理員啟用，則在替換搜索項之前將自動簽出檔案。
+   - **替換前簽出檔案**  — 如果由管理員啟用，則在替換搜索項之前將自動簽出檔案。
 
-   · **僅全字**  — 限制搜索僅返回輸入的確切字詞或短語。
+   - **僅全字**  — 限制搜索僅返回輸入的確切字詞或短語。
 
    ![在儲存庫中查找替換](images/lesson-11/repository-find-replace.png)
-
 
 5. 按一下 [!UICONTROL **應用篩選器**] 表徵圖，以在要執行搜索的儲存庫中選擇路徑。
 

@@ -2,7 +2,7 @@
 title: 條件
 description: 使用Guids中的條AEM件
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 01083e771baced42146044bf319d3897a2c5f51b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -31,11 +31,11 @@ ht-degree: 3%
 
 5. 填寫必填欄位。
 
-   ·名稱應與用於分析的屬性對應。
+   - 「名稱」應與用於分析的屬性對應。
 
-   ·值是將在DITA代碼源中使用的準確條目。
+   - 值是DITA代碼源中將使用的準確項。
 
-   ·標籤是輸入屬性的用戶將看到的單詞。
+   - 「標籤」是輸入屬性的用戶將看到的單詞。
 
 6. 按一下「[!UICONTROL **儲存**]」。
 
@@ -104,7 +104,6 @@ ht-degree: 3%
    >[!IMPORTANT]
    >
    >重要提示：所選根映射必須是包含主題方案的映射。
-
 
    ![使用者偏好設定](images/lesson-13/user-preferences-2.png)
 

@@ -2,7 +2,7 @@
 title: 簡單的內容建立工作流
 description: 在指南中創AEM建內容
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -37,13 +37,13 @@ ht-degree: 2%
 
 3. 使用 **內容屬性** 在右側面板上修改影像
 
-   ·規模
+   - 規模
 
-   • position
+   - position
 
-   ·對齊，或
+   - 對齊，或
 
-   ·其他屬性。
+   - 其他屬性。
 
    ![內容屬性](images/lesson-15/content-properties.png)
 
@@ -98,7 +98,6 @@ ht-degree: 2%
 3. 選擇 **定位於**。
 
 4. 選擇 **儲存庫** 或 **地圖** 跳到所需的主題位置。
-
 
 ## 版本主題
 
@@ -183,7 +182,6 @@ ht-degree: 2%
    - 帶有標籤的版本歷史記錄顯示在左側。
 
    ![版本歷史記錄](images/lesson-15/version-history.png)
-
 
 4. 按一下某個版本以訪問選項，如 **還原到此版本** 和 **預覽版本**。
 

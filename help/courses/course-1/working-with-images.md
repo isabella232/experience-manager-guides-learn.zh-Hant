@@ -2,7 +2,7 @@
 title: 在參考線中使用圖AEM像
 description: 使用Adobe Experience Manager指南中的影像
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -27,10 +27,10 @@ ht-degree: 0%
 
    ![上傳資產](images/lesson-4/upload-assets.png)
 
-
 1. 選擇要從本地系統上傳的映像，然後選擇 **開啟**。
 
    的 [!UICONTROL 上載資產] 對話框。
+
 1. 選擇 **上載**。
 
 ## 將影像插入主題
@@ -52,7 +52,6 @@ ht-degree: 0%
 1. 選擇 **插入影像** 表徵圖
 
    ![「插入影像」表徵圖](images/lesson-4/insert-image.png)
-
 
    出現「插入影像」對話框。
 
@@ -88,9 +87,11 @@ ht-degree: 0%
 1. 在「版本標籤」欄位中，輸入任何相關標籤。
 
    標籤允許您指定發佈時要包括的版本。
+
    >[!NOTE]
    > 
    > 如果程式配置了預定義的標籤，則可以從這些標籤中進行選擇以確保標籤的一致性。
+
 1. 選擇 **保存**。
 
    您已建立了主題的新版本，並且版本號已更新。

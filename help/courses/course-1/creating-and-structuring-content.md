@@ -2,7 +2,7 @@
 title: 在中建立內容 [!DNL AEM Guides]
 description: 在中建立內容 [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -24,6 +24,7 @@ ht-degree: 0%
 1. 選擇 **+** 表徵圖 **資料夾**。
 
    ![+ 圖示](images/lesson-3/+-icon.png)
+
 1. 給資料夾一個標題。
 1. 選擇 **建立**。您已建立了新資料夾，該資料夾現在顯示在儲存庫中。 此資料夾將是所有課程內容的首頁。
 
@@ -36,6 +37,7 @@ ht-degree: 0%
    ![省略號表徵圖](images/lesson-3/ellipses-icon.png)
 
    將顯示「選項」菜單。
+
 1. 選擇 **建立\>資料夾**。
    ![建立子資料夾](images/lesson-3/create-subfolder-with-markings.png)
 
@@ -48,6 +50,7 @@ ht-degree: 0%
    ![省略號表徵圖](images/lesson-3/ellipses-icon.png)
 
    此時將顯示「選項」菜單。
+
 1. 選擇 **建立\>主題**。
 
    ![建立新主題](images/lesson-3/create-topic-with-markings.png)
@@ -92,6 +95,7 @@ ht-degree: 0%
    >[!NOTE]
    > 
    > 如果程式配置了預定義的標籤，則可以從這些標籤中進行選擇以確保標籤的一致性。
+
 1. 選擇 **保存**。
 
    您已建立了主題的新版本，並且版本號已更新。

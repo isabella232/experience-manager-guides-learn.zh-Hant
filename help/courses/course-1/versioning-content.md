@@ -2,7 +2,7 @@
 title: 版本控制內容 [!DNL AEM Guides]
 description: 版本控制內容 [!DNL Adobe Experience Manager Guides]
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 97254946f5ee732fe3b93ff60dd9ef51a379b9f4
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -29,8 +29,9 @@ ht-degree: 0%
    標籤允許您指定發佈時要包括的版本。
 
    >[!NOTE]
-   > 
-   > 如果程式配置了預定義的標籤，則可以從這些標籤中進行選擇以確保標籤的一致性。
+   >
+   >如果程式配置了預定義的標籤，則可以從這些標籤中進行選擇以確保標籤的一致性。
+
 1. 選擇 **保存**。
 
    您已建立了主題的新版本，並且版本號已更新。 文檔的第一個版本為1.0版。
