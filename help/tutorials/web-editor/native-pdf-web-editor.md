@@ -2,9 +2,9 @@
 title: 本地PDF |PDF輸出生成
 description: 在《Adobe Experience Manager指南》as a Cloud Service生成PDF輸出
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1b46f5e496e6c974abeba019a9d3174d5bc5315c
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
