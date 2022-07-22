@@ -2,9 +2,9 @@
 user-guide-title: Tutorials和視頻指南課AEM程
 user-guide-description: 瀏覽我們的Adobe Experience Manager指南教程和視頻集。
 breadcrumb-title: 指AEM南Tutorials和視頻
-source-git-commit: f08fe1a96f0a0bcb9a50e316bd0b6c9ff2670104
+source-git-commit: d8ffc09abc0a79d21d2d1df1832f75a34130a65e
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 7%
 
 ---
@@ -41,7 +41,8 @@ ht-degree: 7%
    + WIP本機PDF條目 {#hidden}
       + [隱藏PDF模板](./tutorials/native-pdf/pdf-template.md)
       + [PDF模板的隱藏元件](./tutorials/native-pdf/components-pdf-template.md)
-+ [影片](./courses/overview.md)
++ 影片 {#videos}
+   + [概觀](./courses/overview.md)
    + 入門 [!DNL AEM Guides] {#getting-started}
       + [課程概述](./courses/course-1/overview.md)
       + [瞭解AEM用戶介面](./courses/course-1/understanding-the-aem-user-interface.md)
