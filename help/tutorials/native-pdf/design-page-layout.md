@@ -1,14 +1,16 @@
 ---
 title: 本機PDF發佈功能 |設計頁面佈局
-description: '瞭解如何設計頁面佈局以在PDF輸出的不同部分中顯示資訊。 '
+description: 瞭解如何設計頁面佈局以在PDF輸出的不同部分中顯示資訊。
 hide: true
 hidefromtoc: true
-source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
+exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
+source-git-commit: 64e8ab1288674437f6182010ce4963b3780e98a9
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
 
 ---
+
 
 # 設計頁面佈局
 
@@ -85,7 +87,7 @@ PDF文檔通常包含以下部分：
 
 1. 按一下編輯標題(<img src="./assets/header-icon.svg" width="25">)表徵圖，將游標置於標題區域。
 
-1. 按一下「Inter Image（惰性影像）」(<img src="./assets/insert-image-icon.svg" width="25"> ) 圖示.
+1. 按一下「Inter Image（惰性影像）」(<img src="./assets/insert-image-icon.svg" width="25">) 圖示.
 
    出現「Select Path（選擇路徑）」彈出窗口。
 
@@ -135,6 +137,8 @@ PDF文檔通常包含以下部分：
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >您還可以編輯除預設格式外的所有欄位的格式。 為此，按一下要編輯的格式旁邊的「編輯」表徵圖，進行更改，然後按一下「確定」。
@@ -169,9 +173,9 @@ PDF文檔通常包含以下部分：
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| 開發人員角： | <img src="./assets/developer-corner-icon.svg" width="40"> |
+| 開發人員角： | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-如果希望直接使用CSS和HTML代碼，則還可以通過轉到頁面佈局的「源」視圖並更改代碼來實現此目的。 以下代碼段顯示通過代碼執行的相同頁腳設定：
+| 如果希望直接使用CSS和HTML代碼，則還可以通過轉到頁面佈局的「源」視圖並更改代碼來實現此目的。 以下代碼段顯示通過代碼執行的相同頁腳設定： |
 
 ```md
 …
@@ -217,6 +221,8 @@ PDF文檔通常包含以下部分：
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >最終發佈的PDF將僅根據章節中的內容顯示目錄條目。 如果一章中沒有第5級標題，則最終輸出中不會顯示它。
@@ -258,6 +264,8 @@ PDF文檔通常包含以下部分：
    如下例所示，標題文本的Span Column屬性設定為all。 這可確保即使文檔是多列，標題也跨各列。
 
    <img src="./assets/element-span-across-columns.png" width="400">
+
+   <br>
 
    >[!IMPORTANT]
    可以將Span Column屬性應用於任何DITA元素。
@@ -385,4 +393,3 @@ PDF文檔通常包含以下部分：
 * **背景**:包含要包含背景影像或顏色陰影的屬性。 可以設定「影像大小」（通過設定「高度」或「寬度」）、「背景重複」（作為重複、不重複、倒圓角或更多）和「背景位置」（作為左上、右中、中下或更多）。
 
 * **多列**:包含用於為頁或任何特定元素配置多列屬性的屬性，如章TOC。 有關屬性及其使用方法的詳細資訊，請參閱 _使用多列頁面佈局_。
-
