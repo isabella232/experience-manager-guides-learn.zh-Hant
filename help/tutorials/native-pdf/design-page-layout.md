@@ -4,7 +4,7 @@ description: 瞭解如何設計頁面佈局以在PDF輸出的不同部分中顯�
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 2607a02867765b8f78134ab4e37012e8b08e222c
+source-git-commit: 651409beb88468bfb5ab35e45028b01fccd91cd5
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
@@ -137,7 +137,7 @@ PDF文檔通常包含以下部分：
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -173,8 +173,9 @@ PDF文檔通常包含以下部分：
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| 開發人員角： | <img src="./assets/developer-corner-icon.svg" width="25"> |
-|--- |--- |
+| _開發人員角_: <img src="./assets/developer-corner-icon.svg" width="25"> |
+|---|
+
 如果希望直接使用CSS和HTML代碼，則還可以通過轉到頁面佈局的「源」視圖並更改代碼來實現此目的。 以下代碼段顯示通過代碼執行的相同頁腳設定：
 
 ```md
@@ -206,7 +207,7 @@ PDF文檔通常包含以下部分：
    預設章節TOC將插入內容區域。
 
    <img src="./assets/chapter-toc-default.png" width="400">
-    <img src="./assets/transparent-background.png" width="30">
+    <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -222,7 +223,7 @@ PDF文檔通常包含以下部分：
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -266,7 +267,7 @@ PDF文檔通常包含以下部分：
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!IMPORTANT]
    可以將Span Column屬性應用於任何DITA元素。
