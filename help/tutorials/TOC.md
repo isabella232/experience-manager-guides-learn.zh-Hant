@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 8a0049d737dd4d80cf42f8b9d4ffa8adc349682f
+source-git-commit: cb066f0e09aec000f216c11c774c8da111b2a7f7
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 25%
+source-wordcount: '121'
+ht-degree: 23%
 
 ---
 
@@ -41,3 +41,4 @@ ht-degree: 25%
 + WIP本機PDF條目 {#hidden}
    + [隱藏PDF模板](./native-pdf/pdf-template.md)
    + [PDF模板的隱藏元件](./native-pdf/components-pdf-template.md)
+   + [隱藏設計頁面佈局](./native-pdf/design-page-layout.md)
