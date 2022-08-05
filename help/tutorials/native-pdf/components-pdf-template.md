@@ -3,9 +3,10 @@ title: 本機PDF發佈功能 |PDF模板的元件
 description: 瞭解PDF模板的各個元件以及如何定制和配置它們。
 hide: true
 hidefromtoc: true
-source-git-commit: 698469293e41558753ff6aada92f050f45be867a
+exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
+source-git-commit: e0602e325fec014fe5a9ebe231b0c62611a4e52d
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
@@ -39,6 +40,19 @@ PDF模板包含四個元件：頁面佈局、樣式表、資源和設定。 您�
 1. 按一下 **完成**。
 
    新佈局將建立並添加到「頁面佈局」下。
+
+### 複製頁面佈局
+
+1. 在 **模板** 要複製的模板部分，按兩下 **頁面佈局** 或按一下 **>** 表徵圖 **頁面佈局**。
+
+   這將顯示模板中頁面佈局的清單。
+
+1. 將滑鼠懸停在要複製的頁面佈局上，然後按一下(*選項* 表徵圖) **...** 選擇 **重複** 的子菜單。
+
+1. 在 _重複佈局_ 對話框，輸入頁面佈局的名稱。
+
+1. 按一下 **完成**。
+在「頁面佈局」(Page Layouts)下建立並添加選定頁面佈局的副本。
 
 ### 自定義頁面佈局
 
