@@ -1,9 +1,7 @@
 ---
 title: 原生PDF發佈功能 |使用常見的內容樣式
 description: 了解如何建立使用樣式表和建立內容的樣式。
-hide: true
-hidefromtoc: true
-source-git-commit: cbd5f4b0763bf4087d016f3d3c8d723518f0b8e7
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 0%
