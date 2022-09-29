@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: cf0ccd878ec25cb9eadd2cc5fa6f63eeec8a442c
+source-git-commit: e3dfbe036758bc4357b474a35e44d12296ac4a52
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 23%
+source-wordcount: '128'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 23%
    + 發行說明 {#release-notes}
       + 雲端服務 {#cloud-release-notes}
          + [部署指示](./release-info/deploy-xml-on-aemaacs.md)
-         + [最新發行說明](./release-info/release-notes-2022.8.0.md)
+         + [最新發行說明](./release-info/release-notes-2022.9.0.md)
+         + [8月發行說明](./release-info/release-notes-2022.8.0.md)
          + [5月發行說明](./release-info/release-notes-2022.5.0.md)
          + [4月發行說明](./release-info/release-notes-2022.4.0.md)
          + [3月發行說明](./release-info/release-notes-2022.3.0.md)
