@@ -2,17 +2,17 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: e3dfbe036758bc4357b474a35e44d12296ac4a52
+source-git-commit: e65bad1487c957894fd206f7e42a998c15497905
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 22%
+source-wordcount: '126'
+ht-degree: 23%
 
 ---
 
 
 # Tutorials [!DNL Adobe Experience Manager Guides] {#tutorials}
 
-+ [Tutorials [!DNL AEM Guides] 適用於AEM](overview.md)
++ [Tutorials [!DNL AEM Guides]](overview.md)
 + 發行資訊 {#release-info}
    + [[!DNL AEM Guides] 發行](./release-info/latest-release-info.md)
    + 發行說明 {#release-notes}
