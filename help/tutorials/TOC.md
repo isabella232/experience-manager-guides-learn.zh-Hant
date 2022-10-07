@@ -26,7 +26,6 @@ ht-degree: 22%
          + [2月發行說明](./release-info/release-notes-2022.2.0.md)
          + [1月發行說明](./release-info/release-notes-2022.1.0.md)
       + 內部部署/Managed Services {#on-prem-release-notes}
-+
          + [4.1.x發行說明](./release-info/release-notes-4.1.md)
          + [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
