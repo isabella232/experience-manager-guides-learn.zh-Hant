@@ -1,21 +1,21 @@
 ---
 title: 發行說明 | Adobe Experience Manager指南as a Cloud Service,2022年9月發行版本
-description: 最新版Adobe Experience Manager指南as a Cloud Service
-source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
+description: 9月版Adobe Experience Manager指南as a Cloud Service
+source-git-commit: 28712c3f2057d7553ed2fe955db0dfe278c8a9b9
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1285'
 ht-degree: 3%
 
 ---
 
-# 最新版Adobe Experience Manager指南as a Cloud Service
+# 9月版Adobe Experience Manager指南as a Cloud Service
 
-## 升級至最新版本
+## 升級至9月版
 
 升級您目前的Adobe Experience Manager指南as a Cloud Service(稍後稱為 *AEM指南as a Cloud Service*)，請執行下列步驟：
 1. 查看Cloud Services的Git程式碼，並切換至Cloud Services管道中所設定的分支，該管道與您要升級的環境對應。
 2. 更新 `<dox.version>` 屬性 `/dox/dox.installer/pom.xml` 檔案的Cloud ServicesGit程式碼。
-3. 提交變更並執行Cloud Services管道，以升級至最新版本的AEM指南as a Cloud Service。
+3. 提交變更並執行Cloud Services管道，以升級至9月版AEM指南as a Cloud Service。
 
 ## 為現有內容建立索引的步驟
 
@@ -50,7 +50,7 @@ ht-degree: 3%
 
 ## 新增功能和功能改善
 
-AEM指南as a Cloud Service在最新版本中提供許多增強功能和新功能：
+AEM指南as a Cloud Service在9月版本中提供許多增強功能和新功能：
 
 
 ### 根據標籤建立動態基線
