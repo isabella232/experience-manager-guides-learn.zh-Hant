@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager指南4.1版
 description: 最新版Adobe Experience Manager指南
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: f74126c1eb7bccf0c9464cbe9b1138af5bd4938f
+source-git-commit: 0bddd791e7fb6e6f8eb0f8e2ad73146a758ffc47
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3400'
 ht-degree: 3%
 
 ---
@@ -119,6 +119,18 @@ ht-degree: 3%
 ## 新增功能和功能改善
 
 AEM指南在4.1版中提供許多增強功能和新功能：
+
+### 原生PDF發佈
+
+4.1版的AEM指南也新增了建立原生PDF的支援。 推出新的發佈引擎，其功能如下：
+* 建立CSS範本
+* 建立不同的頁面範本
+* 包含CSS和頁面範本的設計PDF範本
+* 以PDF格式發佈地圖和主題內容
+
+### 文章發佈中知識庫網站路徑的支援
+
+AEM指南提供以文章為基礎的發佈功能，以逐步產生一或多個主題的輸出，或將內容發佈至知識庫平台。 在4.1版中，您還可以選擇需要發佈主題/地圖的知識庫網站路徑。 選取路徑後，會在指定的路徑產生輸出。
 
 ### 增強的Web編輯器
 
