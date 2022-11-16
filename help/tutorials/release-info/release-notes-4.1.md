@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager指南4.1版
 description: 最新版Adobe Experience Manager指南
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 0bddd791e7fb6e6f8eb0f8e2ad73146a758ffc47
+source-git-commit: c7b147777a59d422e93d63118e84d806adaaad24
 workflow-type: tm+mt
-source-wordcount: '3400'
+source-wordcount: '3532'
 ht-degree: 3%
 
 ---
@@ -15,13 +15,56 @@ ht-degree: 3%
 
 ## 升級至最新版本
 
-您可以輕鬆地將當前版本的AEM指南升級到4.1.2版。繼續升級到4.1.2版AEM指南之前，必須考慮以下幾點：
-* 如果您使用4.1版或4.1.x版，則可直接升級至4.1.2版。
-* 如果您使用4.0.x版，則需升級至4.1或4.1.x版，才能升級至4.1.2。
+您可以輕鬆地將當前版本的AEM指南升級到4.1.3版。在繼續升級到4.1.3版AEM指南之前，您必須考慮以下幾點：
+* 如果您使用4.1版或4.1.x版，則可直接升級至4.1.3版。
+* 如果您使用4.0.x版，則需升級至4.1或4.1.x版，才能升級至4.1.3。
 * 如果您使用3.8.5版，則需先升級至4.0.x版，再升級至4.1。
 * 如果您使用3.8.5之前的版本，請參閱產品專屬安裝指南中的升級區段。
 
 如需詳細資訊，請參閱 [升級指示](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+
+## 4.1.3 |發行說明
+
+## 相容性矩陣
+
+本節列出AEM指南4.1.3版所支援軟體應用程式的相容性矩陣。
+
+### Adobe Experience Manager
+
+**非UUID**
+6.5版Service Pack 13、12、11或10
+
+**UUID**
+6.5版Service Pack 13、12、11或10
+
+如需詳細資訊，請參閱安裝及設定Adobe Experience Manager指南中的技術需求一節。
+
+
+### FrameMaker和FrameMaker Publishing Server
+
+| 發行 | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
+| --- | --- | --- | --- | --- |
+| 4.1.3（非UUID） | 2020.2或更高版本* | 2019年 | 2020.3或更高版本 | 2019.8（最新更新） |
+| 4.1.3(UUID) | 2020.2或更高版本* | 不相容 | 2020.4或更高版本 | 不相容 |
+|  |  |  |  |
+
+*從2020.2開始的FMPS版本支援在AEM中建立的基線和條件。
+
+### 氧連接器
+
+| 發行 | 氧連接器窗口 | 氧連接器Mac | 在氧氣窗口中編輯 | 在Oxion Mac中編輯 |
+| --- | --- | --- |--- |--- |
+| 4.1.3（非UUID） | 2.0 | 2.0 | 1.6 | 1.6 |
+| 4.1.3(UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
+|  |  |  |
+
+
+## 已修正的問題
+
+錯誤修正列於下列：
+
+* 網頁編輯器會間歇性載入空白頁面。 (10678)
+
 
 ## 4.1.2 |發行說明
 
