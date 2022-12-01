@@ -2,9 +2,9 @@
 title: AEM指南發行版本
 description: 最新AEM指南發行和必要的AEM版本
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
-source-git-commit: 4066b22849271f29b5339dbd2f1bfa0946cdbd8b
+source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -13,17 +13,39 @@ ht-degree: 0%
 
 [!DNL Adobe Experience Manager Guides] 是部署至AEM的應用程式。 這是功能強大、企業級的元件內容管理解決方案(CCMS)，可在Adobe Experience Manager中啟用原生DITA支援，讓AEM能夠處理DITA型內容的建立和傳送。
 
-## UUID與非UUID的比較說明
+AEM參考線套件有兩種變體：UUID組建和非UUID組建。
 
-[!DNL AEM Guides] 套件分為兩種模式：UUID組建和非UUID組建。
+## UUID和非UUID組建
 
-客戶在首次設定時，將需要決定是UUID模式還是非UUID模式（請連線您的客戶成功經理，協助您根據使用情況做出決策）。
+UUID與非UUID組建版本之間的主要差異如下：
 
-從 [!DNL AEM Guides] 至於較新版本，客戶將需要確定選擇相同的模式（UUID/非UUID），以符合其現有模式。 非UUID組建版本不應直接升級為UUID組建版本。 從非UUID組建移轉至UUID組建時，需要移轉內容。
+|  | UUID組建 | 非UUID組建 |
+|---|---|---|
+| **資產識別** | 系統會使用存放庫中資產的路徑來識別所有資產。 | 所有資產都會使用其UUID來識別（資產首次上傳時，系統產生的唯一ID）。 |
+| **參考建立** | 所有內容參考都會根據其路徑建立。 | 所有內容參考都會根據其UUID建立。 |
+
+### UUID組建的優點
+
+* UUID安裝效能更強：
+   * 參照與路徑無關：參考管理系統會感知連結，因為參考是根據UUID而非路徑建立的。
+   * 移動/更新操作非常有效：即使資產移至存放庫中的其他路徑，UUID仍會維持不變。 因此，在移動/更新作業中修補資產之間的參考不需要任何處理。
+* UUID組建是前瞻性的，因為我們也將此架構用於AEM指南的雲端設定。
+
+
+### 在兩個組建之間選擇
+
+* 如果您是新客戶，建議您使用UUID組建。
+* 如果您是現有客戶，可以選擇改用UUID組建，因為現在可以從Non-UUID移轉至UUID組建。 如需詳細資訊，請參閱 *非UUID移轉至UUID內容* 區段 **安裝及設定Adobe Experience Manager指南。**
+
+>[!NOTE]
+>
+>* 客戶在首次設定時，將需要決定是UUID還是非UUID模式（若您需要協助，請連線Customer Success Manager，協助您根據使用者做出決策）。
+>* 從一個AEM指南版本升級至更新版本時，客戶必須選擇相同的模式（UUID/非UUID），以符合其現有模式。 非UUID組建版本不應直接升級為UUID組建版本。 從非UUID組建移轉至UUID組建時，需要移轉內容。
+
 
 **升級組建**
 
-當您從舊版升級為 [!DNL AEM Guides]，您可能需要執行一些移轉指令碼。 如需升級指示，請參閱發行說明和版本專屬檔案。
+當您從舊版升級為 [!DNL AEM Guides]，您可能需要執行移轉指令碼。 如需升級指示，請參閱發行說明和版本專屬檔案。
 
 並非所有升級路徑都直接受支援。 例如，只能從3.8版直接升級到4.0版。如果您使用3.8版之前的版本，請參閱版本特定的文檔以獲取升級說明 [說明封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 請洽詢您的客戶成功經理以驗證升級路徑。

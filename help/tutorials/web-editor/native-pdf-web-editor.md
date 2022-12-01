@@ -2,10 +2,10 @@
 title: 原生PDF |PDF輸出生成
 description: 在Adobe Experience Manager參考線中產生PDF輸出as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e7fe44f6d0c0ce08d5f94140474212c280b41f52
+source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
 workflow-type: tm+mt
-source-wordcount: '2297'
-ht-degree: 1%
+source-wordcount: '2663'
+ht-degree: 0%
 
 ---
 
@@ -56,11 +56,14 @@ ht-degree: 1%
 
 1. 在「輸出」(Output)頁簽中，按一下 **預設集** 在左側邊欄。
 「預設集」面板隨即開啟。
-   ![預設面板](assets/preset-panel.png)
-2. 在輸出中 **預設集** 面板，執行下列操作之一：
+
+<img src="assets/preset-panel.png" alt="預設面板" width="600">
+
+1. 在輸出中 **預設集** 面板，執行下列操作之一：
    * 連按兩下預先定義的PDF輸出預設集以加以檢視。
    * 針對按一下+圖示 **預設集** 添加新的輸出預設集 **類型：PDF**
-3. 配置現有PDF預設集的設定：
+
+1. 配置現有PDF預設集的設定：
    * 按一下  **選項** ![選項](assets/options.svg) 表徵圖，然後選擇 **編輯**.
 您可以在 **一般**, **中繼資料**, **版面**, **安全性**，和 **進階** 標籤來設定PDF輸出預設集：
 
@@ -70,10 +73,12 @@ ht-degree: 1%
 
 | 設定 | 說明 |
 | --- | --- |
-| **輸出路徑** | 儲存PDF輸出的AEM存放庫內的路徑。 請確保輸出路徑未位於項目資料夾內。 若保留為空白，則會在預設DITA映射輸出位置中產生輸出。 |
-| **PDF 檔案** | 指定檔案名稱以儲存PDF。 預設情況下，PDF檔案名將添加DITA映射名和預設集名。 例如，ditamap是「TestMap」，預設集的名稱是「preset1」，則pdf的預設名稱將是「TestMap_preset1.pdf」。 |
-| **使用** | 對於條件化內容，請從以下選項中選擇，以根據這些條件生成PDF輸出： <br>* **未應用** 如果您不想對地圖和來源內容套用任何條件，請選取此選項。 <br> * **迪塔瓦爾檔案** 選擇DITAVAL檔案以生成條件化內容。 若要選取，請按一下「條件預設集」 ，然後找出檔案。 <br> * **條件預設集** 從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果已添加DITA映射檔案的條件，則此選項可見。 條件設定在DITA映射控制台的「條件預設集」頁簽中可用。 若要深入了解條件預設，請參閱 [使用條件預設集](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
+| **輸出路徑** | 儲存PDF輸出的AEM存放庫內的路徑。 請確保輸出路徑未位於項目資料夾內。 若保留為空白，則會在預設DITA映射輸出位置中產生輸出。<br>您也可以使用下列現成可用的變數來定義輸出路徑。 您可以使用單一或變陣列合來定義此選項。 <br> `${map_filename}`:使用DITA映射檔案名建立目標路徑。 <br> `${map_title}`:使用DITA映射標題建立目標路徑。 <br>`${preset_name}`:使用輸出預設集名稱來建立目標路徑。 <br> `${language_code}`:使用映射檔案所在的語言代碼建立目標路徑。 <br> `${map_parentpath}`:使用映射檔案的完整路徑建立目標路徑。  <br>`${path_after_langfolder}`:使用語言資料夾之後的映射檔案路徑建立目標路徑。 |
+| **PDF檔案** | 指定檔案名稱以儲存PDF。 預設情況下，PDF檔案名將添加DITA映射名和預設集名。 例如，ditamap是「TestMap」，預設集的名稱是「preset1」，則pdf的預設名稱將是「TestMap_preset1.pdf」。 <br>您也可以使用下列現成可用的變數來定義PDF檔案。 您可以使用單一或變陣列合來定義此選項。 <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`。 |
+| **使用** | 對於條件化內容，請從以下選項中選擇，以根據這些條件生成PDF輸出： <br>* **未應用** 如果您不想對地圖和來源內容套用任何條件，請選取此選項。 <br>* **迪塔瓦爾檔案** 選擇DITAVAL檔案以生成條件化內容。 若要選取，請按一下「條件預設集」 ，然後找出檔案。 <br> * **條件預設集** 從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果已添加DITA映射檔案的條件，則此選項可見。 條件設定在DITA映射控制台的「條件預設集」頁簽中可用。 若要深入了解條件預設，請參閱 [使用條件預設集](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **使用基線** | 如果已為所選DITA映射建立基線，請選擇此選項以指定要發佈的版本。 請參閱 [使用基線](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) 以取得更多詳細資訊。 |
+| **建立PDF，並在已發佈版本之間使用變更列** | 使用下列選項，建立PDF，使用變更列顯示兩個版本之間內容的差異：   <br>* **上一版的基線** 選擇要與當前版本或其他基線進行比較的基線版本。 PDF中會出現變更列，指出已修改的內容。 變更列是可視覺識別新內容或修訂內容的垂直線。 變更列會顯示在已插入、變更或刪除的內容左側。 <br> **附註**:如果您選取 **使用基線** 並選擇要發佈的基線，將在兩個選定的基線版本之間進行比較。 例如，如果在 **使用基線**，和1.1版 **上一版的基線**，基線1.1版和基線1.3版之間會進行比較。 <br>* **顯示新增的文字** 選擇以綠色和下划線顯示插入的文本。 預設會選取此選項。 <br> * **顯示已刪除的文本** 選取以紅色顯示已刪除的文字，並加上刪除線。 預設會選取此選項。 <br>**附註** 您也可以使用樣式表自定義更改欄、插入的內容或刪除的內容的樣式。<br> |
+| **產生後的工作流程** | 選取「 」以顯示下拉式清單，其中包含AEM中設定的所有工作流程。 您可以選取在完成PDF產生工作流程後要執行的工作流程。 |
 
 **中繼資料**
 
@@ -83,7 +88,8 @@ ht-degree: 1%
 
 **附註**:此元資料會覆寫在書籍層級定義的中繼資料。
 
-![中繼資料索引標籤](assets/pdf-metadata.png)
+<img src="assets/pdf-metadata.png" alt="中繼資料索引標籤" width="600">
+
 
 | 設定 | 說明 |
 |---|---|
@@ -147,6 +153,6 @@ Protect您的PDF，新增限制以開啟和讀取檔案。 使用以下選項可
 6. 輸出生成完成後，按一下  **檢視輸出** ![檢視輸出](assets/view-output.svg) 圖示來檢視輸出。\
    A **成功** 對話框顯示在螢幕的右下角。
 如果輸出失敗，則會顯示以下錯誤訊息。
-   ![錯誤日誌](assets/error-log.png)
+<img src="assets/error-log.png" alt="錯誤日誌" width="250">
 
 若要檢視錯誤記錄，請按一下 **解除**，將游標暫留在選取的預設集標籤上，然後按一下 ![選項](assets/options.svg) **選項** > **檢視記錄**.
