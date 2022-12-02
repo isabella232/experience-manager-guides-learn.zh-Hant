@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager指南as a Cloud Service,2022年11月發行版本
 description: 最新版Adobe Experience Manager指南as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
+source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1372'
 ht-degree: 2%
 
 ---
@@ -101,9 +101,7 @@ AEM指南提供您建立和管理全域和資料夾設定檔輸出預設集的�
 <img src="assets/send-translation.png" alt="傳送以翻譯" width="600">
 
 
-## 原生PDF發佈增強功能
-
-### PDF，更改欄顯示文檔版本之間的差異
+### 原生PDF |帶更改欄的PDF顯示文檔版本之間的差異
 
 現在，您可以使用變更列，建立顯示兩個版本之間內容差異的PDF。 您可以選擇將當前版本與以前版本的基線進行比較，或在兩個選定的基線版本之間進行比較。
 
@@ -113,7 +111,7 @@ PDF中會出現變更列，指出已修改、插入或刪除的內容。 您也�
 * 以綠色顯示插入的內容並加下下划線
 * 以紅色顯示已刪除的內容，並加上刪除線
 
-### 對輸出路徑和PDF檔案名的變數支援
+### 原生PDF |支援輸出路徑和PDF檔案名
 
 現在，您也可以使用下列現成變數來定義輸出路徑和PDF檔案。 您可以使用單一或變陣列合來定義下列選項：
 * `${map_filename}`
@@ -124,7 +122,7 @@ PDF中會出現變更列，指出已修改、插入或刪除的內容。 您也�
 * `${path_after_langfolder}` （僅限輸出路徑）
 
 
-### 生成DITA映射的目錄和重新排序頁面佈局
+### 原生PDF |為DITA映射生成目錄並重新排序頁面佈局
 
 現在，您也可以使用範本的進階PDF設定，在DITA映射中產生TOC。 您可以選擇啟用或禁用各種頁面佈局的顯示，並重新排序其位置。
 
