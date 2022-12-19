@@ -2,7 +2,7 @@
 title: AEM指南發行版本
 description: 最新AEM指南發行和必要的AEM版本
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
-source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
+source-git-commit: f74a9168708299d66d014dbc4bf280a1a4f07592
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -19,7 +19,7 @@ AEM參考線套件有兩種變體：UUID組建和非UUID組建。
 
 UUID與非UUID組建版本之間的主要差異如下：
 
-|  | UUID組建 | 非UUID組建 |
+|  | 非UUID組建 | UUID組建 |
 |---|---|---|
 | **資產識別** | 系統會使用存放庫中資產的路徑來識別所有資產。 | 所有資產都會使用其UUID來識別（資產首次上傳時，系統產生的唯一ID）。 |
 | **參考建立** | 所有內容參考都會根據其路徑建立。 | 所有內容參考都會根據其UUID建立。 |
