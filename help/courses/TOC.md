@@ -5,7 +5,7 @@ breadcrumb-title: AEM Guides 影片
 source-git-commit: 7d5e4616c0f36c696549e9e08a1b5c137f36a66c
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 17%
    + [發佈預設輸出](./course-1/publishing-default-output.md)
    + [重述](./course-1/recap.md)
 + 使用生成輸出 [!DNL AEM Guides] {#output-generation}
-   + [總覽](./course-2/overview.md)
+   + [概觀](./course-2/overview.md)
    + [了解地圖控制面板](./course-2/introduction-to-the-map-dashboard.md)
    + [使用報表](./course-2/working-with-reports.md)
    + [使用基線建立和發佈](./course-2/creating-and-publishing-with-baselines.md)
