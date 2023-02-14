@@ -1,8 +1,8 @@
 ---
-title: 參考AEM線編輯器配置
-description: 為參考線配置編AEM輯器
+title: AEM指南編輯器設定
+description: 設定AEM指南的編輯器
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -11,163 +11,163 @@ ht-degree: 0%
 
 # XML編輯器配置
 
-如果在限制性環境中工作，則可以通過在特定資料夾配置檔案中自定義編輯器配置來選擇作者能夠查看的功能。 應用此資料夾配置檔案可以更改編輯器本身、CSS模板、可用的代碼段和內容版本標籤的外觀。
+如果您在限制性環境中工作，則可以透過在特定資料夾設定檔中自訂編輯器設定，來選擇作者可檢視的功能。 套用此資料夾設定檔可以變更編輯器本身、CSS範本、可用的片段和內容版本標籤的外觀和風格。
 
-檔案中提供了您可能選擇用於本課的示例檔案 [xmleditorconfiguration.zip](assets/xmleditorconfiguration.zip)。
+檔案中提供您可選擇用於本課程的範例檔案 [xmleditorconfiguration.zip](assets/xmleditorconfiguration.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342762)
+>[!VIDEO](https://video.tv.adobe.com/v/342762?quality=12&learn=on)
 
-## 自定義預設編輯器UI配置
+## 自訂預設編輯器UI設定
 
-您始終可以將預設的UI配置下載到本地系統，在您選擇的文本編輯器中對其進行更改，然後重新上載。
+您隨時可以將預設的UI設定下載至本機系統、在您選擇的文字編輯器中對其進行變更，然後再次上傳。
 
-1. 在導航螢幕中，按一下 [!UICONTROL **工具**] 表徵圖
+1. 在導覽畫面中，按一下 [!UICONTROL **工具**] 表徵圖。
 
-   ![工具表徵圖](images/reuse/tools-icon.png)
+   ![工具圖示](images/reuse/tools-icon.png)
 
-2. 選擇 **參考線** 的下界。
+2. 選擇 **指南** 在左側面板上。
 
-3. 按一下 [!UICONTROL **資料夾配置檔案**] 平鋪。
+3. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
 
-   ![資料夾配置檔案](images/reuse/folder-profiles-tile.png)
+   ![資料夾描述檔](images/reuse/folder-profiles-tile.png)
 
 4. 選擇資料夾配置檔案。
 
-5. 按一下 [!UICONTROL **XML編輯器配置**] 頁籤。
+5. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
 6. 按一下 [!UICONTROL **下載**] 預設。
 
-   ![下載預設](images/lesson-4/download-default.png)
+   ![下載預設值](images/lesson-4/download-default.png)
 
-現在，您可以在文本編輯器中開啟和修改內容。 的 _指AEM南安裝和配置_ 指南包含如何刪除、自定義或向UI配置添加函式的示例。
+您現在可以在文字編輯器中開啟和修改內容。 此 _AEM指南安裝與設定_ 本指南包含如何移除、自訂或新增函式至UI設定的範例。
 
-## 上載修改的XML編輯器UI配置
+## 上傳修改的XML編輯器UI配置
 
-自定義UI配置後，可以上載它。 請注意，示例配置檔案 _ui-config-restricted-editor.json_ 提供了本課的一組支援主題。
+自訂UI設定後，即可上傳它。 請注意，範例設定檔 _ui-config-restricted-editor.json_ 提供本課程的一組支援主題。
 
-1. 在資料夾配置檔案中，按一下 [!UICONTROL **XML編輯器配置**] 頁籤。
+1. 在「資料夾描述檔」中，按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-2. 在XML編輯器UI配置下，按一下 [!UICONTROL **上載**]。
+2. 在XML編輯器UI配置下，按一下 [!UICONTROL **上傳**].
 
    ![上傳](images/lesson-4/upload.png)
 
-3. 按兩下修改的UI配置檔案，或如此處所示，按一下提供的示例檔案。
+3. 連按兩下已修改UI設定的檔案，或如此處所示，提供的範例檔案。
 
-   ![示例配置檔案](images/lesson-4/sample-config-file.png)
+   ![範例設定檔案](images/lesson-4/sample-config-file.png)
 
-4. 按一下 [!UICONTROL **保存**] 的下界。
+4. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
 
-您已成功上載已修改的UI配置。
+您已成功上傳已修改的UI設定。
 
-## 自定義CSS模板佈局
+## 自訂CSS範本版面
 
-與UI配置一樣，您可以下載CSS模板佈局。 您可以在文本編輯器中開啟它，並在上載前進行修改以自定義主題的外觀。
+和UI設定一樣，您可以下載CSS範本版面。 您可以在文字編輯器中開啟主題，並進行修改以自訂主題的外觀和風格，然後再上傳。
 
-1. 在導航螢幕中，按一下 [!UICONTROL **工具**] 表徵圖
+1. 在導覽畫面中，按一下 [!UICONTROL **工具**] 表徵圖。
 
-   ![工具表徵圖](images/reuse/tools-icon.png)
+   ![工具圖示](images/reuse/tools-icon.png)
 
-2. 選擇 **參考線** 的下界。
+2. 選擇 **指南** 在左側面板上。
 
-3. 按一下 [!UICONTROL **資料夾配置檔案**] 平鋪。
+3. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
 
-   ![資料夾配置檔案](images/reuse/folder-profiles-tile.png)
+   ![資料夾描述檔](images/reuse/folder-profiles-tile.png)
 
 4. 選擇資料夾配置檔案。
 
-5. 按一下 [!UICONTROL **XML編輯器配置**] 頁籤。
+5. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-6. 在「CSS模板佈局」下，按一下 [!UICONTROL **下載**]。
+6. 在「CSS範本配置」下，按一下 [!UICONTROL **下載**].
 
    ![下載CSS](images/lesson-4/download-css.png)
 
-現在，您可以修改CSS內容並將其保存在文本編輯器中。
+您現在可以在文字編輯器中修改及儲存CSS內容。
 
-## 上載修改的CSS模板佈局
+## 上傳修改的CSS範本版面
 
-自定義CSS模板佈局後，可以上載它。 請注意示例檔案 _css-layout-only-draft-comment-change.css_ 提供了本課的一組支援主題。 此檔案僅包含「草稿注釋更改」，而 _css-layout-draft-comment-change-css_ 是整個檔案，僅供您測試或查看。
+自訂CSS範本版面後，您可以上傳它。 請注意，範例檔案 _css-layout-ONLY-draft-comment-change.css_ 提供本課程的一組支援主題。 此檔案僅包含「草稿注釋變更」，但 _css-layout-draft-comment-change.css_ 是整個檔案，僅供您測試或檢閱之用。
 
-1. 在資料夾配置檔案中，按一下 [!UICONTROL **XML編輯器配置**] 頁籤。
+1. 在「資料夾描述檔」中，按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-2. 在「CSS模板佈局」下，按一下 [!UICONTROL **上載**]。
+2. 在「CSS範本配置」下，按一下 [!UICONTROL **上傳**].
 
    ![上傳 CSS](images/lesson-4/upload-css.png)
 
-3. 按兩下您自己的自定義CSS佈局或此處顯示的提供的示例檔案。
+3. 連按兩下您自訂CSS版面的檔案，或此處顯示的範例檔案。
 
-   ![示例CSS檔案](images/lesson-4/sample-css-file.png)
+   ![範例CSS檔案](images/lesson-4/sample-css-file.png)
 
-4. 按一下 [!UICONTROL **保存**] 的下界。
-您已成功上載自定義的CSS模板佈局。
+4. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
+您已成功上傳自訂的CSS範本版面。
 
 ## 編輯XML編輯器代碼段
 
-片段是可重複使用的內容片段，可特定於產品或組。 請注意，本課的支援檔案中提供了示例代碼段。
+片段是可重複使用的內容片段，可供產品或群組專用。 請注意，本課程的支援檔案提供了示例代碼片段。
 
-1. 在導航螢幕中，按一下 [!UICONTROL **工具**] 表徵圖
+1. 在導覽畫面中，按一下 [!UICONTROL **工具**] 表徵圖。
 
-   ![工具表徵圖](images/reuse/tools-icon.png)
+   ![工具圖示](images/reuse/tools-icon.png)
 
-2. 選擇 **參考線** 的下界。
+2. 選擇 **指南** 在左側面板上。
 
-3. 按一下 [!UICONTROL **資料夾配置檔案**] 平鋪。
+3. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
 
-   ![資料夾配置檔案](images/reuse/folder-profiles-tile.png)
+   ![資料夾描述檔](images/reuse/folder-profiles-tile.png)
 
 4. 選擇資料夾配置檔案。
 
-5. 按一下 [!UICONTROL **XML編輯器配置**] 頁籤。
+5. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-6. 在XML編輯器代碼段下，按一下 **上載**。
+6. 在「XML編輯器代碼段」下，按一下 **上傳**.
 
-   ![上載片段](images/lesson-4/upload-snippets.png)
+   ![上傳程式碼片段](images/lesson-4/upload-snippets.png)
 
-7. 選擇您自己的代碼段或使用提供的示例。
+7. 選擇您自己的代碼片段或使用提供的示例。
 
-   ![示例代碼段](images/lesson-4/sample-snippet.png)
+   ![程式碼片段範例](images/lesson-4/sample-snippet.png)
 
-8. 按一下 [!UICONTROL **保存**] 的下界。
+8. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
 
-您已成功將新代碼段添加到編輯器中。
+您已成功將新的代碼片段添加到編輯器中。
 
 ## 自定義XML內容版本標籤
 
-預設情況下，允許作者建立其選擇的標籤，並將其與主題檔案關聯。 這可能導致同一標籤上出現不同的變化。 為避免標注不一致，您還可以從預定義標籤清單中進行選擇。
+依預設，作者可建立其所選標籤，並與主題檔案建立關聯。 這可能會導致相同標籤上出現不同的變化。 為避免標籤不一致，您也可以從預先定義的標籤清單中選擇。
 
-1. 在導航螢幕中，按一下 [!UICONTROL **工具**] 表徵圖
+1. 在導覽畫面中，按一下 [!UICONTROL **工具**] 表徵圖。
 
-   ![工具表徵圖](images/reuse/tools-icon.png)
+   ![工具圖示](images/reuse/tools-icon.png)
 
-2. 選擇 **參考線** 的下界。
+2. 選擇 **指南** 在左側面板上。
 
-3. 按一下 [!UICONTROL **資料夾配置檔案**] 平鋪。
+3. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
 
-   ![資料夾配置檔案](images/reuse/folder-profiles-tile.png)
+   ![資料夾描述檔](images/reuse/folder-profiles-tile.png)
 
 4. 選擇資料夾配置檔案。
 
-5. 按一下 [!UICONTROL **XML編輯器配置**] 頁籤。
+5. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-6. 在「XML內容版本標籤」下，按一下 [!UICONTROL **下載**]。
+6. 在「 XML內容版本標籤」下，按一下 [!UICONTROL **下載**].
 
    ![下載標籤](images/lesson-4/download-labels.png)
 
-您現在可以根據需要自定義標籤。
+您現在可以視需要自訂標籤。
 
-## 上載XML內容版本標籤
+## 上傳XML內容版本標籤
 
-下載和修改標籤後，可以上載XML內容版本標籤主題。 您可以選擇使用示例檔案 _標籤.json_，提供了本課的一組支援主題。
+下載並修改標籤後，可以上載「XML內容版本標籤」主題。 您可以選擇使用範例檔案 _labels.json_，提供本課程的一組支援主題。
 
-1. 在資料夾配置檔案中，按一下 [!UICONTROL **XML編輯器配置**] 頁籤。
+1. 在「資料夾描述檔」中，按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-2. 在「XML內容版本標籤」下，按一下 [!UICONTROL **上載**]。
+2. 在「 XML內容版本標籤」下，按一下 [!UICONTROL **上傳**].
 
-   ![上載標籤](images/lesson-4/upload-labels.png)
+   ![上傳標籤](images/lesson-4/upload-labels.png)
 
-3. 按兩下您自己的自定義標籤或此處顯示的示例檔案的檔案。
+3. 連按兩下您自訂標籤的檔案，或此處顯示的範例檔案。
 
-   ![示例標籤檔案](images/lesson-4/sample-labels-file.png)
+   ![標籤檔案範例](images/lesson-4/sample-labels-file.png)
 
-4. 按一下 [!UICONTROL **保存**] 的下界。
+4. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
 
-您已成功上載自定義XML內容版本標籤。
+您已成功上傳自訂XML內容版本標籤。
