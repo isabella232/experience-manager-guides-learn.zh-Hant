@@ -1,13 +1,13 @@
 ---
 title: 製作網頁型內容
 description: 了解如何使用網頁編輯器製作結構化內容。
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # 製作網頁型內容
 
@@ -19,7 +19,7 @@ AEM指南隨附內建的網頁編輯器，可編寫結構化內容。 您可以�
 
 ## 會話記錄
 
->查看錄影 [影片](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on) 工作階段。
+>[視訊](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## 反白顯示
 
@@ -51,11 +51,11 @@ AEM指南隨附內建的網頁編輯器，可編寫結構化內容。 您可以�
 > - Cloud Services2211及更新版本
 
 
-## 更多專家會議
+## 下次專家會議
 
 - **主題**  — 原生PDF發佈 *（根據調查結果）*
 - **排程於** - 2023年2月23日
 
 ## 聯繫我們
 
-如有任何疑問，請發送電子郵件至techcomm@adobe.com。
+如有任何查詢，請傳送電子郵件至 <techcomm@adobe.com>

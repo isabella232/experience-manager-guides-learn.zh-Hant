@@ -1,10 +1,11 @@
 ---
 title: 翻譯內容
 description: 了解如何將您的內容翻譯成多種語言。
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 2%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +19,7 @@ AEM指南提供最佳的多語言內容建立解決方案，具備強大的翻�
 
 ## 會話記錄
 
->查看錄影 [影片](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on) 工作階段。
+>[視訊](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## 反白顯示
 
@@ -50,11 +51,11 @@ AEM指南提供最佳的多語言內容建立解決方案，具備強大的翻�
 > - Cloud Services2207或更新版本
 
 
-## 更多專家會議
+## 下次專家會議
 
 - **主題** - [使用基線管理內容](baselines-dec22.md)
 - **排程於** - 2022年12月8日
 
 ## 聯繫我們
 
-如有任何疑問，請發送電子郵件至techcomm@adobe.com。
+如有任何查詢，請傳送電子郵件至 <techcomm@adobe.com>

@@ -1,9 +1,10 @@
 ---
 title: 使用基線管理內容
 description: 了解如何使用基線來有效管理您的內容。
-source-git-commit: 34b373b5f2cdd082ea7b9f9c33bfb903bd8a493a
+exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## 會話記錄
 
->查看錄影 [影片](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on) 工作階段。
+>[視訊](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
 
 ## 反白顯示
 
@@ -50,11 +51,11 @@ ht-degree: 0%
 > - Cloud Services2211及更新版本
 
 
-## 更多專家會議
+## 下次專家會議
 
 - **主題** - [製作網頁型內容](webbased-authoring-jan2023.md)
 - **排程於** - 2023年1月19日
 
 ## 聯繫我們
 
-如有任何疑問，請發送電子郵件至techcomm@adobe.com。
+如有任何查詢，請傳送電子郵件至 <techcomm@adobe.com>
