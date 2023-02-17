@@ -2,10 +2,10 @@
 title: 翻譯內容
 description: 了解如何將您的內容翻譯成多種語言。
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 3%
+source-wordcount: '194'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ AEM指南提供最佳的多語言內容建立解決方案，具備強大的翻�
 
 ## 會話記錄
 
->[視訊](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## 反白顯示
 

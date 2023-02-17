@@ -2,9 +2,9 @@
 title: 使用基線管理內容
 description: 了解如何使用基線來有效管理您的內容。
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 會話記錄
 
->[視訊](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
 
 ## 反白顯示
 

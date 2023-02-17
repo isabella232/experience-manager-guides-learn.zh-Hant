@@ -2,9 +2,9 @@
 title: 製作網頁型內容
 description: 了解如何使用網頁編輯器製作結構化內容。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ AEM指南隨附內建的網頁編輯器，可編寫結構化內容。 您可以�
 
 ## 會話記錄
 
->[視訊](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## 反白顯示
 
