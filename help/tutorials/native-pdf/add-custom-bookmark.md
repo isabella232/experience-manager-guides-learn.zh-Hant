@@ -1,9 +1,9 @@
 ---
-title: 原生PDF發佈功能 |對目錄項目和主題內容套用自訂樣式
+title: 原生PDF發佈功能 |在PDF輸出中新增自訂書籤
 description: 了解如何建立使用樣式表和建立內容的樣式。
-source-git-commit: fbb81704ea8d9d2793b066fa159b405460fa1dcf
+source-git-commit: fb7ffbaefcdca4302e43d8369bc056c1f08a3ed6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 `bookmark-level: 3`
 
 這裡， `bookmark-level` 是屬性和數字 `3` 是指出書籤階層中新增書籤的層級的值。 在以下示例中，第一級主題「聯繫人」有一個表，即「聯繫人清單」，我們已在其中添加了 `outputclass` 屬性值為 `custom-bookmark`.
+
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
@@ -33,3 +34,8 @@ ht-degree: 0%
 在PDF輸出中， *聯繫人清單* 表格會新增在「PDF書籤」清單的第2層，如下所示：
 
 <img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
+
+>[!NOTE]
+>
+>您必須選擇自訂書籤的新增位置。 如果指定的數字小於父主題的書籤，則自定義書籤將佔據父書籤的位置，所有其他書籤將顯示為子書籤。 這可能會導致非預期的書籤結構。
+
