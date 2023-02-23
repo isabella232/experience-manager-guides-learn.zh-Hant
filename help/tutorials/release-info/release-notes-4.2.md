@@ -1,9 +1,10 @@
 ---
 title: 發行說明 | Adobe Experience Manager指南4.2版
 description: 最新版Adobe Experience Manager指南
-source-git-commit: 2fb46bdfb7f42fd9b3ef19343700009818c5b4f2
+exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
+source-git-commit: 890d64aed5f4005e3f4d3143bc35804e39036ad3
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3668'
 ht-degree: 2%
 
 ---
@@ -251,12 +252,12 @@ PDF中會出現變更列，指出已修改、插入或刪除的內容。 您也�
 ### 原生PDF |支援輸出路徑和PDF檔案名
 
 現在，您也可以使用下列現成變數來定義輸出路徑和PDF檔案。 您可以使用單一或變陣列合來定義下列選項：
-* ${map_filename}
-* ${map_title}
-* ${preset_name}
-* ${language_code}
-* ${map_parentpath}（僅用於輸出路徑）
-* ${path_after_langfolder}（僅用於輸出路徑）
+* `${map_filename}`
+* `${map_title}`
+* `${preset_name}`
+* `${language_code}`
+* `${map_parentpath}` （僅限輸出路徑）
+* `${path_after_langfolder}` （僅限輸出路徑）
 
 ### 原生PDF |為DITA映射生成目錄並重新排序頁面佈局
 
