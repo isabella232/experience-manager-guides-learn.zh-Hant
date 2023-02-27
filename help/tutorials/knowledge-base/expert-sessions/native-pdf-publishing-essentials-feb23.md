@@ -1,9 +1,9 @@
 ---
 title: 原生PDF發佈要點
 description: 了解如何在AEM指南中使用原生PDF引擎發佈PDF。
-source-git-commit: b79e7287cdf7eaff0a6fa47d94e12c8928a44b49
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ AEM指南內建PDF發佈引擎，讓使用者能以PDF格式建立、開發及�
 
 - **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **使用手冊** - [製作內容](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **使用手冊** - [原生PDF發佈](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **社群論壇**  — 若為Experience League上特定工作階段的社群互動，請造訪  [AEM指南論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
@@ -53,7 +53,7 @@ AEM指南內建PDF發佈引擎，讓使用者能以PDF格式建立、開發及�
 
 ## 下次專家會議
 
-- **主題**  — 發佈和報表 *（根據調查結果）*
+- **主題**  — 待定 *（等待調查結果）*
 - **排程於** - 2023年3月30日
 
 ## 聯繫我們
