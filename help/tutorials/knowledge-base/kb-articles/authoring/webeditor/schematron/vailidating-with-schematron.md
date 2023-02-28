@@ -1,13 +1,13 @@
 ---
 title: 韋貝迪托的圖式支援
 description: 在Webeditor中與Schematron合作
-source-git-commit: 2a036ec628424f0dedfdb69a5e860906ca100cc6
+exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
+source-git-commit: f3c8ec973d3a6369d6135a33f61584c8bf7d083d
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
 
 ---
-
 
 # 控制Web編輯器內容的品質
 
