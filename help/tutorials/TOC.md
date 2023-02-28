@@ -4,8 +4,8 @@ user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程�
 breadcrumb-title: AEM Guides 教學課程
 source-git-commit: 9eb44211684c8a3af036acf12390dafb617fd24a
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
