@@ -1,7 +1,7 @@
 ---
 title: 為AEM參考線設定全新的Microservice發佈as a Cloud Service
 description: 了解如何為AEM指南設定全新的Microservice發佈。
-source-git-commit: afbc1712cf45dd0b570e20683946af6a86edae7e
+source-git-commit: c2981b5635353eb84c9e46a03de1b1ed07aa5bf3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 執行下列步驟以在Adobe Developer Console中建立IMS設定：
 
-1. 開啟開發人員主控台： `https://developer.adobe.com/console`.
+1. 開啟開發人員控制台： `https://developer.adobe.com/console`.
 
 1. 切換至 **專案** 標籤。
 
