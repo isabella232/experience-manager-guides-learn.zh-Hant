@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 9eb44211684c8a3af036acf12390dafb617fd24a
+source-git-commit: d13a04448be357f37290dbd37317d82b5a8ea736
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '204'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 0%
    + 發行說明 {#release-notes}
       + 雲端服務 {#cloud-release-notes}
          + [部署指示](./release-info/deploy-xml-on-aemaacs.md)
-         + [最新發行說明](./release-info/release-notes-2022.11.0.md)
+         + [最新發行說明](./release-info/release-notes-2023.2.0.md)
+         + [11月發行說明](./release-info/release-notes-2022.11.0.md)
          + [10月發行說明](./release-info/release-notes-2022.10.0.md)
          + [9月發行說明](./release-info/release-notes-2022.9.0.md)
          + [8月發行說明](./release-info/release-notes-2022.8.0.md)
@@ -58,6 +59,8 @@ ht-degree: 0%
       + [使用基線管理內容](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [製作網頁型內容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [原生PDF發佈要點](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+   + 發佈{#publishing}
+      + [為AEM參考線設定全新的Microservice發佈as a Cloud Service](./knowledge-base/publishing/configure-microservices.md)
    + 文章 {#kb-articles}
       + 製作 {#authoring}
          + 韋貝迪托爾 {#webeditor}

@@ -1,28 +1,28 @@
 ---
 title: 發行說明 | Adobe Experience Manager指南as a Cloud Service,2022年11月發行版本
-description: 最新版Adobe Experience Manager指南as a Cloud Service
+description: 11月版Adobe Experience Manager指南as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
+source-git-commit: 715d5622c4cc59dfb24ac9a3442e61efdb10a797
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 2%
 
 ---
 
-# 最新版Adobe Experience Manager指南as a Cloud Service
+# 11月版Adobe Experience Manager指南as a Cloud Service
 
-## 升級至最新版本
+## 升級至11月版
 
 升級您目前的Adobe Experience Manager指南as a Cloud Service(稍後稱為 *AEM指南as a Cloud Service*)，請執行下列步驟：
 1. 查看Cloud Services的Git程式碼，並切換至Cloud Services管道中所設定的分支，該管道與您要升級的環境對應。
 2. 更新 `<dox.version>` 屬性 `/dox/dox.installer/pom.xml` 檔案中的Git程式碼。2022.11.198
-3. 提交變更並執行Cloud Services管道，以升級至最新版本的AEM指南as a Cloud Service。
+3. 提交變更並執行Cloud Services管道，以升級至11月版的AEM指南as a Cloud Service。
 
 ## 為現有內容建立索引的步驟(僅限使用9月版AEM指南之前的版本時as a Cloud Service)
 
 執行以下步驟來建立現有內容的索引，並在映射級別使用新的查找和替代文字：
 
-* 對伺服器執行POST請求（使用正確的驗證） —  `http://<server:port>/bin/guides/map-find/indexin`.
+* 對伺服器執行POST請求（使用正確的驗證） —  `http://<server:port>/bin/guides/map-find/indexing`.
 (可選：您可以傳遞映射的特定路徑來為其建立索引，預設情況下，所有映射都將編製索引 ||範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * API會傳回jobId。 要檢查作業的狀態，可以向相同的終點發送具有作業ID的GET請求 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
@@ -54,7 +54,7 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 ## 新增功能和功能改善
 
-AEM指南as a Cloud Service提供最新版本的增強功能和新功能：
+AEM指南as a Cloud Service提供11月版本的增強功能和新功能：
 
 
 ### 從儲存庫面板刪除檔案
