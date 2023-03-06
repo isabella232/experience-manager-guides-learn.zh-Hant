@@ -2,9 +2,9 @@
 title: 製作網頁型內容
 description: 了解如何使用網頁編輯器製作結構化內容。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,6 @@ AEM指南隨附內建的網頁編輯器，可編寫結構化內容。 您可以�
 > - On-prem 4.1.3或更新版本
 > - Cloud Services2211及更新版本
 
-
-## 下次專家會議
-
-- **主題** - [原生PDF發佈要點](native-pdf-publishing-essentials-feb23.md)
-- **排程於** - 2023年2月23日
 
 ## 聯繫我們
 

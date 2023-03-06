@@ -2,9 +2,9 @@
 title: 翻譯內容
 description: 了解如何將您的內容翻譯成多種語言。
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -50,11 +50,6 @@ AEM指南提供最佳的多語言內容建立解決方案，具備強大的翻�
 > - On-prem 4.1或更新版本
 > - Cloud Services2207或更新版本
 
-
-## 下次專家會議
-
-- **主題** - [使用基線管理內容](baselines-dec22.md)
-- **排程於** - 2022年12月8日
 
 ## 聯繫我們
 

@@ -2,9 +2,9 @@
 title: 使用基線管理內容
 description: 了解如何使用基線來有效管理您的內容。
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,6 @@ ht-degree: 0%
 > - On-prem 4.1和更新版本
 > - Cloud Services2211及更新版本
 
-
-## 下次專家會議
-
-- **主題** - [製作網頁型內容](webbased-authoring-jan2023.md)
-- **排程於** - 2023年1月19日
 
 ## 聯繫我們
 
