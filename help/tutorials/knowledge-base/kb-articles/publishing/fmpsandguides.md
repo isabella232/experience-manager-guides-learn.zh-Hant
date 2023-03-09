@@ -1,7 +1,7 @@
 ---
 title: FMPS和AEM指南
 description: 使用AEM指南發佈FMPS
-source-git-commit: 5c53f89a811571c2193769bb4821657df3212dc0
+source-git-commit: 82f010a97d0ed0e3c6351e6411e5955c79e0b01f
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 使用者可提供「設定檔案(.sts)」和「ditaval」。 會根據您提供的條件，使用雙變數進行篩選。
 
 - **設定檔案**:FrameMaker /FMPS發佈設定，包含發佈時要FMPS執行的所有設定。例如：使用自訂範本產生輸出、產生標籤和出血(PDF)、使用目錄產生PDF、索引等。
-- **FMPS存在：** 預先定義的分頁和設定檔案組合。使用者不必提供個別的分頁和設定檔案，而可以預先建立FMPS預設集，供重新用於發佈需求。
+- **FMPS預設：** 預先定義的分頁和設定檔案組合。使用者不必提供個別的分頁和設定檔案，而可以預先建立FMPS預設集，供重新用於發佈需求。
 
 **注意：** 如果您未選擇任何設定或FMPS預設集，則FMPS將使用預設系統設定發佈。
 
