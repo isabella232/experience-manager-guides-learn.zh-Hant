@@ -1,5 +1,5 @@
 ---
-source-git-commit: f79a387de64a31dc62455992c54fc82dc6235ebc
+source-git-commit: 2e1f1644e5f22fc928ad813f46137a3f284df022
 workflow-type: tm+mt
 source-wordcount: '5800'
 ht-degree: 1%
@@ -644,21 +644,21 @@ AEM參考線可讓您使用相關DITA屬性輕鬆建立和關聯條件屬性。 
 
     1.  瀏覽至Oxon XML作者的安裝位置。
     
-    2.  在文字編輯器中開啟oxonAuthor19.1.vmoptions檔案。
+    1.  在文字編輯器中開啟oxonAuthor19.1.vmoptions檔案。
     
     **注意：**
     
     檔案的版本號可能因系統上安裝的應用程式的版本號而異。
     
-    3.  在檔案中附加下列行：
+    1.  在檔案中附加下列行：
     
     &quot;
     -Djava.util.logging.config.file=./log.properties
     &quot;
     
-    4.  儲存並關閉檔案。
+    1.  儲存並關閉檔案。
     
-    5.  在相同位置，建立名為log.properties的檔案，其中包含下列內容：
+    1.  在相同位置，建立名為log.properties的檔案，其內容如下：
     
     &quot;
     處理程式=java.util.logging.FileHandler
@@ -670,9 +670,9 @@ AEM參考線可讓您使用相關DITA屬性輕鬆建立和關聯條件屬性。 
     java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
     &quot;
     
-    6.  儲存並關閉檔案。
+    1.  儲存並關閉檔案。
     
-    7.  啟動Oxo XML作者。
+    1.  啟動Oxo XML作者。
     
     
     此外掛程式現在會以檔案名aem-pluginX.log \（*其中X代表旋轉數*\），在使用者的首頁目錄中建立記錄檔。
