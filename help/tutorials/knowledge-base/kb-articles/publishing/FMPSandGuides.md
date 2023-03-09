@@ -1,10 +1,13 @@
 ---
-source-git-commit: da88662ec770b12a25ba4afd876e6eeac793cfc5
+title: FMPS和AEM指南
+description: 使用AEM指南發佈FMPS
+source-git-commit: 75e4d308f5298660a2d9006b43daf82416eb0822
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
+
 
 
 # FrameMaker Publishing Server(FMPS)和AEM指南

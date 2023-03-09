@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 2144508d9e7b4cb3de3e4f55ab160bfa26cd5f52
+source-git-commit: 77447339e68e90ee1a38081ef82be7b7cd7826ac
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 18%
+source-wordcount: '200'
+ht-degree: 19%
 
 ---
 
@@ -66,5 +66,7 @@ ht-degree: 18%
          + 韋貝迪托爾 {#webeditor}
             + 捨馬特龍 {#schematron}
                + [架構驗證](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+      + 發佈 {#publishing}
+         + [FMPS和指南](./knowledge-base/kb-articles/publishing/FMPSandGuides.md)
       + 工作流程 {#workflows}
          + [產生後的工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
