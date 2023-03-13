@@ -1,10 +1,10 @@
 ---
 title: Adobe Experience Manager指南的Oxon Plugin
 description: 了解如何使用Adobe Experience Manager指南的Oxon Plugin來建立和管理您的內容。
-source-git-commit: 50b1b02c69ff81d4ee050d02ed945e88fac9dae0
+source-git-commit: c3d50c3fc9f12d98942b6cb68512e01559b47d93
 workflow-type: tm+mt
-source-wordcount: '5812'
-ht-degree: 1%
+source-wordcount: '5792'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,9 @@ Adobe Experience Manager指南的Oxon Plugin(後來又稱為指南中的Oxon Plu
 
 AEM指南的Oxon外掛程式可透過您的Adobe軟體發佈入口網站取得。 在「Experience Manager」標籤中搜尋「氧氣」，然後從您的 [Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
-**注意：** 查看《Adobe Experience Manager指南》的發行說明中的Oxon Connector版本相容性。
+>[!NOTE]
+>
+>查看《Adobe Experience Manager指南》的發行說明中的Oxon Connector版本相容性。
 
 安裝程式完成後，請在安裝Oxon XML Author的本地電腦上安裝。 在開始安裝過程之前，您必須確保系統符合技術要求，才能安裝「AEM適用的Oxon插件指南」。
 
@@ -36,9 +38,9 @@ AEM指南的Oxon外掛程式可透過您的Adobe軟體發佈入口網站取得�
 
 ### 在Windows上安裝外掛程式
 
-**重要:**
-
-如果您的系統上已安裝舊版外掛程式，請務必先解除安裝，再開始安裝程式。 請參閱 **卸載軟體包** 區段 [如何使用套件](https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/package-manager.html) 卸載說明文章。
+>[!IMPORTANT]
+>
+>如果您的系統上已安裝舊版外掛程式，請務必先解除安裝，再開始安裝程式。 請參閱 **卸載軟體包** 區段 [如何使用套件](https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/package-manager.html) 卸載說明文章。
 
 在安裝Oxon XML Author的系統上執行以下步驟：
 
@@ -63,16 +65,16 @@ AEM指南的Oxon外掛程式可透過您的Adobe軟體發佈入口網站取得�
 
    ![](images/oxygen-aem-connector.png)
 
-   **注意:**
-
-   如果您沒有看到「AEM指南」面板，請參閱疑難排解一節中的解決方法 — [缺少AEM參考線面板](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >如果您沒有看到「AEM指南」面板，請參閱疑難排解一節中的解決方法 — [缺少AEM參考線面板](#id192BH200ZAX).
 
 
 ### 在Mac上安裝外掛程式
 
-**重要:**
-
-如果您的系統上已安裝舊版外掛程式，請務必先解除安裝，再開始安裝程式。 請參閱 **卸載軟體包** 區段 [如何使用套件](https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/package-manager.html) 文章解除安裝說明。
+>[!IMPORTANT]
+>
+>如果您的系統上已安裝舊版外掛程式，請務必先解除安裝，再開始安裝程式。 請參閱 **卸載軟體包** 區段 [如何使用套件](https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/package-manager.html) 文章解除安裝說明。
 
 在安裝Oxon XML Author的系統上執行以下步驟：
 
@@ -82,9 +84,9 @@ AEM指南的Oxon外掛程式可透過您的Adobe軟體發佈入口網站取得�
 
    .dmg檔案包含aem-connector-x.x資料夾和aem-connector-x.x-setup檔案。
 
-   **注意:**
-
-   檔案名稱中的x.x是外掛程式的版本號。
+   >[!NOTE]
+   >
+   >檔案名稱中的x.x是外掛程式的版本號。
 
 1. 將aem-connector-x.x資料夾複製到Oxon XML Author的外掛程式資料夾中。
 1. 連按兩下aem-connector-x.x-setup檔案以啟動安裝程式。
@@ -95,9 +97,9 @@ AEM指南的Oxon外掛程式可透過您的Adobe軟體發佈入口網站取得�
 
    ![](images/oxygen-aem-connector-mac.png)
 
-   **注意:**
-
-   如果您沒有看到「AEM指南」面板，請參閱疑難排解一節中的解決方法 — [缺少AEM參考線面板](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >如果您沒有看到「AEM指南」面板，請參閱疑難排解一節中的解決方法 — [缺少AEM參考線面板](#id192BH200ZAX).
 
 
 ### 安裝套件，以從AEM網頁介面啟用檔案編輯功能 {#id182CE0Q0TY4}
@@ -132,9 +134,9 @@ AEM指南的Oxon外掛程式可透過您的Adobe軟體發佈入口網站取得�
 
    **在氧氣中編輯** 選項。 如需使用此選項的詳細資訊，請參閱 [從AEM Web介面在Ox XML作者中開啟DITA主題](#id182CE0I905Z).
 
-   **注意:**
-
-   此 **在氧氣中編輯** 選取一個DITA主題時，選項會顯示。 如果您選取多個主題，則不會顯示選項。
+   >[!NOTE]
+   >
+   >此 **在氧氣中編輯** 選取一個DITA主題時，選項會顯示。 如果您選取多個主題，則不會顯示選項。
 
 
 ## 配置AEM指南的Oxon插件 {#id1826KF00AHS}
@@ -151,7 +153,9 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 更新指定檔案，以在AEM指南的Oxon Plugin中配置Web身份驗證設定：
 
-**注意：** 更新檔案之前備份該檔案。
+>[!NOTE]
+>
+>更新檔案之前備份該檔案。
 
 **Mac和氧氣24.1**
 
@@ -181,9 +185,9 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
-**注意:**
-
-您需要以管理員身分，從Mac適用的oxonAuthor.sh和OxonAuthor.bat for Windows中執行氧氣。
+>[!NOTE]
+>
+>您需要以管理員身分，從Mac適用的oxonAuthor.sh和OxonAuthor.bat for Windows中執行氧氣。
 
 ### 一般設定
 
@@ -191,7 +195,7 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 1. 在「AEM參考線」面板中，按一下設定圖示，然後選取 **設定**.
 
-   ![](images/Settings.png)
+   ![](images/settings.png)
 
 1. 指定下列詳細資訊：
    - **伺服器URL**:AEM伺服器的URL，例如：
@@ -202,9 +206,9 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
       在上述URL中，指定部署AEM伺服器之伺服器的主機名稱和埠。
 
-      **重要:**
-
-      如果您的AEM伺服器部署在連接埠80或443上，則無需在URL中指定。
+      >[!IMPORTANT]
+      >
+      >如果您的AEM伺服器部署在連接埠80或443上，則無需在URL中指定。
 
    - **驗證：** 選擇 **基本\（用戶名/密碼\）** 或 **Web驗證**. 若您選取 **基本** 需要輸入的驗證 **使用者名稱** 和 **密碼** 在「首選項」對話框中。
 
@@ -232,7 +236,7 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 1. 在 **類路徑** 索引標籤中，選取「com.adobe.o2.connector」 **從具有ID的外掛程式使用父類載入器** 下拉式清單。
 
-   ![](images/DITA%20Extension.png)
+   ![](images/dita-extension.png)
 
 1. 在 **擴充功能** 頁簽，請進行下列更改：
 1. 
@@ -285,7 +289,9 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 - **Connect**:選取此選項以連線至AEM伺服器。 當Oxon XML Author連接到AEM Server時，將禁用該選項。
 - **重新整理**:選取此選項，即可從AEM存放庫取得檔案和資料夾的最新狀態。
 
-   **注意：** 重新整理檔案之前，請確定您已儲存檔案。 選取 **重新整理** 選項，您會在重新整理檔案之前收到儲存檔案的警告。 如果您尚未儲存檔案，可以按一下 **取消** 並拯救他們。
+   >[!NOTE]
+   >
+   >重新整理檔案之前，請確定您已儲存檔案。 選取 **重新整理** 選項，您會在重新整理檔案之前收到儲存檔案的警告。 如果您尚未儲存檔案，可以按一下 **取消** 並拯救他們。
 
 - **設定**:您可以使用此選項開啟外掛程式的一般偏好設定對話方塊。
 - **登出**:選擇此選項以關閉AEM伺服器連線。 只有在使用Web身份驗證模式時，此選項才可用。
@@ -330,9 +336,9 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 如果您已選取 **開啟時自動結帳檔案** 選項\（在「首選項」對話框\中），然後開啟檔案時，該檔案將自動簽出，並可供編輯。 要開啟檔案，可以按兩下檔案名，或按一下右鍵檔案名並選擇 **開啟** 從上下文菜單。 如果未選取此選項，則會以唯讀模式開啟檔案。
 
-**注意:**
-
-您也可以連按兩下檔案以開啟它。
+>[!NOTE]
+>
+>您也可以連按兩下檔案以開啟它。
 
 ### 在AEM參考線編輯器中開啟檔案 {#id195GH0V30KX}
 
@@ -369,9 +375,9 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 在上述螢幕擷取中，其他使用者簽出的檔案會顯示黑色鎖定圖示\(A\)。 當前用戶簽出的檔案顯示為綠色鎖定\(B\)。
 
-**注意:**
-
-如果簽出的檔案被刪除或移動到AEM中的任何其他資料夾，則在簽入檔案時將收到錯誤消息。 請確定未使用AEM Web介面移動或刪除簽出的檔案。
+>[!NOTE]
+>
+>如果簽出的檔案被刪除或移動到AEM中的任何其他資料夾，則在簽入檔案時將收到錯誤消息。 請確定未使用AEM Web介面移動或刪除簽出的檔案。
 
 ### 簽入檔案 {#id182CF0J0FHS}
 
@@ -396,15 +402,15 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 1. \（選用\）在「簽入」對話方塊中，在 **版本注釋** 框。
 
-   **注意:**
-
-   此注釋顯示在檔案的AEM版本歷史記錄中。
+   >[!NOTE]
+   >
+   >此注釋顯示在檔案的AEM版本歷史記錄中。
 
 1. 按一下&#x200B;**「確定」**。
 
-**注意:**
-
-如果簽出的檔案被刪除或移動到AEM中的任何其他資料夾，則在簽入檔案時將收到錯誤消息。 請確定未使用AEM Web介面移動或刪除簽出的檔案。
+>[!NOTE]
+>
+>如果簽出的檔案被刪除或移動到AEM中的任何其他資料夾，則在簽入檔案時將收到錯誤消息。 請確定未使用AEM Web介面移動或刪除簽出的檔案。
 
 ### 「AEM參考線」檢視中籤出的檔案
 
@@ -511,7 +517,7 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
    結果在「搜索結果」頁簽中顯示為帶有檔案路徑的清單。 如果您的搜索查詢沒有匹配的結果，則在中未找到任何結果 &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> 訊息。
 
-   ![](images/Search.png)
+   ![](images/search.png)
 
 1. \（可選）按兩下搜索結果中的檔案，以在「Oxon XML作者」中開啟該檔案。
 1. 若要返回「AEM Repository（儲存庫）」視圖，請執行下列操作之一：
@@ -522,9 +528,9 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 您可以從AEM Web介面在Oxon XML作者中開啟和編輯DITA主題。 您必須在AEM中安裝套件，才能啟用此選項。 有關軟體包安裝的詳細資訊，請參見 [安裝套件，以從AEM網頁介面啟用檔案編輯功能](#id182CE0Q0TY4).
 
-**注意:**
-
-此 **在氧氣中編輯** 選項可從AEM的各個位置存取：選取主題時、預覽主題時，或從DITA映射控制台的「主題和報表」索引標籤中選取主題。 如果您選取多個主題，則工具列中不會顯示選項。
+>[!NOTE]
+>
+>此 **在氧氣中編輯** 選項可從AEM的各個位置存取：選取主題時、預覽主題時，或從DITA映射控制台的「主題和報表」索引標籤中選取主題。 如果您選取多個主題，則工具列中不會顯示選項。
 
 **開啟DITA主題**
 
@@ -532,9 +538,9 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 1. 選取資產中的主題，然後按一下 **在氧氣中編輯** 選項。
 
-   **注意:**
-
-   如果主題未簽出，則首先簽出該主題，然後在編輯模式下在「氧氣」中開啟。
+   >[!NOTE]
+   >
+   >如果主題未簽出，則首先簽出該主題，然後在編輯模式下在「氧氣」中開啟。
 
 1. 選擇Oxo XML作者 *&lt;version>* 在 **啟動應用程式** 框。 您可以選取 **記住我對AEM連結的選擇** 選項以保存您的首選項。
 
@@ -545,9 +551,9 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 1. 選取並簽出資產中的主題。
 1. 按一下 **在氧氣中編輯** 選項。
 
-   **注意:**
-
-   如果主題未簽出，則首先簽出該主題，然後在編輯模式下在「氧氣」中開啟。
+   >[!NOTE]
+   >
+   >如果主題未簽出，則首先簽出該主題，然後在編輯模式下在「氧氣」中開啟。
 
 1. 選擇Oxo XML作者 *&lt;version>* 在 **啟動應用程式** 框。 您可以選取 **記住我對AEM連結的選擇** 選項以保存您的首選項。
 1. 在Oxon XML作者中編輯主題。
@@ -555,18 +561,18 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
    有關使用AEM Plugin for Ox Guides簽入主題的詳細資訊，請參見 [簽入檔案](#id182CF0J0FHS).
 
-   **注意:**
-
-   確保您使用AEM Guides的Oxon Plugin簽入主題，如果從AEM Web介面簽入，則在Oxon XML Author中所做的更改不會保存在主題的簽入版本中。
+   >[!NOTE]
+   >
+   >確保您使用AEM Guides的Oxon Plugin簽入主題，如果從AEM Web介面簽入，則在Oxon XML Author中所做的更改不會保存在主題的簽入版本中。
 
 
 ## 使用屬性設定檔 {#id1827JA002YK}
 
 AEM參考線可讓您使用相關DITA屬性輕鬆建立和關聯條件屬性。 您可以在全域層級或資料夾層級定義條件屬性。 全域定義的條件在所有專案中都可見，而資料夾層級條件只會顯示在指定資料夾內建立的專案中。 內容作者可以使用這些條件屬性來條件化其建立或使用的DITA主題或地圖中的內容。 若要進一步了解如何使用AEM指南在AEM中建立條件屬性，請參閱 *為全域或資料夾層級設定檔設定條件屬性* 一節。
 
-**注意:**
-
-請確定您已在AEM中新增條件屬性，並已設定 [設定檔屬性自訂的偏好設定](#id1827K0D0OHT) 將條件屬性新增至內容之前。
+>[!NOTE]
+>
+>請確定您已在AEM中新增條件屬性，並已設定 [設定檔屬性自訂的偏好設定](#id1827K0D0OHT) 將條件屬性新增至內容之前。
 
 執行下列步驟，將條件屬性新增至Oxon XML Author中的內容：
 
@@ -650,9 +656,9 @@ AEM參考線可讓您使用相關DITA屬性輕鬆建立和關聯條件屬性。 
     
     1.  在文字編輯器中開啟oxonAuthor19.1.vmoptions檔案。
     
-    **注意：**
-    
-    檔案的版本號可能因系統上安裝的應用程式的版本號而異。
+    >[!NOTE]
+    >
+    >檔案的版本號可能會因系統上安裝的應用程式的版本號而異。
     
     1.  在檔案中附加下列行：
     
@@ -662,7 +668,7 @@ AEM參考線可讓您使用相關DITA屬性輕鬆建立和關聯條件屬性。 
     
     1.  儲存並關閉檔案。
     
-    1.  在相同位置，建立名為log.properties的檔案，其中包含下列內容：
+    1.  在相同位置，建立名為log.properties的檔案，其內容如下：
     
     &quot;
     處理程式=java.util.logging.FileHandler
