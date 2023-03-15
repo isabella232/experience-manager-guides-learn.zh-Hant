@@ -1,7 +1,7 @@
 ---
 title: 原生PDF發佈功能 |使用自訂變更列樣式
 description: 了解如何在變更列上套用樣式。
-source-git-commit: 79de97e667bffae8d120deee68a0a82011047cf5
+source-git-commit: b6fd82fd09c04a3deefab51b1064a3b6aea73e47
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,8 +12,7 @@ ht-degree: 0%
 
 變更列是可視覺識別新內容或修訂內容的垂直線。 AEM指南可讓您在主題內已變更內容的左側顯示變更列，以及在PDF輸出的目錄中也顯示已變更的主題。
 
-如需顯示變更列的詳細資訊，請參閱 *建立PDF，並在已發佈版本之間使用變更列* 設定
-[發佈PDF輸出](../web-editor/native-pdf-web-editor.md).
+如需顯示變更列的詳細資訊，請參閱 *建立PDF，並在已發佈版本之間使用變更列* 設定 [發佈PDF輸出](../web-editor/native-pdf-web-editor.md).
 
 ## 變更主題內的內容
 
