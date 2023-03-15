@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 53a4917328626f589f2a9e8243d169fa10a6efff
+source-git-commit: f5591818f3b9479678026a578b29d7e56e55f506
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 19%
+source-wordcount: '214'
+ht-degree: 17%
 
 ---
 
@@ -41,10 +41,13 @@ ht-degree: 19%
       + [PDF範本](./native-pdf/pdf-template.md)
       + [PDF範本的元件](./native-pdf/components-pdf-template.md)
       + [設計頁面版面](./native-pdf/design-page-layout.md)
-      + [使用常見的內容樣式](./native-pdf/stylesheet.md)
-      + [對目錄項目和主題內容套用自訂樣式](./native-pdf/custom-style-toc.md)
-      + [在PDF輸出中新增自訂書籤](./native-pdf/add-custom-bookmark.md)
-      + [使用JavaScript處理內容或樣式](./native-pdf/use-javascript-content-style.md)
+      + 常見內容樣式 {#content-styles}
+         + [使用常見的內容樣式](./native-pdf/stylesheet.md)
+         + [使用自訂變更列樣式](./native-pdf/change-bar-style.md)
+         + [對目錄項目和主題內容套用自訂樣式](./native-pdf/custom-style-toc.md)
+         + [在PDF輸出中新增自訂書籤](./native-pdf/add-custom-bookmark.md)
+         + [使用JavaScript處理內容或樣式](./native-pdf/use-javascript-content-style.md)
+         + [在腳注中使用自訂樣式](./native-pdf/footnote-number-style.md)
    + [設定自訂DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + 轉換 {#translation}
    + [從翻譯中排除段落](./translation/exclude-paragraphs-from-translation.md)
