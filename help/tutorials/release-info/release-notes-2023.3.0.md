@@ -1,7 +1,7 @@
 ---
 title: 發行說明 | Adobe Experience Manager指南as a Cloud Service,2023年3月發行版本
 description: 最新版Adobe Experience Manager指南as a Cloud Service
-source-git-commit: 27c8c0f3ac5c6d9c318ac8fb7ed13299ac9994de
+source-git-commit: 07709048f560a77b923436d990c831a5f8b907e3
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
