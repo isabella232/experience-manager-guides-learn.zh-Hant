@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: f5591818f3b9479678026a578b29d7e56e55f506
+source-git-commit: ee520ab86ea41df7556a1f40d7bfc5e3617b34ae
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 17%
 
 ---
@@ -15,19 +15,22 @@ ht-degree: 17%
 + [Tutorials [!DNL AEM Guides]](overview.md)
 + 發行資訊 {#release-info}
    + [[!DNL AEM Guides] 發行](./release-info/latest-release-info.md)
-   + 發行說明 {#release-notes}
+   + 版本注意事項 {#release-notes}
       + 雲端服務 {#cloud-release-notes}
          + [部署指示](./release-info/deploy-xml-on-aemaacs.md)
-         + [最新發行說明](./release-info/release-notes-2023.2.0.md)
-         + [11月發行說明](./release-info/release-notes-2022.11.0.md)
-         + [10月發行說明](./release-info/release-notes-2022.10.0.md)
-         + [9月發行說明](./release-info/release-notes-2022.9.0.md)
-         + [8月發行說明](./release-info/release-notes-2022.8.0.md)
-         + [5月發行說明](./release-info/release-notes-2022.5.0.md)
-         + [4月發行說明](./release-info/release-notes-2022.4.0.md)
-         + [3月發行說明](./release-info/release-notes-2022.3.0.md)
-         + [2月發行說明](./release-info/release-notes-2022.2.0.md)
-         + [1月發行說明](./release-info/release-notes-2022.1.0.md)
+         + 2023版本{#2023-releases}
+            + [最新發行說明](./release-info/release-notes-2023.3.0.md)
+            + [2月發行說明](./release-info/release-notes-2023.2.0.md)
+         + 2022版本 {#2022-releases}
+            + [11月發行說明](./release-info/release-notes-2022.11.0.md)
+            + [10月發行說明](./release-info/release-notes-2022.10.0.md)
+            + [9月發行說明](./release-info/release-notes-2022.9.0.md)
+            + [8月發行說明](./release-info/release-notes-2022.8.0.md)
+            + [5月發行說明](./release-info/release-notes-2022.5.0.md)
+            + [4月發行說明](./release-info/release-notes-2022.4.0.md)
+            + [3月發行說明](./release-info/release-notes-2022.3.0.md)
+            + [2月發行說明](./release-info/release-notes-2022.2.0.md)
+            + [1月發行說明](./release-info/release-notes-2022.1.0.md)
       + 內部部署/Managed Services {#on-prem-release-notes}
          + [4.2發行說明](./release-info/release-notes-4.2.md)
          + [4.1.x發行說明](./release-info/release-notes-4.1.md)
