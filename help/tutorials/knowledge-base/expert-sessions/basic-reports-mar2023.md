@@ -1,10 +1,10 @@
 ---
 title: AEM指南中的報表
 description: 了解AEM中提供哪些報表，以協助使用者改善內容品質。
-source-git-commit: 91afddedb73a54a3148afe13b456e9a83eeeb0f7
+source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,10 +38,10 @@ ht-degree: 1%
 
 ## 關鍵重點
 
-在本課程中，您將了解以下內容：
+在本課程中，您了解了以下內容：
 - 報表在CCMS中的重要性
-- 哪些報表可立即使用
-- 如何擴充報表功能
+- 哪些報表可立即使用？
+- 如何擴充報表功能？
 - 內容報表範例
 
 
