@@ -1,10 +1,11 @@
 ---
 title: 原生PDF發佈要點
 description: 了解如何在AEM指南中使用原生PDF引擎發佈PDF。
-source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
+exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
+source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +28,7 @@ AEM指南內建PDF發佈引擎，讓使用者能以PDF格式建立、開發及�
 - **持續時間** - 60分鐘
 - **對象**  — 客戶、合作夥伴和Adobe員工
 
-## 主要要點
+## 關鍵重點
 
 在本課程中，您將了解以下內容：
 - PDF發佈要點
@@ -50,11 +51,6 @@ AEM指南內建PDF發佈引擎，讓使用者能以PDF格式建立、開發及�
 > - On-prem 4.2或更新版本
 > - Cloud Services2211及更新版本
 
-
-## 下次專家會議
-
-- **主題**  — 待定 *（等待調查結果）*
-- **排程於** - 2023年3月30日
 
 ## 聯繫我們
 
