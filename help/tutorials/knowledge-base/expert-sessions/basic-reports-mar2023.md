@@ -1,9 +1,9 @@
 ---
 title: AEM指南中的報表
 description: 了解AEM中提供哪些報表，以協助使用者改善內容品質。
-source-git-commit: 98c81b20a5ae6347d7c06a98112564d5a5b3d81b
+source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ## 相關資源
 
-- **[下載PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)** 了解該會議中展示的報告的詳細資訊。
+- **[下載AEM指南報表手冊](./assets/aem-guides-expert-session-reports-documentation.pdf)** 了解該會議中展示的報告的詳細資訊。
 
 - **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
