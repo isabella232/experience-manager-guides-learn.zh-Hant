@@ -1,26 +1,26 @@
 ---
 title: AEM指南中的報表
 description: 了解AEM中提供哪些報表，以協助使用者改善內容品質。
-source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
+source-git-commit: aa5cbe2b8a8be8d7aa8b57d27f71e4a319dd5ccf
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 製作網頁型內容
+# AEM指南中的報表
 
 在組織設定中，您要先驗證內容的整體完整性，然後再推送檔案供使用者使用。 在多用戶和大規模環境中，這種需要變得更加必要，因為在這些環境中，內容可以在不同的上下文中重複使用，因此驗證您的內容或文檔是必要的。 在結構化內容的內容中，有一些通常需要的特定報表類型。
 
 
 ## 工作階段概述
 
-在此課程中，我們將共用可供使用者使用的現成報表。 我們將大致涵蓋下列類型的報表：
-- AEM assets報告功能
+在此工作階段中，我們顯示可供使用者使用的現成報表。 我們大致涵蓋以下內容：
 - 文檔（地圖）和主題報告
 - 中繼資料報表和大量中繼資料管理選項
-- 查看內容重用統計資訊
-- 內容導入完整性
+- 內容重複使用報表
+- 內容匯入正確性
+- 運用AEM Assets報表功能
 
 
 ## 會話記錄
@@ -40,14 +40,13 @@ ht-degree: 0%
 
 在本課程中，您了解了以下內容：
 - 報表在CCMS中的重要性
-- 哪些報表可立即使用？
-- 如何擴充報表功能？
+- 現成可用的報表
 - 內容報表範例
 
 
 ## 相關資源
 
-- 在本會議中，我們演示了幾份報告。 要建立類似報告，請參閱附加文檔中提供的步驟。 [下載 PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- [下載PDF](./assets/aem-guides-expert-session-reports-documentation.pdf) 建立與會話中演示的使用案例類似的報告。
 
 - **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
@@ -58,8 +57,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 此工作階段中顯示的功能適用於下列版本的AEM指南：
-> - On-prem 4.2或更新版本
-> - Cloud Services2302或更新版本
+> - 內部部署：4.2或更新版本
+> - Cloud Services:2302或更新版本
 
 
 
