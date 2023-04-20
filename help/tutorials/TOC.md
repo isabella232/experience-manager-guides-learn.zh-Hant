@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: f26b8f94e1d7a3c9dd0aaab2eb196a77119e47ac
+source-git-commit: 6351465954bc9ce38151cd0bec339cd0653027f2
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 16%
+source-wordcount: '240'
+ht-degree: 15%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 + [Tutorials [!DNL AEM Guides]](overview.md)
 + 發行資訊 {#release-info}
    + [[!DNL AEM Guides] 發行](./release-info/latest-release-info.md)
-   + 版本注意事項 {#release-notes}
+   + 發行說明 {#release-notes}
       + 雲端服務 {#cloud-release-notes}
          + [部署指示](./release-info/deploy-xml-on-aemaacs.md)
          + 2023版本{#2023-releases}
@@ -66,15 +66,17 @@ ht-degree: 16%
       + [製作網頁型內容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [原生PDF發佈要點](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
       + [AEM指南中的報表](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
-   + 發佈{#publishing}
-      + [配置基於微服務的發佈](./knowledge-base/publishing/configure-microservices.md)
    + 文章 {#kb-articles}
       + 編寫 {#authoring}
          + 韋貝迪托爾 {#webeditor}
+            + 自訂 {#customizing}
+               + [將自定義按鈕添加到工具欄](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+               + [新增自訂樣式至Webiditor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + 捨馬特龍 {#schematron}
                + [架構驗證](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 發佈 {#publishing}
          + [設定AEM環境以發佈原生PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         + [配置基於微服務的發佈](./knowledge-base/publishing/configure-microservices.md)
       + 工作流程 {#workflows}
          + [產生後的工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
