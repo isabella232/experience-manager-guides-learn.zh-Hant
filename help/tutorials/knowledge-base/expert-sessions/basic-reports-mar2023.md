@@ -1,7 +1,8 @@
 ---
 title: AEM指南中的報表
 description: 了解AEM中提供哪些報表，以協助使用者改善內容品質。
-source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
+exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
+source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 1%
@@ -64,7 +65,7 @@ ht-degree: 1%
 
 ## 下次專家會議
 
-- **主題**  — 待定 *（等待調查結果）*
+- **主題**  — 內容和範本設定
 - **排程於** - 2023年4月27日
 
 
