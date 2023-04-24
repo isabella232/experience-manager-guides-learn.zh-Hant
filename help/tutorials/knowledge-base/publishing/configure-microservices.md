@@ -1,9 +1,10 @@
 ---
 title: 為AEM參考線設定全新的Microservice發佈as a Cloud Service
 description: 了解如何為AEM指南設定全新的Microservice發佈。
-source-git-commit: c2981b5635353eb84c9e46a03de1b1ed07aa5bf3
+exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
+source-git-commit: 95c89acd02b798d42c817b52f6f8e0710a0abb76
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -13,6 +14,10 @@ ht-degree: 0%
 新的發佈微服務可讓使用者在AEM指南as a Cloud Service上同時執行大型發佈工作負載，並運用業界領先的Adobe I/O Runtime無伺服器平台。
 
 對於每個發佈請求，AEM指南會as a Cloud Service執行個別的容器，該容器會根據使用者請求水準縮放。 這可讓使用者執行多個發佈請求，並取得比大型內部AEM伺服器更佳的效能。
+
+>[!NOTE]
+>
+> 目前，AEM參考線中以微服務為基礎的發佈僅支援使用原生PDF發佈或透過DITA-OT進行PDF輸出。 未來版本將新增微服務發佈支援，以提供更多輸出類型。
 
 由於新雲端發佈服務是以Adobe IMS JWT驗證為基礎所保護，因此客戶應遵循下列指定步驟，將其環境與Adobe的安全代號驗證工作流程整合，並開始使用新的雲端可擴充發佈解決方案。
 
@@ -102,6 +107,8 @@ ht-degree: 0%
 **檔案**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **內容**:
+* `dxml.use.publish.microservice`:切換為使用DITA-OT啟用基於微服務的PDF發佈
+* `dxml.use.publish.microservice.native.pdf`:切換為啟用基於微服務的本機PDF發佈
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -109,5 +116,6 @@ ht-degree: 0%
           jcr:primaryType="sling:OsgiConfig"
           dxml.publish.microservice.url="https://adobeioruntime.net/api/v1/web/543112-guidespublisher/default/publishercaller.json"
           dxml.use.publish.microservice="{Boolean}true"
+          dxml.use.publish.microservice.native.pdf="{Boolean}true"
 />
 ```
