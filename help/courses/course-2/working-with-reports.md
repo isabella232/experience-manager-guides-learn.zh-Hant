@@ -2,7 +2,7 @@
 title: 使用報表
 description: 在中使用報表 [!DNL Adobe Experience Manager Guides]
 exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -27,11 +27,11 @@ ht-degree: 0%
 
    ![ollipes-9.png](images/ellipses-9.png)
 
-2. 選擇 **[!UICONTROL 上傳資產]**.
+1. 選擇 **[!UICONTROL 上傳資產]**.
 
    ![upload-assets.png](images/upload-assets.png)
 
-3. 選擇要上載到資料夾的檔案，然後選擇 **上傳**.
+1. 選擇要上載到資料夾的檔案，然後選擇 **上傳**.
 
 DITA檔案會開啟，您應該檢閱這些檔案，以找出缺少內容、conref或交叉參照的問題。
 
@@ -41,15 +41,15 @@ DITA檔案會開啟，您應該檢閱這些檔案，以找出缺少內容、conr
 
    ![ollipes-9.png](images/ellipses-9.png)
 
-2. 選擇 **建立>對應**.
+1. 選擇 **建立>對應**.
 
    ![create-map.png](images/create-map.png)
 
    隨即顯示「建立新地圖」對話方塊。
 
-3. 在「模板」欄位中，選擇 **書籤圖** (或 **地圖** 根據您正在建立的內容類型)，並為地圖指定標題。
+1. 在「模板」欄位中，選擇 **書籤圖** (或 **地圖** 根據您正在建立的內容類型)，並為地圖指定標題。
 
-4. 選擇 **建立**。
+1. 選擇 **建立**。
 
 您的地圖會建立，而左側邊欄會自動從存放庫檢視變更為地圖檢視。
 
@@ -60,22 +60,22 @@ DITA檔案會開啟，您應該檢閱這些檔案，以找出缺少內容、conr
 
    ![edit-map.png](images/edit-map.png)
 
-2. 通過選擇儲存庫表徵圖切換回儲存庫視圖。
+1. 通過選擇儲存庫表徵圖切換回儲存庫視圖。
 
    ![repository-button.png](images/repository-button.png)
 
-3. 將主題從存放庫拖曳至編輯器的對映中，即可將主題新增至對映。
+1. 將主題從存放庫拖曳至編輯器的對映中，即可將主題新增至對映。
 行指示器將顯示主題的放置位置。
 
-4. 視需要繼續新增主題。
+1. 視需要繼續新增主題。
 
-5. 完成後，請選取 **另存為新版本。**
+1. 完成後，請選取 **另存為新版本。**
 
    ![save-as-new-version.png](images/save-as-new-version.png)
 
-6. 在 *新版本的注釋* 欄位中輸入描述性備注。
+1. 在 *新版本的注釋* 欄位中輸入描述性備注。
 
-7. 選取&#x200B;**儲存**。
+1. 選取&#x200B;**儲存**。
 
 ## 產生AEM網站輸出
 
@@ -84,16 +84,16 @@ DITA檔案會開啟，您應該檢閱這些檔案，以找出缺少內容、conr
    ![open-map-dashboard.png](images/open-map-dashboard.png)
 
    「對應控制面板」會在另一個索引標籤中開啟。
-2. 在「輸出預設集」頁簽中，選擇 **AEM網站**.
+1. 在「輸出預設集」頁簽中，選擇 **AEM網站**.
 
    ![aem-site-checkbox](images/aem-site-checkbox.png)
 
-3. 選擇 **產生**.
+1. 選擇 **產生**.
 
-4. 導覽至「輸出」頁面，以檢視您所產生輸出的狀態。
+1. 導覽至「輸出」頁面，以檢視您所產生輸出的狀態。
 如果出現錯誤，「輸出」索引標籤可能會在「層代設定」欄下顯示橘色圓圈，而非綠色，表示層代已完成。
 
-5. 選擇「層代設定」列下的連結以開啟生成的輸出。
+1. 選擇「層代設定」列下的連結以開啟生成的輸出。
 檢閱輸出中是否有遺漏內容。
 
 ## 報表標籤
@@ -114,9 +114,9 @@ DITA檔案會開啟，您應該檢閱這些檔案，以找出缺少內容、conr
 
    ![image-ellipsis.png](images/image-ellipsis.png)
 
-2. 選擇 **[!UICONTROL 上傳資產]**，並選取遺失的影像。
+1. 選擇 **[!UICONTROL 上傳資產]**，並選取遺失的影像。
 
-3. 選擇 **上傳**.
+1. 選擇 **上傳**.
 
 已上載丟失的影像。 現在，新產生的AEM Site輸出將會顯示這些影像，而「報表」標籤將不再顯示任何遺失的影像錯誤。
 
@@ -132,11 +132,11 @@ DITA檔案會開啟，您應該檢閱這些檔案，以找出缺少內容、conr
 
    ![reuse-ellipsis.png](images/reuse-ellipsis.png)
 
-2. 選擇 **在資產UI中檢視**.
+1. 選擇 **在資產UI中檢視**.
 
    ![assets_ui.png](images/assets_ui.png)
 
-3. 將檔案拖放至資料夾。
+1. 將檔案拖放至資料夾。
 檔案已上傳，且conref錯誤已解決。
 
 所有錯誤現已解決。 「報表」頁面會指出沒有其他錯誤，而產生AEM Site會導致完整輸出，且沒有遺失元件。

@@ -2,7 +2,7 @@
 title: 大綱視圖
 description: 在AEM參考線中使用大綱視圖
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 按一下任何元素以跳至該位置。
 
-2. 按一下 [!UICONTROL **刪節號**] ，存取快速鍵選項。
+1. 按一下 [!UICONTROL **刪節號**] ，存取快速鍵選項。
 
    ![內容功能表](images/lesson-6/shortcut-options.png)
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 按一下 [!UICONTROL **刪節號**] 在任何元素旁。
 
-2. 選擇 **產生ID**.
+1. 選擇 **產生ID**.
 
    ![刪節號上下文菜單](images/lesson-6/ellipsis-popup.png)
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 按一下並將元素拖動到「大綱視圖」中的其他位置。
 
-2. 將元素放置在另一個元素上以取代它。 此動作會以方框表示，並圍繞要取代的元素。
+1. 將元素放置在另一個元素上以取代它。 此動作會以方框表示，並圍繞要取代的元素。
 
    或
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
 1. 選取元素。
 
-2. 按一下 [!UICONTROL **刪節號**].
+1. 按一下 [!UICONTROL **刪節號**].
 
-3. 選擇 **重新命名元素**.
+1. 選擇 **重新命名元素**.
 
    ![更名元素上下文菜單](images/lesson-6/rename-before.png)
 
-4. 按兩下新元素名稱。
+1. 按兩下新元素名稱。
 
 元素現已重新命名。
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 1. 選取您要取消繞排的元素。
 
-2. 按一下 [!UICONTROL **刪節號**].
+1. 按一下 [!UICONTROL **刪節號**].
 
-3. 選擇 [!UICONTROL **取消繞排元素**].
+1. 選擇 [!UICONTROL **取消繞排元素**].
 
 內容仍會保留，但結構已移除。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    ![篩選條件](images/lesson-6/filter-icon.png)
 
-2. 選擇 **全部** 顯示所有元素或 **失效連結** 來查找和修復損壞的引用。
+1. 選擇 **全部** 顯示所有元素或 **失效連結** 來查找和修復損壞的引用。
 
 ## 使用大綱視圖搜索
 
@@ -99,4 +99,4 @@ ht-degree: 0%
 
    ![搜尋列](images/lesson-6/search-bar.png)
 
-2. 選擇與您的需求最相關的結果。
+1. 選擇與您的需求最相關的結果。

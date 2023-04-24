@@ -2,7 +2,7 @@
 title: 用戶首選項、編輯器設定和編輯器工具欄
 description: 變更AEM指南中的使用者偏好設定和編輯器設定
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -33,7 +33,7 @@ ht-degree: 2%
 
    - 選取標籤並將元素拖放至有效位置，以拖放元素。
 
-2. 按一下 [!UICONTROL **切換標籤檢視**] 圖示來隱藏標籤。
+1. 按一下 [!UICONTROL **切換標籤檢視**] 圖示來隱藏標籤。
 
 標籤消失，讓您聚焦在文字。
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
    檔案已簽出，「儲存庫」中檔案名旁會出現「鎖定」表徵圖。
 
-2. 按一下 [!UICONTROL **解鎖**] 表徵圖。
+1. 按一下 [!UICONTROL **解鎖**] 表徵圖。
 
    ![簽入](images/lesson-2/check-in-icon.png)
 
@@ -59,13 +59,13 @@ ht-degree: 2%
 
    ![特殊](images/lesson-2/special-icon.png)
 
-2. 在「插入特殊字元」對話框中，在搜索欄中鍵入字元的名稱。
+1. 在「插入特殊字元」對話框中，在搜索欄中鍵入字元的名稱。
 
    或者，使用「選擇類別」下拉式清單來顯示特定類別中的所有字元。
 
-3. 選取所需的字元。
+1. 選取所需的字元。
 
-4. 按一下 [!UICONTROL **插入**].
+1. 按一下 [!UICONTROL **插入**].
 
 特殊字元插入到文本中。
 
@@ -89,13 +89,13 @@ ht-degree: 2%
 
    ![使用者偏好設定](images/reuse/user-prefs-icon.png)
 
-2. 在「用戶首選項」對話框中，按一下 [!UICONTROL **主題**] 下拉式清單。
+1. 在「用戶首選項」對話框中，按一下 [!UICONTROL **主題**] 下拉式清單。
 
-3. 從可用選項中選擇。
+1. 從可用選項中選擇。
 
    ![主題](images/lesson-2/themes.png)
 
-4. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下「[!UICONTROL **儲存**]」。
 
 編輯器會更新，以顯示您偏好的主題。
 
@@ -107,13 +107,13 @@ ht-degree: 2%
 
    ![使用者偏好設定](images/reuse/user-prefs-icon.png)
 
-2. 在「用戶首選項」對話框中，按一下 [!UICONTROL **資料夾**] 表徵圖。
+1. 在「用戶首選項」對話框中，按一下 [!UICONTROL **資料夾**] 表徵圖。
 
    ![基本資料夾路徑](images/lesson-2/base-path-folder-icon.png)
 
-3. 在「選取路徑」對話方塊中，按一下特定資料夾旁的核取方塊。
+1. 在「選取路徑」對話方塊中，按一下特定資料夾旁的核取方塊。
 
-4. 按一下 [!UICONTROL **選擇**].
+1. 按一下 [!UICONTROL **選擇**].
 
 下次啟動編輯器時，儲存庫將顯示在基本路徑中指定的檔案。
 
@@ -125,13 +125,13 @@ ht-degree: 2%
 
    ![使用者偏好設定](images/reuse/user-prefs-icon.png)
 
-2. 在「用戶首選項」對話框中，按一下 [!UICONTROL **資料夾描述檔**] 下拉式清單。
+1. 在「用戶首選項」對話框中，按一下 [!UICONTROL **資料夾描述檔**] 下拉式清單。
 
    ![設定檔清單](images/lesson-2/folder-profiles-dropdown.png)
 
-3. 從可用選項中選擇配置檔案。
+1. 從可用選項中選擇配置檔案。
 
-4. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下「[!UICONTROL **儲存**]」。
 
 現在已指派新的「資料夾描述檔」。 它更改了左面板中的工具欄選項、視圖模式、條件和代碼片段。 它也可能會變更編輯器中內容的視覺外觀。
 
@@ -143,11 +143,11 @@ ht-degree: 2%
 
    ![編輯器設定](images/lesson-2/editor-settings-icon.png)
 
-2. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **一般**] 標籤。
+1. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **一般**] 標籤。
 
-3. 選取您要使用的字典。
+1. 選取您要使用的字典。
 
-4. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下「[!UICONTROL **儲存**]」。
 
 字典更新。 請注意，切換為AEM拼字檢查可讓您使用自訂字詞清單。
 
@@ -159,13 +159,13 @@ ht-degree: 2%
 
    ![編輯器設定](images/lesson-2/editor-settings-icon.png)
 
-2. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **面板**] 標籤。
+1. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **面板**] 標籤。
 
-3. 視需要將可用的面板切換為「顯示」或「隱藏」。
+1. 視需要將可用的面板切換為「顯示」或「隱藏」。
 
    ![切換面板](images/lesson-2/toggle-panels.png)
 
-4. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下「[!UICONTROL **儲存**]」。
 
 左側面板現在已設定為只顯示切換為「顯示」的面板。
 
@@ -177,15 +177,15 @@ ht-degree: 2%
 
    ![編輯器設定](images/lesson-2/editor-settings-icon.png)
 
-2. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **元素清單**] 標籤。
+1. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **元素清單**] 標籤。
 
-3. 輸入 **元素名稱** 和 **標籤** 欄位。
+1. 輸入 **元素名稱** 和 **標籤** 欄位。
 
-4. 按一下 [!UICONTROL **加號**] 圖示以新增更多元素至清單。
+1. 按一下 [!UICONTROL **加號**] 圖示以新增更多元素至清單。
 
    ![元素清單](images/lesson-2/elements-list.png)
 
-5. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下「[!UICONTROL **儲存**]」。
 
 您可以在編輯器的現有標籤中立即看到元素清單的變更。 您也可以在新增元素時提供的選項中看到這些元素。
 
@@ -197,11 +197,11 @@ ht-degree: 2%
 
    ![編輯器設定](images/lesson-2/editor-settings-icon.png)
 
-2. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **屬性清單**] 標籤。
+1. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **屬性清單**] 標籤。
 
-3. 輸入 **屬性名稱** 和 **標籤** 欄位。
+1. 輸入 **屬性名稱** 和 **標籤** 欄位。
 
-4. 按一下 [!UICONTROL **加號**] 圖示以新增更多屬性至清單。
+1. 按一下 [!UICONTROL **加號**] 圖示以新增更多屬性至清單。
 
 ## 在編輯器設定中配置條件
 
@@ -211,13 +211,13 @@ ht-degree: 2%
 
    ![編輯器設定](images/lesson-2/editor-settings-icon.png)
 
-2. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **條件**] 標籤。
+1. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **條件**] 標籤。
 
-3. 選取您要套用之條件的核取方塊。
+1. 選取您要套用之條件的核取方塊。
 
    ![條件標籤](images/lesson-2/condition.png)
 
-4. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下「[!UICONTROL **儲存**]」。
 
 ## 在編輯器設定中建立發佈設定檔
 
@@ -227,12 +227,12 @@ ht-degree: 2%
 
    ![編輯器設定](images/lesson-2/editor-settings-icon.png)
 
-2. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **設定檔**] 標籤。
+1. 在「編輯器設定」對話方塊中，按一下 [!UICONTROL **設定檔**] 標籤。
 
-3. 按一下 [!UICONTROL **加號**] 表徵圖。
+1. 按一下 [!UICONTROL **加號**] 表徵圖。
 
-4. 視需要填入欄位。
+1. 視需要填入欄位。
 
-5. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下「[!UICONTROL **儲存**]」。
 
 已建立發佈設定檔。

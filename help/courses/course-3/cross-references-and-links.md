@@ -2,7 +2,7 @@
 title: 交叉參考和連結
 description: 在AEM參考線中建立交叉參考和連結
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -24,7 +24,7 @@ XML編輯器和DITA提供強大的方式，可連結主題之間。 請務必有
 
 1. 開啟要插入外部交叉引用的檔案。
 
-2. 將ID指派給要參考的元素。
+1. 將ID指派給要參考的元素。
 
    a.在元素內按一下。
 
@@ -34,15 +34,15 @@ XML編輯器和DITA提供強大的方式，可連結主題之間。 請務必有
 
    d.在中檢視元素及其值 **大綱視圖** 如果需要。
 
-3. **儲存** 確保儲存庫具有更新的ID的主題。
+1. **儲存** 確保儲存庫具有更新的ID的主題。
 
-4. 按一下 [!UICONTROL **參考**] 圖示。
+1. 按一下 [!UICONTROL **參考**] 圖示。
 
    ![工具列](images/lesson-7/references-icon.png)
 
-5. 從 **內容參考** 頁簽，選擇要作為交叉引用插入的ID和元素配對。
+1. 從 **內容參考** 頁簽，選擇要作為交叉引用插入的ID和元素配對。
 
-6. 按一下 [!UICONTROL **選擇**].
+1. 按一下 [!UICONTROL **選擇**].
 
 交叉參考已新增至主題。
 
@@ -57,9 +57,9 @@ XML編輯器和DITA提供強大的方式，可連結主題之間。 請務必有
 
 1. 導覽至 **大綱視圖** 在左側面板上。
 
-2. 按一下 [!UICONTROL **篩選**] 表徵圖。
+1. 按一下 [!UICONTROL **篩選**] 表徵圖。
 
-3. 選擇 **失效連結**.
+1. 選擇 **失效連結**.
 
    ![篩選下拉式清單](images/lesson-7/broken-links.png)
 

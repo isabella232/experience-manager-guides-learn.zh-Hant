@@ -2,7 +2,7 @@
 title: 疑難排解發佈錯誤
 description: 疑難排解中的發佈錯誤 [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![error-log](images/error-log.png)
 
-2. 滾動查看錯誤日誌。
+1. 滾動查看錯誤日誌。
 
 ## 顯示和隱藏錯誤類型
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. **選擇** 或 **取消選取** 顯示或隱藏突出顯示的任何錯誤類型。
 
-2. 使用 **next** 或 **上一個** 按鈕（箭頭）。
+1. 使用 **next** 或 **上一個** 按鈕（箭頭）。
 
 ## 解決錯誤
 

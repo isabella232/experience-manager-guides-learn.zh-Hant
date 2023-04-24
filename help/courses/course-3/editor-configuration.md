@@ -2,7 +2,7 @@
 title: AEM指南編輯器設定
 description: 設定AEM指南的編輯器
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -25,17 +25,17 @@ ht-degree: 0%
 
    ![工具圖示](images/reuse/tools-icon.png)
 
-2. 選擇 **指南** 在左側面板上。
+1. 選擇 **指南** 在左側面板上。
 
-3. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
+1. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
 
    ![資料夾描述檔](images/reuse/folder-profiles-tile.png)
 
-4. 選擇資料夾配置檔案。
+1. 選擇資料夾配置檔案。
 
-5. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
+1. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-6. 按一下 [!UICONTROL **下載**] 預設。
+1. 按一下 [!UICONTROL **下載**] 預設。
 
    ![下載預設值](images/lesson-4/download-default.png)
 
@@ -47,15 +47,15 @@ ht-degree: 0%
 
 1. 在「資料夾描述檔」中，按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-2. 在XML編輯器UI配置下，按一下 [!UICONTROL **上傳**].
+1. 在XML編輯器UI配置下，按一下 [!UICONTROL **上傳**].
 
    ![上傳](images/lesson-4/upload.png)
 
-3. 連按兩下已修改UI設定的檔案，或如此處所示，提供的範例檔案。
+1. 連按兩下已修改UI設定的檔案，或如此處所示，提供的範例檔案。
 
    ![範例設定檔案](images/lesson-4/sample-config-file.png)
 
-4. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
+1. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
 
 您已成功上傳已修改的UI設定。
 
@@ -67,17 +67,17 @@ ht-degree: 0%
 
    ![工具圖示](images/reuse/tools-icon.png)
 
-2. 選擇 **指南** 在左側面板上。
+1. 選擇 **指南** 在左側面板上。
 
-3. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
+1. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
 
    ![資料夾描述檔](images/reuse/folder-profiles-tile.png)
 
-4. 選擇資料夾配置檔案。
+1. 選擇資料夾配置檔案。
 
-5. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
+1. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-6. 在「CSS範本配置」下，按一下 [!UICONTROL **下載**].
+1. 在「CSS範本配置」下，按一下 [!UICONTROL **下載**].
 
    ![下載CSS](images/lesson-4/download-css.png)
 
@@ -89,15 +89,15 @@ ht-degree: 0%
 
 1. 在「資料夾描述檔」中，按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-2. 在「CSS範本配置」下，按一下 [!UICONTROL **上傳**].
+1. 在「CSS範本配置」下，按一下 [!UICONTROL **上傳**].
 
    ![上傳 CSS](images/lesson-4/upload-css.png)
 
-3. 連按兩下您自訂CSS版面的檔案，或此處顯示的範例檔案。
+1. 連按兩下您自訂CSS版面的檔案，或此處顯示的範例檔案。
 
    ![範例CSS檔案](images/lesson-4/sample-css-file.png)
 
-4. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
+1. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
 您已成功上傳自訂的CSS範本版面。
 
 ## 編輯XML編輯器代碼段
@@ -108,25 +108,25 @@ ht-degree: 0%
 
    ![工具圖示](images/reuse/tools-icon.png)
 
-2. 選擇 **指南** 在左側面板上。
+1. 選擇 **指南** 在左側面板上。
 
-3. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
+1. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
 
    ![資料夾描述檔](images/reuse/folder-profiles-tile.png)
 
-4. 選擇資料夾配置檔案。
+1. 選擇資料夾配置檔案。
 
-5. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
+1. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-6. 在「XML編輯器代碼段」下，按一下 **上傳**.
+1. 在「XML編輯器代碼段」下，按一下 **上傳**.
 
    ![上傳程式碼片段](images/lesson-4/upload-snippets.png)
 
-7. 選擇您自己的代碼片段或使用提供的示例。
+1. 選擇您自己的代碼片段或使用提供的示例。
 
    ![程式碼片段範例](images/lesson-4/sample-snippet.png)
 
-8. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
+1. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
 
 您已成功將新的代碼片段添加到編輯器中。
 
@@ -138,17 +138,17 @@ ht-degree: 0%
 
    ![工具圖示](images/reuse/tools-icon.png)
 
-2. 選擇 **指南** 在左側面板上。
+1. 選擇 **指南** 在左側面板上。
 
-3. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
+1. 按一下 [!UICONTROL **資料夾描述檔**] 方塊。
 
    ![資料夾描述檔](images/reuse/folder-profiles-tile.png)
 
-4. 選擇資料夾配置檔案。
+1. 選擇資料夾配置檔案。
 
-5. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
+1. 按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-6. 在「 XML內容版本標籤」下，按一下 [!UICONTROL **下載**].
+1. 在「 XML內容版本標籤」下，按一下 [!UICONTROL **下載**].
 
    ![下載標籤](images/lesson-4/download-labels.png)
 
@@ -160,14 +160,14 @@ ht-degree: 0%
 
 1. 在「資料夾描述檔」中，按一下 [!UICONTROL **XML編輯器配置**] 標籤。
 
-2. 在「 XML內容版本標籤」下，按一下 [!UICONTROL **上傳**].
+1. 在「 XML內容版本標籤」下，按一下 [!UICONTROL **上傳**].
 
    ![上傳標籤](images/lesson-4/upload-labels.png)
 
-3. 連按兩下您自訂標籤的檔案，或此處顯示的範例檔案。
+1. 連按兩下您自訂標籤的檔案，或此處顯示的範例檔案。
 
    ![標籤檔案範例](images/lesson-4/sample-labels-file.png)
 
-4. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
+1. 按一下 [!UICONTROL **儲存**] 在畫面左上角。
 
 您已成功上傳自訂XML內容版本標籤。

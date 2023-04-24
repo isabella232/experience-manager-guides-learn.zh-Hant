@@ -1,9 +1,11 @@
 ---
 title: Adobe Experience Manager指南的Oxon Plugin
 description: 了解如何使用Adobe Experience Manager指南的Oxon Plugin來建立和管理您的內容。
-source-git-commit: c3d50c3fc9f12d98942b6cb68512e01559b47d93
+hide: true
+hidefromtoc: true
+source-git-commit: 96347fed96979eb735dc55c32fcda90cc70ddcb4
 workflow-type: tm+mt
-source-wordcount: '5792'
+source-wordcount: '5762'
 ht-degree: 0%
 
 ---
@@ -111,11 +113,9 @@ AEM指南的Oxon外掛程式可透過您的Adobe軟體發佈入口網站取得�
 1. 從您的IT團隊取得套件的.zip檔案。
 1. 登入您的AEM例項 *\（管理員）* 並導覽至CRX封裝管理器。 存取套件管理器的預設URL為
 
-   ```
-   http://<server name>:<port>/crx/packmgr/index.jsp
-   ```
+   `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   套件管理器會管理您本機AEM安裝上的套件。 有關使用包管理器的詳細資訊，請參閱 [如何使用套件](https://docs.adobe.com/docs/en/aem/6-3/administer/content/package-manager.html) 在AEM檔案中。
+   套件管理器會管理您本機AEM安裝上的套件。 有關使用包管理器的詳細資訊，請參閱 [如何使用套件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) 在AEM檔案中。
 
    ![](images/package-manager.png)
 
@@ -161,13 +161,25 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 在env.sh中新增下列行
 
-```
---illegal-access=permit\--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED\--add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\--add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\--add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED\--add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED\--add-exports=java.desktop/sun.awt=ALL-UNNAMED\--add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
+```java
+--illegal-access=permit\
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED\
+--add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\
+--add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\
+--add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED\
+--add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED\
+--add-exports=java.desktop/sun.awt=ALL-UNNAMED\
+--add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
 ```
 
 在oxonAuthor.sh中新增下列行
 
-```
+```java
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
@@ -175,13 +187,13 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 在env.bat中新增下列行
 
-```
+```java
 --illegal-access=permit --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED --add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED --add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED --add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
 ```
 
 在oxonAuthor.bat中新增下列行
 
-```
+```java
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
@@ -200,7 +212,7 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 1. 指定下列詳細資訊：
    - **伺服器URL**:AEM伺服器的URL，例如：
 
-      ```
+      ```http
       http[s]://<host>:<port>
       ```
 
@@ -348,11 +360,11 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
 
 1. 選擇 **開啟於** 從上下文菜單中，從以下選項中選擇：
 
-- **Web主題編輯器**:如果要開啟的檔案是.xml或.dita檔案，則可以在Web編輯器中開啟它進行編輯。 選擇 **Web主題編輯器** 選項，以在Web編輯器中開啟要編輯的選定檔案。
+   - **Web主題編輯器**:如果要開啟的檔案是.xml或.dita檔案，則可以在Web編輯器中開啟它進行編輯。 選擇 **Web主題編輯器** 選項，以在Web編輯器中開啟要編輯的選定檔案。
 
-- **對應控制面板**:您可以選擇在地圖控制面板中編輯.ditamap檔案，在其中可以對地圖檔案執行各種操作。 這些操作取決於您所屬的角色/組。
+   - **對應控制面板**:您可以選擇在地圖控制面板中編輯.ditamap檔案，在其中可以對地圖檔案執行各種操作。 這些操作取決於您所屬的角色/組。
 
-- **Web DITA映射編輯器**:如果要開啟.ditamap檔案以在「地圖編輯器」中進行編輯，請選擇此選項。 使用DITA映射編輯器選項，可以添加或刪除主題、添加關係表以及在映射上執行其他操作。
+   - **Web DITA映射編輯器**:如果要開啟.ditamap檔案以在「地圖編輯器」中進行編輯，請選擇此選項。 使用DITA映射編輯器選項，可以添加或刪除主題、添加關係表以及在映射上執行其他操作。
 
 
 ### 簽出檔案 {#id195HC020TS4}
@@ -390,15 +402,15 @@ JxBrowser用於Oxon連接器外掛程式的SSO驗證。 是以Chromium為基礎�
    - **簽入**:將選取的檔案從本機系統簽入AEM存放庫。
    - **帶家屬簽入：** 如果已簽出一個檔案及其從屬項，則使用此選項在一個操作中籤入所有從屬檔案。 選擇此選項時，將顯示包含所有從屬檔案的檢入對話框。 按一下「確定」一次簽入所有檔案。
 
-      如果您未簽出相依檔案，然後選擇此選項，則只有已\（單獨\）簽出的相依檔案才會簽入。 系統會顯示無法簽入的檔案清單：
+   如果您未簽出相依檔案，然後選擇此選項，則只有已\（單獨\）簽出的相依檔案才會簽入。 系統會顯示無法簽入的檔案清單：
 
-      ![](images/check-in-error.png)
+   ![](images/check-in-error.png)
 
-      強烈建議不要移動已簽出的檔案。 但是，如果已簽出的檔案被移到其他位置，則必須取消該檔案的簽出。 如果要對該檔案進行更新，請再次簽出該檔案，進行更改，然後重新簽入。 如果您嘗試簽入已從原始位置移動的檔案，則會出現錯誤。
+   強烈建議不要移動已簽出的檔案。 但是，如果已簽出的檔案被移到其他位置，則必須取消該檔案的簽出。 如果要對該檔案進行更新，請再次簽出該檔案，進行更改，然後重新簽入。 如果您嘗試簽入已從原始位置移動的檔案，則會出現錯誤。
 
-      如果在AEM中檢出從屬檔案，則帶從屬項的檢入將不在檢入對話框中顯示從屬檔案。 要獲取在AEM中籤出的從屬檔案的清單，必須執行資料夾刷新。
+   如果在AEM中檢出從屬檔案，則帶從屬項的檢入將不在檢入對話框中顯示從屬檔案。 要獲取在AEM中籤出的從屬檔案的清單，必須執行資料夾刷新。
 
-      同樣，如果您通過AEM簽入了相依檔案，則在執行資料夾「刷新並刷新簽出檔案」之前，檔案清單不會在Oxo Author中刷新。 如果執行「帶依存項的簽入」，並通過AEM簽入某些檔案，則將出現錯誤，列出無法簽入的檔案。
+   同樣，如果您通過AEM簽入了相依檔案，則在執行資料夾「刷新並刷新簽出檔案」之前，檔案清單不會在Oxo Author中刷新。 如果執行「帶依存項的簽入」，並通過AEM簽入某些檔案，則將出現錯誤，列出無法簽入的檔案。
 
 1. \（選用\）在「簽入」對話方塊中，在 **版本注釋** 框。
 
@@ -599,45 +611,47 @@ AEM參考線可讓您使用相關DITA屬性輕鬆建立和關聯條件屬性。 
 
 ### 缺少AEM參考線面板 {#id192BH200ZAX}
 
-問題：如果您在Oxon XML Author中未看到「AEM參考線」面板，請嘗試下列解決方案：
+**問題**  — 如果在Oxon XML作者中未看到AEM參考線面板，請嘗試下列解決方案：
 
-解決方案1::1.  在「Oxon XML作者」中，啟用插件。
+解決方案1:
 
-    按一下**Options** \> **Preferences** \> **Plugins**，然後選取**Oxo Plugin for Adobe Experience Manager參考線。**
+1. 在「Oxon XML作者」中，啟用插件。
+
+   按一下 **選項** \> **偏好設定** \> **外掛程式** 選取 **Adobe Experience Manager指南的Oxon外掛程式。**
 
 1. 重新啟動Oxon XML作者。
 
 
-解決方案2::如果您仍未看見「AEM參考線」面板，請啟用「AEM參考線」視窗。
+解決方案2:
 
-    在Oxon XML作者中，按一下**Window** \> **Show View** \> **AEM指南**。
+1. 如果您仍未看見「AEM參考線」面板，請啟用「AEM參考線」視窗。
 
-解決方案3::解除安裝並重新安裝《Adobe Experience Manager指南》的Oxo Plugin。
+   在Oxon XML作者中，按一下 **視窗** \> **顯示視圖** \> **AEM指南**.
 
-     — 在Windows上，從**新增或移除程式**清單中解除安裝外掛程式。 接著，重新安裝外掛程式。
-    
-     — 在Mac上，存取Oxon XML Author的外掛程式資料夾中的aem-connector-x.x資料夾，並將其移至**Trash**。 然後，清空**Trash**資料夾。
+解決方案3:
+
+1. 解除安裝並重新安裝《Adobe Experience Manager指南》的Oxo Plugin。
+
+   - 在Windows上，從 **添加或刪除程式** 清單。 接著，重新安裝外掛程式。
+
+   - 在Mac上，存取Oxon XML Author外掛程式資料夾中的aem-connector-x.x資料夾，並將其移至 **垃圾**. 然後，將 **垃圾** 檔案夾。
 
 
 ### 配置DITA-OT轉換的埠
 
-問題：當您對外掛程式處理的檔案執行任何DITA-OT轉換時，轉換會失敗，並出現下列錯誤：
+**問題**  — 當您對外掛程式處理的檔案執行任何DITA-OT轉換時，轉換會失敗，並出現下列錯誤：
 
-    ![](images/proxy-server-path-error.png)
+![](images/proxy-server-path-error-new.png)
 
-解決方案：此問題已借由在DITA-OT和外掛程式之間新增代理伺服器而修正。 此代理伺服器處理並共用DITA-OT請求的所有檔案以進行轉換。 已配置此伺服器的預設埠為： `5972`. 如果將此埠用於其他伺服器，則可以為代理伺服器指定其他埠。
+**解決方案**  — 此問題已借由在DITA-OT和外掛程式之間新增代理伺服器而修正。 此代理伺服器處理並共用DITA-OT請求的所有檔案以進行轉換。 已配置此伺服器的預設埠為： `5972`. 如果將此埠用於其他伺服器，則可以為代理伺服器指定其他埠。
 
-    執行以下步驟更改代理伺服器的預設埠：
-    
-    1.  瀏覽至您的\（使用者\）首頁目錄。
-    
-    2.  建立名為aem\_connector\_proxy的檔案。
-    
-    3.  在任何文字編輯器中開啟檔案，並在檔案的第一行中新增可用的連接埠號。
-    
-    4.  儲存並關閉檔案。
-    
-    5.  重新啟動Oxo XML作者並執行DITA-OT轉換。
+執行以下步驟更改代理伺服器的預設埠：
+
+1. 瀏覽至您的\（使用者\）首頁目錄。
+1. 建立名為aem\_connector\_proxy的檔案。
+1. 在任何文字編輯器中開啟檔案，並在檔案的第一行中新增可用的連接埠號。
+1. 儲存並關閉檔案。
+1. 重新啟動Oxo XML作者並執行DITA-OT轉換。
 
 
 ### AEM參考線面板不會瀏覽至已開啟的檔案位置
@@ -652,38 +666,36 @@ AEM參考線可讓您使用相關DITA屬性輕鬆建立和關聯條件屬性。 
 
 解決方案：執行下列步驟以在外掛程式中啟用記錄產生功能：
 
-    1.  瀏覽至Oxon XML作者的安裝位置。
-    
-    1.  在文字編輯器中開啟oxonAuthor19.1.vmoptions檔案。
-    
-    >[!NOTE]
-    >
-    >檔案的版本號可能會因系統上安裝的應用程式的版本號而異。
-    
-    1.  在檔案中附加下列行：
-    
-    &quot;
-    -Djava.util.logging.config.file=./log.properties
-    &quot;
-    
-    1.  儲存並關閉檔案。
-    
-    1.  在相同位置，建立名為log.properties的檔案，其內容如下：
-    
-    &quot;
-    處理程式=java.util.logging.FileHandler
-    java.util.logging.FileHandler.level = DEBUG
-    java.util.logging.FileHandler.limit = 1048576
-    java.util.logging.FileHandler.count = 5
-    java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
-    java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
-    java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
-    &quot;
-    
-    1.  儲存並關閉檔案。
-    
-    1.  啟動Oxo XML作者。
-    
-    
-    此外掛程式現在會以檔案名aem-pluginX.log \（*其中X代表旋轉數*\），在使用者的首頁目錄中建立記錄檔。
+1. 瀏覽至Oxon XML作者的安裝位置。
 
+1. 在文字編輯器中開啟oxonAuthor19.1.vmoptions檔案。
+
+   >[!NOTE]
+   >
+   >檔案的版本號可能因系統上安裝的應用程式的版本號而異。
+
+1. 在檔案中附加下列行：
+
+   ```java
+   -Djava.util.logging.config.file=./log.properties
+   ```
+
+1. 儲存並關閉檔案。
+
+1. 在相同位置，建立名為log.properties的檔案，其內容如下：
+
+   ```java
+   handlers=java.util.logging.FileHandler
+   java.util.logging.FileHandler.level = DEBUG
+   java.util.logging.FileHandler.limit = 1048576
+   java.util.logging.FileHandler.count = 5
+   java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
+   java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
+   java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
+   ```
+
+1. 儲存並關閉檔案。
+1. 啟動Oxo XML作者。
+
+
+外掛程式現在會以檔案名稱aem-pluginX.log \(*其中X表示旋轉數*\)。

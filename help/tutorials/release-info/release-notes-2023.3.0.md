@@ -1,7 +1,7 @@
 ---
 title: 發行說明 | Adobe Experience Manager指南as a Cloud Service,2023年3月發行版本
-description: 最新版Adobe Experience Manager指南as a Cloud Service
-source-git-commit: 07709048f560a77b923436d990c831a5f8b907e3
+description: 3月版Adobe Experience Manager指南as a Cloud Service
+source-git-commit: d762cccc4a8f89eb91a1a8eb2c1410a7e0358b85
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
@@ -10,12 +10,12 @@ ht-degree: 2%
 
 # 3月版Adobe Experience Manager指南as a Cloud Service
 
-## 升級至最新版本
+## 升級至3月版
 
 升級您目前的Adobe Experience Manager指南as a Cloud Service(稍後稱為 *AEM指南as a Cloud Service*)，請執行下列步驟：
 1. 查看Cloud Services的Git程式碼，並切換至Cloud Services管道中所設定的分支，該管道與您要升級的環境對應。
 2. 更新 `<dox.version>` 屬性 `/dox/dox.installer/pom.xml` 檔案的Cloud ServicesGit程式碼。
-3. 提交變更並執行Cloud Services管道，以升級至最新版本的AEM指南as a Cloud Service。
+3. 提交變更並執行Cloud Services管道，以升級至3月版的AEM指南as a Cloud Service。
 
 ## 為現有內容建立索引的步驟(僅限使用9月版AEM指南之前的版本時as a Cloud Service)
 
@@ -52,7 +52,7 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 ## 新增功能和功能改善
 
-AEM指南as a Cloud Service提供最新版本的增強功能和新功能：
+AEM指南as a Cloud Service於2023年3月版本中提供增強功能和新功能：
 
 ### 在網頁編輯器中開啟並播放視訊或音訊檔案
 
