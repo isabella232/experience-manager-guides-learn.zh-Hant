@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: d6edeaf6b0d309d1e8301b1695edbc5b2f953d7a
+source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '733'
 ht-degree: 7%
 
 ---
@@ -182,15 +182,19 @@ ht-degree: 7%
       + [使用基線管理內容](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [製作網頁型內容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [原生PDF發佈要點](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-   + 發佈{#publishing}
-      + [配置基於微服務的發佈](./knowledge-base/publishing/configure-microservices.md)
+      + [AEM指南中的報表](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+      + [內容與範本設定](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
    + 文章 {#kb-articles}
       + 編寫 {#authoring}
          + 韋貝迪托爾 {#webeditor}
+            + 自訂 {#customizing}
+               + [將自定義按鈕添加到工具欄](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+               + [新增自訂樣式至Webiditor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + 捨馬特龍 {#schematron}
                + [架構驗證](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 發佈 {#publishing}
          + [設定AEM環境以發佈原生PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         + [配置基於微服務的發佈](./knowledge-base/publishing/configure-microservices.md)
       + 工作流程 {#workflows}
          + [產生後的工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
