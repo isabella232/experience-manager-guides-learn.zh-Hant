@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
+source-git-commit: 954c58e92e3d90b3b45bda573d581f5201d439ae
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 7%
 
 ---
@@ -196,5 +196,6 @@ ht-degree: 7%
          + [設定AEM環境以發佈原生PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [配置基於微服務的發佈](./knowledge-base/publishing/configure-microservices.md)
+         + [微服務體系結構和效能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       + 工作流程 {#workflows}
          + [產生後的工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
