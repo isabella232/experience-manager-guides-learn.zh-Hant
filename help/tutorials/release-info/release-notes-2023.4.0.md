@@ -1,7 +1,8 @@
 ---
 title: 發行說明 | Adobe Experience Manager指南as a Cloud Service,2023年4月發行版本
 description: 最新版Adobe Experience Manager指南as a Cloud Service
-source-git-commit: 77b118655ad8e37e00b0371497e4a2578ddd276e
+exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
+source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 2%
@@ -66,7 +67,7 @@ AEM指南現在提供對應至PDF輸出中中繼資料的中繼資料的進階�
 
 ### 增強的大綱視圖面板
 
-AEM指南提供簡易的「大綱視圖」面板，您可在其中獲取文檔中使用的元素的分層視圖。
+AEM指南提供了一個改進的「大綱視圖」面板，在該面板中可以獲取文檔中使用的元素的分層視圖。
 
 <img src="assets/select-element-content-outline-view_cs.png" alt=" 原生pdf中繼資料">
 
@@ -104,4 +105,3 @@ AEM指南as a Cloud Service提供與微服務發佈功能同時執行大型發�
 Adobe已識別下列AEM指南的已知問題(as a Cloud Service2023年4月發行)。
 
 * 原生PDF |在明確開啟輸出預設集之前，不會填入舊的中繼資料。
-
