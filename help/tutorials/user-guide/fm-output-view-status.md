@@ -1,13 +1,13 @@
 ---
 title: 查看輸出生成任務的狀態
 description: 了解如何查看輸出生成任務的狀態
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 6fdaa547-8446-4ce5-95c3-a63d9c1f27d2
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
 
 ---
-
 
 # 查看輸出生成任務的狀態 {#viewing_output_history}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 1. 按一下「輸出」。
 
-   ![](images/output-queued-fm.png)
+   ![](images/output-queued-fm.png){width="800" align="left"}
 
 1. 「輸出」頁面分為兩部分：
 
@@ -35,4 +35,3 @@ ht-degree: 0%
 
 
 **上層主題：**[&#x200B;生成FrameMaker文檔的輸出](fm-output-generatation.md)
-

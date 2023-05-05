@@ -1,13 +1,13 @@
 ---
 title: 建立大量啟用圖集合
 description: 了解如何建立大量啟用圖集合
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # 建立大量啟用圖集合 {#id214GG0E90EV}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    DITA映射檔案將添加到批量激活映射集合中。
 
-   ![](images/bulk-activation-collection-created.png)
+   ![](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 
 「映射和預設集」頁簽顯示以下列中的資訊：
@@ -70,4 +70,3 @@ ht-degree: 0%
 - **地圖和預設集** 表格：「地圖和預設集」表格顯示以下列：
 
 **上層主題：**[&#x200B;大量啟用已發佈的內容](conf-bulk-activation.md)
-

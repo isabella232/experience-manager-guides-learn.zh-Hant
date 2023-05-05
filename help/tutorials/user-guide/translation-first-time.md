@@ -1,13 +1,13 @@
 ---
 title: 內容翻譯的最佳實務
 description: 了解內容翻譯的最佳實務
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 1%
 
 ---
-
 
 # 內容翻譯的最佳實務 {#id1678G0S702F}
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 下圖顯示全域使用內容和三個語言副本時，AEM中的資料夾結構範例。
 
-![](images/aem-directory_structure.png)
+![](images/aem-directory_structure.png){width="800" align="left"}
 
 ## 配置翻譯服務
 
@@ -129,4 +129,3 @@ ht-degree: 1%
 > 如果您拒絕翻譯工作中一個或多個主題的翻譯，則 **進行中** 所有已拒絕主題的翻譯狀態都回復為原始狀態。 根據最新的翻譯狀態檢查並還原所引用主題的狀態。 此外，即使目標項目中的翻譯被拒絕，也不會刪除在目標項目中建立的翻譯檔案。
 
 **上層主題：**[&#x200B;翻譯內容](translation.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 從Web編輯器生成DITA映射報告
 description: 了解如何從Web編輯器將DITA映射報表
-source-git-commit: 895d9bd3587c871d5223df5b71403d10bdc3d762
+exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
 
 ---
-
 
 # 從Web編輯器生成DITA映射報告 {#id231HF0Z0NXA}
 
@@ -25,9 +25,10 @@ AEM參考線隨附於網頁編輯器中的功能，可讓您檢查參考的整�
 1. 按一下 **管理** 標籤。
 1. 按兩下 **主題清單** 左邊。 將顯示DITA映射中出現的主題清單。
 
-   ![](images/web-editor-topiclist-panel.png)
+   ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
 
 1. 從 **篩選器** 面板，您可以根據 **參考類型** \（直接或間接\）, **檔案狀態** \(主題的目前狀態。 例如，如果主題處於「編輯」、「在審閱」或「已審閱」狀態，則這些主題會列出\)或 **作者** 中。
+
 1. 您也可以使用下列主題篩選選項來選擇在清單中顯示下列欄：
 
    - **主題** 主題的標題在DITA映射中指定。 您可以按一下主題加以編輯。
@@ -57,7 +58,7 @@ AEM參考線可讓您從Web編輯器標籤DITA內容。 您可以在個別主題
 1. 按一下 **管理** 標籤。
 1. 按兩下 **中繼資料** 左邊。 將顯示DITA映射中所有引用的元資料清單。 這也包括媒體參考。
 
-   ![](images/web-editor-metadata-panel.png)
+   ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1. 從 **篩選器** 面板，您可以根據 **檔案狀態** \(主題的目前狀態。 例如，如果主題處於「編輯」、「在審閱」或「已審閱」狀態，則這些主題將列出\), **參考** \（直接或間接\）, **檔案類型** 參考的\（地圖、主題和影像\）。
 1. 您也可以選擇僅檢視 **沒有標籤的檔案** 或從中選擇特定標籤 **標籤** 篩選器，查看與其關聯的檔案。
@@ -92,7 +93,7 @@ AEM參考線可讓您從Web編輯器標籤DITA內容。 您可以在個別主題
 
 1. 選擇 **管理** 從上方。
 
-   ![](images/web-editor-manage-metadata.png)
+   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
 
 1. 如果要新增任何新標籤，請從下拉式清單中選取新標籤，以將它們套用至所有選取的主題。 您也可以按一下標籤附近的交叉圖示來刪除任何標籤。
 
@@ -114,11 +115,11 @@ AEM參考線可讓您從Web編輯器標籤DITA內容。 您可以在個別主題
 
    - 當您按 **多媒體**，則多媒體的****名會顯示在第一欄中，而使用它們的所有引用的名稱會顯示在同一行的另一欄中。 例如，下面的螢幕截圖顯示第一列中的多媒體WamCoolForC.gif，以及其中使用它的三個引用顯示在同一行的第三列中。
 
-      ![](images/multimedia-report-file-order.png)
+      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - 如果訂購依據 **用於** 欄中，您將看到轉換視圖，其中已使用多媒體的引用的名稱列在第一列中，而多媒體名稱列在單獨行的另一列中。 例如，下面的螢幕截圖顯示第一列中的三個引用\（調整座位溫度、更改座位溫度顯示和機組人員區域\）的名稱，而三個獨立行上的第三列中顯示多媒體WamCoolForC.gif。
 
-      ![](images/multimedia-report-used-in-order.png)
+      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1. 您可以根據 **多媒體類型**，和 **參考類型**. 多媒體檔案清單會根據您在下拉式清單中的選取項目顯示。 例如，您可以選擇只顯示DITA映射中的音頻引用，而檔案只顯示其中使用的音頻引用。
 
@@ -138,10 +139,11 @@ AEM參考線可讓您從Web編輯器標籤DITA內容。 您可以在個別主題
    >[!NOTE]
    >
    > 按一下 **重新整理** 獲取最新的多媒體清單，並查看映射檔案中的任何更改，或DITA映射中的任何多媒體是否已更新。
+
 1. 您也可以按一下「Web編輯器」，並播放音訊或視訊檔案。 您可以變更音量或視訊的檢視。 在快捷菜單中，您還可以選擇下載、更改播放速度或查看子母畫面。
-   ![](images/video-web-editor.png)
+
+   ![](images/video-web-editor.png){width="800" align="left"}
 
 1. 按一下 **下載CSV** 下載DITA映射中多媒體的當前快照。 CSV包含選取的欄和 **多媒體** 檢視。 然後，您可以在任何CSV編輯器中開啟此多媒體CSV檔案。
 
 **上層主題：**[&#x200B;報表](reports-intro.md)
-

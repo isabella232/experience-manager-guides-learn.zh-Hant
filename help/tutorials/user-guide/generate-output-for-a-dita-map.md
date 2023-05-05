@@ -1,13 +1,13 @@
 ---
 title: 從映射控制台生成DITA映射的輸出
 description: 了解如何從地圖主控台產生DITA對應的輸出
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
 
 ---
-
 
 # 從映射控制台生成DITA映射的輸出 {#id1825FG00UHT}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 1. 選擇一個或多個要用於生成輸出的輸出預設集。
 
-   ![](images/generate-multiple-outputs-uuid.png)
+   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    > 如果您已將新主題新增至DITA映射，則無法從此處產生這些新主題。 您必須先使用DITA映射發佈函式來發佈新添加的主題。
 
-   ![](images/regenerate-topics.png)
+   ![](images/regenerate-topics.png){width="800" align="left"}
 
 1. 按一下 **重新產生**.
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 1. 按一下 **輸出**.
 
-   ![](images/output-queued.png)
+   ![](images/output-queued.png){width="800" align="left"}
 
    「輸出」頁面分為兩部分：
 
@@ -132,17 +132,17 @@ AEM指南可讓發佈者透過簡單且簡單的方式取消任何持續進行�
 
 1. 按一下 *取消此作業* 表徵圖。
 
-   ![](images/cancel-publish-task-map-console.png)
+   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
 1. 按一下 **是** 在確認取消消息提示符上。
 
-   ![](images/confirm-cancel-output-map-condole.png)
+   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
 
    如果任務尚未啟動，則對任務執行取消命令。 對於正在取消的任務，狀態將設定為「取消」。
 
    成功取消任務後，該任務將移至 **生成的輸出** 清單 **已取消** 狀態。 將游標暫留在已取消的任務上時，它將顯示已取消該任務的用戶的名稱。 在以下螢幕擷取中， *HTML5* 任務已取消。
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 ## 從DITA映射控制台刪除輸出任務
@@ -159,7 +159,7 @@ AEM指南可讓發佈者透過簡單且簡單的方式取消任何持續進行�
 
 1. 按一下刪除圖示。
 
-   ![](images/delete-output-task.png)
+   ![](images/delete-output-task.png){width="800" align="left"}
 
 1. 按一下 **是** 在確認刪除訊息提示上。
 
@@ -167,4 +167,3 @@ AEM指南可讓發佈者透過簡單且簡單的方式取消任何持續進行�
 
 
 **上層主題：**[&#x200B;產生輸出](generate-output.md)
-

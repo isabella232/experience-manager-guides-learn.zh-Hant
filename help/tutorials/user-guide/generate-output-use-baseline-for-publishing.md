@@ -1,13 +1,13 @@
 ---
 title: 使用基線
 description: 了解如何使用基線
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 0%
 
 ---
-
 
 # 使用基線 {#id1825FI0J0PF}
 
@@ -46,8 +46,7 @@ ht-degree: 0%
 1. 在 **根據設定版本**，請選取下列其中一個選項：
 
    - **標籤**:選取此選項，根據套用至主題的標籤來挑選主題。 輸入標籤以根據輸入的字串篩選清單。 從篩選掉的清單中，您可以選擇標籤以選取主題和具有指定標籤的其他資產。
-
-      選取 **標籤**，您也可以獲得其他選項，使用未套用指定標籤之最新版主題。 如果未選擇此選項，並且存在任何主題或介質檔案上沒有指定標籤，則基線建立過程將失敗。 如需新增標籤的詳細資訊，請參閱 [使用標籤](web-editor-use-label.md#).
+   選取 **標籤**，您也可以獲得其他選項，使用未套用指定標籤之最新版主題。 如果未選擇此選項，並且存在任何主題或介質檔案上沒有指定標籤，則基線建立過程將失敗。 如需新增標籤的詳細資訊，請參閱 [使用標籤](web-editor-use-label.md#).
 
    - **版本於** &lt;*時間戳*\>:在指定的日期和時間挑選主題的版本。 請注意，您在此處指定的時間會與AEM伺服器的時區相對應。 如果您的伺服器處於不同時區，則會根據伺服器的時區（而非您的本機時區）擷取主題。
 
@@ -55,7 +54,7 @@ ht-degree: 0%
 
 1. 如果您想對一或多個主題使用不同版本，則可以手動選取這些主題。 按一下 **瀏覽主題**，請選取您要使用其他版本的主題。 從「為所選主題選擇版本」下拉清單中，選擇要在基線中使用的主題的版本，然後按一下 **確定**.
 
-   ![](images/baseline-select-version-drop-down.png)
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
    主題及其所選版本的相關資訊會儲存在後端。 您可以重複此步驟來變更多個主題的選取版本。
 
@@ -133,7 +132,7 @@ ht-degree: 0%
 
 1. 按一下 **新增標籤**.
 
-   ![](images/add-label-baseline-uuid.png)
+   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
 1. 在 **添加標籤** 對話框，指定與此基線關聯的唯一標籤。
 
@@ -144,7 +143,7 @@ ht-degree: 0%
    - 按一下 **新增**.
 指定的標籤將添加到DITA映射以及引用的主題和內容。
 
-      ![](images/label-added-baseline-uuid.png)
+      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## 導出轉換的基線 {#id196SE600GHS}
@@ -163,7 +162,7 @@ ht-degree: 0%
 
 1. 在 **翻譯** 頁簽，展開 **基線** 選項。
 
-   ![](images/export-baseline.png)
+   ![](images/export-baseline.png){width="800" align="left"}
 
 1. 選取 **使用基線** 選項，然後選擇要導出的基線。
 
@@ -177,4 +176,3 @@ ht-degree: 0%
 
 
 **上層主題：**[&#x200B;產生輸出](generate-output.md)
-

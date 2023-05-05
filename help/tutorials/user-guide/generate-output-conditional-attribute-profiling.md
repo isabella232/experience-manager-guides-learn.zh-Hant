@@ -1,13 +1,13 @@
 ---
 title: 條件屬性分析
 description: 了解如何條件式屬性設定檔
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # 條件屬性分析 {#id1843I0HN0Y4}
 
@@ -43,7 +43,7 @@ AEM參考線可讓您使用相關DITA屬性輕鬆建立和關聯條件屬性。 
 
    以下螢幕截圖顯示 `platform` 屬性值為 `unix` 和 `Red Hat Linux`.
 
-   ![](images/add-profile.png)
+   ![](images/add-profile.png){width="800" align="left"}
 
 1. 如果要為相同屬性新增更多值，請按一下 **+** 表徵圖並輸入其他值和標籤。
 
@@ -54,7 +54,6 @@ AEM參考線可讓您使用相關DITA屬性輕鬆建立和關聯條件屬性。 
 
 此 `platform` 屬性儲存在系統中。 每當作者決定使用 `platform` 屬性中，這些屬性將在Web編輯器的「屬性」頁簽中看到值。
 
-![](images/properties-tab.png)
+![](images/properties-tab.png){width="350" align="left"}
 
 **上層主題：**[&#x200B;產生輸出](generate-output.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 使用發佈控制面板管理發布任務
 description: 了解如何使用發佈控制面板管理發布工作
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
 
 ---
-
 
 # 使用發佈控制面板管理發布任務 {#id205CC08305Z}
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 「發佈控制面板」提供目前在系統中執行之所有發佈工作的完整概覽。
 
-![](images/publish-dashboard.png)
+![](images/publish-dashboard.png){width="800" align="left"}
 
 「發佈控制面板」包含下列詳細資料：
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 - **輸出預設集**  — 選擇一個或多個要查看其當前活動發佈任務的輸出預設集。 在以下螢幕擷取中，會篩選發佈工作，以僅顯示使用AEM Site輸出預設集的工作：
 
-![](images/publish-dashboard-preset-filter.png)
+   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **起始者**  — 從清單中選擇用戶名，以顯示所選用戶啟動的發佈任務。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    如果按一下「檔案名」連結，則會顯示所選映射的DITA映射控制台。
 
-   ![](images/publish-dashboard-click-filename-link.png)
+   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
 
 
 >[!NOTE]
@@ -76,14 +76,13 @@ ht-degree: 0%
 
 1. 從活動發佈任務清單中，按一下要取消的任務的刪除表徵圖。
 
-   ![](images/publish-dashboard-cancel-task.png)
+   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
 
 1. 按一下 **是** 在確認取消消息提示符上。
 
    只要任務保持活動狀態，就會接受取消命令並嘗試取消。 成功終止任務後，該任務將從當前活動的任務清單中刪除。 在DITA映射控制台中，任務的狀態也會以已取消的形式更新。 在以下螢幕擷取中， *HTML5* 任務已從「發佈控制面板」中取消，其狀態也在DITA映射控制台中更改。
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 **上層主題：**[&#x200B;產生輸出](generate-output.md)
-

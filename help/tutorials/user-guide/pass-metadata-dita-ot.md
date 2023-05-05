@@ -1,13 +1,13 @@
 ---
 title: 使用DITA-OT將中繼資料傳遞至輸出
 description: 了解如何使用DITA-OT將中繼資料傳遞至輸出
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
 
 ---
-
 
 # 使用DITA-OT將中繼資料傳遞至輸出 {#id21BJ00QD0XA}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 1. 選取並編輯您要傳遞中繼資料欄位的輸出預設集。 例如，選取PDF輸出預設集。
 1. 選擇 **DITA-OT** 在「生成」下 &lt;output> 在選取的輸出預設集中使用選項。
 
-   ![](images/custom-meta-data-output-preset.png)
+   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
 
 1. 從「屬性」下拉式清單中，選取您要傳遞至DITA-OT發佈的中繼資料。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 從 **屬性** 下拉式清單，選取所需的自訂和預設屬性。 例如，選取 `author`, `dc:title`，和 `dc:description`. 這些是標準 `metadata/properties` 在建立檔案後建立的。 下拉式方塊下方會列出選取的屬性。
 
-   ![](images/selected-metadata-properties.png)
+   ![](images/selected-metadata-properties.png){width="300" align="left"}
 
 1. 按一下 **完成** 以儲存變更。
 1. 產生輸出。
@@ -43,4 +43,3 @@ ht-degree: 0%
 所選元資料屬性將傳遞至使用DITA-OT產生的輸出。
 
 **上層主題：**[&#x200B;產生輸出](generate-output.md)
-

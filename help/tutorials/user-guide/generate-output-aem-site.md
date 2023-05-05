@@ -1,13 +1,13 @@
 ---
 title: AEM網站
 description: 了解如何AEM Site
-source-git-commit: 23d6c87b525f0763990166e46f4bd4ac2d6e7cd5
+exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 0%
 
 ---
-
 
 # AEM網站 {#id205BE3008SW}
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 發佈內容可讓您指定必須使用哪個主題，從哪個對應發佈特定輸出。 讓我們透過一個範例來了解這點 — 假設您有四個資料夾：樣本a、樣本b、樣本c和樣本d。每個資料夾都包含DITA映射 — DITA映射A、DITA映射B、DITA映射C和DITA映射D。當DITA映射A中的主題連結到DITA映射B、C或D中的主題時，將發生交叉映射連結。在下面的螢幕截圖中，示例概念主題包含指向其他DITA映射的一部分的檔案的連結\（或引用\）。
 
-![](images/sample-concept-link-to-other.png){width="450" align="left"}
+![](images/sample-concept-link-to-other.png){width="350" align="left"}
 
 現在，當您為包含此主題的對映檔案配置AEM Site發佈設定時，可以選取發佈時要使用連結內容的發佈內容。 發佈內容是DITA映射及其輸出預設集的組合。 輸出預設集則包含特定版本的內容和條件預設集。 DITA映射、輸出預設集、\（檔案\）版本和條件的這整個組合定義連結映射的發佈上下文。
 
@@ -143,8 +143,7 @@ AEM指南支援在您現有的AEM網站中發佈DITA內容。 例如，如果您
 
 您可以在AEM Site輸出中搜尋字串。 依預設，您只能搜尋標題中的字串。 若要搜尋內容或AEM網站輸出內文中的字串，請連絡您的系統管理員以啟用flatping.enabled屬性。
 
-
-<img src="images/aem-output-search.png" alt="搜尋AEM網站輸出" width="800">
+![搜尋AEM網站輸出](images/aem-output-search.png){width="650" align="left"}
 
 如需更多詳細資訊，請參閱 *設定AEM Site節點結構的平面化* 安裝及設定Adobe Experience Manager指南中的一節。
 

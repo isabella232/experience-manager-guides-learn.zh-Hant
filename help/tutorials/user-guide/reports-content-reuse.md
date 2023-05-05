@@ -1,13 +1,13 @@
 ---
 title: 內容重複使用報表
 description: 了解如何重複使用內容報表
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # 內容重複使用報表 {#id205BB900OQD}
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 按一下 **產生報表** 以取得內容重複使用報表。
 
-   ![](images/content-reuse-uuid.png)
+   ![](images/content-reuse-uuid.png){width="800" align="left"}
 
    報表頁面分為兩部分：
 
@@ -61,4 +61,3 @@ ht-degree: 0%
 > 您也可以將「內容重複使用報表」匯出為CSV格式。 若要這麼做，請按一下畫面左上角的「匯出至CSV」連結，並選擇要儲存CSV檔案的位置。 然後，您可以在任何CSV編輯器中開啟此CSV檔案。
 
 **上層主題：**[&#x200B;報表](reports-intro.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 已還原的檔案版本歷史記錄報告
 description: 了解如何還原檔案版本歷史記錄報表
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: fa90b373-742a-4102-b00f-07e4113fef98
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
 
 ---
-
 
 # 已還原的檔案版本歷史記錄報告 {#id205BBC00PRK}
 
@@ -19,7 +19,7 @@ AEM指南可讓您為個別檔案或資料夾中的所有檔案產生版本歷�
 
 - **Assets UI**:選取檔案並開啟 **版本記錄** 從左側邊欄。 此 **版本記錄** 檢視包含 **還原版本日誌** 連結。 按一下此連結時，將顯示所選檔案的還原版本歷史記錄。
 
-   ![](images/revert-log-from-assets-ui.png)
+   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **主題預覽**:預覽主題時，您也可以開啟 **版本記錄** 面板。 畫面會顯示類似「資產」UI的面板，您可以按一下 **還原版本日誌** 連結以訪問活動文檔的已還原版本歷史記錄。
 
@@ -38,7 +38,7 @@ AEM指南可讓您為個別檔案或資料夾中的所有檔案產生版本歷�
 
 1. 按一下 **顯示日誌** 生成所選檔案或資料夾的報告。
 
-   ![](images/revert-version-history-report.png)
+   ![](images/revert-version-history-report.png){width="800" align="left"}
 
    報表包含下列詳細資料：
 
@@ -56,4 +56,3 @@ AEM指南可讓您為個別檔案或資料夾中的所有檔案產生版本歷�
 
 
 **上層主題：**[&#x200B;報表](reports-intro.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 從映射儀表板建立DITA映射報告
 description: 了解如何從對應控制面板將DITA對應報表
-source-git-commit: 8a104cfe17778a71915e3700f49fc6892493ccd0
+exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # 從映射儀表板建立DITA映射報告 {#id205BB800EEN}
 
@@ -23,7 +23,7 @@ AEM指南可讓管理員在檔案上線或提供給使用者之前，檢查檔�
 
 1. 按一下 **報表**.
 
-   ![](images/reports-page-uuid.png)
+   ![](images/reports-page-uuid.png){width="800" align="left"}
 
    「報表」頁面分為兩部分：
 
@@ -35,7 +35,7 @@ AEM指南可讓管理員在檔案上線或提供給使用者之前，檢查檔�
 
       按一下主題時，將顯示所選主題的詳細報告。
 
-      ![](images/detailed-report-uuid.png)
+      ![](images/detailed-report-uuid.png){width="800" align="left"}
 
       在下面突出顯示的項目 **A**, **B**, **C** 和 **D** 如下所述：
 
@@ -79,20 +79,19 @@ AEM指南可讓管理員在檔案上線或提供給使用者之前，檢查檔�
 
 1. 按一下 **產生報表** ，以產生DITA對應報表。
 
-   ![](images/generate-DITA-map-report.png)
+   ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
 1. 報表準備好下載後，您會收到通知。 按一下 **下載** 下載產生報表的CSV。
 
-   ![](images/download-report-dialog.png)
+   ![](images/download-report-dialog.png){width="550" align="left"}
 
 
    您也可以稍後從AEM通知收件匣下載產生報表的CSV。
 
    按一下收件匣中產生的報表，即可下載報表。
 
-   ![](images/report-inbox--notification.png)
+   ![](images/report-inbox--notification.png){width="300" align="left"}
 
 報表下載到「收件匣」後，您也可以選取報表，並使用頂端的「開啟」圖示來開啟選取的報表。
 
 **上層主題：**[&#x200B;報表](reports-intro.md)
-

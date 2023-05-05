@@ -1,13 +1,13 @@
 ---
 title: 轉換狀態報表
 description: 了解如何轉換狀態報表
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # 轉換狀態報表 {#id205BBA00WZZ}
 
@@ -23,7 +23,7 @@ AEM參考線提供強大的轉換功能，可將各種格式的檔案轉換為DI
 
    系統上執行的所有轉換任務都會顯示轉換狀態報表。
 
-   ![](images/conversion-status-report.png)
+   ![](images/conversion-status-report.png){width="800" align="left"}
 
 1. 報表頁面分為兩部分：
 
@@ -33,7 +33,7 @@ AEM參考線提供強大的轉換功能，可將各種格式的檔案轉換為DI
 
       以下螢幕截圖顯示狀態為「失敗」、「活動」和「已排隊」的轉換任務的報告資料。
 
-      ![](images/conversion-report-failed-active-queued.png)
+      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **報表資料：**
 
@@ -55,4 +55,3 @@ AEM參考線提供強大的轉換功能，可將各種格式的檔案轉換為DI
 
 
 **上層主題：**[&#x200B;報表](reports-intro.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 基本疑難排解
 description: 了解基本疑難排解
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
 
 ---
-
 
 # 基本疑難排解 {#id1821I0Y0G0A}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
    此 **一般** 欄 **生成的輸出** 顯示表徵圖，以提供有關輸出生成成功或失敗的視覺提示。
 
-   ![](images/output-general-settings.png)
+   ![](images/output-general-settings.png){width="300" align="left"}
 
    在上述螢幕擷取中，第一個和第三個圖示顯示輸出產生失敗。 第二個圖示顯示成功的輸出產生，但包含訊息。 最後一個是成功的輸出生成，沒有任何消息。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    記錄檔會在新索引標籤中開啟。
 
-   ![](images/log-file.png)
+   ![](images/log-file.png){width="800" align="left"}
 
 1. 套用下列篩選器以反白標示記錄檔中的文字：
    - 致命：反白顯示粉紅色記錄檔中的致命錯誤。
@@ -61,15 +61,15 @@ ht-degree: 0%
 
    - *DITA映射檔案相關錯誤*:如果在DITA映射檔案或DITA映射中包含的任何其他檔案中發現錯誤，則日誌檔案將包含字串&quot;BUILD FAILED&quot;。 您可以檢查記錄檔中提供的資訊，以找到錯誤檔案並修正問題。
 
-      在下列記錄檔范常式式碼片段中，您可以看到 `BUILD FAILED` 訊息以及錯誤的原因。
+   在下列記錄檔范常式式碼片段中，您可以看到 `BUILD FAILED` 訊息以及錯誤的原因。
 
-      ![](images/dita-error-in-log-file.png)
+   ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-      - *AEM參考線相關錯誤*:您可以在記錄檔中識別的另一種錯誤類型與AEM參考線程式本身有關。 在此情況下，DITA映射檔案會成功剖析，但輸出產生程式會因AEM參考線中的某些內部錯誤而失敗。 如果出現這類錯誤，您必須向技術支援團隊尋求幫助。
+   - *AEM參考線相關錯誤*:您可以在記錄檔中識別的另一種錯誤類型與AEM參考線程式本身有關。 在此情況下，DITA映射檔案會成功剖析，但輸出產生程式會因AEM參考線中的某些內部錯誤而失敗。 如果出現這類錯誤，您必須向技術支援團隊尋求幫助。
 
-         在下列記錄檔范常式式碼片段中，您可以看到 `BUILD SUCCESSFUL` 訊息，之後是其他技術錯誤。
+   在下列記錄檔范常式式碼片段中，您可以看到 `BUILD SUCCESSFUL` 訊息，之後是其他技術錯誤。
 
-         ![](images/process-error-in-log-file.png)
+   ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## 解決JSP編譯錯誤
@@ -90,4 +90,3 @@ ht-degree: 0%
 
 
 **上層主題：**[&#x200B;產生輸出](generate-output.md)
-

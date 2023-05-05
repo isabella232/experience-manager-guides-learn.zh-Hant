@@ -1,13 +1,13 @@
 ---
 title: 產生輸出
 description: 了解如何產生輸出
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # 產生輸出 {#id1645H8040HD}
 
@@ -43,29 +43,4 @@ AEM指南內建發佈功能，能以各種業界標準格式產生輸出。 目�
 >[!IMPORTANT]
 >
 > 本主題中描述的功能僅適用於具有發佈者或管理員權限的使用者。
-
-- **[了解輸出預設集](generate-output-understand-presets.md)**
-
-- **[使用變數設定「目標路徑」、「站點名稱」或「檔案名稱」選項](generate-output-use-variables.md)**
-
-- **[建立、編輯、複製或移除輸出預設集](generate-output-create-edit-preset.md)**
-
-- **[使用DITA-OT將中繼資料傳遞至輸出](pass-metadata-dita-ot.md)**
-
-- **[條件屬性分析](generate-output-conditional-attribute-profiling.md)**
-
-- **[使用條件預設集](generate-output-use-condition-presets.md)**
-
-- **[使用基線](generate-output-use-baseline-for-publishing.md)**
-
-- **[從映射控制台生成DITA映射的輸出](generate-output-for-a-dita-map.md)**
-
-- **[使用映射集合生成輸出](generate-output-use-map-collection-output-generation.md)**
-
-- **[使用發佈控制面板管理發布任務](generate-output-publish-dashboard.md)**
-
-- **[基本疑難排解](generate-output-basic-troubleshooting.md)**
-
-- **[大量啟用已發佈的內容](conf-bulk-activation.md)**
-
 

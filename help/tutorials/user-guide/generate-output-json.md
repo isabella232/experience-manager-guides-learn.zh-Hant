@@ -1,13 +1,13 @@
 ---
 title: JSON
 description: 了解如何使用JSON
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
-
 
 # JSON {#id231KK0180T4}
 
@@ -38,7 +38,7 @@ JSON預設集提供下列選項：
 >
 > 您也可以在網頁編輯器中編輯JSON檔案。
 
-| JSON輸出選項 | 說明 |
+| JSON選項 | 說明 |
 | --- | --- |
 | 輸出路徑 | 儲存JSON輸出的AEM存放庫內的路徑。 |
 | 索引檔案 | 您可以為要為JSON輸出建立的索引檔案命名。 預設情況下，它會挑選DITA映射的檔案名並添加尾碼(如 `map_filename_index.json`)。<br><br>在設定索引檔案時，也可以使用變數。 如需使用變數的詳細資訊，請參閱 [使用變數設定「目標路徑」、「站點名稱」或「檔案名稱」選項](generate-output-use-variables.md#id18BUG70K05Z). |
@@ -48,4 +48,3 @@ JSON預設集提供下列選項：
 | 產生後的工作流程 | 選擇此選項後，會顯示新的「產生後的工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取要在完成輸出產生工作流程後執行的工作流程。<br><br>**附註**:如需建立自訂輸出後產生工作流程的詳細資訊，請參閱 _自訂輸出後產生工作流程_ (位於安裝及設定Adobe Experience Manager指南as a Cloud Service指南中)。 |
 
 **上層主題：**[&#x200B;了解輸出預設集](generate-output-understand-presets.md)
-

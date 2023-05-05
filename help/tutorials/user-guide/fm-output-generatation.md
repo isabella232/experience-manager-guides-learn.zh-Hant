@@ -1,13 +1,13 @@
 ---
 title: 生成FrameMaker文檔的輸出
 description: 了解如何生成FrameMaker文檔的輸出
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---
-
 
 # 生成FrameMaker文檔的輸出 {#id1645H8040HD}
 
@@ -31,17 +31,4 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 > 本主題中描述的功能僅適用於具有發佈者或管理員權限的使用者。
-
-- **[了解輸出預設集](fm-output-understand-presets.md)**
-
-- **[PDF](fm-output-pdf-preset.md)**
-
-- **[HTML5](fm-output-html5-preset.md)**
-
-- **[ePub](fm-output-epub-preset.md)**
-
-- **[生成.book或.fm檔案的輸出](fm-output-generate.md)**
-
-- **[查看輸出生成任務的狀態](fm-output-view-status.md)**
-
 

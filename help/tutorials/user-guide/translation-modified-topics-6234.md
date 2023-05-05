@@ -1,13 +1,13 @@
 ---
 title: 翻譯修改的主題
 description: 了解如何翻譯修改的主題
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
 
 ---
-
 
 # 翻譯修改的主題 {#id16A5A0B6072}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    如果您按一下箭頭，即可查看更多詳細資料。 您可以看到過時的特定語言副本。
 
-   ![](images/out-of-sync-uuid.png)
+   ![](images/out-of-sync-uuid.png){width="800" align="left"}
 
 1. 按一下核取方塊以選取您要傳送以重新翻譯的主題。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 在專案主控台中導覽至翻譯專案。 資料夾中會建立新的翻譯工作卡。 按一下省略號以查看資料夾的資產。
 
-   ![](images/incremental-job.PNG)
+   ![](images/incremental-job.PNG){width="300" align="left"}
 
 1. 要啟動翻譯，請按一下翻譯工作卡上的箭頭並選擇 **開始** 從清單中。 訊息會通知作業已啟動。
 
@@ -76,4 +76,3 @@ ht-degree: 0%
 
 
 **上層主題：**[&#x200B;翻譯內容](translation.md)
-
