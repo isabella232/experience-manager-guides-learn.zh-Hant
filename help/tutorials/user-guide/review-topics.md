@@ -1,13 +1,13 @@
 ---
 title: 檢閱主題
 description: 了解如何檢閱主題
-source-git-commit: 849985574a4d21334ac73be3e664ff5ea9a898c4
+exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2271'
 ht-degree: 0%
 
 ---
-
 
 # 檢閱主題 {#id2056B0W0FBI}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    當使用DITA映射啟動審核工作流時，將顯示以下螢幕：
 
-   ![](images/multiple-topics-review.png)
+   ![](images/multiple-topics-review.png){width="800" align="left"}
 
    此畫面提供下列選項：
 
@@ -57,13 +57,13 @@ ht-degree: 0%
 
    地圖中的所有主題都以單個複合文檔的形式顯示。 允許審核者查看的主題正常顯示。 不會顯示不允許審閱的主題。
 
-   ![](images/review-read-only.png)
+   ![](images/review-read-only.png){width="800" align="left"}
 
    在上面的螢幕截圖中，共用「一般說明」主題以查看當前審閱者，該主題正常顯示。 不過，下一個主題「飛行記錄」內容不會共用以供審核，而會以唯讀模式顯示。 目前正在關注的主題也在目錄中突出顯示。
 
    選取並共用主題或多個主題以供檢閱時，會顯示下列畫面：
 
-   ![](images/review-composite-view.png)
+   ![](images/review-composite-view.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -85,15 +85,15 @@ ht-degree: 0%
 
 查看單個主題時，您將獲得一個附加選項，以切換回文檔視圖。 在以下螢幕截圖中，將開啟映射檔案中的特定主題供查看。 突出顯示的選項 —  **顯示文檔視圖** 允許用戶切換回映射檔案的文檔視圖。
 
-![](images/switch-document-view.png)
+![](images/switch-document-view.png){width="800" align="left"}
 
 **使用不同類型的注釋工具**  — 您可以通過突出顯示文本、突出文本、插入文本或添加註釋注釋來添加行內注釋。 「注釋」工具欄中提供的不同類型的注釋工具如下所述：
 
-![](images/comments-toolbar.png)
+![](images/comments-toolbar.png){width="350" align="left"}
 
 - **反白顯示** \(![](images/review-highlight-icon.svg)\):要添加突出顯示注釋，請選擇文本並按一下「突出顯示」表徵圖。 或者，按一下「反白標示」圖示並選取所需文字：
 
-   ![](images/highlight-comment.png)
+   ![](images/highlight-comment.png){width="650" align="left"}
 
    「注釋」面板中會出現快顯視窗，您可以在其中為醒目提示的內容新增注釋。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 1. 選取要突出顯示或穿透的文本。 內容工具列隨即出現。
 
-   ![](images/review-quick-launch-toolbar.png)
+   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
 
 1. 按一下 **反白顯示**&#x200B;或 **三振** 表徵圖。
 1. 您可以在註解面板中為醒目提示或字串動作新增註解。
@@ -128,7 +128,7 @@ ht-degree: 0%
 - 在「注釋」面板中按一下您的注釋文本，然後選擇 **編輯** ，從「選項」菜單。
 - 您可以按一下「注釋」面板中的注釋，然後選取 **刪除** 選項。
 
-   ![](images/review-comment-options-menu.png)
+   ![](images/review-comment-options-menu.png){width="300" align="left"}
 
    >[!NOTE]
    >
@@ -142,17 +142,17 @@ ht-degree: 0%
 
 - 以下螢幕擷圖顯示 *檢閱* 模式：
 
-![](images/review-author-mode.png)
+![](images/review-author-mode.png){width="550" align="left"}
 
 以下螢幕擷圖顯示 *預覽* 模式：
 
-![](images/review-preview-mode.png)
+![](images/review-preview-mode.png){width="550" align="left"}
 
 **向注釋添加附件**  — 如果要通過提供其他資訊來補充注釋，而其他檔案中提供了這些資訊，則可以通過附加註釋來補充注釋。 作為審閱者，您可以輕鬆地將一個或多個檔案從本地系統添加到注釋中。 可將檔案新增至所有支援的注釋形式 — 反白顯示、刪除、插入文字或注釋。
 
 插入任何注釋時，將出現注釋彈出窗口。 在快顯視窗中提供其他意見或資訊後，按Enter即可提交。 新增留言後，您就可以選擇將附件新增至該留言。
 
-![](images/comment-pop-up-panel.png)
+![](images/comment-pop-up-panel.png){width="800" align="left"}
 
 在上面的螢幕截圖中，文檔包含突出顯示的注釋的彈出窗口，注釋也將添加到「注釋」面板中。 檔案附件表徵圖 ![](images/file-attach-review.svg)可在這兩個位置取得，並搭配註解。
 
@@ -177,21 +177,21 @@ ht-degree: 0%
 
 - 預設情況下，只顯示附有注釋的兩個檔案。 如果有更多檔案，則 **查看附件** 右側的按鈕顯示與注釋關聯的所有附件\（多於兩個\）的數量。 您可以按一下編號以檢視所有附件。 例如，如果您有四個附件，其中含有註解，則會在按鈕上看到+2。
 
-![](images/review-view-attachment.png)
+![](images/review-view-attachment.png){width="550" align="left"}
 
 - 將滑鼠指針懸停在附件上可提供下載或刪除附件的選項。 只有當當前審閱者添加了該注釋時，才能刪除附件，如下螢幕截圖所示：
 
-![](images/current-user-comment-options.png)
+![](images/current-user-comment-options.png){width="550" align="left"}
 
 其他審核者或作者只會取得下載附件選項。
 
-![](images/other-reviewer-download.png)
+![](images/other-reviewer-download.png){width="550" align="left"}
 
 - 您可以從下載與注釋關聯的所有附件 **查看附件** 對話框。 選取附件，然後按一下 **下載** 表徵圖。
 
 - 您也可以從 **查看附件** 對話框。 選取附件，然後按一下 **刪除** 表徵圖。
 
-![](images/attach-files-comments-panel.png)
+![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
 **條件面板**  — 如果您的主題有條件式內容，您會看到 **條件** \(![](images/conditions-icon.svg)\)圖示。 按一下 **條件** 圖示會開啟「條件」面板，讓您根據主題中的可用條件反白標示內容。
@@ -200,7 +200,7 @@ ht-degree: 0%
 
 :您可以停用 **反白顯示所有條件** 選項，並將主題中呈現的所有內容顯示為普通文本，而不顯示任何突出顯示。
 
-![](images/review-conditions-panel.png)
+![](images/review-conditions-panel.png){width="350" align="left"}
 
 您可以選擇隱藏或顯示特定條件。
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 - 如果您顯示條件條件化內容，則會在檢閱模式中反白顯示。 例如，在以下螢幕擷取中，只有內容使用兩個條件： `win` 和 `mac` 會加亮顯示。
 
 
-![](images/review-condition-normal-mode.png)
+![](images/review-condition-normal-mode.png){width="650" align="left"}
 
 在預覽模式中，非條件化內容和使用兩個顯示條件的條件 —  `win` 和 `mac` 的下界。 隱藏條件的其餘條件化內容不會顯示。
 
@@ -220,7 +220,7 @@ ht-degree: 0%
 
 - 按一下「過期注釋」表徵圖\(![](images/outdated-comment-icon.svg)\)顯示文檔的最新版本和備注版本之間的差異。 版本編號\（要比較的版本編號\）顯示在文檔的頂部。
 
-   ![](images/comments-page-review-mode.png)
+   ![](images/comments-page-review-mode.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -244,4 +244,3 @@ ht-degree: 0%
 若要移除篩選並檢視所有註解，請取消選取 **篩選類型** 對話方塊，按一下 **套用**.
 
 **上層主題：**[&#x200B;查看主題或地圖](review.md)
-

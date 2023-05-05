@@ -1,13 +1,13 @@
 ---
 title: 文檔狀態
 description: 了解如何記錄狀態
-source-git-commit: 13106cd1c7f6d38fecb67dd93eef66263eb29bae
+exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
 
 ---
-
 
 # 文檔狀態 {#id1821HC00URO}
 
@@ -69,11 +69,11 @@ AEM指南提供文檔批准工作流，可幫助您控制文檔開發流程的�
 
 1. 如果文檔處於要標籤為已批准的狀態，將顯示以下對話框：
 
-   ![](images/mark-approved-correct-state.png){width="550" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300" align="left"}
 
    如果文檔無法標籤為已批准，則會顯示以下消息：
 
-   ![](images/mark-approved-incorrect-state.png){width="550" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
 
 1. 如果您的文檔已準備好標籤為已批准，則從下拉清單中選擇標籤，然後按一下 **核准**.
 
@@ -102,4 +102,3 @@ AEM指南提供文檔批准工作流，可幫助您控制文檔開發流程的�
 
 
 **上層主題：**[&#x200B;使用Web編輯器](web-editor.md)
-

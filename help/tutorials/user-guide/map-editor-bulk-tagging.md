@@ -1,13 +1,13 @@
 ---
 title: DITA內容的大量標籤
 description: 了解如何大量標籤DITA內容
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # DITA內容的大量標籤 {#id179SG0TN05Z}
 
@@ -31,7 +31,7 @@ AEM參考線可讓您只需按幾下，即可標籤DITA內容。 您可以使用
 
 1. 選取您要套用標籤的主題或子對應。
 
-   ![](images/apply-tags-uuid.png)
+   ![](images/apply-tags-uuid.png){width="650" align="left"}
 
 
    >[!NOTE]
@@ -106,4 +106,3 @@ AEM參考線可讓您只需按幾下，即可標籤DITA內容。 您可以使用
 如果您的主題上套用了長清單的標籤，則可能會發現導覽有點麻煩。 按一下「隱藏標籤」圖示，即可輕鬆在DITA地圖控制台檢視中隱藏標籤。 同樣地，當標籤不可見時，按一下「顯示標籤」會顯示所有標籤。
 
 **上層主題：**[&#x200B;管理中繼資料](manage-metadata.md)
-

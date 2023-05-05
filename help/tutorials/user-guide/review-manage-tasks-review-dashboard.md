@@ -1,13 +1,13 @@
 ---
 title: 使用審閱儀表板管理審閱任務
 description: 了解如何使用檢閱控制面板管理檢閱工作
-source-git-commit: f3d747082103c73a365ee400cbd4dcdabd36eabf
+exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 0%
 
 ---
-
 
 # 使用審閱儀表板管理審閱任務 {#id2056B0Y70X4}
 
@@ -23,13 +23,13 @@ ht-degree: 0%
 
    此時將顯示包含任務圖磚的「項目」面板。
 
-   ![](images/review-management.png)
+   ![](images/review-management.png){width="800" align="left"}
 
 1. 按一下 **評論** 方塊。
 
    「檢閱控制面板」隨即顯示。 控制面板會列出您建立的所有檢閱工作。
 
-   ![](images/review-dashboard.png)
+   ![](images/review-dashboard.png){width="800" align="left"}
 
    「審閱控制面板」顯示有關審閱任務的詳細資訊，如任務名稱、開始審閱的人、開始審閱的日期、到期日、狀態、作者未接受或拒絕的新注釋數，以及審閱者的名稱。 這些任務按照新建立的任務到舊任務的順序列出。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## 任務頁簽
 
-![](images/review-task-page.png)
+![](images/review-task-page.png){width="800" align="left"}
 
 您可以在 **任務** 標籤：
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 內容標籤
 
-![](images/review-content-page.png)
+![](images/review-content-page.png){width="800" align="left"}
 
 您可以在 **內容** 標籤：
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## 審閱者頁簽 {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png)
+![](images/reviewers-tab.png){width="800" align="left"}
 
 您可以在 **審核者** 標籤：
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 在「審閱控制面板」首頁面中，如果選擇了審閱任務，然後按一下 **狀態**，則會顯示審核任務的狀態報告：
 
-![](images/review-status-report.png)
+![](images/review-status-report.png){width="800" align="left"}
 
 複查任務的狀態報告包含以下詳細資訊：
 
@@ -123,4 +123,3 @@ ht-degree: 0%
 - 審核者上次訪問任何主題的日期。
 
 **上層主題：**[&#x200B;查看主題或地圖](review.md)
-

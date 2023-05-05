@@ -1,13 +1,13 @@
 ---
 title: 使用標籤
 description: 了解如何使用標籤
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # 使用標籤 {#id164JBG0M0T1}
 
@@ -33,8 +33,7 @@ AEM指南可讓您將標籤新增至檔案的不同版本。 您可以使用這�
 
    標籤會顯示在所選主題的「版本歷史記錄」中。 以下螢幕截圖顯示標籤 *x.x版* 和 *使用手冊* 已新增至主題的醒目提示版本。
 
-
-![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 >[!NOTE]
 >
@@ -49,12 +48,11 @@ AEM指南可讓您將標籤新增至檔案的不同版本。 您可以使用這�
 
    在版本記錄中，您會看到主題的所有版本以及附加到它們的標籤。 下圖顯示不同版本主題的範例，且一個版本已新增標籤。
 
-   ![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 1. 按一下刪除按鈕\(**X**\)刪除標籤。
 
-   ![](images/delete-labels.png)
+   ![](images/delete-labels.png){width="300" align="left"}
 
 
 **上層主題：**[&#x200B;使用Web編輯器](web-editor.md)
-

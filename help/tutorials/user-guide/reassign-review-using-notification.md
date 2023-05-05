@@ -1,13 +1,13 @@
 ---
 title: 使用通知重新分配審閱任務
 description: 了解如何使用通知重新分配審閱任務
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # 使用通知重新分配審閱任務 {#id21BNH03M0KS}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
    >
    > 審閱者必須具有重新分配的權限，並且應是用戶 — 管理員組的一部分。
 
-   ![](images/reassign-user-inbox.png)
+   ![](images/reassign-user-inbox.png){width="800" align="left"}
 
 1. 選擇 **重新指派**.
 
@@ -37,4 +37,3 @@ ht-degree: 0%
 分配的審閱者在收件箱中接收重新分配的審閱任務的通知。
 
 **上層主題：**[&#x200B;查看主題或地圖](review.md)
-

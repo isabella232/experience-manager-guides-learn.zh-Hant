@@ -1,13 +1,13 @@
 ---
 title: 查看已完成的審核任務
 description: 了解如何檢視已完成的審核任務
-source-git-commit: 176aee433300ce8d4d9cfbab2edb007acae4de87
+exl-id: 37f10fc3-e4ca-4e73-a887-65c7e9496f5e
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
-
 
 # 查看已完成的審核任務
 
@@ -19,8 +19,7 @@ ht-degree: 0%
 
 不過，您可以搜尋或篩選任何留言。 您也可以選擇顯示或隱藏條件，並據以顯示條件化內容。 您可以下載任何附件，但無法上載或刪除注釋的任何附件。
 
-<img src="images/complete-task-reviewer.png" alt="已完成審核任務審核者" width="800">
-
+![](images/complete-task-reviewer.png){width="800" align="left"}
 
 
 ## 作者
@@ -29,7 +28,6 @@ ht-degree: 0%
 
 不過，您可以搜尋或篩選任何留言。 您可以下載任何附件，但無法上載或刪除注釋的任何附件。
 
-<img src="images/completed-task-author.png" alt=" 已完成審核任務作者" width="800">
+![](images/completed-task-author.png){width="800" align="left"}
 
 因此，無論是作為審閱者還是作者，您都可以查看審閱內容以及注釋，但您無法在已完成的審閱任務中進行任何更改。
-

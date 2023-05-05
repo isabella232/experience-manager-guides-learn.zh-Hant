@@ -1,13 +1,13 @@
 ---
 title: 建立DITA專案
 description: 了解如何建立DITA專案
-source-git-commit: 101766d51d43eb728f0316155acffd19548f83be
+exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # 建立DITA專案 {#id1645HA00NM6}
 
@@ -33,7 +33,7 @@ AEM參考線提供DITA專案範本，您可使用此範本來建立及管理審�
 
 1. 按一下 **建立** \> **專案** 啟動「建立項目」嚮導。
 
-   ![](images/project-console-63.png)
+   ![](images/project-console-63.png){width="650" align="left"}
 
 1. 在「建立專案」頁面上，選取 **DITA專案** 範本，按一下 **下一個**.
 
@@ -41,7 +41,7 @@ AEM參考線提供DITA專案範本，您可使用此範本來建立及管理審�
 
    中的資訊 **基本** 標籤：
 
-   ![](images/create-project.png)
+   ![](images/create-project.png){width="650" align="left"}
 
    - 輸入專案的 **標題**, **說明**，和 **到期日**.
 
@@ -75,4 +75,3 @@ AEM參考線提供DITA專案範本，您可使用此範本來建立及管理審�
 
 
 **上層主題：**[&#x200B;查看主題或地圖](review.md)
-

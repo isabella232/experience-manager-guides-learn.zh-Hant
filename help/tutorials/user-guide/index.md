@@ -1,5 +1,5 @@
 ---
-source-git-commit: 09a77f4acac6902935c587af9a0568cd8761810f
+source-git-commit: 834e67fa1f015b86082b42c4213976ee24a403d5
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 2%
@@ -43,7 +43,7 @@ ht-degree: 2%
          - [使用進階地圖編輯器](map-editor-advanced-map-editor.md)
          - [使用基本地圖編輯器](map-editor-basic-map-editor.md)
          - [地圖編輯器中的其他功能](map-editor-other-features.md)
-      - [DITAVAL編輯器](id17C5E0U0OQE.md#id17C5E0U0OQE)
+      - [DITAVAL編輯器](ditaval-editor.md#ditaval-editor)
    - [使用案頭工具製作內容](author-desktop-tools.md)
       - [使用FrameMaker](author-desktop-framemaker.md)
       - [使用氧氣](author-desktop-oxygen.md)

@@ -1,13 +1,13 @@
 ---
 title: 地址審核注釋
 description: 了解如何處理審核意見
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
 
 ---
-
 
 # 地址審核注釋 {#id2056B0X0KBI}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 > 處理審核注釋\（針對活動審核文檔\）時，請確保您 — 不要在啟用完整標籤視圖的多個頁簽中開啟審核中主題，不要在「作者」和「源」視圖模式之間切換。
 
-![](images/comments-page-web-editor_cs.png)
+![](images/comments-page-web-editor_cs.png){width="650" align="left"}
 
 在Web編輯器模式中，右側面板包含「檢閱」和「追蹤的變更」圖示。 「審閱」面板顯示審閱者在文檔中發表的所有注釋。 「跟蹤的更改」面板顯示文檔中所有插入和刪除的注釋的狀態。
 
@@ -41,11 +41,11 @@ ht-degree: 0%
 
    如果您想一次合併建議的更改\（插入或刪除\），只需按一下右鍵內容中的注釋，然後選擇接受更改或拒絕更改。 系統會根據您的選擇接受或拒絕該注釋。 若是接受的留言，內容會新增至內容中；如果拒絕，則會從內容中移除。 此外，評論的狀態也會在「檢閱」面板中變更。
 
-   ![](images/import-comment-accept-web-editor_cs.png)
+   ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 
    您也可以使用右側面板中的審閱功能來接受或拒絕注釋。 按一下任何注釋將突出顯示文檔中的注釋。
 
-   ![](images/changes-tab_cs.png)
+   ![](images/changes-tab_cs.png){width="800" align="left"}
 
    >[!IMPORTANT]
    >
@@ -61,4 +61,3 @@ ht-degree: 0%
 
 
 **上層主題：**[&#x200B;查看主題或地圖](review.md)
-

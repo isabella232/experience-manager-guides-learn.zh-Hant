@@ -1,13 +1,13 @@
 ---
 title: 傳送主題以供審核
 description: 了解如何傳送主題以供審核
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 0%
 
 ---
-
 
 # 傳送主題以供審核 {#id199RD0S035Z}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. 按一下快速操作中的「選擇」表徵圖，然後選擇要發送以供審閱的主題。
 
-   ![](images/select-asset-62.png)
+   ![](images/select-asset-62.png){width="300" align="left"}
 
 1. 在工具列中，按一下 **建立審閱任務**. 此時將顯示審閱任務建立頁。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
    >
    > 您只能為那些具有修訂的主題建立審閱任務。 如果所選主題沒有修訂版本，將顯示提示。
 
-   ![](images/create-review-task-023.png)
+   ![](images/create-review-task-023.png){width="650" align="left"}
 
 1. 輸入 **標題** 為任務選擇DITA **專案** 從下拉式清單中。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    隨即顯示「內容」頁面。
 
-   ![](images/content_page_review.png)
+   ![](images/content_page_review.png){width="800" align="left"}
 
 1. 在「內容」頁面上，選取您要共用以供檢視的主題版本。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    此時將顯示「審閱者」頁，您可以在其中添加或刪除審閱者。 預設情況下，在「指定給」(Assign To)欄位中添加的審閱者會自動添加到為審閱選擇的每個主題中。
 
-   ![](images/add-reviewers-topics.png)
+   ![](images/add-reviewers-topics.png){width="650" align="left"}
 
 1. 在「審閱者」(Reviewers)頁面上，可以添加或刪除審閱者。 「審閱者」(Reviewers)頁面上提供以下操作：
 
@@ -208,7 +208,7 @@ AEM參考線可讓您同時傳送DITA映射中的一或多個主題以供審核�
 
    「內容」頁面隨從映射檔案引用的所有主題一起顯示。 如果您的DITA映射包含嵌套映射，則嵌套映射中的主題也將列在此處。
 
-   ![](images/content-page-map-review.png)
+   ![](images/content-page-map-review.png){width="800" align="left"}
 
 1. 在「內容」頁面上，選取您要共用以供檢視的主題版本。
 
@@ -265,4 +265,3 @@ AEM參考線可讓您同時傳送DITA映射中的一或多個主題以供審核�
 會向所有審閱者發送電子郵件，通知他們已被分配主題以供審閱。 電子郵件包含直接連結，使用者可以按一下該連結，並在瀏覽器視窗中存取主題。 主題以及DITA映射在審閱模式中開啟。
 
 **上層主題：**[&#x200B;查看主題或地圖](review.md)
-

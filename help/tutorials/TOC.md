@@ -2,7 +2,7 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 01c84074bc31898d2a1481d0ed5ddda0a8dba2c0
+source-git-commit: 0cc1e12382fb90784ea78cb500bf0a24d6ec50df
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 7%
@@ -86,7 +86,7 @@ ht-degree: 7%
                + [使用基本地圖編輯器](./user-guide/map-editor-basic-map-editor.md)
                + [地圖編輯器中的其他功能](./user-guide/map-editor-other-features.md)
             + DITAVAL編輯器 {#ditaval-editor}
-               + [與DITAVAL編輯者合作](./user-guide/id17C5E0U0OQE.md)
+               + [與DITAVAL編輯者合作](./user-guide/ditaval-editor.md)
          + 用於製作內容的案頭工具 {#author-using-desktop-tools}
             + [使用案頭工具製作內容](./user-guide/author-desktop-tools.md)
             + [使用FrameMaker](./user-guide/author-desktop-framemaker.md)

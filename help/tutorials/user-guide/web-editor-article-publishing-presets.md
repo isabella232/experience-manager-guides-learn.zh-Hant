@@ -1,13 +1,13 @@
 ---
 title: 從Web編輯器建立輸出預設集
 description: 了解如何從網頁編輯器建立輸出預設集
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
-
 
 # 從Web編輯器建立輸出預設集 {#id218CL400JW3}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 在 **輸出** 頁簽，選擇+表徵圖以為DITA映射建立輸出預設集。
 
-   ![](images/output-tab-preset_cs.png)
+   ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
 1. 在「新增預設集」對話方塊中輸入預設集名稱，然後按一下 **新增**.
 
@@ -43,20 +43,19 @@ ht-degree: 0%
    1. 從 **文章** 頁簽，選擇要為其生成輸出的主題。
 1. 選取 **產生預設集** 圖示以產生輸出。
 
-   ![](images/add-preset-articles-tab_cs.png)
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
 1. 您將看到輸出生成過程的狀態。 此 **主題** 欄會列出在 **狀態** 欄顯示每個主題的發佈狀態。
 
    要查看輸出，請將滑鼠指針懸停在主題上，然後按一下「查看輸出」。
 
-   ![](images/add-preset-output-generated_cs.png)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
 > 您也可以從「選項」菜單中「編輯」、「更名」、「複製」或「刪除現有輸出預設集」。
 
-![](images/edit-preset_cs.png)
+![](images/edit-preset_cs.png){width="550" align="left"}
 
 **上層主題：**[&#x200B;從網頁編輯器發佈以文章為基礎](web-editor-article-publishing.md)
-

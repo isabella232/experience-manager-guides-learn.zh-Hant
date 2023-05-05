@@ -1,13 +1,13 @@
 ---
 title: 使用快速生成面板
 description: 了解如何使用快速產生面板
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d48803d9-470c-4679-8def-72b45a85917b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
 
 ---
-
 
 # 使用「快速生成」面板生成並查看輸出 {#id22AKE050F5L}
 
@@ -17,7 +17,7 @@ AEM指南提供 **快速產生** 整合在Web編輯器中的面板。 此面板�
 >
 > 此 **快速產生** 「映射視圖」面板中開啟的DITA映射的面板隨即出現。
 
-![](images/quick-generate-map-view.png)
+![](images/quick-generate-map-view.png){width="800" align="left"}
 
 執行下列步驟，從 **快速產生** 面板：
 
@@ -28,4 +28,3 @@ AEM指南提供 **快速產生** 整合在Web編輯器中的面板。 此面板�
 1. 按一下 **檢視輸出** \( ![](images/view-output-icon.svg)\)特定預設集的圖示，以檢視為預設集產生的輸出。
 
 **上層主題：**[&#x200B;使用Web編輯器](web-editor.md)
-

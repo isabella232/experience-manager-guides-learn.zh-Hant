@@ -1,13 +1,13 @@
 ---
 title: 從儲存庫面板生成輸出
 description: 了解如何從存放庫面板產生輸出
-source-git-commit: a78a775406c07c1ec12665cdb00f65ca91f03f95
+exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
 
 ---
-
 
 # 從「儲存庫」面板或「映射視圖」面板生成輸出 {#id218CL6010AE}
 
@@ -28,16 +28,16 @@ ht-degree: 0%
 1. 在 **作者** 標籤，在DITA映射中選擇要發佈的主題。
 
 1. 選擇 **快速產生** （從所選主題的「選項」菜單）。
-   ![](images/select-topic-options-menu_cs.png)
+   ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
 1. 若要發佈單一DITA映射中使用的主題，請選取您要用來發佈的映射的輸出預設集，然後按一下 **產生**.
-   ![](images/select-preset_cs.png)
+   ![](images/select-preset_cs.png){width="350" align="left"}
 
 1. 您將看到輸出生成過程的狀態。 要查看輸出，請將滑鼠指針懸停在主題上，然後按一下「查看輸出」。
 
 1. 如果您有跨多個主題使用的通用主題，請選擇各種DITA映射以及要用於發佈的輸出預設集，然後按一下 **產生。**
 
-   ![](images/select-preset-multiple-maps_cs.png)
+   ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
 
 1. 您將看到輸出生成過程的狀態。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
    - **地圖**:列出包含所選主題的DITA映射。
    - **狀態**:顯示每個主題的發佈狀態。
 要查看輸出，請將滑鼠指針懸停在主題上，然後按一下「查看輸出」。
-      ![](images/output-multiple-maps_cs.png)
+      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
 ## 從Web編輯器生成DITA映射的輸出
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 1. 選擇 **快速產生** 從DITA映射的「選項」菜單中。
 
-   ![](images/select-map-options-menu_cs.png)
+   ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
 1. 選取您要用來發佈的DITA映射的輸出預設集，然後按一下 **產生。**
 
@@ -78,10 +78,9 @@ ht-degree: 0%
    >
    > 您將只看到包含所有所選主題的當前DITA映射的那些輸出預設集。
 
-   ![](images/generate-output-multiple-topics_cs.png)
+   ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
 1. 您將看到輸出生成過程的狀態。要查看輸出，請將滑鼠指針懸停在主題上，然後按一下「查看輸出」。
 
 
 **上層主題：**[&#x200B;從網頁編輯器發佈以文章為基礎](web-editor-article-publishing.md)
-

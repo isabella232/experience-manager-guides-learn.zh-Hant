@@ -1,13 +1,13 @@
 ---
 title: 從Web編輯器翻譯文檔
 description: 了解如何從Web編輯器翻譯檔案
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 0%
 
 ---
-
 
 # 從Web編輯器翻譯文檔 {#id21BKF0Z0YZF}
 
@@ -46,7 +46,7 @@ AEM指南隨附網頁編輯器中的強大功能，可讓您將內容翻譯成�
    >
    > 語言只顯示與源語言並行建立語言資料夾的語言。 也不會顯示在任何其他級別建立的語言資料夾，例如從源語言資料夾向下的一個級別。 確保在與源語言資料夾相同的級別建立所有目標語言資料夾。
 
-   ![](images/translation-languages.png)
+   ![](images/translation-languages.png){width="350" align="left"}
 
 1. 您也可以使用下列選項：
 
@@ -72,11 +72,11 @@ AEM指南隨附網頁編輯器中的強大功能，可讓您將內容翻譯成�
    - **目標標籤**:目標檔案的選定版本的標籤
 1. 按一下 **傳送以進行翻譯** 在右上角。
 
-   ![](images/translation-send.png)
+   ![](images/translation-send.png){width="800" align="left"}
 
 1. 從下拉式清單中，選取 **建立新的翻譯專案**.
 
-   ![](images/translation-project-types.png)
+   ![](images/translation-project-types.png){width="350" align="left"}
 
    除了新的翻譯專案，您也可以從下列選項中選取：
 
@@ -107,7 +107,7 @@ AEM指南可讓您將來源檔案的標籤傳遞至目標檔案。 這有助於�
 
 例如，如果您有某些來源檔案具有版本標籤 `Release 1.0` 套用至這些標籤，則您也可以傳遞來源標籤\(`Release 1.0`\)轉譯為檔案。
 
-![](images/translation-pass-source-label.png)
+![](images/translation-pass-source-label.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ AEM指南可讓您將來源檔案的標籤傳遞至目標檔案。 這有助於�
 
 AEM指南提供檢查所選版本與上次翻譯的主題源版本之間差異的功能。 您可以選擇翻譯 **不同步** 檔案。
 
-![](images/translation-version-diff.png)
+![](images/translation-version-diff.png){width="800" align="left"}
 
 選取 **顯示差異**&#x200B;表徵圖\(![](images/show-difference-icon.svg)\)，以查看上次翻譯版本與目前版本所選檔案之間的差異。
 
@@ -127,7 +127,7 @@ AEM指南提供檢查所選版本與上次翻譯的主題源版本之間差異�
 
 此 **版本差異** 對話框。 它會顯示 **上次翻譯的版本** 和 **所選版本** 左邊的數字。 預覽窗口顯示上次翻譯版本與主題選定版本之間的差異。
 
-![](images/version-diff.png)
+![](images/version-diff.png){width="650" align="left"}
 
 ## 解除不同步的資產
 
@@ -138,7 +138,7 @@ AEM指南提供檢查所選版本與上次翻譯的主題源版本之間差異�
 1. 選取您要變更狀態的不同步資產。
 1. 選取 **標籤同步** 按鈕\(![](images/translation-mark-in-sync-icon.svg)\)。 此 **標籤同步** 對話框。
 
-   ![](images/translation-mark-in-sync.png)
+   ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
 1. 按一下 **強制同步**. 它會為選取的「不同步」資產將狀態設為「同步中」。
 
@@ -156,7 +156,6 @@ AEM指南提供檢查所選版本與上次翻譯的主題源版本之間差異�
 
 在對話框中按一下參照的名稱，以在預覽模式中開啟它。 您也可以按一下翻譯專案以開始翻譯。
 
-![](images/translation-in-progress.png)
+![](images/translation-in-progress.png){width="550" align="left"}
 
 **上層主題：**[&#x200B;使用Web編輯器](web-editor.md)
-

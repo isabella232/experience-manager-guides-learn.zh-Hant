@@ -1,13 +1,13 @@
 ---
 title: 使用進階地圖編輯器
 description: 了解如何使用進階地圖編輯器
-source-git-commit: cb0f21b0e22c58da478a4b1a6d6aa99ad42f0f3d
+exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '3675'
 ht-degree: 0%
 
 ---
-
 
 # 使用進階地圖編輯器 {#id1942D0S0IHS}
 
@@ -33,21 +33,21 @@ ht-degree: 0%
 
 1. 在選取映射檔案後，按一下 **編輯主題**.
 
-   ![](images/edit-map-main-menu.png)
+   ![](images/edit-map-main-menu.png){width="800" align="left"}
 
    或者，您也可以選取 **編輯主題** 選項（位於映射檔案上的操作菜單中）:
 
-   ![](images/edit-map-action-menu.png)
+   ![](images/edit-map-action-menu.png){width="800" align="left"}
 
    地圖檔案在Web編輯器中開啟以供編輯。
 
 1. 按一下 **編輯** 表徵圖。
 
-   ![](images/edit-map-icon.png)
+   ![](images/edit-map-icon.png){width="550" align="left"}
 
    地圖會在進階地圖編輯器介面中開啟。 如果您已開啟新的地圖檔案，則編輯器中只會顯示地圖的標題。
 
-   ![](images/new-map-file-in-editor.png)
+   ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
    - **A** - \(*主工具欄*\):這類似於Web編輯器的主工具欄。 請參閱 [主工具欄](web-editor-features.md#id2051EA0G05Z) ，以取得詳細資訊。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    主題會新增至地圖中。
 
-   ![](images/map-editor-add-topic.png)
+   ![](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. 若要新增後續主題或子地圖，請拖放主題或子地圖至地圖中的必要位置。
 
@@ -77,15 +77,15 @@ ht-degree: 0%
 
    - 檔案會新增到地圖編輯區域中水準條出現的位置。 在以下螢幕擷取中， *概述* 主題會新增至 *一般說明* 和 *啟動和登陸網站* 主題。
 
-      ![](images/horizontal-line-in-adv-map-editor.png)
+      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
    - 若要取代主題，請將主題置於要取代之主題的上方、左或右。 主題左側或右側的垂直條表示將替換為主題上放置的主題。
 
-      ![](images/vertical-bar-left-right.png)
+      ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
       不過，在取代主題之前，您會收到確認提示。 只有在您進行確認後，才會取代主題。
 
-      ![](images/replace-topic-confirm.png)
+      ![](images/replace-topic-confirm.png){width="300" align="left"}
 
    - 如果將子映射添加到DITA映射，則子映射在DITA映射中顯示為連結。 若要檢視子地圖的所有主題，請按一下子地圖連結。 子地圖的內容會顯示在新索引標籤中。 同樣地，若要從DITA映射開啟主題，請按住Crtl鍵並按一下主題連結，並在新索引標籤中開啟。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
    - 若要變更主題的位置，請選取主題\（按一下主題圖示\），然後將其拖放至對應檔案中的所需位置。 請確定水準條顯示在您要放置主題的位置。 在以下螢幕截圖中， *啟動和登陸網站* 是在 *概述* 主題。
 
-      ![](images/move-topic-adv-map-editor.png)
+      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
    - 要檢查映射檔案的屬性，請按一下右鍵映射編輯區域中的任意位置，然後選擇 **屬性** 從上下文菜單。 根據您的AEM版本，您可以看到中繼資料、排程\(de\)啟用、參考、檔案狀態等屬性。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 **插入主題參考** - ![](images/insert-topic-reference.png)
 
 顯示主題搜索對話框。 導覽至您要插入的主題/對應檔案，然後按一下「選取」將其新增至對應。
-![](images/insert-topic-reference-dialog.png)
+![](images/insert-topic-reference-dialog.png){width="800" align="left"}
 
 
 **插入主題組** - ![](images/insert-topic-group.png)
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 顯示「插入鍵定義」對話框。 使用此對話框定義要在映射中使用的任何鍵定義。
 
-![](images/insert-key-definition-dialog.png)
+![](images/insert-key-definition-dialog.png){width="300" align="left"}
 
 **插入在前/插入在後** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -199,7 +199,7 @@ ht-degree: 0%
 
 除了在映射檔案中組織主題外，您還可以使用「佈局」視圖中某元素可用的「選項」菜單來執行以下操作：
 
-![](images/map-editor-options-menu.png)
+![](images/map-editor-options-menu.png){width="650" align="left"}
 
 - **新增**:您可以從地圖編輯器中選擇新增主題或空白參考：
    - **空白參考**:此選項可讓您在DITA映射中新增空白參照。 您稍後可以連按兩下插入的空引用，並添加主題詳細資訊。 如需詳細資訊，請參閱 [建立主題](web-editor-features.md#id228ICI0105U) 的子母體。
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 - **其他屬性** 如果您的管理員已建立屬性的設定檔，則您會取得這些屬性及其設定的值。 使用內容屬性面板，您可以選擇這些屬性並將它們指派給主題中的相關內容。 您也可以在 **顯示屬性** 標籤。 為元素定義的屬性顯示在「佈局」和「大綱」視圖中。 這可協助您快速查看地圖中定義特定屬性的所有主題。 例如，所有將平台屬性定義為「Android」的主題。
 
-   ![](images/layout-inline-attributes.png)
+   ![](images/layout-inline-attributes.png){width="650" align="left"}
 
 
    如需詳細資訊，請參閱 *顯示屬性* 在 *編輯器設定* 功能說明，請參閱 [左面板](web-editor-features.md#id2051EA0M0HS) 區段。
@@ -310,7 +310,7 @@ AEM參考線可讓作者在Web編輯器中開啟DITA對應，並查看對應中�
    >
    > 您也可以在資產UI中選取DITA對應檔案，然後按一下 **編輯主題** （在主工具列中）以啟動網頁編輯器。
 
-   ![](images/web-editor-map-view_cs.png)
+   ![](images/web-editor-map-view_cs.png){width="350" align="left"}
 
 1. \(*可選*\)您也可以在編輯前，從對映中選取主題並結帳檔案。 要簽出檔案，請從左窗格中選擇一個或多個檔案，然後按一下 **結帳**. 您也可以選取已檢出的檔案，然後按一下 **取消簽出並解除鎖定** 圖示。
 
@@ -320,13 +320,13 @@ AEM參考線可讓作者在Web編輯器中開啟DITA對應，並查看對應中�
 
    以下螢幕擷取會反白顯示「結帳和鎖定」(\(A\)、「取消結帳和解除鎖定」(\(B\))、「另存為新版本並解除鎖定」(C\)、「編輯」(D\)、「預覽」(\(E\))、顯示不同DITA檔案類型(F\)的不同圖示，以及「簽出」(\(G\)的檔案」。
 
-   ![](images/file-checkout-map-editor.png)
+   ![](images/file-checkout-map-editor.png){width="550" align="left"}
 
 1. 按一下任何主題連結，在網頁編輯器中開啟它以進行編輯。
 
    您可以在編輯器中開啟多個主題，每個主題都會在編輯器的新索引標籤中開啟。 即使您的DITA映射包含子映射，子映射中的主題也會在新索引標籤中開啟以進行編輯。 如果您想在子地圖下檢視主題，可以按一下並展開子地圖。
 
-   ![](images/web-editor-multiple-topics.png)
+   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
 
    如果按一下映射檔案，則在Web瀏覽器的新頁簽中開啟該映射。
 
@@ -334,14 +334,14 @@ AEM參考線可讓作者在Web編輯器中開啟DITA對應，並查看對應中�
 
    - 您可以個別儲存。 如果您按一下 **關閉而不保存** 您的主題中會顯示對話方塊，提示您儲存未儲存的主題：
 
-      ![](images/save-multiple-topics.PNG)
+      ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
       您可以選擇保存所有選定的主題，或取消選擇不要保存的主題。
 
    - 您可以使用 **另存為新版本並解除鎖定** 按鈕。 保存主題的修訂時，將建立新修訂，並釋放鎖定。
    - 如果管理員啟用了關閉時簽入檔案的選項，則每當簽出的檔案關閉時，都會顯示保存檔案的提示。 啟用此選項後，當您關閉包含已更改檔案的編輯器時，將顯示需要保存的簽出檔案的清單。 簽出的檔案顯示為鎖定表徵圖：
 
-      ![](images/save-on-close.PNG)
+      ![](images/save-on-close.PNG){width="550" align="left"}
 
       - 按一下 **關閉而不保存** 按鈕關閉檔案而不保存任何更改。
 
@@ -364,7 +364,7 @@ AEM參考線可讓作者在Web編輯器中開啟DITA對應，並查看對應中�
 
 - **進階地圖編輯器**:在「進階地圖編輯器」中，按一下「預覽」圖示以查看目前地圖的預覽。
 
-   ![](images/map-preview-icon.png)
+   ![](images/map-preview-icon.png){width="350" align="left"}
 
    您可以在預覽模式中執行下列其他工作：
 
@@ -380,4 +380,3 @@ AEM參考線可讓作者在Web編輯器中開啟DITA對應，並查看對應中�
 
 
 **上層主題：**[&#x200B;使用地圖編輯器](map-editor.md)
-

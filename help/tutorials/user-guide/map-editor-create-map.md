@@ -1,13 +1,13 @@
 ---
 title: 建立地圖
 description: 了解如何建立地圖
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # 建立地圖 {#id176FEN0D05Z}
 
@@ -25,7 +25,7 @@ AEM參考線提供兩個現成可用的對應範本 — DITA對應和書籤對�
    >
    > 地圖檔案中主題的參考方式取決於地圖範本。 例如，如果您選取「地圖」範本，則主題參考\(`topicref`\)來參照主題。 若是書籤圖，則會使用 `chapter` 元素。
 
-   ![](images/map-template.png)
+   ![](images/map-template.png){width="650" align="left"}
 
 1. 在「屬性」頁面上，指定對應 **標題**.
 
@@ -41,7 +41,7 @@ AEM參考線提供兩個現成可用的對應範本 — DITA對應和書籤對�
 
    您從資產UI建立的每個新對應檔案 **建立** \> **DITA映射** 或者，網頁編輯器會獲派唯一的地圖ID。 此外，新地圖會儲存為DAM中最新的工作副本。 在您儲存新建立之地圖的修訂版之前，您不會在版本記錄中看到任何版本號碼。 如果開啟地圖進行編輯，版本資訊會顯示在地圖檔案索引標籤的右上角：
 
-   ![](images/first-version-map-none.png)
+   ![](images/first-version-map-none.png){width="650" align="left"}
 
    新建立的地圖的版本資訊顯示為 *無*. 保存新版本時，系統將為其分配版本號1.0。有關保存新版本的詳細資訊，請參閱 [另存為新版本](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -53,4 +53,3 @@ AEM參考線提供兩個現成可用的對應範本 — DITA對應和書籤對�
 
 
 **上層主題：**[&#x200B;使用地圖編輯器](map-editor.md)
-
