@@ -1,9 +1,9 @@
 ---
 title: 內容與範本設定
 description: 了解在AEM指南中設定內容和範本時，應考慮哪些事項。
-source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
+source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -64,8 +64,8 @@ ht-degree: 1%
 
 ## 下次專家會議
 
-- **主題**  — 待定
-- **排程於** - 2023年5月25日
+- **主題**  — 原生PDF發佈 — 依範例學習（第1部分）
+- **排程於** - 2023年6月1日
 
 
 ## 聯繫我們
