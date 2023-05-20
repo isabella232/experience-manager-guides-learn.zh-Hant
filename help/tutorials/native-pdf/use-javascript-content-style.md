@@ -1,37 +1,37 @@
 ---
-title: 原生PDF發佈功能 |使用JavaScript處理內容或樣式
-description: 了解如何建立使用樣式表和建立內容的樣式。
-source-git-commit: 09918abbdade934468dea1c55d0ca2cd60622b35
+title: 本機PDF發佈功能 |使用JavaScript處理內容或樣式
+description: 瞭解如何建立使用樣式表和為內容建立樣式。
+exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
+source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
-
 # 使用JavaScript處理內容或樣式
 
-「原生PDF發佈」功能可讓您在產生最終PDF之前，執行JavaScript以操控套用至內容的內容或樣式。 此功能可讓您完全控制最終輸出的產生方式。 例如，您可能想要將法律通知資訊新增至PDF輸出，而該輸出位於其他PDF。 使用JavaScript，您可以在為基本內容建立PDF後，但在產生最終PDF之前，新增法律通知資訊。\
-為了支援JavaScript執行，原生PDF發佈功能提供下列回呼函式：
+「本機PDF發佈」功能允許您運行JavaScript，以在生成最終PDF之前處理應用於內容的內容或樣式。 此功能使您能夠完全控制如何生成最終輸出。 例如，您可能希望將法律通知資訊添加到PDF輸出中，該輸出位於另一PDF中。 使用JavaScript，您可以在為基本內容建立PDF後，在生成最終PDF之前添加法律通知資訊。\
+為支援JavaScript執行，本機PDF發佈功能提供了以下回調函式：
 
-* `window.pdfLayout.onBeforeCreateTOC(callback)`:此回呼函式會在產生TOC之前執行。
-* `window.pdfLayout.onBeforePagination(callback)`:此回呼函式會在產生TOC後，但在新增分頁符至PDF之前執行。
-* `window.pdfLayout.onAfterPagination(callback)`:此回呼函式會在TOC之後執行，且PDF中會新增分頁符。
+* `window.pdfLayout.onBeforeCreateTOC(callback)`:此回調函式在生成TOC之前執行。
+* `window.pdfLayout.onBeforePagination(callback)`:此回調函式在生成TOC後執行，但在PDF中添加分頁符之前執行。
+* `window.pdfLayout.onAfterPagination(callback)`:此回調函式在TOC後執行，並在PDF中添加分頁符。
 
 >[!NOTE]
 >
->在內部，這些註解函式的執行順序會保持不變。 首先，會執行onBeforeCreateTOC，接著執行onBeforePagination，最後執行onAfterPagination。
+>在內部，這些標注函式將保持執行序列。 首先，執行onBeforeCreateTOC，然後執行onBeforePagination，最後執行onAfterPagination。
 
-您可以根據要執行的內容或樣式修改類型，選擇要使用的回呼函式。 例如，如果您想要新增內容，則建議在產生目錄之前執行。 同樣地，如果您想進行一些樣式更新，則可在分頁之前或之後完成。
+根據要執行的內容類型或樣式修改類型，可以選擇使用哪個回調函式。 例如，如果要添加內容，則建議在生成目錄之前先進行添加。 同樣，如果要進行一些樣式更新，則可以在分頁之前或之後完成這些更新。
 
-在以下示例中，表徵圖的位置從影像上方更改為影像下方。 為此，您必須在預設集中啟用JavaScript執行選項。 要執行此操作，請執行以下步驟：
+在下例中，表徵圖的位置從影像上方更改為影像下方。 為此，需要在預設中啟用JavaScript執行選項。 為此，請執行以下步驟：
 
-1. 開啟預設集以進行編輯。
-1. 前往 **進階** 標籤。
-1. 選取 **啟用JavaScript** 選項。
-1. 儲存預設集並關閉。
+1. 開啟預設進行編輯。
+1. 轉到 **高級** 頁籤。
+1. 選擇 **啟用JavaScript** 的雙曲餘切值。
+1. 保存預設並關閉。
 
-接下來，使用下列程式碼建立JavaScript檔案，並將其儲存在範本的「資源」資料夾中：
+接下來，使用以下代碼建立JavaScript檔案，並將其保存在模板的「資源」資料夾中：
 
 ```css
 ...
@@ -60,9 +60,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
 >[!NOTE]
 >
->此 `window.addEventListener('DOMContentLoaded', function ()` 函式，才能使用回呼函式。
+>的 `window.addEventListener('DOMContentLoaded', function ()` 在使用回調函式之前必須調用函式。
 
-接下來，必須從用於產生PDF輸出的範本檔案中呼叫此指令碼。 例如，我們會在目錄範本中新增它。 確保 `<script>` 標籤會新增至預先定義的 `<div>` 標籤內 `<body>` 標籤。 若您將其新增至 `<head>` 標籤或在 `<body>` 標籤中，指令碼將不會執行。
+接下來，必須從用於生成PDF輸出的模板檔案調用此指令碼。 例如，我們將在TOC模板中添加它。 確保 `<script>` 標籤被添加到預定義的 `<div>` 標籤在 `<body>` 標籤。 如果在 `<head>` 標籤或外部 `<body>` 標籤，指令碼將不執行。
 
 <img src="./assets/js-added-resources-template.png" width="500">
 

@@ -5,7 +5,7 @@ exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
 source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -96,6 +96,6 @@ ht-degree: 0%
    > 
    > 如果程式配置了預定義的標籤，則可以從這些標籤中進行選擇以確保標籤的一致性。
 
-1. 選擇 **保存**。
+1. 選取&#x200B;**儲存**。
 
    您已建立了主題的新版本，並且版本號已更新。

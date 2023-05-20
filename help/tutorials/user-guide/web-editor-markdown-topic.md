@@ -1,63 +1,62 @@
 ---
-title: 製作Markdown檔案
-description: 了解如何編寫Markdown檔案
-source-git-commit: fa6e9f8b32d191f5b6f7136724d2145d81317767
+title: 作者標籤文檔
+description: 瞭解如何編寫Markdown文檔
+exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
+# 從Web編輯器建立標籤文檔 {#id223MIE0B079}
 
-# 從網頁編輯器製作Markdown檔案 {#id223MIE0B079}
-
-Markdown是一種精簡化的標籤語言，可協助您將格式元素新增至純文字檔案。 AEM指南提供從網頁編輯器建立、製作和預覽Markdown \(.md\)主題的功能。 您也可以上傳現有的Markdown檔案，並在網頁編輯器中加以編輯。
+Markdown是一種輕量級標籤語言，可幫助您將格式元素添加到純文字檔案文檔。 指AEM南提供了從Web編輯器建立、建立和預覽Markdown \(.md\)主題的功能。 您還可以上載現有的Markdown文檔，並在Web編輯器中編輯它們。
 
 ## 建立Markdown主題
 
-執行下列步驟，從網頁編輯器建立Markdown主題：
+執行以下步驟，從Web編輯器建立標籤主題：
 
 1. 在「儲存庫視圖」中選擇資料夾。
-1. 建立 **Markdown主題** 以下列其中一種方式：
-   1. 按一下 **建立DITA檔案** 表徵圖，然後選擇 **Markdown主題** 中。
+1. 建立 **標籤主題** 通過以下方式之一：
+   1. 按一下 **建立DITA檔案** 表徵圖，然後選擇 **標籤主題** 的下界。
 
    ![](images/create-markdown-dita-topic.png){width="550" align="left"}
 
-   1. 選擇 **建立** 從所選資料夾的「選項」(Options)菜單中，然後選擇 **Markdown主題**&#x200B;中。
+   1. 選擇 **建立** 從選定資料夾的「選項」菜單中，然後選擇 **標籤主題**&#x200B;的下界。
 
    ![](images/create-markdown-options-menu.png){width="550" align="left"}
 
-1. 在 **建立新的Markdown主題** 對話框。
+1. 在 **建立新標籤主題** 對話框。
 
 ![](images/create-markdown-dialog.png){width="350" align="left"}
 
 1. 按一下&#x200B;**建立**。
 
-Markdown主題會在選取的路徑上建立，且會開啟以供編輯。
+「標籤」主題在選定路徑上建立，並且開啟以進行編輯。
 
-## 製作和預覽Markdown主題
+## 建立並預覽標籤主題
 
-執行下列步驟，從網頁編輯器製作Markdown主題：
+執行以下步驟，從Web編輯器編寫Markdown主題：
 
-1. 在「存放庫檢視」中選取現有的Markdown主題\(.md\)。
-1. 按兩下主題以在編輯窗口中開啟它。
+1. 在「儲存庫視圖」中選擇現有的Markdown主題\(.md\)。
+1. 按兩下該主題以在編輯窗口中將其開啟。
 
    主題在「源」模式下開啟。
 
 1. 更新Markdown主題中的內容。
-1. 按一下 **預覽** 在右上方以預覽主題。
+1. 按一下 **預覽** 的上界。
 
    >[!NOTE]
    >
-   > 預覽模式會顯示當使用者在瀏覽器中檢視主題時主題的顯示方式。
+   > 預覽模式顯示當用戶在其瀏覽器中查看主題時將如何顯示主題。
 
-1. 使用 **另存為新版本** 在主工具列中，儲存您在主題中所做的變更，並建立新的主題版本。 您也可以使用 **全部儲存** ，以儲存所有已開啟主題中的變更。
+1. 使用 **另存為新版本** 的子菜單。 您還可以使用 **全部保存** 的子菜單。
 
-1. 按一下 **關閉** 的上方。
+1. 按一下 **關閉** 右上角，關閉Markdown主題。
 
 >[!NOTE]
 >
-> 如果尚未保存更改，則會顯示彈出窗口，並提示您保存主題，然後才關閉它。
+> 如果尚未保存更改，則會顯示一個彈出窗口，並提示您在關閉主題之前保存主題。
 
-**上層主題：**[&#x200B;使用Web編輯器](web-editor.md)
-
+**父主題：**[&#x200B;使用Web編輯器](web-editor.md)

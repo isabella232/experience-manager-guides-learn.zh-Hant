@@ -5,8 +5,8 @@ source-wordcount: '15'
 ht-degree: 6%
 
 ---
-# Adobe Experience Manager指南的Oxon Plugin
+# 用於Adobe Experience Manager指南的氧插件
 
 - [免責聲明](rebranding-disclaimer.md)
-- [Adobe Experience Manager指南的Oxon Plugin](use-aem-connector.md)
+- [用於Adobe Experience Manager指南的氧插件](use-aem-connector.md)
 

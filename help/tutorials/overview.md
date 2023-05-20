@@ -5,7 +5,7 @@ exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 > 
 > Adobe Experience Manager導遊 _XML Documentation,Adobe Experience Manager_。 請注意，文檔中的某些參考資料可能仍引用先前的品牌推廣，但仍適用於當前產品。
 
-## 新功能
+## 新增功能
 
 * **[[!DNL AEM Guides] 入門課程](../courses/course-1/overview.md)**
 

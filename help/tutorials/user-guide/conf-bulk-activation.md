@@ -1,41 +1,40 @@
 ---
-title: 大量啟用已發佈的內容
-description: 了解如何大量啟用已發佈的內容
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+title: 已發佈內容的批量激活
+description: 瞭解如何批量激活已發佈內容
+exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
+# 已發佈內容的批量激活 {#id214GG080LE8}
 
-# 大量啟用已發佈的內容 {#id214GG080LE8}
-
-在真實的字案例中，作者可存取AEM的製作例項，而實際內容會發佈至AEM的發佈例項。 接著，可在不同地理位置進一步部署發佈執行個體。 已發佈的輸出必須透過不同程式移至這些發佈伺服器。 將內容從製作例項移至發佈例項的程式稱為內容的啟用或復寫。
+在真實的單詞場景中，您的作者將有權訪問的創AEM作實例，而實際內容將發佈到的發佈實AEM例。 然後，可以在不同的地理位置進一步部署發佈實例。 已發佈的輸出必須通過不同的進程移到這些發佈伺服器上。 將內容從創作實例移動到發佈實例的過程稱為內容的激活或複製。
 
 >[!NOTE]
 >
-> 如需如何在AEM中設定製作和發佈例項的詳細資訊，請參閱 [製作與發佈架構概觀](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> 有關如何在中設定作者和發佈實例的詳細信AEM息，請參閱 [作者和發佈體系結構概述](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
 
-透過AEM指南的「大量啟用」功能，您可以快速輕鬆地啟動內容，從編寫到發佈執行個體。 「大量啟用」功能可讓您彈性地：
+使用「AEM參考線」的批量激活功能，您可以快速輕鬆地激活內容，從創作到發佈實例。 「批量激活」功能使您能夠靈活地：
 
-- 將多個映射\（添加到映射集合\）添加到單個激活任務
+- 向單個激活任務添加多個映射\（到映射集合\）
 
-- 從要發佈的多個輸出預設集中選擇一個
+- 從要發佈的多個輸出預設中選擇一個
 
-- 定義必須激活輸出的地區
+- 定義必須激活輸出的區域設定
 
-- 存取稽核記錄，以檢查您的啟動工作是否成功完成或有問題
-
-
-- **[建立大量啟用圖集合](conf-bulk-activation-create-map-collection.md)**
-
-- **[啟動輸出](conf-bulk-activation-publish-map-collection.md)**
-
-- **[編輯大量啟用圖集合](conf-bulk-activation-edit-map-collection.md)**
-
-- **[刪除大量啟用圖集合](conf-bulk-activation-delete-map-collection.md)**
+- 訪問審核日誌以檢查您的激活任務是否成功完成或存在一些問題
 
 
-**上層主題：**[&#x200B;產生輸出](generate-output.md)
+- **[建立批量激活映射集合](conf-bulk-activation-create-map-collection.md)**
 
+- **[激活輸出](conf-bulk-activation-publish-map-collection.md)**
+
+- **[編輯批量激活映射集合](conf-bulk-activation-edit-map-collection.md)**
+
+- **[刪除批量激活映射集合](conf-bulk-activation-delete-map-collection.md)**
+
+
+**父主題：**[&#x200B;輸出生成](generate-output.md)
