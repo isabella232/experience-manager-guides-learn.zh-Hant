@@ -1,9 +1,9 @@
 ---
 title: 發行說明 | 《Adobe Experience Manager指南》4.2.1版新增內容
 description: 瞭解《Adobe Experience Manager指南》4.2.1版中的新增和增強功能
-source-git-commit: 66b83f940457c64dadc5b319e1274960ac0f6da8
+source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 
 * 按一下 **參考線** 表徵圖。![](assets/aem-guides-icon.png) )，返回「導航」AEM頁面。
 
+
+有關詳細資訊，請參閱 [導AEM航頁](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
 
 ## PDF發佈中的高級元資料支援
 
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 * 使用搜索功能，可以按元素的名稱、id、文本或屬性值搜索元素。
 
-有關詳細資訊，請參閱 [左面板](../user-guide/web-editor-features.md) 的子菜單。
+有關詳細資訊，請參閱 [左面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 的子菜單。
 
 ## 從Web編輯器生成多媒體報告
 
@@ -80,4 +82,4 @@ ht-degree: 0%
 
 <img src="assets/video-web-editor.png" alt="播放視頻" width="600">
 
-有關詳細資訊，請參閱 [左面板](../user-guide/web-editor-features.md) 的子菜單。
+有關詳細資訊，請參閱 [左面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 的子菜單。
