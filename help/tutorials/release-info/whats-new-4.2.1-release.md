@@ -1,7 +1,7 @@
 ---
 title: 發行說明 | 《Adobe Experience Manager指南》4.2.1版新增內容
 description: 瞭解《Adobe Experience Manager指南》4.2.1版中的新增和增強功能
-source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
+source-git-commit: 6a1c6383f827bcd1e388290a793b69d372b7e7ce
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 * 按一下 **參考線** 表徵圖。![](assets/aem-guides-icon.png) )，返回「導航」AEM頁面。
 
 
-有關詳細資訊，請參閱 [導AEM航頁](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
+有關詳細資訊，請參閱 [導AEM航頁](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)。
 
 ## PDF發佈中的高級元資料支援
 
