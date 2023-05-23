@@ -2,9 +2,9 @@
 title: 內容翻譯的最佳做法
 description: 瞭解如何為內容翻譯提供最佳做法
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
@@ -103,6 +103,16 @@ ht-degree: 1%
 1. 按一下 **開始** 的子菜單。
 
    將使用選定版本的主題建立新的翻譯項目。 此時，顯示一個彈出消息，確認已建立翻譯項目。 翻譯項目中提供所有目標語言副本後，您將在「收件箱」中收到通知。 一旦目標語言複製了翻譯項目中可用的區域，您就可以開始翻譯作業。
+
+   ![](images/status-translation-uuid.png){width="800" align="left"}
+
+
+「轉換」(Translation)頁籤包含以下部分：
+
+- **摘要**:顯示引用的主題和源語言及其代碼的數量。
+- **詳細資訊**:顯示主題標題、主題類型、主題的語言代碼、源語言、源主題的版本、添加到主題的標籤以及翻譯狀態。
+
+
 
 
 ## 啟動翻譯作業 {#id225IK030OE8}

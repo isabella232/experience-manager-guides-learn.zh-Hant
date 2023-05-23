@@ -2,16 +2,18 @@
 title: 建立主題
 description: 瞭解如何建立主題
 exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: e69665f3c4a0db10365719ac671cbd3ac0c455ec
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
 
 # 建立主題 {#id2056AL00O5Z}
 
-指AEM南允許您建立類型的DITA主題 — 主題、任務、概念、引用、辭彙表、DITAVAL等。 除了基於現成模板建立主題外，您還可以定義自定義模板。 有關使用自定義DITA模板的詳細資訊，請參見 *配置用於創作的模板和標籤* 在安裝和配置Adobe Experience Manager指南as a Cloud Service。
+指AEM南允許您建立類型的DITA主題 — 主題、任務、概念、引用、辭彙表、DITAVAL等。 除了基於現成模板建立主題外，您還可以定義自定義模板。 必須將這些模板添加到資料夾配置檔案中，才能在模板選擇藍圖和Web編輯器中顯示。
+
+請注意，「全局」和「資料夾配置檔案」配置僅對資料夾級管理用戶可用。 有關設定全局和資料夾級配置檔案的詳細資訊，請參閱 *配置創作模板* 在安裝和配置安裝的Adobe Experience Manager指南中。
 
 執行以下步驟建立主題：
 
@@ -23,7 +25,7 @@ ht-degree: 0%
 
    ![](images/create_dita_topic.png){width="800" align="left"}
 
-   預設情況下，AEM參考線提供最常用的DITA主題模板。 您可以根據組織要求配置更多主題模板，請參閱 *配置用於創作的模板和標籤* 在安裝和配置Adobe Experience Manager指南as a Cloud Service。
+   預設情況下，AEM參考線提供最常用的DITA主題模板。 您可以根據組織要求配置更多主題模板，請參閱 *配置創作模板* 在安裝和配置安裝的Adobe Experience Manager指南中。
 
    >[!NOTE]
    >

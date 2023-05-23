@@ -2,9 +2,9 @@
 title: 啟動Web編輯器
 description: 瞭解如何啟動Web編輯器
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,34 @@ ht-degree: 0%
 
 登錄時，AEM將顯示「導航」頁：
 
-![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-按一下 **XML編輯器** 連結將您直接轉到Web編輯器。
+按一下 **參考線** 連結將您直接轉到Web編輯器。
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 當您啟動Web編輯器而未選擇任何檔案時，將顯示空白的Web編輯器螢幕。 可以從儲存庫或收藏夾集AEM合中開啟要編輯的檔案。
+
+- 按一下 **參考線** 表徵圖。![](images/aem-guides-icon.png) )，返回「導航」AEM頁面。
+
+- 的 **關閉** 按鈕將您根據設定轉到目標：
+
+
+
+   <details>
+
+   <summary> 雲端服務 </summary>
+
+   如果使用Cloud Services，請按一下 **關閉** 按鈕返回AEM導航頁。
+   </details>
+
+   <details>
+
+   <summary> 本地軟體</summary>
+
+   如果您使用的AEM是本地指南軟體(4.2.1及更高版本)，請按一下 **關閉** 按鈕，將選定控制項在Tab鍵次序中下移一個位置。
+
+   </details>
 
 ## AEM AssetsUI {#id2056BG0307U}
 
@@ -80,7 +101,7 @@ ht-degree: 0%
 
 要從DITA映射控制台開啟Web編輯器，請執行以下步驟：
 
-1. 在資產UI中，導航到包含要編輯的主題的DITA映射檔案並按一下該檔案。
+1. 在資產UI中，導航到包含要編輯的主題的DITA映射檔案並按一下。
 
    將顯示DITA映射控制台。
 
