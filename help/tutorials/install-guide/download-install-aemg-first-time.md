@@ -1,6 +1,6 @@
 ---
-title: 首次下載AEM和安裝指南
-description: 瞭解如何首次下載AEM和安裝指南
+title: 首次下載並安裝AEM Guides
+description: 首次瞭解如何下載和安裝AEM Guides
 source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
 workflow-type: tm+mt
 source-wordcount: '235'
@@ -9,44 +9,44 @@ ht-degree: 2%
 ---
 
 
-# 首次下載AEM和安裝指南 {#id213BCL00KEV}
+# 首次下載並安裝AEM Guides {#id213BCL00KEV}
 
-請執行以下步驟，首次在計AEM算機上下載並安裝指南：
+第一次在電腦上下載和安裝AEM Guides時，請執行下列步驟：
 
 >[!IMPORTANT]
 >
-> 如果要使用Livefyre和GuidesAEM，請確保在安裝Guides之前安裝Livefyre 3.0以AEM前的版本。 如果您使用的是Livefyre 3.0或更高版本，則沒有此類限制。
+> 如果您想要搭配AEM Guides使用Livefyre，請務必先安裝3.0之前的Livefyre版本，然後再安裝AEM Guides。 如果您使用Livefyre 3.0版或更新版本，則沒有此限制。
 
-1. 從AdobeAEM軟體分發門戶下載指南。
+1. 從Adobe軟體發佈入口網站下載AEM Guides。
 
-1. 登錄到實AEM例並導航到CRX包管理器。 訪問包管理器的預設URL為：
+1. 登入您的AEM執行個體並導覽至CRX封裝管理員。 存取封裝管理器的預設URL為：
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   包管理器管理本地安裝上的AEM包。 有關使用包管理器的詳細資訊，請參見 [如何使用包](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/package-manager.html) 的上AEM界。
+   封裝管理員會管理本機AEM安裝上的封裝。 如需有關使用「封裝管理員」的詳細資訊，請參閱 [如何使用套件](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/package-manager.html) 在AEM檔案中。
 
    ![](assets/package-manager.png){width="650" align="left"}
 
-1. 要上載輔助AEM線包，請按一下 **上載包**。
+1. 若要上傳AEM Guides套件，請按一下 **上傳套裝**.
 
-1. 在「上載包」對話框中，導航至AEM您在步驟1中下載的「參考線」檔案，然後按一下 **確定**。
+1. 在上傳套件對話方塊中，導覽至您在步驟1下載的AEM Guides檔案，然後按一下 **確定**.
 
-   包已上載到您的實AEM例。
+   套件會上傳至您的AEM執行個體。
 
-1. 要安裝軟體包，請按一下 **安裝**。
+1. 若要安裝套件，請按一下 **安裝**.
 
    ![](assets/install-package.png){width="650" align="left"}
 
-1. 在「安裝包」對話框中，按一下 **安裝**。
+1. 在安裝套件對話方塊中，按一下 **安裝**.
 
-1. 要開始使用參考AEM線，請按一下「首頁」按鈕 ![](assets/home-button.png) 在CRX包管理器的左上角。
+1. 若要開始使用AEM Guides，請按一下「首頁」按鈕 ![](assets/home-button.png) （位於CRX封裝管理員的左上角）。
 
 
 >[!NOTE]
 >
-> 對安裝程式中所有伺服器AEM實例執行安裝過程。
+> 在設定中的AEM伺服器所有執行個體上執行安裝程式。
 
-**父主題：**[&#x200B;下載並安裝](download-install.md)
+**父級主題：**[&#x200B;下載並安裝](download-install.md)
 

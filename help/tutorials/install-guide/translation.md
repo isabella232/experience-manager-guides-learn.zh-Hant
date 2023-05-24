@@ -1,5 +1,5 @@
 ---
-title: 翻譯指南中的AEM內容
+title: 在AEM Guides中翻譯內容
 description: 瞭解如何翻譯內容
 source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
 workflow-type: tm+mt
@@ -11,109 +11,109 @@ ht-degree: 11%
 
 # 翻譯內容 {#id181GB0400UI}
 
-自動翻譯頁面內容、資產和用戶生成的內容，以建立和維護多語言網站。 若要自動化翻譯工作流程，您可以將翻譯服務提供商與 AEM 相整合，並建立用於將內容翻譯成多種語言的專案。AEM 支援人工和機器翻譯工作流程。
+自動翻譯頁面內容、資產和使用者產生的內容，以建立和維護多語言網站。 若要自動化翻譯工作流程，您可以將翻譯服務提供商與 AEM 相整合，並建立用於將內容翻譯成多種語言的專案。AEM 支援人工和機器翻譯工作流程。
 
-- 人工翻譯：內容將傳送給您的翻譯提供商並由專業翻譯人員翻譯。完成後，翻譯後的內容將傳回並匯入到 AEM 中。當翻譯提供商與之整合AEM時，內容將自動在翻譯提供AEM商之間交換
+- 人工翻譯：內容將傳送給您的翻譯提供商並由專業翻譯人員翻譯。完成後，翻譯後的內容將傳回並匯入到 AEM 中。當您的翻譯提供者與AEM整合時，內容會自動在AEM和翻譯提供者之間交換
 
-- 機器翻譯：機器翻譯服務可立即翻譯您的內容
+- 機器翻譯：機器翻譯服務會立即翻譯您的內容
 
 
 翻譯內容涉及以下步驟：
 
-1. 連AEM接 [翻譯服務提供商](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) 建立 [翻譯整合框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
+1. 連線AEM與您的 [翻譯服務提供者](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) 和建立 [翻譯整合框架設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. 將語言首頁與 [翻譯服務和框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)。
+1. 將語言主版的頁面與 [翻譯服務與框架設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. 確定 [翻譯內容](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html)。
+1. 識別 [要翻譯的內容](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
 1. 編寫語言主版並建立語言副本的根頁面，[以備妥內容進行翻譯](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)。
 
-1. 建立 [翻譯項目](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 收集要翻譯的內容並準備翻譯過程。
+1. 建立 [翻譯專案](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 收集要翻譯的內容並準備翻譯程式。
 
-1. 使用翻譯項目 [管理內容翻譯](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 處理。
+1. 將翻譯專案用於 [管理內容翻譯](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 程式。
 
 
-如果您的翻譯服務提供商未提供與整合的連接AEM器，則AEM支援以XML格式手動導出和導入翻譯的內容。
+如果您的翻譯服務提供者未提供聯結器來與AEM整合，則AEM支援手動匯出和匯入XML格式的翻譯內容。
 
 >[!TIP]
 >
-> 查看 *翻譯*&#x200B;中的「最佳做法指南」中的「關於翻譯內容的最佳做法」一節。
+> 請參閱 *翻譯*&#x200B;最佳實務指南中的區段，以取得翻譯內容的最佳實務。
 
-## 在DITA映射儀表板上配置轉換頁籤
+## 在DITA map儀表板上設定翻譯標籤
 
-預設情況下未啟用「隱藏轉換頁籤」選項，您需要從configMgr中啟用該選項。 要隱藏DITA映射儀表板上的「轉換」頁籤，請執行以下步驟：
+預設不會啟用「隱藏翻譯標籤」選項，您需要從configMgr啟用此選項。 若要隱藏DITA map圖示板上的「轉譯」標籤，請執行下列步驟：
 
-1. 開啟「Adobe Experience ManagerWeb控制台配置」頁。
+1. 開啟Adobe Experience Manager Web主控台設定頁面。
 
-   訪問配置頁的預設URL為：
+   存取設定頁面的預設URL為：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索並按一下 **com.adobe.fmdita.config.ConfigManager** 捆綁。
+1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
 
-1. 選擇 **隱藏翻譯頁籤** 的子菜單。
+1. 選取 **隱藏翻譯索引標籤** 選項，以在地圖圖示板上隱藏翻譯標籤。
 
    >[!NOTE]
    >
-   > 預設情況下，此屬性處於禁用狀態，並且「轉換」頁籤在映射儀表板上可用。
+   > 此屬性預設為停用，且地圖儀表板上有翻譯索引標籤。
 
 1. 按一下「**儲存**」。
 
-## 配置基於元件的翻譯工作流
+## 設定元件式翻譯工作流程
 
-如果翻譯供應商的連接器不支援DITA內容，則需要啟用基於元件的翻譯工作流。 一旦啟用，可翻譯內容將作為資產元資料發送。 但是，連接器需要支援此工作流的資產元資料轉換才能正常工作。
+如果翻譯供應商的聯結器不支援DITA內容，則需要啟用元件型翻譯工作流程。 啟用後，可翻譯內容會以資產中繼資料的形式傳送。 不過，聯結器需要支援資產中繼資料轉譯，此工作流程才能運作。
 
-根據設定中使用的翻譯工作流，應按如下方式配置基於元件的翻譯工作流選項：
+根據設定中使用的翻譯工作流程，元件型翻譯工作流程選項應設定如下：
 
-1. 開啟「Adobe Experience ManagerWeb控制台配置」頁。
+1. 開啟Adobe Experience Manager Web主控台設定頁面。
 
-   訪問配置頁的預設URL為：
+   存取設定頁面的預設URL為：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索並按一下 **com.adobe.fmdita.config.ConfigManager** 捆綁。
+1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
 
-1. 配置 **基於元件的DITA轉換工作流** 選項：
+1. 設定 **元件型DITA翻譯工作流程** 根據您的設定提供的選項：
 
-   - 如果你用人類翻譯 *禁用* 這樣 **基於元件的翻譯工作流** 的雙曲餘切值。
+   - 如果您使用人工翻譯，則 *停用* 此 **元件式翻譯工作流程** 選項。
 
-   - 如果使用機器翻譯，則 *啟用* 這樣 **基於元件的翻譯工作流** 的雙曲餘切值。
+   - 如果您使用機器翻譯，則 *啟用* 此 **元件式翻譯工作流程** 選項。
    >[!NOTE]
    >
-   > 如果使用的是翻譯連接器，請確保已按照中的說明配置了連接器 *[配置翻譯整合框架](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* 文檔中AEM的主題。
+   > 如果您使用轉譯聯結器，請確定您已依照 *[設定翻譯整合架構](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* AEM檔案中的主題。
 
 1. 按一下「**儲存**」。
 
 
 >[!IMPORTANT]
 >
-> 設定翻譯配置後，請確保在語言資料夾上設定相應的雲配置。
+> 設定翻譯設定後，請務必在語言資料夾上設定適當的雲端設定。
 
-## 配置臨時語言副本的後處理
+## 設定暫存語言副本的後處理
 
-啟動翻譯工作流時，系統會建立源內容的臨時語言副本。 您可以選擇啟用或禁用這些臨時檔案的後處理操作。 在後處理操作中，解析來自檔案的傳入和傳出引用，設定文檔狀態以及其它操作。 如果對這些臨時檔案啟用後處理，則翻譯過程可能需要更長的時間才能完成。 因此，建議禁用後處理選項。
+當您啟動翻譯工作流程時，系統會建立來源內容的臨時語言副本。 您可以選擇啟用或停用這些暫存檔的後處理作業。 在後置處理作業中，會解析來自檔案的傳入和傳出參照、設定檔案狀態以及其他作業。 如果您啟用這些暫存檔的後處理，則翻譯過程可能需要較長時間才能完成。 因此，建議停用後處理選項。
 
-預設情況下，會禁用臨時檔案的後處理選項。 您可以通過執行以下步驟來配置此選項：
+預設會停用暫存檔的後置處理選項。 您可以執行下列步驟來設定此選項：
 
-1. 開啟「Adobe Experience ManagerWeb控制台配置」頁。
+1. 開啟Adobe Experience Manager Web主控台設定頁面。
 
-   訪問配置頁的預設URL為：
+   存取設定頁面的預設URL為：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索並按一下 **com.adobe.fmdita.config.ConfigManager** 捆綁。
+1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
 
-1. 配置 **後處理語言副本** 選項：
+1. 設定 **處理後語言副本** 根據您的設定提供的選項：
 
-   - \(*預設*\)如果您不想對臨時檔案運行後處理操作，則 *禁用* 這樣 **後處理語言副本** 的雙曲餘切值。
+   - \(*預設*\)如果您不想對暫存檔執行後續處理作業，則 *停用* 此 **處理後語言副本** 選項。
 
-   - 如果要對臨時檔案運行後處理操作，則 *啟用* 這樣 **後處理語言副本** 的雙曲餘切值。
+   - 如果要在暫存檔上執行後處理作業，則 *啟用* 此 **處理後語言副本** 選項。
 
 1. 按一下「**儲存**」。
 

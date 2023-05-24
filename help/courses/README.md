@@ -5,6 +5,6 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Adobe Experience Manager嚮導
+# Adobe Experience Manager指南
 
-這是儲存「指南」課程視頻和標籤文AEM件的回購。
+這是儲存「AEM Guides」課程的影片和Markdown檔案的存放庫。

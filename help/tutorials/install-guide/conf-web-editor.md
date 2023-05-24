@@ -1,6 +1,6 @@
 ---
-title: 自定義Web編輯器
-description: 瞭解如何自定義Web編輯器
+title: 自訂Web編輯器
+description: 瞭解如何自訂Web編輯器
 source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
 workflow-type: tm+mt
 source-wordcount: '170'
@@ -9,36 +9,36 @@ ht-degree: 0%
 ---
 
 
-# 自定義Web編輯器 {#id181AI0003PN}
+# 自訂Web編輯器 {#id181AI0003PN}
 
-指AEM南與功能強大的Web編輯器捆綁在一起，該編輯器允許您的作者建立和編輯DITA文檔。 您可以自定義Web編輯器工具欄，以添加或刪除可以從工具欄訪問的任何功能。 此外，您還可以配置檔案的自動節省、在元素插入文檔時為這些元素生成ID等。 以下各節介紹可在Web編輯器中自定義的功能：
+AEM Guides隨附了功能強大的Web Editor，可讓您的作者建立和編輯DITA檔案。 您可以自訂Web編輯器的工具列，以新增或移除您可以從工具列存取的任何功能。 此外，您也可以設定自動儲存檔案、在元素插入檔案中時為其產生ID等等。 以下各節說明您可以在Web編輯器中自訂的功能：
 
-- [自定義工具欄](conf-web-editor-customize-toolbar.md)
+- [自訂工具列](conf-web-editor-customize-toolbar.md)
 
-- [為「標籤」視圖配置預設值](configure-default-value-tags-view.md)
+- [設定標籤檢視的預設值](configure-default-value-tags-view.md)
 
-- [配置基於UUID的連結的顯示](conf-uuid-based-links.md)
+- [設定UUID型連結的顯示](conf-uuid-based-links.md)
 
-- [在同一頁籤中開啟DITA主題或映射檔案](open-dita-files-same-tab.md)
+- [在同一個索引標籤中開啟DITA主題或對應檔案](open-dita-files-same-tab.md)
 
-- [在左面板中配置自定義面板](configure-custom-panel.md)
+- [在左側面板中設定自訂面板](configure-custom-panel.md)
 
-- [在Web編輯器中配置檔案自動保存](auto-save-in-editor.md)
+- [在網頁編輯器中設定檔案自動儲存](auto-save-in-editor.md)
 
-- [配置關閉時提示另存為新版本](conf-save-as-new-version-close.md)
+- [設定關閉時儲存為新版本的提示](conf-save-as-new-version-close.md)
 
-- [配置在關閉時提示簽入檔案](conf-checkin-file-close.md)
+- [設定關閉時簽入檔案的提示](conf-checkin-file-close.md)
 
-- [配置允許的特殊字元](conf-special-chars.md)
+- [設定允許的特殊字元](conf-special-chars.md)
 
-- [自動生成元素ID](auto-generate-ids.md)
+- [自動產生元素ID](auto-generate-ids.md)
 
-- [自定義AEM預設詞典](customize-aem-custom-dictionary.md)
+- [自訂AEM預設字典](customize-aem-custom-dictionary.md)
 
-- [配置文本篩選器](config-text-filters.md)
+- [設定文字篩選](config-text-filters.md)
 
-- [配置查詢的LimitReads數](conf-query-limitreads.md)
+- [設定查詢的LimitReads數目](conf-query-limitreads.md)
 
-- [安裝用於基於文章的發佈的包](configure-article-based-publishing.md)
+- [安裝文章式發佈的套件](configure-article-based-publishing.md)
 
 

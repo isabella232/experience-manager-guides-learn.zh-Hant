@@ -1,6 +1,6 @@
 ---
-title: 自動生成元素ID
-description: 瞭解如何自動生成元素ID
+title: 自動產生元素ID
+description: 瞭解如何自動產生元素ID
 source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
 workflow-type: tm+mt
 source-wordcount: '333'
@@ -9,38 +9,38 @@ ht-degree: 0%
 ---
 
 
-# 自動生成元素ID {#id20CIL40016I}
+# 自動產生元素ID {#id20CIL40016I}
 
-輔助AEM線為您建立的任何新文檔生成文檔ID。 例如，建立DITA映射時，ID類似 `map.ditamap_random_digits` 分配給映射的ID。 也可以定義自動生成和分配ID的元素。
+AEM Guides會為您建立的任何新檔案產生檔案ID。 例如，當您建立DITA map時，ID如下 `map.ditamap_random_digits` 指派給地圖的ID。 您也可以定義自動產生及指派ID的元素。
 
-輔助AEM線提供了簡單的配置設定，在這些設定中，您需要定義ID自動生成的元素和ID的圖案。 預設情況下，某些元素 `section`。 `table`。 `ul`。 `ol`，配置為自動生成ID。 您可以將其他元素添加到此清單中，以便每當這些元素插入文檔時，「參考線」會根據AEM給定的模式生成並分配ID
+AEM Guides提供簡易的組態設定，您需在其中定義ID自動產生的元素及ID的模式。 依預設，某些元素包括 `section`， `table`， `ul`， `ol`，已設定為自動產生ID。 您可以新增其他元素至此清單，這樣當這些元素插入檔案中時，AEM Guides就會根據指定的模式產生並指派ID
 
-執行以下步驟，將元素配置為具有自動生成的ID:
+執行以下步驟，將元素設定為具有自動產生的ID：
 
-1. 開啟「Adobe Experience ManagerWeb控制台配置」頁。
+1. 開啟Adobe Experience Manager Web主控台設定頁面。
 
-   訪問配置頁的預設URL為：
+   存取設定頁面的預設URL為：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 捆綁。
+1. 搜尋並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 套件組合。
 
-1. 在 *XmlEditor配置* 設定，在 **自動生成元素標籤的ID** 的子菜單。
+1. 在 *XmlEditorConfig* 設定，請在「 」中指定一個或多個元素 **自動產生元素標籤的ID** 欄位。
 
    >[!NOTE]
    >
-   > 元素標籤是DITA元素名稱，如 `body`。 `title`。 `codeblock`等等。 要指定多個元素，請用逗號分隔元素名稱。
+   > 元素標籤是DITA元素名稱，例如 `body`， `title`， `codeblock`、等等。 若要指定多個元素，請以逗號分隔元素名稱。
 
-1. 在&#x200B;**生成ID的模式** 欄位中，指定要生成ID的模式。
+1. 在&#x200B;**產生ID的模式** 欄位中，指定要產生ID的模式。
 
-   此欄位的預設值設定為 `${elementName}_${id}`。 的 `${elementName}` 值將替換為元素的名稱。 的 `${id}` 變數為元素生成順序編號。 例如，如果將段落元素指定為具有自動生成的ID，則主題或文檔中的第一個段落將獲得像p\1這樣的ID，而下一個段落將獲得p\2等。 但是，在另一文檔中，ID生成過程將重新啟動。 這意味著，在其他文檔中，可以將p\_1和p\_2等ID分配給段落元素。
+   此欄位的預設值設為 `${elementName}_${id}`. 此 `${elementName}` 值會取代為元素的名稱。 此 `${id}` 變數會產生元素的序號。 例如，如果您將段落元素指派給具有自動產生的ID，則主題或檔案中的第一個段落將獲得p\_1之類的ID，而下一個段落將獲得p\_2等。 不過，在不同的檔案中，ID產生程式會重新啟動。 這表示在不同的檔案中，可以將p\_1和p\_2等ID指派給段落元素。
 
-   如果文檔已包含指定模式中的ID，則自動生成過程不會將這些ID分配給新元素。
+   如果您的檔案已包含指定模式的ID，則自動產生程式不會將這些ID指派給新元素。
 
 1. 按一下「**儲存**」。
 
 
-**父主題：**[&#x200B;自定義Web編輯器](conf-web-editor.md)
+**父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
 

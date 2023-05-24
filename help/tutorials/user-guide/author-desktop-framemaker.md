@@ -11,6 +11,6 @@ ht-degree: 0%
 
 # 使用FrameMaker {#id221BH0L03XA}
 
-FrameMaker支援在指南中創作和發佈AEM內容。 FrameMaker附帶一個到Adobe Experience Manager的現成連接器。 FrameMaker還為您提供了一個易於使用的介面，允許您在分佈式協作環境中維護文檔的版本。 您可以在FrameMaker中建立內容，並以不同格式發佈內容 — PDF、HTML5、EPUB和DITA。 您還可以執行各種檔案管理操作，如簽出、與依存對象簽出、簽入、刷新等。 有關詳細資訊，請參閱 [FrameMaker幫助](https://help.adobe.com/en_US/framemaker/using/index.html)。
+FrameMaker支援AEM Guides內容的製作和發佈。 FrameMaker隨附Adobe Experience Manager的現成聯結器。 FrameMaker也提供您易於使用的介面，讓您在分散式與合作環境中維護檔案的版本。 您可以在FrameMaker中編寫內容，並以不同的格式發佈 — PDF、HTML5、EPUB和DITA。 您也可以執行各種檔案管理操作，例如出庫、帶從屬項出庫、入庫、重新整理等。 如需詳細資訊，請參閱 [FrameMaker說明](https://help.adobe.com/en_US/framemaker/using/index.html).
 
-**父主題：**[&#x200B;使用案頭工具編寫內容](author-desktop-tools.md)
+**父級主題：**[&#x200B;使用案頭工具製作內容](author-desktop-tools.md)

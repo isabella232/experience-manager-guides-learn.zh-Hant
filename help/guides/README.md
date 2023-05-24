@@ -5,11 +5,11 @@ source-wordcount: '55'
 ht-degree: 21%
 
 ---
-# Adobe Experience Manager嚮導
+# Adobe Experience Manager指南
 
-此資料夾包含所有AEM參考線。
+此資料夾包含所有AEM Guides指南。
 
 歡迎您協助撰寫本說明文件。請參閱下列資源：
 
-* [貢獻](contributing.md) 的子菜單。
-* [行為規則](code-of-conduct.md) 有關您對本文檔項目所做貢獻時我們期望的行為標準的概述。
+* [投稿](contributing.md) 以概略瞭解如何協助撰寫本檔案。
+* [行為準則](code-of-conduct.md) 當您協助撰寫本說明檔案專案時，我們期望的行為標準概觀。

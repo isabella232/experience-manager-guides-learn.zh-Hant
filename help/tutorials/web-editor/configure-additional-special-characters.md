@@ -1,6 +1,6 @@
 ---
-title: 在Web編輯器工具欄中配置其他特殊字元
-description: 如何在Web編輯器工具欄中配置其他特殊字元
+title: 在網頁編輯器工具列中設定其他特殊字元
+description: 如何在網頁編輯器工具列中設定其他特殊字元
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
@@ -11,21 +11,21 @@ ht-degree: 0%
 
 ---
 
-# 如何在Web編輯器工具欄中配置其他特殊字元
+# 如何在網頁編輯器工具列中設定其他特殊字元
 
-Web編輯器工具欄中有一個快捷方式選項，允許作者插入特殊字元。
-下面的螢幕截圖中可以看到同樣的內容：
+網頁編輯器工具列中有捷徑選項，讓作者插入特殊字元。
+以下熒幕擷圖亦顯示相同資訊：
 
 ![特殊字元](assets/special-chars.png)
 
 
-此處可配置這些字元清單。 如果需要為此添加更多字元，請執行以下步驟：
+您可以在此處設定這些字元清單。 如果您需要新增更多字元至此，請遵循下列步驟：
 
-+ 登錄並AEM開啟CRXDE Lite模式。
++ 登入AEM並開啟CRXDE Lite模式。
 
-+ 在以下位置建立symbols.json檔案：「/apps/fmdita/xmleditor/」(可以從 — &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;位置複製預設值)
++ 在以下位置建立symbols.json檔案： &#39;/apps/fmdita/xmleditor/&#39; (您可以從 — &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;位置複製預設值)
 
-+ 將symbols.json檔案中的特殊字元定義添加為：
++ 在symbols.json檔案中新增特殊字元定義為：
 
 ```
 {
@@ -45,15 +45,15 @@ Web編輯器工具欄中有一個快捷方式選項，允許作者插入特殊�
 
 symbols.json檔案的結構說明如下：
 
-+ 「標籤」：&quot;邏輯符號&quot;:這指定特殊字元的類別。 在代碼段中，定義了名為「邏輯符號」的類別。
++ &quot;label&quot;： &quot;Logical Symbols&quot;：這會指定特殊字元的類別。 在程式碼片段中，會定義名為「邏輯符號」的類別。
 
-+ &quot;項目&quot;:這定義類別中特殊字元的集合。
++ &quot;items&quot;：這定義了類別中特殊字元的集合。
 
-+ &quot;名稱&quot;:&quot;≥&quot;、&quot;標題&quot;:「大於或等於」：這是特殊字元的定義。 它以「名稱」標籤開頭，不得更改。 名稱后跟特殊字元。 「title」是特殊字元的名稱或標題，它作為該特殊字元的工具提示顯示。
++ &quot;name&quot;： &quot;≥&quot;， &quot;title&quot;： &quot;Greater-Than or Equal To&quot;：這是特殊字元的定義。 它以「name」標籤開頭，此標籤不可變更。 名稱后面接著特殊字元。 「標題」是特殊字元的名稱或標題，會作為該特殊字元的工具提示出現。
 
-您可以定義類別中特殊字元的多個定義。
+您可以在類別中定義多個特殊字元的定義。
 
-這將在特殊字元對話框中添加另一個類別：
+這會在特殊字元對話方塊中新增另一個類別：
 
 ![特殊符號類別](assets/special-char-category.png)
 

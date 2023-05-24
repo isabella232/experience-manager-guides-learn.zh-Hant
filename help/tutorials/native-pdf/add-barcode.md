@@ -1,6 +1,6 @@
 ---
-title: 本機PDF發佈功能 |添加條形碼
-description: 瞭解如何添加條形碼。
+title: 原生PDF發佈功能 |新增條碼
+description: 瞭解如何新增條碼。
 source-git-commit: 6cea7a92eed8f7b1d4a0763baae65ccccd71790e
 workflow-type: tm+mt
 source-wordcount: '294'
@@ -8,19 +8,19 @@ ht-degree: 2%
 
 ---
 
-# 向PDF輸出添加條形碼
+# 將條碼新增至PDF輸出
 
-條形碼對於包括可由機器輕鬆處理的資訊是有用的。 同樣，QR碼用於閱讀器可以通過移動設備開啟的連結。
+條碼可用來包含易於機器處理的資訊。 同樣地，QR碼也用於讀者可以用行動裝置開啟的連結。
 
-本教程幫助您在PDF輸出中的每頁頂部添加條形碼。
+本教學課程可協助您在PDF輸出的每個頁面上方新增條碼。
 
-## 生成條形碼的步驟
+## 產生條碼的步驟
 
-要生成條形碼，請執行以下步驟：
+若要產生條碼，請執行下列步驟：
 
-### 將資源ID添加到DITA映射
+### 將資源ID新增至DITA map
 
-將資源ID元素添加到DITA映射。 資源ID用作生成條形碼的主輸入。
+將資源ID元素新增至DITA map。 資源ID會作為產生條碼的主要輸入。
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,14 +36,14 @@ ht-degree: 2%
 </map>  
 ```
 
-也可以在「創作」模式下編輯資源ID。
+您也可以在編寫模式下編輯資源ID。
 
-<img src="./assets/barcode-map.png" alt="帶條形碼的示例輸出" width="700">
+<img src="./assets/barcode-map.png" alt="具條碼的範例輸出" width="700">
 
 
-### 在模板標題中添加條形碼佔位符
+### 在範本標題中新增條碼預留位置
 
-修改 `Common.plt` 檔案 **基本** 在項目標題後添加條形碼的模板。
+修改 `Common.plt` 中的檔案 **基本** 範本以在專案標題後新增條碼。
 
 ```html
 ...
@@ -56,9 +56,9 @@ ht-degree: 2%
 ```
 
 
-### 更新模板的CSS以呈現條形碼值
+### 更新範本的CSS以演算條碼值
 
-修改 `content.css` 檔案，以在生成PDF期間呈現條形碼。 支援各種條形碼類型，如「qrcode」和「pdf417」。  有關詳細資訊，請參閱 [條形碼類型](#barcode-types)。
+修改 `content.css` 在產生PDF期間呈現條碼的檔案。 支援各種條碼型別，例如「qrcode」和「pdf417」。  如需詳細資訊，請參閱 [條碼型別](#barcode-types).
 
 
 
@@ -71,41 +71,41 @@ ht-degree: 2%
 ...
 ```
 
-執行上述步驟後，可以使用條形碼生成PDF輸出。
+執行完上述步驟後，即可使用條碼產生PDF輸出。
 
-下面的螢幕快照在PDF輸出中顯示示例條形碼。
+以下熒幕擷圖顯示PDF輸出中的範例條碼。
 
-<img src="./assets/barcode-output-sample.png" alt="帶條形碼的示例輸出" width="700">
+<img src="./assets/barcode-output-sample.png" alt="具條碼的範例輸出" width="700">
 
 
-## 條形碼類型 {#barcode-types}
+## 條碼型別 {#barcode-types}
 
-| 類型 | CSS屬性 | 附加屬性 |
+| 類型 | CSS屬性 | 其他屬性 |
 | ------------------------------- | ----------------------- | -------------------------- |
-| QR碼 | q碼 |  |
+| QR碼 | qrcode |  |
 | PDF417 | pdf417 |  |
-| 資料矩陣 | 資料矩陣 |  |
-| 阿茲特克代碼 | Aztec碼 |  |
-| 網格矩陣 | 網格矩陣 |  |
-| Maxicode | 最大碼模式4 |  |
-| 微QR | 微核 |  |
-| 代碼1 | 代碼1 |  |
-| 科達布洛克足球會 | 科達布洛克克 |  |
+| DataMatrix | data-matrix |  |
+| Aztec代碼 | aztec-code |  |
+| 格點矩陣 | 格點矩陣 |  |
+| Maxicode | maxicode mode-4 |  |
+| Micro QR | microqr |  |
+| 程式碼1 | code-one |  |
+| 程式碼區塊F | codablockf |  |
 | GS1資料庫有限公司 | 資料庫限制 |  |
-| GS1資料庫全向 | 資料庫全向 |  |
+| GS1資料庫全方向 | 資料庫全方向 |  |
 | EAN-13 | ean-13 |  |
-| GS1-128(EAN-128) | code128 | -ro條形碼編碼：gs1; |
+| GS1-128 (EAN-128) | code128 | -ro-barcode-encoding： gs1； |
 | ITF-14 | itf14 |  |
-| UPC-A | 升降 |  |
+| UPC-A | upc-a |  |
 | 代碼128 | code128 |  |
-| 交錯2個（共5個） | 2of5交錯 |  |
-| POSTNET | 郵戳 |  |
-| 荷蘭郵政Kixcode | KX碼 |  |
-| 《韓國郵報》 | 《韓國郵報》 |  |
-| 德意志郵報 | dp-leitcode |  |
-| 《澳大利亞郵報》 | 奧斯本 |  |
-| 洛格馬爾 | 日誌 |  |
-| 藥典 | 藥典 |  |
-| USPS OneCode（智慧郵件） | usps-onecode |  |
+| 交錯式2/5 | code2of5交錯 |  |
+| POSTNET | postnet |  |
+| 荷蘭文Post Kixcode | kixcode |  |
+| 韓國郵政 | 韓國 — 郵政 |  |
+| 德國郵遞區號 | dp-leitcode |  |
+| 澳洲郵政 | auspost |  |
+| Logmars | logmars |  |
+| Pharmacode | pharmacode |  |
+| USPS OneCode （智慧型郵件） | usps-onecode |  |
 
 

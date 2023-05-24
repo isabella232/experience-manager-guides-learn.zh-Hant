@@ -11,19 +11,19 @@ ht-degree: 1%
 
 # 翻譯內容 {#id1645H700L67}
 
-指AEM南具有強大的功能，使您能夠將內容翻譯成多種語言。 「指南」同時支援人和機器翻譯工作AEM流。
+AEM Guides隨附強大的功能，可讓您將內容翻譯成多種語言。 AEM Guides支援人工翻譯和機器翻譯工作流程。
 
-- **人文翻譯**  — 資產將發送給翻譯提供商，並由專業翻譯員翻譯。 完成後，將退回已換算資產，然後將其導入AEM。
+- **人工翻譯**  — 資產會傳送給您的翻譯提供者，並由專業翻譯人員進行翻譯。 完成後，系統會傳回翻譯後的資產，並將其匯回AEM。
 
-- **機器翻譯**  — 這是預設服務，AEM其中內容立即使用機器翻譯即時翻譯。 開箱即用AEM提供連接到Microsoft翻譯器的功能。
+- **機器翻譯**  — 這是AEM中的預設服務，其中會使用機器翻譯即時即時翻譯內容。 現成的AEM提供連線至Microsoft Translator的功能。
 
    >[!NOTE]
    >
-   > Microsoft翻譯員僅作為試用許可證提供。
+   > Microsoft Translator僅可作為試用版授權使用。
 
 
-- **[內容翻譯的最佳做法](translation-first-time.md)**
+- **[內容翻譯的最佳實務](translation-first-time.md)**
 
-- **[查看翻譯狀態](translation-view-trans-state-6234.md)**
+- **[檢視翻譯狀態](translation-view-trans-state-6234.md)**
 
 - **[翻譯修改的主題](translation-modified-topics-6234.md)**

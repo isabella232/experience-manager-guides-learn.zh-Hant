@@ -1,6 +1,6 @@
 ---
-title: 在左面板中配置自定義面板
-description: 瞭解如何在左側面板中配置自定義面板
+title: 在左側面板中設定自訂面板
+description: 瞭解如何在左側面板中設定自訂面板
 source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
 workflow-type: tm+mt
 source-wordcount: '87'
@@ -9,14 +9,14 @@ ht-degree: 0%
 ---
 
 
-# 在左面板中配置自定義面板 {#id224JI200Y6F}
+# 在左側面板中設定自訂面板 {#id224JI200Y6F}
 
-執行以下步驟，在Web編輯器的左面板中添加自定義面板：
+執行以下步驟，在網頁編輯器的左側面板中新增自訂面板：
 
-1. 建立 *客戶端庫* 資料夾，並將JavaScript和CSS檔案添加到此資料夾中。
-1. 更新的類別屬性 *客戶端庫* 資料夾的值 *apps.fmdita.xml\_editor.page\_overrides*。
+1. 建立 *clientlib* 資料夾，並將您的JavaScript和CSS檔案新增至此資料夾。
+1. 更新「 」的「 」類別屬性 *clientlib* 資料夾，為其指派值 *apps.fmdita.xml\_editor.page\_overrides*.
 
-配置自定義面板的示例代碼：
+設定自訂面板的程式碼範例：
 
 ```JavaScript
 tcx.ready(function () { //Ready will call the callback after editor code is set for events and global variable excess
@@ -55,5 +55,5 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**父主題：**[&#x200B;自定義Web編輯器](conf-web-editor.md)
+**父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
 

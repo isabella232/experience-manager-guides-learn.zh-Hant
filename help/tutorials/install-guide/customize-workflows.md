@@ -1,6 +1,6 @@
 ---
-title: 配置和自定義工作流
-description: 瞭解如何配置和自定義工作流
+title: 設定和自訂工作流程
+description: 瞭解如何設定和自訂工作流程
 source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
 workflow-type: tm+mt
 source-wordcount: '1781'
@@ -9,39 +9,39 @@ ht-degree: 3%
 ---
 
 
-# 配置和自定義工作流 {#id181AI0OJ0RO}
+# 設定和自訂工作流程 {#id181AI0OJ0RO}
 
-工作流使您能夠自動執行Adobe Experience Manager\AEM\活動。 工作流由一系列按特定順序執行的步驟組成。 您可以定義要在每個步驟上執行的不同活動。 例如，建立主題審閱時，您可以向組中的所有審閱者發送電子郵件通知。 或者，在輸出生成任務完成時向發佈者發送通知。
+工作流程可讓您自動化Adobe Experience Manager \(AEM\)活動。 工作流程包含一系列以特定順序執行的步驟。 您可以定義要在每個步驟上執行的不同活動。 例如，在建立主題稽核時，您可以傳送電子郵件通知給群組中的所有稽核者。 或者，在輸出產生任務完成時，傳送通知給發佈者。
 
-有關中工作流的詳細信AEM息，請參閱：
+如需AEM工作流程的詳細資訊，請參閱：
 
 - [管理工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 應用和參與工作流： [使用工作流](https://helpx.adobe.com/tw/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- 套用和參與工作流程： [使用工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- 建立工作流模型和擴展工作流功能： [開發和擴展工作流](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/workflows.html)。
+- 建立工作流程模型和擴充工作流程功能： [開發和擴充工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- 提高使用大量伺服器資源的工作流的效能： [併發工作流處理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
-
-
-本主題中的各節將引導您完成在《指南》中提供的預設工作流中可進行的各種自AEM定義。
-
-## 自定義審閱工作流 {#id176NE0C00HS}
-
-每個組織的內容創作團隊都以特定方式工作以滿足其業務需求。 有些組織有專門的編輯，而另一些組織則可以建立自動編輯審查系統。 例如，在組織中，典型的創作和發佈工作流可能包括諸如以下任務：每當作者完成創作內容時，它會自動轉到審閱者，在審閱完成後，它將轉到發佈者以生成最終輸出。 在AEM中，您對內容和資產所執行的操作可以以流程的形式組合，並映射到工AEM作流。 有關中工作流的詳細信AEM息，請參見 [管理工作流](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html) 的上AEM界。
-
-使用AEM參考線可以自定義預設審閱工作流。 您可以將以下四個與審閱相關的自定義流程與其他創作或發佈工作流一起使用。
-
-- **建立審閱**:此進程準備建立審閱任務所需的元資料。 例如，它將為審閱者分配審閱權限、將要審閱的主題的狀態設定為、設定審閱時間表等。 在四個流程中，這是自定義工作流中必須包含的唯一強制流程。 在工作流中，您可以選擇包括或排除其他三個進程。
-
-- **分配審閱任務**:此進程將建立審閱任務，並將任務通知發送給啟動器和審閱器。
-
-- **發送審閱電子郵件**:此過程將審閱電子郵件發送給啟動器和審閱者。
-
-- **計畫要關閉審閱的作業**:此過程確保審核過程在截止時間後完成。
+- 改善使用大量伺服器資源的工作流程效能： [並行工作流程處理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
-建立自定義審閱工作流時，第一個任務是設定「建立審閱」流程所需的元資料。 為此，可以建立ECMA指令碼。 下面提供了分配元資料的ECMA指令碼示例：
+本主題中的各節將逐步引導您瞭解AEM Guides隨附的預設工作流程中可以進行的各種自訂。
+
+## 自訂稽核工作流程 {#id176NE0C00HS}
+
+每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯人員，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括以下任務 — 每當作者完成編寫內容時，就會自動將其交給稽核者，當稽核完成時，它會交給發佈者，以生成最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱 [管理工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html) 在AEM檔案中。
+
+AEM Guides可讓您自訂預設的稽核工作流程。 您可以搭配其他撰寫或發佈工作流程，使用下列四個自訂檢閱相關流程。
+
+- **建立評論**：此程式會準備建立稽核任務所需的中繼資料。 例如，它會指派稽核許可權給稽核者、將主題的狀態設定為稽核中、設定稽核時間表等。 在四個處理程式中，這是唯一必須包含在自訂工作流程中的強制處理程式。 在工作流程中，您可以選擇包含或排除其他三個處理序。
+
+- **指派稽核任務**：此程式會建立稽核任務並將任務通知傳送給發起人和稽核者。
+
+- **傳送稽核電子郵件**：此程式會將稽核電子郵件傳送給發起人和稽核者。
+
+- **將工作排程為關閉檢閱**：此程式可確保稽核程式在到達截止日期時完成。
+
+
+建立自訂稽核工作流程時，第一個任務是設定「建立稽核」流程所需的必要中繼資料。 若要這麼做，您可以建立ECMA指令碼。 指派中繼資料的ECMA指令碼範例如下：
 
 ```json
 var workflowdata=workItem.getWorkflowData();
@@ -58,86 +58,86 @@ workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 ```
 
-可以在 `/etc/workflows/scripts` 的下界。 下表介紹了此ECMA指令碼所分配的屬性：
+您可在以下位置建立此指令碼： `/etc/workflows/scripts` 節點。 下表說明此ECMA命令檔所指派的特性：
 
 | 屬性 | 類型 | 說明 |
 |--------|----|-----------|
-| `initiator` | 字串 | 啟動審閱任務的用戶的用戶ID。 |
-| `operation` | 字串 | 靜態值集為 `AEM_REVIEW`。 |
-| `orgTopics` | 字串 | 要共用以供審閱的主題的路徑。 指定多個以逗號分隔的主題。 |
-| `payloadJson` | JSON對象 | 指定以下值：<br> - `base`:包含已發送以供審閱的主題的父資料夾的路徑。<br>- `asset`:已發送以供審閱的主題的路徑。 <br>- `referrer`:留空。 |
-| `deadline` | 字串 | 指定時間 `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` 的子菜單。 |
-| `title` | 字串 | 輸入審閱任務的標題。 |
-| `description` | 字串 | 輸入複查任務的說明。 |
-| `assignee` | 字串 | 要向其發送主題\(s\)以供審閱的用戶的用戶ID。 |
-| `status` | 整數 | 靜態值設定為1。 |
-| `startTime` | 長整數 | 使用 `System.currentTimeMillis()` 函式獲取當前系統時間。 |
+| `initiator` | 字串 | 起始稽核任務之使用者的使用者ID。 |
+| `operation` | 字串 | 設定為的靜態值 `AEM_REVIEW`. |
+| `orgTopics` | 字串 | 共用供檢閱的主題路徑。 指定多個以逗號分隔的主題。 |
+| `payloadJson` | json物件 | 指定下列值：<br> - `base`：包含已傳送以供檢閱之主題的父資料夾路徑。<br>- `asset`：傳送以供檢閱的主題路徑。 <br>- `referrer`：保留空白。 |
+| `deadline` | 字串 | 指定時間 `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` 格式。 |
+| `title` | 字串 | 輸入稽核任務的標題。 |
+| `description` | 字串 | 輸入複查工作的說明。 |
+| `assignee` | 字串 | 要傳送主題以供檢閱之使用者的使用者ID。 |
+| `status` | 整數 | 設定為1的靜態值。 |
+| `startTime` | 長整數 | 使用 `System.currentTimeMillis()` 函式以取得目前系統時間。 |
 
-建立指令碼後，在調用工作流中的「建立審閱」進程之前先調用它。 然後，根據您的要求，您可以調用其它審閱工作流進程。
+建立指令碼後，請在工作流程中呼叫建立檢閱程式前呼叫它。 然後，根據您的需求，您可以呼叫其他稽核工作流程流程。
 
-### 從清除配置中刪除審閱工作流
+### 從清除設定中移除複查工作流程
 
-要提高工作流引擎效能，您可以定期從儲存庫中清除已完成的工作AEM流實例。 如果使用預設配AEM置，則所有已完成的工作流實例將在特定時間段後進行清理。 這還會導致從儲存庫清除所有審閱工作AEM流。
+若要改善工作流程引擎效能，您可以定期從AEM存放庫中清除已完成的工作流程執行個體。 如果您使用預設的AEM設定，則會在特定時段後清除所有已完成的工作流程執行個體。 這也會導致所有稽核工作流程從AEM存放庫清除。
 
-通過從自動清除配置中刪除審閱工作流模型\（資訊\），可以阻止審閱工作流自動清除。 您需要使用 **Adobe花崗岩工作流清除配置** 將審閱工作流模型從自動清除清單中移除。
+您可以從自動永久刪除組態中移除稽核工作流程模型\(information\)，以防止稽核工作流程自動永久刪除。 您需要使用 **AdobeGranite工作流程清除設定** 以從自動永久刪除清單中移除「稽核工作流程模型」。
 
-在 **Adobe花崗岩工作流清除配置**，確保列出至少一個可以安全清除的工作流。 例如，可以使用「參考線」建立的以下任何工AEM作流：
+在 **AdobeGranite工作流程清除設定**，請確定您至少列出一個可以安全清除的工作流程。 例如，您可以使用AEM Guides建立的下列任何工作流程：
 
-- /etc/workflow/models/publishditamap/jcr：內容/模型
-- /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
+- /etc/workflow/models/publishditamap/jcr：content/model
+- /etc/workflow/models/post-dita-project-creation-tasks/ jcr：content/model
 
-在 **Adobe花崗岩工作流清除配置** 確保僅AEM清除配置中列出的工作流。 這會阻AEM止清除審閱工作流資訊。
+在中新增工作流程 **AdobeGranite工作流程清除設定** 確保AEM只會清除設定中列出的工作流程。 這可防止AEM清除稽核工作流程資訊。
 
-有關配置的詳細資訊 **Adobe花崗岩工作流清除配置**，請參閱 *管理工作流實例* 的上AEM界。
+如需有關設定的詳細資訊 **AdobeGranite工作流程清除設定**，請參閱 *管理工作流程例項* 在AEM檔案中。
 
-### 自定義電子郵件模板
+### 自訂電子郵件範本
 
-許多「指南」AEM工作流都使用電子郵件通知。 例如，如果您啟動審閱任務，則會向審閱者發送電子郵件通知。 但是，要確保發送電子郵件通知，您必須在中啟用此功AEM能。 要在中啟用電子郵件通AEM知，請參閱文章 [配置電子郵件通知](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hant) 的上AEM界。
+許多AEM Guides工作流程會使用電子郵件通知。 例如，如果您啟動稽核工作，則會傳送電子郵件通知給稽核者。 不過，為確保電子郵件通知已傳送，您必須在AEM中啟用此功能。 若要在AEM中啟用電子郵件通知，請參閱文章 [設定電子郵件通知](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hant) 在AEM檔案中。
 
-指AEM南包含一組可自定義的電子郵件模板。 執行以下步驟來定制這些模板：
+AEM Guides包含一組您可自訂的電子郵件範本。 執行以下步驟來自訂這些範本：
 
-1. 登錄並AEM開啟CRXDE Lite模式。
+1. 登入AEM並開啟CRXDE Lite模式。
 
-1. 在「導航」頁籤中，轉到以下位置：
+1. 在「瀏覽」標籤中，移至下列位置：
 
    `/libs/fmdita/mail`
 
    >[!NOTE]
    >
-   > 請勿在中的預設配置檔案中進行任何自定義 ``libs`` 的下界。 必須建立 ``libs`` 中的 ``apps`` 節點，並更新 ``apps`` 僅節點。
+   > 請勿讓預設組態檔案中的任何自訂都可在 ``libs`` 節點。 您必須建立 ``libs`` 中的節點 ``apps`` 節點並更新 ``apps`` 僅限節點。
 
-1. 郵件資料夾包含以下可自定義模板：
+1. 郵件資料夾包含下列可自訂的範本：
 
-   | 模板檔案名 | 說明 |
+   | 範本檔案名稱 | 說明 |
    |-----------------|-----------|
-   | closereview.html | 此電子郵件模板在審閱任務關閉時使用。 |
-   | createreview.html | 建立新審閱任務時使用此電子郵件模板。 |
-   | reviewapproval.css | 此CSS檔案包含電子郵件模板的樣式。 |
+   | closereview.html | 此電子郵件範本在評論任務關閉時使用。 |
+   | createreview.html | 建立新稽核任務時會使用此電子郵件範本。 |
+   | reviewapproval.css | 此CSS檔案包含電子郵件範本的樣式。 |
 
 
-## 自定義輸出後生成工作流 {#id17A6GI004Y4}
+## 自訂輸出後產生工作流程 {#id17A6GI004Y4}
 
-指AEM南使您可以靈活地指定輸出後生成工作流。 您可以對使用「參考線」生成的輸出執行一些後處理AEM任務。 例如，您可能希望在生成的AEMSite輸出上應用某些CQ標籤，或在PDF輸出上設定某些屬性，或者在生成輸出後可能希望向一組用戶發送電子郵件。
+AEM Guides可讓您靈活地指定輸出後產生工作流程。 您可以在使用AEM Guides產生的輸出上執行一些後處理任務。 例如，您可能想要在產生的AEM Site輸出上套用一些CQ標籤，或在PDF輸出上設定某些屬性，或者您可能想要在產生輸出後向一組使用者傳送電子郵件。
 
-您可以建立新工作流模型以用作輸出後生成工作流。 當觸發輸出後生成工作流時，輸出生成工作流通過工作流元資料映射共用上下文資訊，您可以使用這些資訊對生成的輸出執行處理。 下表描述了作為元資料共用的上下文資訊：
+您可以建立新的工作流程模型，以用作輸出後產生工作流程。 觸發輸出後產生工作流程時，輸出產生工作流程會透過工作流程中繼資料對應分享內容資訊，您可以使用這些資訊對產生的輸出執行處理。 下表說明作為中繼資料共用的內容資訊：
 
 | 屬性 | 類型 | 說明 |
 |--------|----|-----------|
-| ``outputName`` | 字串 | 用於生成輸出的輸出預設的名稱。 |
-| `generatedPath` | 字串 | DAM中儲存所生成輸出的路徑。 |
-| `outputType` | com.adobe.fmdita.output.OutputType | 輸出預設的類型。 |
-| `outputTitle` | 字串 | 輸出預設的標題。 |
-| `outputHistoryPath` | 字串 | 歷史記錄節點的儲存庫路徑。 |
-| `isSuccess` | 布林值 | 描述輸出生成過程的最終狀態的標誌 — 成功或失敗。 |
-| `logPath` | 字串 | 保存輸出生成日誌的DAM中的路徑。 |
-| `generatedTime` | 長整數 | 觸發輸出生成過程的時間。 |
-| `initiator` | 字串 | 觸發輸出生成工作流的用戶的用戶ID。 |
+| ``outputName`` | 字串 | 用來產生輸出的輸出預設集名稱。 |
+| `generatedPath` | 字串 | DAM中儲存所產生輸出的路徑。 |
+| `outputType` | com.adobe.fmdita.output.OutputType | 輸出預設集的型別。 |
+| `outputTitle` | 字串 | 輸出預設集的標題。 |
+| `outputHistoryPath` | 字串 | 歷史記錄節點的存放庫路徑。 |
+| `isSuccess` | 布林值 | 描述輸出產生程式最終狀態（成功或失敗）的旗標。 |
+| `logPath` | 字串 | DAM中儲存輸出產生記錄的路徑。 |
+| `generatedTime` | 長整數 | 觸發輸出產生程式的時間。 |
+| `initiator` | 字串 | 觸發輸出產生工作流程的使用者的使用者ID。 |
 
-要利用輸出生成元資料，可以建立ECMA指令碼或OSGi捆綁包。 下面提供了使用元資料的ECMA指令碼示例：
+若要使用輸出產生中繼資料，您可以建立ECMA指令碼或OSGi套件。 使用中繼資料的ECMA指令碼範例如下：
 
 >[!NOTE]
 >
-> 可以在 ``/etc/workflows/scripts`` 的下界。
+> 您可在以下位置建立此指令碼： ``/etc/workflows/scripts`` 節點。
 
 ```json
 var session = workflowSession.getSession(); // Obtain session object to read/write the repository.
@@ -160,49 +160,49 @@ generatedPath;
 */
 ```
 
-建立指令碼後，請在工作流中調用自定義指令碼。 然後，根據您的要求，您可以調用其他工作流進程。 設計完自定義工作流後，請致電 *完成後期生成* 作為工作流進程的最後一步。 的 *完成後期生成* 步驟確保輸出生成任務的狀態更新為 *已完成* 完成輸出生成過程。 建立自定義輸出後生成工作流後，可以使用任何輸出生成預設對其進行配置。 在 *運行生成後工作流* 所需預設的屬性。 使用配置的輸出預設運行輸出生成任務時，任務狀態\（在「輸出」頁籤\中）將更改為 *後處理*。
+建立指令碼後，請呼叫工作流程中的自訂指令碼。 然後，根據您的需求，您可以呼叫其他工作流程程式。 設計好自訂工作流程後，請呼叫 *完成產生貼文* 作為工作流程程式的最後一個步驟。 此 *完成產生貼文* 步驟可確保輸出產生任務的狀態更新為 *已完成* 輸出產生程式完成時。 建立自訂輸出後產生工作流程後，您可以使用任何輸出產生預設集進行設定。 在中選取所需的工作流程 *執行後期產生工作流程* 必要預設集的屬性。 當您使用已設定的輸出預設集執行輸出產生任務時，任務狀態\（在「輸出」標籤中\）會變更為 *後處理*.
 
-## 自定義更新資產工作流 {#id18C3D0I0B5Z}
+## 自訂更新資產工作流程 {#id18C3D0I0B5Z}
 
-預設情況下， *DAM更新資產* 建立或更新任何資AEM產\（XML或非XML\）時都會觸發工作流。 例如，建立或更新主題時， *DAM更新資產* 將執行工作流。 的 *DAM更新資產* 工作流嘗試從「資產」中提取相關元資料。 開箱即用 *資產更新工作流* 沒有從DITA檔案中提取任何相關元資料的任何步驟， *DAM更新資產* 工作流在執行時生成大量日誌。 如果要避免額外的日誌，可以配置工作流以跳過所有XML檔案的處理。
+根據預設， *DAM更新資產* 工作流程會在您建立或更新任何AEM資產\（XML或非XML\）時觸發。 例如，當您建立或更新主題時， *DAM更新資產* 工作流程會執行。 此 *DAM更新資產* 工作流程會嘗試從「資產」擷取相關中繼資料。 現成可用 *資產更新工作流程* 沒有任何步驟可從DITA檔案和 *DAM更新資產* 工作流程在執行時會產生許多記錄。 如果您想避免額外的記錄，可以設定工作流程以略過處理所有XML檔案。
 
-執行以下步驟來自定義 *DAM更新資產* 工作流：
+執行以下步驟來自訂 *DAM更新資產* 工作流程：
 
-1. 開啟 **工作流啟動程式** 的子菜單。
+1. 開啟 **工作流程啟動器** 頁面。
 
-   訪問「工作流啟動程式」頁的預設URL為：
+   存取「工作流程啟動器」頁面的預設URL為：
 
    ```http
    http://<server name>:<port>/libs/cq/workflow/admin/console/content/launchers.html
    ```
 
-1. 從工作流啟動器清單中，開啟 **DAM更新資產** 工作流。
+1. 從工作流程啟動器清單中，開啟 **DAM更新資產** 工作流程。
 
-1. 添加具有以下表達式的條件：
+1. 使用下列運算式新增條件：
 
    ```json
    jcr:content/metadata/dc:format!=application/xml
    ```
 
-1. 按一下 **保存並關閉**
+1. 按一下 **儲存並關閉**
 
 
-## 配置後處理XML工作流 {#id18CJB03J0Y4}
+## 設定後處理XML工作流程 {#id18CJB03J0Y4}
 
-指AEM南會建立一組工作流，這些工作流允許您在中處理DITA內AEM容。 例如，在上載DITA內容或更新現有內容時，會執行一些工作流。 這些工作流會分析DITA文檔並執行各種任務，如設定元資料、將預設輸出預設添加到新DITA映射以及其他相關任務。
-
->[!NOTE]
->
-> 要自定義或擴展預設的後處理工作流，可以使用中介紹的後處理事件處理程式 *Adobe Experience Manager指南的API參考*。
-
-以下屬性控AEM制輔助線執行後處理工作流的方式：
+AEM Guides會建立一系列工作流程，讓您在AEM中使用DITA內容。 例如，有些工作流程會在您上傳DITA內容或更新現有內容時執行。 這些工作流程會剖析DITA檔案並執行各種工作，例如設定中繼資料、將預設輸出預設集新增到新的DITA map，以及其他相關工作。
 
 >[!NOTE]
 >
-> 可通過Web控制台訪問以下屬性：http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr。
+> 若要自訂或擴充預設的後處理工作流程，您可以使用 *Adobe Experience Manager Guides的API參考*.
+
+下列屬性控管AEM Guides執行後期處理工作流程的方式：
+
+>[!NOTE]
+>
+> 您可透過Web主控台存取下列屬性： http://&lt;server name=&quot;&quot;>：&lt;port>/system/console/configMgr。
 
 | 屬性 | 組合包名稱 | 說明 |
 |--------|-----------|-----------|
-| 動態輸出 | `com.adobe.fmdita.postprocess.PostProcessObservation` | 對於尚未執行後處理的所有檔案，它通過分析主題檔案來檢索傳出引用。 建議禁用此選項，因為如果要處理的檔案數量很大，它可能會使系統超載。 |
-| 後處理線程 | `com.adobe.fmdita.config.ConfigManager` | 設定用於後處理工作流的後處理線程數。 <br>預設值為 1。 |
+| 動態輸出 | `com.adobe.fmdita.postprocess.PostProcessObservation` | 對於尚未執行後續處理的所有檔案，它會透過剖析主題檔案來擷取傳出參考。 建議停用此選項，因為如果要處理的檔案數量很大，此選項可能會讓系統過載。 |
+| 後處理執行緒 | `com.adobe.fmdita.config.ConfigManager` | 設定用於後置處理工作流程的後置處理執行緒數目。 <br>預設值為 1。 |
 

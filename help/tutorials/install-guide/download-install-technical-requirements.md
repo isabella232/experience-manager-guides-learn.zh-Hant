@@ -1,6 +1,6 @@
 ---
-title: 技術要求
-description: 瞭解與指南協作的技術要AEM求
+title: 技術需求
+description: 瞭解使用AEM Guides的技術需求
 source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
 workflow-type: tm+mt
 source-wordcount: '76'
@@ -9,36 +9,36 @@ ht-degree: 3%
 ---
 
 
-# 技術要求 {#id213BCG003XA}
+# 技術需求 {#id213BCG003XA}
 
-在安裝AEM指南4.0.2之前，請確保系統符合以下技術要求：
+安裝AEM Guides 4.0.2之前，請確認您的系統符合下列技術需求：
 
 **Adobe Experience Manager**
 
-- 版本6.5 Service Pack 12、11、10或9
+- 6.5 Service Pack 12、11、10或9版
 
 >[!IMPORTANT]
 >
-> 對於AEM站點輸出生成，AEM發佈實例必須具有Service Pack 12、11、10或9。
+> 為了產生AEM網站輸出，您的AEM發佈執行個體必須有Service Pack 12、11、10或9。
 
 **作業系統**
 
-- MicrosoftWindows Server 2012 R2
+- Microsoft Windows Server 2012 R2
 
 - Red Hat Linux 7和6
 
 
-**Java開發工具包**
+**Java Development Kit**
 
-- OracleSE 11 JRE 11.x
+- oracleSE 11 JRE 11.x
 
-- OracleSE 8 JRE 1.8.x
-
-
-**Web瀏覽器**
-
-- Google鉻
+- oracleSE 8 JRE 1.8.x
 
 
-**父主題：**[&#x200B;下載並安裝](download-install.md)
+**網頁瀏覽器**
+
+- Google Chrome
+
+
+**父級主題：**[&#x200B;下載並安裝](download-install.md)
 
