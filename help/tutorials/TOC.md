@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 6982737881d7dcf314d28a69060db7031e156c76
+source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 6%
 
 ---
@@ -220,9 +220,6 @@ ht-degree: 6%
       + [翻譯內容](./install-guide/translation.md)
       + [設定AEM Assets UI的搜尋](./install-guide/conf-dita-search.md)
       + [附錄](./install-guide/appendix.md)
-+ 內容架構和使用案例 {#content-arch}
-   + [使用條件輸出](./content-architecture/create-and-use-conditions.md)
-   + [建立全域索引鍵](./content-architecture/create-global-keys.md)
 + 設定 {#configuring}
    + 原生PDF發佈 {#config-native-pdf-publish}
       + [PDF範本](./native-pdf/pdf-template.md)
@@ -235,9 +232,6 @@ ht-degree: 6%
          + [在PDF輸出中新增自訂書籤](./native-pdf/add-custom-bookmark.md)
          + [使用JavaScript處理內容或樣式](./native-pdf/use-javascript-content-style.md)
          + [在註腳中使用自訂樣式](./native-pdf/footnote-number-style.md)
-   + [設定自訂DITA-OT](./configuring/setup-a-custom-dita-ot.md)
-+ 轉換 {#translation}
-   + [從翻譯中排除段落](./translation/exclude-paragraphs-from-translation.md)
 + 版本設定 {#versioning}
 + 知識庫 {#knowledge-base}
    + 專家講座 {#expert-session}
@@ -261,5 +255,11 @@ ht-degree: 6%
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [微服務架構與效能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [設定微服務型發佈](./knowledge-base/publishing/configure-microservices.md)
+         + [設定自訂DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + 工作流程 {#workflows}
          + [貼文產生工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+      + 轉換 {#translation}
+         + [從翻譯中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+      + 使用案例 {#use-cases}
+         + [使用條件式內容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+         + [使用金鑰](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
