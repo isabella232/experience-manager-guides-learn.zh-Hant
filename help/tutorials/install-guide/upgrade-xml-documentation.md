@@ -1,7 +1,7 @@
 ---
 title: 升級Adobe Experience Manager指南
 description: 瞭解如何升級Adobe Experience Manager Guides
-source-git-commit: 629a3714e7b75af609238a506688da2674bf31cc
+source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
@@ -68,16 +68,22 @@ ht-degree: 1%
 
 此API的設計目的是評估目前系統狀態，並報告升級是否可行。 若要執行此指令碼，請觸發以下指定的端點：
 
-|端點|/bin/dxml/upgrade/3xto4x/report| |請求型別|**GET** 您可以使用網頁瀏覽器，以管理員身分登入AEM執行個體。| |預期回應| — 如果可以移動所有必要的節點，您將獲得通過檢查。 <br> — 如果目標位置存在節點，您會收到相關錯誤。 清除存放庫\（刪除節點/var/dxml\）並重新安裝升級套件，然後再次觸發此端點。 <br>**注意：** 這不是常見的錯誤，因為3.x AEM Guides之前並未使用目標位置。 <br>  — 如果此指令碼失敗，請勿繼續並報告給您的客戶成功團隊。|
+| 端點 | /bin/dxml/upgrade/3xto4x/report |
+| --- | --- |
+| 請求型別 | **GET** 您可以使用網頁瀏覽器，以管理員身分登入AEM執行個體。 |
+| 預期回應 |  — 如果可以移動所有必要的節點，您將獲得通過檢查。 <br> — 如果目標位置存在節點，您會收到相關錯誤。 清除存放庫\（刪除節點/var/dxml\）並重新安裝升級套件，然後再次觸發此端點。 <br>**注意：** 這不是常見的錯誤，因為3.x AEM Guides之前並未使用目標位置。 <br>  — 如果此指令碼失敗，請勿繼續並報告給您的客戶成功團隊。 |
 
 **系統資料移轉API**
 
-此API的設計用途是移轉系統資料，如 [移轉對應](#id2244LE040XA) 區段。
+此API的設計用途是移轉系統資料，如 **移轉對應** 區段。
 
 1. 如果Check upgrade compatibility API失敗，請勿執行此指令碼\（不要繼續\）。
 1. 一旦Check upgrade compatibility API傳回成功，您就可以執行升級指令碼。
 
-|端點|/bin/dxml/upgrade/3xto4x| |請求型別|**POST** 此指令碼為POST請求，因此應透過Postman等代理程式執行。| |預期回應| — 一旦移轉成功，您可以安裝XML Documentation解決方案4.0版。<br> — 發生錯誤時，請還原至最後一個查核點，並與您的客戶成功團隊共用錯誤記錄和API輸出。|
+| 端點 | /bin/dxml/upgrade/3xto4x |
+| --- | --- |
+| 請求型別 | **POST** 此指令碼為POST請求，因此應透過Postman等代理程式執行。 |
+| 預期回應 |  — 成功移轉後，您可以安裝XML Documentation解決方案4.0版。<br> — 發生錯誤時，請還原至最後一個查核點，並與您的客戶成功團隊共用錯誤記錄和API輸出。 |
 
 **移轉對應**：上述API會將來源位置下的所有資料移轉至目標位置。
 
@@ -406,7 +412,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 - 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可選：您可以傳遞地圖的特定路徑來為其建立索引，預設情況下，所有地圖都將建立索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- 您也可以傳遞根資料夾，以索引特定資料夾（及其子資料夾）的DITA map。 例如， `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. 請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
+- 您也可以傳遞根資料夾，以索引特定資料夾（及其子資料夾）的DITA map。 例如， `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. 請注意，如果同時傳遞了路徑引數和根引數，則只會考慮路徑引數。
 
 - 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
