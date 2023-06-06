@@ -2,9 +2,9 @@
 title: 瞭解網頁編輯器功能
 description: 瞭解如何瞭解網頁編輯器功能
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
+source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
 workflow-type: tm+mt
-source-wordcount: '14387'
+source-wordcount: '14919'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,7 @@ ht-degree: 0%
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **使用裝置主題**：選取此核取方塊，允許AEM Guides根據裝置的主題自動在淺色和深色主題之間切換。
 - **主題**：您可以從編輯器的淺色、最亮、深色或最暗的主題中進行選擇。 如果主題最淺，工具列和面板會使用更淺的灰色背景。 如果是淺色主題，工具列和面板會使用淺灰色背景。 如果是最深的佈景主題，工具列和面板會使用較深的黑色背景。 若是深色主題，工具列和面板會使用黑色背景。 在所有主題中，內容編輯區域都會以白色背景顯示。
 
 - **資料夾設定檔**：資料夾設定檔控制與條件屬性、製作範本、輸出預設集和網頁編輯器設定相關的各種設定。 預設會顯示「全域設定檔」。 此外，如果您的管理員在系統中設定了資料夾設定檔，則這些資料夾設定檔也會顯示在「資料夾設定檔」清單中。
@@ -671,9 +672,20 @@ AEM Guides可讓您以自由格式文字格式指定標籤，或使用一組預�
    ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+**一下Favroties集合的「選項」功能表**\
+您也可以使用「我的最愛」集合的「選項」選單來執行許多動作：
+
+![](images/favorites-options.png){width="400" align="left"}
+- **重新命名**：重新命名選取的集合。
+- **刪除**：刪除選取的檔案。
+- **重新整理**：從存放庫取得新的檔案和資料夾清單。
+- **在資產UI中檢視**：在Assets UI中顯示檔案或資料夾內容。
+
+
 >[!NOTE]
 >
-> 若要從我的最愛清單移除專案，請在[我的最愛]清單中按一下檔案或資料夾旁的[選項]圖示，然後選擇 **從我的最愛移除**.
+> 您也可以使用上方的「重新整理」圖示重新整理清單。
+
 
 **存放庫檢視** - ![](images/Repository_icon.svg)
 
@@ -761,6 +773,8 @@ AEM Guides可讓您以自由格式文字格式指定標籤，或使用一組預�
 - 複製
 - 簽出/簽入
 - 預覽
+- 移至
+- 重新命名
 - 刪除
 - 複製
 - 全部收合
@@ -784,6 +798,41 @@ AEM Guides可讓您以自由格式文字格式指定標籤，或使用一組預�
 - **預覽**：在不開啟檔案的情況下快速預覽檔案\(.dita/.xml\)。
 
    ![](images/quick-preview_cs.png){width="800" align="left"}
+
+- **重新命名**：使用此選項可重新命名選取的檔案。 輸入新檔案的名稱 **重新命名資產** 對話方塊。
+   - 您可以重新命名任何型別的檔案。
+   - 您無法變更檔案的副檔名。
+   - 兩個檔案不能有相同的名稱。 因此，您無法將檔案重新命名為已存在的名稱。 顯示錯誤。
+
+- **移至**：使用此選項可將選取的檔案移至另一個資料夾。
+   - 您可以輸入目的地資料夾的名稱，或選擇 **選取路徑** 以選取目的地資料夾。
+   - 您可以將任何型別的檔案移動到「內容」資料夾中的任何目的地。
+   - 兩個檔案不能有相同的名稱。 因此，您無法將檔案移動到已存在同名檔案的資料夾。
+
+   如果您嘗試將檔案移動到某個檔案夾，而該檔案夾中存在具有相同名稱但標題不同的檔案，則會顯示「重新命名和移動檔案」對話方塊，而且您需要在移動檔案之前重新命名該檔案。 目的地資料夾中移動的檔案具有新檔案名稱。
+
+   ![](images/rename-move-asset.png){width="550" align="left"}
+
+   >[!NOTE]
+   > 您也可以將檔案拖放至另一個目的地資料夾。
+
+   **排除案例**
+
+   AEM Guides不允許您在下列情況下重新命名或移動檔案：
+
+   - 如果檔案是稽核或翻譯工作流程的一部分，則無法移動或重新命名檔案。
+
+   - 如果任何其他使用者出庫檔案，您無法重新命名或移動它，您將不會看到檔案的「重新命名」或「移至」選項。
+   >[!NOTE]
+   > 如果您的管理員已授予您檔案夾的許可權，只有這樣 **重新命名** 或 **移至** 選項隨即顯示。
+
+   <details>
+    <summary> 雲端服務 </summary>
+
+   重新命名或移動任何檔案都不會中斷來自或到檔案的任何現有參照，因為每個檔案都有唯一的UUID。
+   </details>
+
+
 
 - **刪除**：使用此選項可刪除選取的檔案。 刪除檔案前會顯示確認提示。
 
@@ -1044,7 +1093,7 @@ DITA的主要功能之一是能夠重複使用內容。 「可重複使用的內
 - 在編輯器中的檔案索引標籤上按一下滑鼠右鍵，開啟快顯選單並選擇 **新增至可重複使用的內容**.
 
 
-新增檔案後，您可以在「可重複使用的內容」面板中看到檔案中的所有可重複使用的內容元素。 可重複使用的內容會顯示其ID和元素名稱。
+新增檔案後，您可以在「可重複使用的內容」面板中看到檔案中的所有可重複使用的內容元素。 可重複使用的內容會以其ID和元素名稱顯示。
 
 將檔案新增至可重複使用的內容清單時，會顯示檔案的標題而非檔案的UUID。 若要檢查檔案的UUID，請將滑鼠停留在檔案標題上，檔案的UUID就會顯示在工具提示中。
 
@@ -1202,32 +1251,86 @@ AEM Guides也支援巢狀層級主旨配置對映，您可以在根主旨配置�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
+   **處理主旨定義和分項清單的階層定義**
 
-**屬性下拉式清單**
+   除了處理同一個地圖中存在的列舉和主旨定義外， AEM Guides還提供在兩個不同的地圖中定義列舉和主旨定義的功能。 您可以在對應中定義主旨定義，在另一個對應中定義分項清單定義，然後新增對應參考。 例如，下列XML程式碼會在兩個不同的對應中建立主旨定義和列舉定義。
 
-您也可以使用「作者」檢視中「內容屬性」面板的「屬性」下拉式清單，變更主旨Scheme的值。 若要變更值，請從「屬性」下拉式選單中選取值。
+   主旨定義定義定義於 `subject_scheme_map_1.ditamap`
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-您也可以從下拉式選單中選取多個值，以套用屬性的值。
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
 
-**來源檢視**
+   列舉定義出現在subject_scheme_map_2.ditamap中
 
-您也可以從「來源檢視」中的屬性下拉式清單變更值。 「來源檢視」也可防止您新增任何不正確的值。
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+   在此處，主旨定義定義位於 `subject_scheme_map_1.ditamap`  當列舉定義存在於中時 `subject_scheme_map_2.ditamap`. 的參考 `subject_scheme_map_1.ditamap` 也會新增至 `subject_scheme_map_2.ditamap`.
 
-**從「條件」面板檢視並套用主旨配置**
+   >[!NOTE]
+   >
+   > 作為 `subject_scheme_map_1.ditamap` 和 `subject_scheme_map_2.ditamap` 相互參照，因此可解析主題配置。
 
-您也可以從「條件」面板檢視及套用主旨配置。
+   主旨分項清單參照會依照下列優先順序來解析：
 
-若要從「條件」面板檢視主旨配置，您的系統管理員必須選取選項 **在「條件」面板中顯示主旨配置** 在「編輯器設定」的「條件」標籤下。 如需詳細資訊，請參閱 [條件索引標籤](#id21BMNE0602V).
+   1. 相同地圖
+   1. 參照的地圖
 
-「條件」面板會顯示主旨配置中主旨定義的平面垂直結構。
+   如果在相同的對應和參照的對應中找不到分項清單，則不會解析參照。
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-您可以將所需的條件拖放至內容上，藉此將條件新增至內容。 條件內容會使用為條件定義的顏色反白顯示。
+   **屬性下拉式清單**
+
+   您也可以使用「作者」檢視中「內容屬性」面板的「屬性」下拉式清單，變更主旨Scheme的值。 若要變更值，請從「屬性」下拉式選單中選取值。
+
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+   您也可以從下拉式選單中選取多個值，以套用屬性的值。
+
+   **來源檢視**
+
+   您也可以從「來源檢視」中的屬性下拉式清單變更值。 「來源檢視」也可防止您新增任何不正確的值。
+
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+   **從「條件」面板檢視並套用主旨配置**
+
+   您也可以從「條件」面板檢視及套用主旨配置。
+
+   若要從「條件」面板檢視主旨配置，您的系統管理員必須選取選項 **在「條件」面板中顯示主旨配置** 在「編輯器設定」的「條件」標籤下。 如需詳細資訊，請參閱 [條件索引標籤](#id21BMNE0602V).
+
+   「條件」面板會顯示主旨配置中主旨定義的平面垂直結構。
+
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+   您可以將所需的條件拖放至內容上，藉此將條件新增至內容。 條件內容會使用為條件定義的顏色反白顯示。
 
 **代碼片段** -  ![](images/insert-snippet-icon.svg)
 

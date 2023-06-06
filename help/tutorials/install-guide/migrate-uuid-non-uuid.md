@@ -1,13 +1,13 @@
 ---
 title: 非UUID移轉至UUID內容
-description: 瞭解如何將非UUID內容移轉至UUID內容
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: 瞭解如何將非UUID移轉至UUID內容
+exl-id: 093b380e-9a8b-4e60-aeaa-3458e8c257f2
+source-git-commit: 21edbb2f8a49213ea95fac8a957056711219e7e4
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
 
 ---
-
 
 # 非UUID移轉至UUID內容 {#id226TI0U20XA}
 
@@ -57,6 +57,7 @@ ht-degree: 0%
     - &#39;doBaselines&#39;： true/false \(如果基線必須升級或不升級。 預設值為true。\)
     - &#39;processLevel&#39;： -1\（失敗但不還原\）、0\（失敗但還原\）、1\（失敗但出現錯誤\）、2\（已成功升級\） \(失敗後重試指令碼時，只會再次處理具有「fmUpgradeStatus」 &lt;= processLevel的檔案，否則會忽略該檔案。 預設值為 1。\)
     - &#39;ignoreImageVersions&#39;： true/false \(忽略影像版本的處理。 預設值為false。\)
+    
     >[！NOTE]
     >
     >我們可以在資料夾層級或完整內容/dam或相同資料夾上執行內容移轉\（重新執行移轉\）。
@@ -69,4 +70,3 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 如果某些檔案在移轉前未處理或損毀，即使在移轉後，也會維持損毀。
-

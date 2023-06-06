@@ -1,22 +1,26 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2023年3月發行
 description: Adobe Experience Manager Guidesas a Cloud Service三月版
-exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service三月版
 
-## 升級至3月版
+# 2023年3月發行的Adobe Experience Manager Guidesas a Cloud Service
 
-as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱為 *AEM指南as a Cloud Service*)進行設定：
+此發行說明涵蓋升級指示、相容性矩陣，以及2023年3月Adobe Experience Manager Guides版本中修正的問題(後稱為 *AEM指南as a Cloud Service*)。
+
+如需新功能和增強功能的詳細資訊，請參閱 [AEM Guidesas a Cloud Service版2023年3月的新增功能](whats-new-2023.3.0.md).
+
+## 升級至2023年3月版本
+
+請執行以下步驟，升級您目前的AEM Guidesas a Cloud Service設定：
 1. 檢視Cloud Services的Git程式碼，並切換到在Cloud Services管道中設定的分支，該分支與您要升級的環境相對應。
 2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將Cloud Services Git程式碼的檔案設為2023.3.242。
-3. 提交變更並執行Cloud Services管道，以升級至AEM Guidesas a Cloud Service的3月版本。
+3. 提交變更並執行Cloud Services管道，以升級至2023年3月版的AEM Guidesas a Cloud Service。
 
 ## 索引現有內容的步驟(僅限使用9月之前版本的AEM Guidesas a Cloud Service)
 
@@ -51,34 +55,3 @@ _localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271
 |  |  |  |  |
 
 
-## 新增功能和功能改善
-
-AEM Guidesas a Cloud Service在2023年3月版本中提供增強功能和新功能：
-
-### 在網頁編輯器中開啟並播放視訊或音訊檔案
-
-AEM Guides現在提供在網頁編輯器中開啟和播放音訊或視訊檔案的功能。 您可以變更音量或視訊檢視。 在快捷選單中，您也有 **下載**，變更 **播放速度**，或檢視 **子母畫面**.
-
-<img src="assets/video-web-editor.png" alt="播放視訊" width="600">
-
-
-## 已修正的問題
-
-修復了各種區域的錯誤如下所列：
-
-* 下載PDF程式在網頁編輯器中無法正常運作。 (11496)
-* JSON輸出 |屬性值為「 」的中繼資料對應 `"value in spaces and double quotes"` 導致發佈錯誤。 (11438)
-* 音訊和視訊多媒體檔案的插入失敗，因為YouTube格式位於 **插入多媒體** 圖示。 (11320)
-* 使用具有專門化標題元素的範本建立對應時，會發生驗證錯誤。 (11212)
-* 原生PDF |表格頁首中的註腳會在PDF輸出的對應頁尾中，指向粗體和居中對齊文字。 (10610)
->[!NOTE]
->
->若要反映原生PDF變更，請刪除位於/content/dam/dita-templates的PDF資料夾，然後升級至最新版本。 (10610)
-
-### 有因應措施的已知問題
-
-Adobe已確認2023年3月AEM Guidesas a Cloud Service版本的下列已知問題。
-
-* 使用者無法儲存或建立重複資產的版本。
-
-**因應措施**：對重複資產進行任何變更之前，請先從Assets UI重新處理該資產。

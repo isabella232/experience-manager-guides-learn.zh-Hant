@@ -2,7 +2,7 @@
 title: 發行說明 | Adobe Experience Manager Guides 4.2版
 description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Guides 4.2版
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: a54ada55dad4ff8da8eee3dccb5ad9028b4cdc9e
+source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 6%

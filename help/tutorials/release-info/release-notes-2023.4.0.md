@@ -1,23 +1,27 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2023年4月發行
-description: 最新版Adobe Experience Manager Guidesas a Cloud Service
+description: 2023年4月發行的Adobe Experience Manager Guidesas a Cloud Service
 exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
-source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '579'
 ht-degree: 2%
 
 ---
 
-# 4月版Adobe Experience Manager Guidesas a Cloud Service
+# 2023年4月發行的Adobe Experience Manager Guidesas a Cloud Service
 
-## 升級至最新版本
+此發行說明涵蓋升級指示、相容性矩陣，以及2023年4月版Adobe Experience Manager Guides中修正的問題(後稱為 *AEM指南as a Cloud Service*)。
 
-as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱為 *AEM指南as a Cloud Service*)進行設定：
+如需新功能和增強功能的詳細資訊，請參閱 [AEM Guidesas a Cloud Service版2023年4月的新增功能](whats-new-2023.4.0.md).
+
+## 升級至2023年4月發行
+
+請執行以下步驟，升級您目前的AEM Guidesas a Cloud Service設定：
 
 1. 檢視Cloud Services的Git程式碼，並切換到在Cloud Services管道中設定的分支，該分支與您要升級的環境相對應。
 2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將Cloud Services Git程式碼的檔案設為2023.4.249。
-3. 提交變更並執行Cloud Services管道，以升級到最新版AEM Guidesas a Cloud Service。
+3. 確認變更並執行Cloud Services管道，以升級至2023年4月版的AEM Guidesas a Cloud Service。
 
 ## 索引現有內容的步驟(僅限使用9月之前版本的AEM Guidesas a Cloud Service)
 
@@ -51,39 +55,6 @@ _localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271
 | 2023.04.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
-
-## 新增功能和功能改善
-
-AEM Guidesas a Cloud Service在最新版本中提供增強功能和新功能：
-
-### PDF發佈中的進階中繼資料支援
-
-AEM Guides現在為中繼資料提供進階支援，這些中繼資料會對應到PDF輸出中的中繼資料。 中繼資料選項包括有關檔案及其內容的資訊，例如作者姓名、檔案標題、關鍵字、版權資訊和其他資料欄位。
-
-<img src="assets/pdf-metadata.png" alt=" 原生pdf中繼資料">
-
-您可以匯入XMP檔案，AEM Guides可以從檔案中挑選資訊。 您也可以選擇使用下拉式清單提供中繼資料名稱和值。 您也可以直接在名稱欄位中輸入，以新增自訂中繼資料。
-
-
-### 增強型大綱檢視面板
-
-AEM Guides提供改良的「大綱檢視」面板，您可以在其中取得檔案中使用之元素的階層檢視。
-
-<img src="assets/select-element-content-outline-view_cs.png" alt=" 原生pdf中繼資料">
-
-「大綱檢視」提供下列增強功能：
-
-* 「檢視選項」下拉式清單會顯示在「大綱檢視」面板上方。 如果元素有ID、屬性和文字，您可以從下拉式清單中選取它們，以便與元素一起顯示。 可以在「大綱檢視」面板中顯示的屬性由管理員在 **編輯器設定**.
-
-* 您可以使用搜尋功能，依名稱、ID、文字或屬性值來搜尋元素。
-
-
-### AEM Guidesas a Cloud Service的微服務型發佈
-
-AEM Guidesas a Cloud Service提供以微服務式發佈同時執行大量發佈工作負荷的功能，並可運用業界領先的Adobe I/O Runtime無伺服器平台。
-
-現在在4月發行版本中，您可以同時執行多個發佈要求，並使用微服務型原生PDF發佈以非常有效率的方式產生大量PDF輸出。
-如需詳細資訊，請參閱 [為AEM Guidesas a Cloud Service設定新的微服務型發佈](../knowledge-base/publishing/configure-microservices.md).
 
 
 ## 已修正的問題

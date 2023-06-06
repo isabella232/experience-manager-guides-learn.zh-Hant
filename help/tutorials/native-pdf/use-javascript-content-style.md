@@ -2,9 +2,9 @@
 title: 原生PDF發佈功能 |使用JavaScript處理內容或樣式
 description: 瞭解如何建立使用樣式表及內容的樣式。
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,35 @@ window.addEventListener('DOMContentLoaded', function () {
 使用此程式碼產生的輸出，以及範本在影像下方顯示圖示題：
 
 <img src="./assets/fig-title-below-image.png" width="500">
+
+## 在草稿檔案的PDF輸出中新增浮水印 {#watermark-draft-document}
+
+您也可以使用JavaScript來新增條件式浮水印。 當滿足定義的條件時，這些浮水印會新增到您的檔案中。\
+例如，您可以使用以下程式碼建立JavaScript檔案，為尚未核准的檔案的PDF輸出建立浮水印。 如果您為「已核准」docstate中的檔案產生PDF，則不會顯示此浮水印。
+
+```css
+...
+/*
+* This file can be used to add a watermark to the PDF output
+* */
+
+window.addEventListener('DOMContentLoaded', function () {
+    var watermark = 'Draft'
+    var metaTag = document.getElementsByTagName('meta')
+    css = "@page {\n  @left-middle {\n    content: \"".concat(watermark, "\";\n    z-index: 100;\n    font-family: sans-serif;\n    font-size: 80pt;\n    font-weight: bold;\n    color: gray(0, 0.3);\n    text-align: center;\n    transform: rotate(-54.7deg);\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n  }\n}")
+    head = document.head || document.getElementsByTagName('head')[0], style = document.createElement('style');
+    style.appendChild(document.createTextNode(css));
+    window.pdfLayout.onBeforePagination(function () {
+        for (let i = 0; i < metaTag.length; i++) {
+            if (metaTag[i].getAttribute('name') === 'docstate' && metaTag[i].getAttribute('value') !== 'Approved') {
+                head.appendChild(style);
+            }
+        }
+    })
+});
+...
+```
+
+使用此程式碼產生的PDF輸出會顯示浮水印 *草稿* 在檔案的封面頁上：
+
+<img src="./assets/draft-watermark.png" width="500">

@@ -2,9 +2,9 @@
 title: 原生PDF發佈功能 |設計頁面配置
 description: 瞭解如何設計您的頁面配置，以便在PDF輸出的不同區段中展示資訊。
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
 workflow-type: tm+mt
-source-wordcount: '4649'
+source-wordcount: '4712'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,16 @@ PDF檔案通常包含下列章節：
 
 每個欄位類別都包含不同的變化，可在其中插入欄位資訊。 例如，日期欄位可以有不同的變化，例如 `YYYY-MM-DD`， `MM/DD/YY`， `MM/DD/YYYY` 等等。 同樣地，頁碼可以有羅馬字、小數或甚至地區設定特定格式的變體，例如 _阿拉伯文_， _天成文書_， _希伯來文_、等等。
 
-除了預先定義的欄位之外，您也可以在頁面版面中新增中繼資料資訊作為變數或欄位。 此中繼資料會儲存在您的來源DITA map內容中，而且可以輕鬆插入您的頁面版面配置中。 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
+除了預先定義的欄位之外，您也可以在頁面版面中新增中繼資料資訊作為變數或欄位。 此中繼資料會儲存在您的來源DITA map內容中，而且可以輕鬆插入您的頁面版面配置中。
+
+您也可以從資產中選取中繼資料屬性，並將其新增至頁面版面。 然後會發佈資產中繼資料以供您的PDF輸出。 這些資產的中繼資料屬性是從 **屬性** DITA map或bookmap檔案頁面。
+
+>[!NOTE]
+>
+> 中繼資料欄位會根據您在「 」中選擇的資產或地圖顯示 **從** 下拉式清單。
+
+
+<!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 在以下範例中，我們會在頁面配置的頁尾區域中插入頁碼和章節標題。
 

@@ -1,7 +1,8 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 4.2.1版的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Guides 4.2.1版
-source-git-commit: 7fdbf99a1224124d63acaebc626e3b09475f3096
+exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
+source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 5%
@@ -31,7 +32,7 @@ ht-degree: 5%
 
 ## 相容性矩陣
 
-本節列出AEM Guides 4.2支援之軟體應用程式的相容性矩陣。 1 版.
+本節列出AEM Guides 4.2支援之軟體應用程式的相容性矩陣。 1版。
 
 ### Adobe Experience Manager
 
@@ -110,5 +111,3 @@ ht-degree: 5%
 ### 評論
 
 * 完成的檢閱不會在唯讀模式下開啟。 (11387)
-
-
