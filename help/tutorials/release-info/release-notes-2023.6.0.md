@@ -1,7 +1,7 @@
 ---
 title: 發行說明 | 2023年6月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年6月Adobe Experience Manager Guidesas a Cloud Service版本
-source-git-commit: 5e1d1cef82c409a6404934d5c28a94c5b9230233
+source-git-commit: 03d90157f7169373a287f24ab666bfea634e0ca4
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
@@ -103,7 +103,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 | AEM Guides as a Cloud版本 | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.05.0 | 不相容 | 2022或更高 |
+| 2023.06.0 | 不相容 | 2022或更高 |
 |  |  |  |
 
 
@@ -111,7 +111,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 | AEM Guides as a Cloud版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- | --- | --- |
-| 2023.05.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
