@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: fa8b9cf3af0443ff8a830b0393c66f5804593deb
+source-git-commit: ce65f05c61b81115d9032e429419265e4b4574fd
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1072'
 ht-degree: 6%
 
 ---
@@ -272,6 +272,7 @@ ht-degree: 6%
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [微服務架構與效能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [設定微服務型發佈](./knowledge-base/publishing/configure-microservices.md)
+         + [在AEM Cloud上發佈基準](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          + [設定自訂DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + 工作流程 {#workflows}
          + [貼文產生工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
