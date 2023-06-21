@@ -1,13 +1,13 @@
 ---
 title: 設定自訂DITA map範本
 description: 瞭解如何設定自訂DITA map範本
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
+source-git-commit: 0dea2f1d17e7d9b12d07b459a10a00c1dd7460a5
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
-
 
 # 設定自訂DITA map範本 {#id1774F04F05Z}
 
@@ -50,7 +50,6 @@ AEM Guides隨附兩個現成可用的地圖範本：DITA map和Bookmap。 您可
 
 >[!TIP]
 >
-> 另請參閱 [附錄.md\#](appendix.md#)此 *自訂範本* 最佳作法指南中的區段，以瞭解使用自訂地圖範本的最佳作法。
+> 請參閱 *自訂範本* 最佳作法指南中的區段，以瞭解使用自訂地圖範本的最佳作法。
 
-**父級主題：**[&#x200B;設定主題和對應範本](conf-template-tags.md)
-
+**父級主題：** [設定主題和對應範本](conf-template-tags.md)
