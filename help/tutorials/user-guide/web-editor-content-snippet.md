@@ -1,7 +1,7 @@
 ---
 title: 從您的資料來源插入內容片段
 description: 瞭解如何從您的資料來源插入內容片段
-source-git-commit: 3571b8acfa51dc91f9ed0366715357af7b2f1ecb
+source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -41,7 +41,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
    1. 來源檢視會顯示DITA來源檢視中的資料。
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
-   1. 若要儲存查詢的結果，請輸入產生器的名稱，然後按一下 **新增**.   清單中會新增一個內容代碼片段產生器。
+1. 若要儲存查詢的結果，請輸入產生器的名稱，然後按一下 **新增**.   清單中會新增一個內容代碼片段產生器。
 
    >[!NOTE]
    >
