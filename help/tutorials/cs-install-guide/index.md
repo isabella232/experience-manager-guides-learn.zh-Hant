@@ -1,24 +1,21 @@
 ---
 source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '230'
 ht-degree: 2%
 
 ---
-# 安裝及設定Adobe Experience Manager Guides 4.2
+# as a Cloud Service安裝與設定Adobe Experience Manager Guides
 
 - [免責聲明](rebranding-disclaimer.md)
 - [關於本指南](introduction.md)
 - [下載並安裝](download-install.md)
-   - [技術需求](download-install-technical-requirements.md)
-   - [安裝Adobe Experience Manager](download-install-AEM.md)
-   - [首次下載並安裝AEM Guides](download-install-aemg-first-time.md)
+   - [部署AEM Guides單元](download-install-dxml-first-time.md)
    - [設定 Dispatcher](download-install-configure-dispatcher.md)
-   - [驗證AEM Guides安裝](download-install-verify-aemg-installation.md)
-   - [升級Adobe Experience Manager指南](upgrade-xml-documentation.md)
-   - [解除安裝AEM Guides](download-install-unistall-aemg.md)
+   - [驗證AEM Guides安裝](download-install-verify-dxml-installation.md)
+   - [升級AEM指南](download-install-upgrade-dxml.md)
+   - [設定覆寫](download-install-additional-config-override.md)
    - [適用於效能最佳化的Recommendations](download-install-recommend-perf-optimiz.md)
-- [非UUID移轉至UUID內容](migrate-uuid-non-uuid.md)
 - [使用者管理與安全性](user-admin-sec.md)
 - [使用自訂DITA-OT和DITA專業化](dita-ot-specialization.md)
 - [設定檔案狀態](customize-doc-state.md)
@@ -45,13 +42,14 @@ ht-degree: 2%
    - [自動產生元素ID](auto-generate-ids.md)
    - [自訂AEM預設字典](customize-aem-custom-dictionary.md)
    - [設定文字篩選](config-text-filters.md)
-   - [設定查詢的LimitReads數目](conf-query-limitreads.md)
+   - [設定檔案瀏覽對話方塊的篩選器](conf-custom-file-filters.md)
    - [安裝文章式發佈的套件](configure-article-based-publishing.md)
-- [將「進階地圖編輯器」設定為預設值](conf-map-editor.md)
-- [預設包含@navtitle屬性](auto-add-navtitle.md)
+   - [設定單一主題PDF產生](conf-pdf-generation-dita-ot.md)
+   - [在網頁編輯器中設定翻譯功能](conf-translation-web-editor.md)
+   - [將「進階地圖編輯器」設定為預設值](conf-map-editor.md)
+   - [預設包含@navtitle屬性](auto-add-navtitle.md)
 - [設定全域或資料夾層級設定檔](conf-folder-level.md)
 - [版本管理](version-management.md)
-- [整合案頭式XML編輯器](integrate-desktop-editors.md)
 - [設定輸出產生設定](conf-output-generation.md)
 - [設定和自訂工作流程](customize-workflows.md)
 - [翻譯內容](translation.md)

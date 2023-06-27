@@ -2,9 +2,9 @@
 title: 原生PDF |產生PDF輸出
 description: 在Adobe Experience Manager Guidesas a Cloud Service中產生PDF輸出
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
+source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2904'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ ht-degree: 0%
 
 1. 在「輸出」標籤中，按一下 **預設集** 在左側邊欄中。
 「預設集」面板隨即開啟。 <br>
-
 <img src="assets/preset-panel.png" alt="預設面板" width="600">
 
 1. 在輸出中 **預設集** 面板，請執行下列任一項作業：
@@ -95,17 +94,17 @@ ht-degree: 0%
 在輸出預設集中， **選取PDF** > **中繼資料** 以新增和自訂中繼資料選項。
 * **提供XMP檔案**
 
-   中繼資料欄位可透過匯入直接填入 [XMP](https://www.adobe.com/products/xmp.html) （可延伸中繼資料平台）檔案。 您可以從這裡下載範例XMP檔案。
+  中繼資料欄位可透過匯入直接填入 [XMP](https://www.adobe.com/products/xmp.html) （可延伸中繼資料平台）檔案。 您可以從這裡下載範例XMP檔案。
 
 [下載](assets/SampleXMP.xmp)
 
-   或者，您可以使用Adobe Acrobat產生XMP檔案。
+  或者，您可以使用Adobe Acrobat產生XMP檔案。
    1. 按一下 **檔案** > **屬性** 在Acrobat中。
    1. 下 **說明**，按一下 **其他中繼資料**.
    1. 從左側面板中選取 **進階**.
    1. 按一下 **儲存**.
 
-   XMP檔案會儲存在裝置上。
+  XMP檔案會儲存在裝置上。
 
 * **提供中繼資料名稱和值**
 
@@ -152,6 +151,7 @@ ht-degree: 0%
 | **顯示浮水印** | 選取此選項，即可呈現內容中的MathML方程式。 否則將忽略方程式。 |
 | **啟用MathML公式** | 選取此選項，即可呈現內容中的MathML方程式。 否則預設會忽略方程式。 |
 | **PDF符合性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，從可用的PDF標準清單中進行選擇。 如需支援標準的詳細資訊，請參閱 [關於PDF標準](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **下載暫存檔** | 如果您想要下載在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔。 |
 
 ## 產生PDF輸出 {#generate-pdf-output}
 
@@ -173,3 +173,12 @@ ht-degree: 0%
 <img src="assets/error-log.png" alt="錯誤記錄" width="250">
 
 若要檢視錯誤記錄，請按一下 **解除**，將游標停留在選取的預設集標籤上，然後按一下 ![選項](assets/options.svg) **選項** > **檢視記錄**.
+
+### 產生原生PDF輸出後下載暫存檔
+
+如果您選取 **下載暫存檔** 進階設定中的選項，您也可以下載在產生原生HTML輸出時建立的臨時PDF檔案。 產生輸出後，您可以使用 **下載暫存檔** ![下載暫存檔](assets/native-pdf-download-temporary-files-icon.svg)圖示加以檢視。 此功能可協助您檢視臨時HTML樣式和版面，並協助您根據需求修正或變更CSS樣式。
+
+
+>注意
+>
+> 此 **下載暫存檔**  ![下載暫存檔](assets/native-pdf-download-temporary-files-icon.svg) 圖示只有在您已使用預設集產生最後一個PDF輸出時才會出現，您已在預設集中選取 **進階** 標籤。

@@ -1,16 +1,17 @@
 ---
 title: 發行說明 | 2023年6月發行的Adobe Experience Manager Guides的新增功能
 description: 在2023年6月發行的Adobe Experience Manager Guidesas a Cloud Service中瞭解新增和增強功能
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager Guidesas a Cloud Service版2023年6月的新增功能
 
-本文介紹2023年6月版Adobe Experience Manager Guides (後稱為 *AEM指南as a Cloud Service*)。
+本文介紹2023年6月Adobe Experience Manager Guides版本的新功能和增強功能(後稱為 *AEM指南as a Cloud Service*)。
 
 如需有關升級指示、相容性矩陣，以及此版本中修正問題的詳細資訊，請參閱 [發行說明](release-notes-2023.6.0.md) 文章。
 
@@ -41,7 +42,13 @@ AEM Guides可讓您檢查技術檔案的整體完整性，以及從網頁編輯�
 
 ### 支援DITA元素中的語言變數
 
-AEM Guides提供語言變數的支援。 這些變數對於產生附註、提示、警告、警告等元素的本地化字串非常有用。 例如，您可以在PDF輸出中顯示您的NOTE：德文：Notiz西班牙文：Nota
+AEM Guides提供語言變數的支援。 這些變數對於產生附註、提示、警告、警告等元素的本地化字串非常有用。
+例如，您可以在PDF輸出中顯示您的NOTE：
+
+德文：Notiz
+
+西班牙文： Nota
+
 
 ### 支援頁尾中的語言變數
 
@@ -51,10 +58,13 @@ AEM Guides提供語言變數的支援。 這些變數對於產生附註、提示
 ### 目錄(TOC)的本地化首碼
 
 您也有顯示當地語系化辭彙的功能，用來在標題中顯示字首。
-例如，您可以在PDF輸出中以下列方式表示「Chapter」首碼：德文：Kapitel西班牙文：Capítulo
+例如，您可以在PDF輸出中以下列方式顯示「Chapter」首碼：
+
+德文：Kapitel
+
+西班牙文：卡皮圖洛
 
 ### 能夠在PDF配置中使用AEM中繼資料
-
 
 中繼資料是內容的說明或定義。 此中繼資料會儲存在您的來源DITA map內容中。
 
@@ -72,11 +82,11 @@ AEM Guides提供語言變數的支援。 這些變數對於產生附註、提示
 
 ## 結構描述增強功能
 
-### 使用Report陳述式檢查Schematron中的規則
+### 使用報表陳述式來檢查結構描述中的規則
 
 AEM Guides現在也支援Schematron的報告陳述式。 當測試陳述式評估為true時，報表陳述式會產生訊息。 例如，如果您希望簡短說明小於或等於150個字元，可以定義報表陳述式，以檢查簡短說明超過150個字元的主題。
 
-如需詳細資訊，請參閱 [使用判斷提示和報告陳述式來檢查規則](../user-guide/support-schematron-file.md#schematron-assert-report).
+如需詳細資訊，請參閱 [使用判斷提示和報表陳述式來檢查規則](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### 使用規則運算式
 

@@ -1,13 +1,13 @@
 ---
 title: 支援Schematron檔案
 description: 瞭解如何使用架構驗證您的主題
-source-git-commit: 5ad78d32cbfa1c913866fae5dafe97dc8f01139c
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
 
 ---
-
 
 # 支援Schematron檔案
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 網頁編輯器中的Schematron支援可協助您根據一組規則來驗證檔案，並維護主題間的一致性和正確性。
 
-## 使用判斷提示和報告陳述式來檢查規則{#schematron-assert-report}
+## 使用判斷提示和報表陳述式來檢查規則{#schematron-assert-report}
 
 AEM Guides也支援Schematron中的assert和report陳述式。 這些陳述式可協助您驗證DITA主題。
 
@@ -146,10 +146,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
-
-
-
-
-
-
-
