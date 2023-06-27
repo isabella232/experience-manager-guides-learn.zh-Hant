@@ -1,7 +1,7 @@
 ---
 title: 從您的資料來源插入內容片段
 description: 瞭解如何從您的資料來源插入內容片段
-source-git-commit: e4fcf6c7b7e69d83edb91e25081dae6e7cf1ae89
+source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -31,7 +31,6 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
    >[!NOTE]
    >  
    > 如果您的管理員已設定自訂範本，您也會在下拉式清單中看到這些範本（根據管理員設定的範本路徑設定）。
-
 1. 按一下 **擷取** 從資料來源擷取資料，並將範本套用至從SQL查詢產生的資料。
 1. 您可以在預覽或DITA來源檢視中檢視資料。
 
