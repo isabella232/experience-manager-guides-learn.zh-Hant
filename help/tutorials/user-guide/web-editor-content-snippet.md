@@ -1,7 +1,7 @@
 ---
 title: 從您的資料來源插入內容片段
 description: 瞭解如何從您的資料來源插入內容片段
-source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,6 +16,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 執行以下步驟，使用內容代碼片段產生器建立內容代碼片段，並將其插入您的主題中：
 
 1. 選取 **資料來源** ![](images/data-source-icon.svg)   以檢視連線的資料來源。 「資料來源」面板隨即開啟並顯示所有連線的資料來源。 如需詳細資訊，請檢視 [設定資料來源聯結器](../cs-install-guide/conf-data-source-connector.md).
+
    >[!NOTE]
    >
    > 您將會看到管理員已為其設定聯結器的資料來源。
@@ -31,7 +32,9 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
    >[!NOTE]
    >  
    > 如果您的管理員已設定自訂範本，您也會在下拉式清單中看到這些範本（根據管理員設定的範本路徑設定）。
+
 1. 按一下 **擷取** 從資料來源擷取資料，並將範本套用至從SQL查詢產生的資料。
+
 1. 您可以在預覽或DITA來源檢視中檢視資料。
 
    1. 預覽會顯示資料插入內容時的顯示方式。 預覽會以所選範本的格式顯示資料的一小部分。

@@ -1,14 +1,14 @@
 ---
-title: 發行說明 | 2023年6月發行的Adobe Experience Manager Guides中的升級指示和修正問題
+title: 發行說明 | 2023年7月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年7月Adobe Experience Manager Guidesas a Cloud Service版
-source-git-commit: 4ba47a803eec7bcbb106c34a1ad6a7fbed9934be
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
 
 ---
 
-# 2023年6月發行的Adobe Experience Manager Guidesas a Cloud Service
+# 2023年7月發行的Adobe Experience Manager Guidesas a Cloud Service
 
 本發行說明涵蓋升級指示、相容性矩陣，以及2023年7月版Adobe Experience Manager Guides (後稱為 *AEM指南as a Cloud Service*)。
 
