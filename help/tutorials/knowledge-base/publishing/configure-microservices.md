@@ -2,9 +2,9 @@
 title: 為AEM Guidesas a Cloud Service設定新的微服務型發佈
 description: 瞭解如何為AEM Guides設定新的微服務型發佈。
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: 95c89acd02b798d42c817b52f6f8e0710a0abb76
+source-git-commit: 92b087c4cb115f0966d20b6b1d9d26839c6e39b7
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 目前AEM Guides中的微服務型發佈僅支援使用原生PDF發佈或透過DITA-OT的PDF輸出。 未來版本中，我們將針對更多輸出型別新增微服務型發佈支援。
+> AEM Guides中以微服務為基礎的發佈，支援PDF（原生和DITA-OT型）、HTML5和CUSTOM型別的輸出預設集。
 
 由於新的雲端發佈服務受到Adobe IMS JWT型驗證的保護，客戶應遵循以下指定步驟，將其環境與Adobe的安全權杖型驗證工作流程整合，並開始使用新的雲端型可擴充發佈解決方案。
 
@@ -90,6 +90,16 @@ ht-degree: 0%
 
 完成此操作後，您應該能夠使用新的微服務雲端發佈。
 
+## 常見問題
+
+1. 單一金鑰是否可用於多個雲端環境？
+   * 可以，您可以產生一個私密金鑰並將其用於所有環境，但您必須為所有環境設定環境變數，並使用相同的金鑰。
+1. 如果啟用了使用微服務的OSGi設定，發佈程式能否在本機AEM伺服器上使用相同的程式碼基底運作？
+   * 否，如果旗標 `dxml.use.publish.microservice` 設為 `true` 然後會一律尋找微服務設定。 設定 `dxml.use.publish.microservice` 至 `false` 讓發佈功能在本機運作。
+1. 使用以微服務為基礎的發佈時，為DITA程式分配了多少記憶體？ 這是否透過DITA設定檔螞蟻引數驅動？
+   * 使用以微服務為基礎的發佈，記憶體配置不會透過DITA設定檔ant引數驅動。 服務容器上可用的總記憶體為8 GB，其中6 GB配置給DITA-OT處理序。
+
+
 ## 附錄 {#appendix}
 
 **檔案**：
@@ -107,7 +117,7 @@ ht-degree: 0%
 **檔案**： `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **內容**:
-* `dxml.use.publish.microservice`：切換以啟用使用DITA-OT的微服務型PDF發佈
+* `dxml.use.publish.microservice`：切換以啟用使用DITA-OT的微服務型發佈
 * `dxml.use.publish.microservice.native.pdf`：切換以啟用微服務型原生PDF發佈
 
 ```

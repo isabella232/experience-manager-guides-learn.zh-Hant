@@ -1,13 +1,13 @@
 ---
 title: 雲端發佈微服務架構與效能
 description: 瞭解新的微服務如何在AEMaaCS上實現可擴展的發佈。
-source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
+exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
+source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # 雲端發佈微服務架構及效能分析
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 目前AEM Guides中的微服務型發佈僅支援使用原生PDF發佈或透過DITA-OT的PDF輸出。 AEM Guides將在未來版本中新增微服務型發佈支援，以支援更多輸出型別。
+> AEM Guides中以微服務為基礎的發佈，支援PDF（原生和DITA-OT型）、HTML5和自訂輸出預設集型別。
 
 ## 雲端上現有發佈工作流程的問題
 
@@ -50,29 +50,29 @@ DITA發佈是一項耗用大量資源的程式，主要取決於可用的系統�
 
 * 雲端
 
-   如果您使用新服務在雲端上執行單一發佈，那麼與單一內部部署發佈相比，發佈可能需要更多一點時間。 由於新雲端架構的分散性質，導致此稍微增加的時間。
+  如果您使用新服務在雲端上執行單一發佈，那麼與單一內部部署發佈相比，發佈可能需要更多一點時間。 由於新雲端架構的分散性質，導致此稍微增加的時間。
 
-   <img src="assets/cloud_single_publish.png" alt="專案索引標籤" width="600">
+  <img src="assets/cloud_single_publish.png" alt="專案索引標籤" width="600">
 
 * 內部部署
 
-   單一發佈的結果較適用於舊雲端架構或內部部署，因為完整發佈作業會發生在執行AEM的同一個Pod/電腦上。
+  單一發佈的結果較適用於舊雲端架構或內部部署，因為完整發佈作業會發生在執行AEM的同一個Pod/電腦上。
 
-   <img src="assets/onprem_single_publish.png" alt="專案索引標籤" width="600">
+  <img src="assets/onprem_single_publish.png" alt="專案索引標籤" width="600">
 
 ### 在雲端和內部部署執行多項發佈
 
 * 雲端
 
-   新的發佈微服務在此情境中大放異彩。 如下圖所示，隨著多個同時發佈工作的增加，Cloud可以發佈這些工作，而不會大幅增加發佈時間。
+  新的發佈微服務在此情境中大放異彩。 如下圖所示，隨著多個同時發佈工作的增加，Cloud可以發佈這些工作，而不會大幅增加發佈時間。
 
-   <img src="assets/cloud_bulk_publish.png" alt="專案索引標籤" width="600">
+  <img src="assets/cloud_bulk_publish.png" alt="專案索引標籤" width="600">
 
 * 內部部署
 
-   在內部部署伺服器上同時執行發佈會導致效能嚴重下降。 如果發佈者同時發佈更多地圖，效能下降情況會更嚴重。
+  在內部部署伺服器上同時執行發佈會導致效能嚴重下降。 如果發佈者同時發佈更多地圖，效能下降情況會更嚴重。
 
-   <img src="assets/onprem_bulk_publish.png" alt="專案索引標籤" width="600">
+  <img src="assets/onprem_bulk_publish.png" alt="專案索引標籤" width="600">
 
 ## 其他優點
 

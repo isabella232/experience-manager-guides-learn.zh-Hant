@@ -1,21 +1,22 @@
 ---
 title: 在AEMaaCS上發佈效能標竿指南
 description: 瞭解AEM Cloud上發佈的系統限制。
-source-git-commit: e64430bb968b18090c3981cc2d21ebe6593ba933
+exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
+source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '233'
+ht-degree: 8%
 
 ---
-
 
 # AEM Guides在AEMaaCS上發佈基準
 
 目前AEM Guides雲端服務在發佈指南團隊正積極努力解決的地圖大小方面有一些限制。
 
-Guides團隊已推出可擴充的 [發佈微服務](publish-microservice-architecture-and-performance.md) 以支援大型地圖和多重同時發佈。 目前，此微服務支援輸出型別的子集，且對其他型別的支援正在開發中。
+指南團隊已推出可擴充的發佈微服務，以支援大型地圖和多個同時發佈。 若要進一步瞭解新的發佈微服務，請參閱 [發佈微服務架構](publish-microservice-architecture-and-performance.md)
 
 若要為任何AEM雲端環境設定新的發佈服務，請參閱 [設定新的微服務型發佈](configure-microservices.md)
+
 
 ## 執行環境
 
