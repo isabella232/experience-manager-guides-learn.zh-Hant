@@ -2,9 +2,9 @@
 title: 雲端發佈微服務架構與效能
 description: 瞭解新的微服務如何在AEMaaCS上實現可擴展的發佈。
 exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
-source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
+source-git-commit: 4185c31ae45c7b6fd0d394a15fbca0753d5e0463
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEM Guides中以微服務為基礎的發佈，支援PDF（原生和DITA-OT型）、HTML5和自訂輸出預設集型別。
+> AEM Guides中以微服務為基礎的發佈，支援PDF（原生和DITA-OT型）、HTML5和CUSTOM型別的輸出預設集。
 
 ## 雲端上現有發佈工作流程的問題
 
