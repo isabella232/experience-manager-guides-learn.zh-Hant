@@ -1,13 +1,13 @@
 ---
 title: 升級Adobe Experience Manager指南
 description: 瞭解如何升級Adobe Experience Manager Guides
-source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
+exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
+source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
 
 ---
-
 
 # 升級Adobe Experience Manager指南 {#id224MBE0M0XA}
 
@@ -214,11 +214,10 @@ ht-degree: 1%
 
    - &#39;excludeList&#39;應具有 `"event-user-data:changedByWorkflowProcess"`.
    - 「 」的啟動器&#x200B;*節點已修改*「 for **DAM更新資產工作流程 —** 條件&quot;`jcr:content/jcr:mimeType!=video`&quot;，
-   - 
-      - 萬用字元值應為：
+   - 萬用字元值應為：
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;應具有 `"event-user-data:changedByWorkflowProcess"`.
@@ -388,11 +387,10 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    - 「 」的啟動器&#x200B;*節點已修改*「 for **DAM更新資產工作流程 —** 條件&quot;`jcr:content/jcr:mimeType!=video`&quot;，&#39;萬用字元&#39;值應該是：
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - `excludeList` 應該有 `"event-user-data:changedByWorkflowProcess"`.
-
 
 1. 升級完成後，請確定所有自訂/覆蓋圖均已驗證並更新，以符合新的應用程式程式碼。 以下是一些範例：
    - 從/libs/fmditor/libsis重疊的任何元件都應與新的產品程式碼進行比較，且更新應在/apps下的重疊檔案中完成。
@@ -408,7 +406,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
 
 - 確保 `damAssetLucene` 索引已完成。 視伺服器上存在的資料量而定，最多可能需要幾個小時。 您可以透過檢查重新索引欄位在中設定為false來確認重新索引已完成
-   `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在以下專案新增任何自訂： `damAssetLucene`，您可能需要再次套用這些變數。
+  `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在以下專案新增任何自訂： `damAssetLucene`，您可能需要再次套用這些變數。
 
 - 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可選：您可以傳遞地圖的特定路徑來為其建立索引，預設情況下，所有地圖都將建立索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
@@ -420,4 +418,3 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 - 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功建立索引的對應。
 
 **父級主題：**[&#x200B;下載並安裝](download-install.md)
-
