@@ -2,9 +2,9 @@
 title: 原生PDF |產生PDF輸出
 description: 在Adobe Experience Manager Guidesas a Cloud Service中產生PDF輸出
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
+source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 有關使用DITA-OT方法產生PDF的詳細資訊，請參閱 [使用DITA-OT產生PDF](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
-* **FrameMaker Publishing Server (FMPS)**
+* **FrameMaker Publishing Server(FMPS)**
 
-使用此方法，不僅從DITA內容產生PDF輸出，而且從AEM存放庫中可用的FrameMaker檔案(.book和.fm)產生輸出。 可透過設定輸出預設集來建立PDF，並使用FrameMaker Publishing Server(FMPS)發佈。 您可以針對PDF和其他格式設計和設定輸出的外觀，並將其儲存在設定檔案(.sts)中。 然後FMPS會使用此設定檔案來產生DITA map或.book檔案的輸出。 若要建立或編輯輸出預設集，請參閱  *瞭解輸出預設集* 中的區段 [AEM Guidesas a Cloud Service使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+使用此方法，不僅從DITA內容產生PDF輸出，而且從AEM存放庫中可用的FrameMaker檔案(.book和.fm)產生輸出。 PDF可透過設定輸出預設集來建立，並使用FrameMaker Publishing Server (FMPS)發佈。 您可以針對PDF和其他格式設計和設定輸出的外觀，並將其儲存在設定檔案(.sts)中。 然後FMPS會使用此設定檔案來產生DITA map或.book檔案的輸出。 若要建立或編輯輸出預設集，請參閱  *瞭解輸出預設集* 中的區段 [AEM Guidesas a Cloud Service使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
 如需設定FMPS的詳細資訊，請參閱 [從FrameMaker檔案產生輸出](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
@@ -182,3 +182,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 此 **下載暫存檔**  ![下載暫存檔](assets/native-pdf-download-temporary-files-icon.svg) 圖示只有在您已使用預設集產生最後一個PDF輸出時才會出現，您已在預設集中選取 **進階** 標籤。
+
+
+
+### 使用語言變數
+
+AEM Guides也提供語言變數的支援。 選取 **語言變數** <img src="./assets/language-variables.svg" width="25">  以定義現成可用標籤的當地語系化版本，例如PDF輸出中的「注意」、「警告」和「警告」或靜態文字。 如需詳細資訊，請參閱 [支援語言變數](../native-pdf/native-pdf-language-variables.md).
+

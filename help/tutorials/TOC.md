@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1394'
 ht-degree: 5%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 5%
             + [PDF範本](./native-pdf/pdf-template.md)
             + [PDF範本的元件](./native-pdf/components-pdf-template.md)
             + [設計頁面版面](./native-pdf/design-page-layout.md)
+            + [支援語言變數](./native-pdf/native-pdf-language-variables.md)
             + 常見內容樣式 {#content-styles}
                + [使用常見的內容樣式](./native-pdf/stylesheet.md)
                + [使用自訂變更列樣式](./native-pdf/change-bar-style.md)

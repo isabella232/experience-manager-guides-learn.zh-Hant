@@ -2,9 +2,9 @@
 title: 升級Adobe Experience Manager指南
 description: 瞭解如何升級Adobe Experience Manager Guides
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
+source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
 workflow-type: tm+mt
-source-wordcount: '2750'
+source-wordcount: '2896'
 ht-degree: 1%
 
 ---
@@ -236,9 +236,51 @@ ht-degree: 1%
 
 - 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. \(可選：您可以傳遞地圖的特定路徑來為其建立索引，預設情況下，所有地圖都將建立索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 — 
+
+`http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 - 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功建立索引的對應。
+
+如果升級作業失敗，錯誤記錄會顯示下列錯誤：
+
+&quot;此 *查詢* 讀取或周遊多於 *100000節點*. 為避免影響其他任務，已停止處理。」
+
+因為未正確設定用於升級之查詢的索引，所以可能發生這種情況。 您可以嘗試下列因應措施：
+
+1. 在damAssetLucene Oak索引中，新增布林值屬性 `indexNodeName` 作為 `true` 在節點中。
+   `/oak:index/damAssetLucene/indexRules/dam:Asset`
+1. 在節點底下新增名稱為摘錄的新節點。
+
+   `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
+並在節點中設定下列屬性：
+
+   ```
+   name - rep:excerpt
+   propertyIndex - {Boolean}true
+   notNullCheckEnabled - {Boolean}true
+   ```
+
+   的結構 `damAssetLucene` 應該看起來像這樣：
+
+   ```
+   <damAssetLucene compatVersion="{Long}2" async="async, nrt" jcr:primaryType="oak:QueryIndexDefinition" evaluatePathRestrictions="{Boolean}true" type="lucene">
+   <indexRules jcr:primaryType="nt:unstructured">
+     <dam:Asset indexNodeName="{Boolean}true" jcr:primaryType="nt:unstructured">
+       <properties jcr:primaryType="nt:unstructured">
+         <excerpt name="rep:excerpt" propertyIndex="{Boolean}true" jcr:primaryType="nt:unstructured" notNullCheckEnabled="{Boolean}true"/>
+       </properties>
+       </dam:Asset>
+     </indexRules>
+   </damAssetLucene>    
+   ```
+
+
+   （以及其他現有節點和屬性）
+
+1. 重新索引 `damAssetLucene` 索引(將重新索引標幟設定為 `true` 在底下，並等待它成為 `false` 再次（這表示重新索引已完成）。 請注意，視索引大小而定，這可能需要幾個小時。
+1. 執行先前的步驟，再次執行索引指令碼。
+
 
 ## 升級至4.2.1版 {#upgrade-version-4-2-1}
 
