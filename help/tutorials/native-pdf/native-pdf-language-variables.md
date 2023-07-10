@@ -1,7 +1,7 @@
 ---
 title: 原生PDF |支援語言變數
 description: 在PDF輸出和輸出範本中使用語言變數
-source-git-commit: 7c7381d2d5a218de9c4ca1fbc0363eacd43947cd
+source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -105,18 +105,18 @@ AEM Guides提供一組預先定義或現成可用的應用程式變數。 您可
 
 1. 開啟所需的頁面版面以進行編輯。
 
->[!NOTE]
->
-> 檢視 [自訂頁面配置](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) 用於開啟頁面版面以進行自訂或編輯的區段。：
+   >[!NOTE]
+   >
+   > 檢視 [自訂頁面配置](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) 區段，用於開啟頁面版面以進行自訂或編輯。
 
 1. 選取標頭，將其設為使用中以插入變數。
 1. 選取 **插入變數**  <img src="./assets/insert-language-variable.svg" width="25"> （在工具列中）。
 1. 在 **插入變數** 快顯視窗，選取要插入的語言變數名稱，然後按一下 **插入** 將其插入頁首區域。
 
->[!NOTE]
->
-> 您也可以在文字方塊中輸入搜尋字串。 包含指定字串的變數名稱會經過篩選，並顯示在清單中。
-> 選取的語言變數會插入頁首區域中。
+   >[!NOTE]
+   >
+   > 您也可以在文字方塊中輸入搜尋字串。 包含指定字串的變數名稱會經過篩選，並顯示在清單中。
+   > 選取的語言變數會插入頁首區域中。
 
 下列熒幕擷圖顯示 `copyright-label` 在標題區域中新增。
 
