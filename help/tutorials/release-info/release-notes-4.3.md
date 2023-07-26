@@ -1,9 +1,9 @@
 ---
 title: 發行說明 |在Adobe Experience Manager Guides 4.3.0版本中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Guides 4.3.0版
-source-git-commit: 756ba69360e1796e36f6cc1ef410443ef8cb4acb
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '998'
 ht-degree: 5%
 
 ---
@@ -81,7 +81,6 @@ ht-degree: 5%
 - 開啟一個搜尋的檔案後，「尋找和取代」面板中的搜尋結果會停用。 (12142)
 - 側邊鍵盤上的「8」數字鍵在AEM Guides編輯器中無法運作。 (12106)
 - 內嵌/顯示屬性不會顯示在網頁編輯器的「版面」檢視中。 (12498)
-- 如果您，在適用於AEM Guides的氧氣外掛程式中上傳檔案無法在雲端服務中運作！ 檔案名稱中的。 (12207)
 - 全域設定檔UI設定與資料夾設定檔不相符。 (11970)
 - 複製和貼上DITA檔案時，內容參照會損毀。 (11959)
 - 安裝AEM Guides後即無法在欄檢視中編輯內容片段。 (7342)
@@ -93,7 +92,7 @@ ht-degree: 5%
 - `conref` 在ph標籤中 |顯示的瀏覽對話方塊不正確。 (9481)
 - 指向其他元素的本機連結不會在網頁編輯器中解析。 (8790)
 - Matches()函式在schematron功能中無法運作。 (11224)
-- 在AEM Guides的氧氣外掛程式中，在Web DITA Map編輯器中開啟DITA Map的選項會導向到舊的UI。 (12633)
+
 
 
 ### 管理
