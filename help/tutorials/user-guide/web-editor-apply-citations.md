@@ -1,7 +1,7 @@
 ---
 title: 新增和管理內容中的引文
 description: 瞭解如何透過將引號新增並套用至您的內容來實施參考。
-source-git-commit: f59ed1ffe8567bef48c6772a68361eacb1c7c15f
+source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -45,7 +45,7 @@ AEM Guides支援多種型別的引用，例如Modern Language Association (MLA)�
 
 1. 填寫欄位 **新增引文** 對話方塊。
 
-   >
+   >[!NOTE]
    >
    >您也可以新增ISBN、DOI或PubMed ID。 AEM Guides會自動填入其他欄位。
 
