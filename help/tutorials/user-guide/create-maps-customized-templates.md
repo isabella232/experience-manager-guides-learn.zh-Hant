@@ -2,7 +2,7 @@
 title: 根據自訂範本建立地圖
 description: 瞭解如何根據自訂範本建立地圖
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: ca96cafa214d2dd03a9933024a195ec4995ee4dc
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -61,7 +61,7 @@ AEM Guides可讓您從dita-templates資料夾建立自訂地圖和主題。 您�
 
 1. 在 **Assets UI**，導覽至dita-templates資料夾。
 1. 按一下 **地圖** 資料夾以開啟。
-1. 按一下 **建立\> DITA範本。**
+1. 按一下 **建立** > **DITA範本。**
 
    ![](images/create-dita-template.png){width="300" align="left"}
 
