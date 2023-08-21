@@ -2,7 +2,7 @@
 title: 設定自訂DITA主題範本
 description: 瞭解如何設定自訂DITA主題範本
 exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
-source-git-commit: 20980cd289a306fc73146ec3550ae31f15e91591
+source-git-commit: ecd5c315da5d450f29ee5d44cb19bc3546a19d1c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -45,7 +45,9 @@ AEM Guides可讓您設定資料夾以儲存自訂的DITA map和範本。 依預�
 
 `/content/dam/dita-templates/`
 
-為了管理主題和對應範本檔案，有專用的資料夾來儲存主題和對應範本。 依預設，所有主題範本都儲存在 `/content/dam/dita-templates/topics` 資料夾。 所有地圖範本都儲存在 `/content/dam/dita-templates/maps` 資料夾。
+為了管理主題和對應範本檔案，有專用的資料夾來儲存主題和對應範本。 依預設，所有主題範本都儲存在 `/content/dam/dita-templates/topics`
+
+資料夾。 所有地圖範本都儲存在 `/content/dam/dita-templates/maps` 資料夾。
 
 作為管理員，您可以選擇在預設資料夾中建立自訂地圖或主題範本，或建立您自己的資料夾以儲存自訂範本。 如果您計畫使用預設資料夾，則可以略過此程式。
 

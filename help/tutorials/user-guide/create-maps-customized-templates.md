@@ -2,10 +2,10 @@
 title: 根據自訂範本建立地圖
 description: 瞭解如何根據自訂範本建立地圖
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '870'
+ht-degree: 0%
 
 ---
 
@@ -26,14 +26,6 @@ AEM Guides可讓您從dita-templates資料夾建立自訂地圖和主題。 您�
 >[!NOTE]
 >
 > 所有僅可在其中參照和維護的資源都必須放在範本資料夾之外。
-
-
-您可以透過下列方式建立地圖和主題範本：
-1. 的範本窗格 [左側面板](./web-editor-features.md#left-panel-id2051ea0m0hs)
-1. [Assets UI中的範本](#templates-assets-ui)
-1. [選項功能表](#templates-in-assets-ui)
-
-### Assets UI中的範本 {#templates-assets-ui}
 
 **主題範本**
 
@@ -74,35 +66,6 @@ AEM Guides可讓您從dita-templates資料夾建立自訂地圖和主題。 您�
    > 檔案名稱必須具有.ditamap副檔名。
 
 1. (Optional\)新增說明。按一下 **建立**. 對應範本建立的訊息隨即出現。 然後，您可以開啟對映範本並進行編輯。 您可以在對應範本中新增主題範本、對應範本以及其他資產的參考。
-
-### 選項功能表 {#options-menu}
-
-若要建立地圖或主題範本，請執行下列步驟：
-
-1. 選取 **地圖** 或 **主題** 資料夾中的目前範本資料夾。 例如，`dita-templates` 資料夾。
-1. 從 **選項** 功能表，選取 **建立地圖範本** 或 **建立主題範本**.
-
-   此 **建立新的地圖範本** 或 **建立新主題範本** 對話方塊開啟。
-1. 輸入新範本的標題和名稱。
-1. 選擇您要從建立的範本型別 **範本** 下拉式清單。
-
-對應範本建立的訊息隨即出現。 您可以將範本新增至全域或資料夾層級的設定檔。 然後，新範本會出現在主題或地圖建立程式中，您可以使用它來建立地圖或主題。
-
-
-您的管理員也可以建立資料夾，並將其設定為您可建立和儲存範本的資料夾。
-
-根據您的設定，瞭解如何設定自訂DITA範本資料夾路徑：
-<details>
-    <summary> 雲端服務 </summary>
-
-瞭解如何 [設定自訂DITA範本資料夾路徑](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 在Cloud Service安裝與設定指南中。
-</details>
-
-<details>
-    <summary> 內部部署軟體</summary>
-
-瞭解如何 [設定自訂DITA範本資料夾路徑](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) ，位於On-premise安裝與設定指南中。
-</details>
 
 ## 傳遞範本中定義的標題
 
@@ -147,9 +110,6 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
     </sub>
 </title>
 ```
-
-
-
 
 ## 使用地圖範本建立新地圖
 

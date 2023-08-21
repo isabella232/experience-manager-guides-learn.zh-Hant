@@ -2,9 +2,9 @@
 title: 瞭解網頁編輯器功能
 description: 瞭解如何瞭解網頁編輯器功能
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
+source-git-commit: 0a01752122d012cff9fb583ae527842714e8f154
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -681,25 +681,20 @@ AEM Guides可讓您以自由格式文字格式指定標籤，或使用一組預�
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
-- 在編輯器中的檔案索引標籤上按一下滑鼠右鍵，開啟快顯功能表。 選擇 **新增至** > **我的最愛** 以將檔案新增至您的最愛清單。
+- 在編輯器中的檔案索引標籤上按一下滑鼠右鍵，開啟快顯功能表。 選擇 **新增至\>我的最愛** 以將檔案新增至您的最愛清單。
 
   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
->[!NOTE]
->
-> - 若要從我的最愛清單移除專案，請選取「我的最愛」集合中專案旁的「選項」圖示，然後選擇 **從我的最愛移除**.
-> - 若要預覽檔案而不開啟檔案，請選取檔案，然後選取 **預覽** 從「選項」功能表。
 
-
-
-**Favroties集合的選項功能表**\
+**一下Favroties集合的「選項」功能表**\
 您也可以使用「我的最愛」集合的「選項」功能表來執行許多動作：
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **重新命名**：重新命名選取的集合。
-- **刪除**：刪除選取的集合。
+- **刪除**：刪除選取的檔案。
 - **重新整理**：從存放庫取得新的檔案和資料夾清單。
 - **在資產UI中檢視**：在Assets UI中顯示檔案或資料夾內容。
+
 
 >[!NOTE]
 >
@@ -815,7 +810,7 @@ AEM Guides可讓您以自由格式文字格式指定標籤，或使用一組預�
   > - 如果檔案已由使用者鎖定或出庫，將滑鼠指標停留在鎖定圖示上會顯示已鎖定檔案的使用者\(name\)。
   > - 當您入庫具有任何未儲存變更的檔案時，它會提示您儲存變更。 如果您不儲存變更，則它只會入庫檔案。
 
-- **預覽**：取得檔案（.dita、.xml、音訊、視訊或影像）的快速預覽，而不需要開啟它。 您可以調整預覽窗格的大小。 如果內容包含任何 `<xref>` 或 `<conref>`，您可以選取它，以在新索引標籤中開啟它。 檔案的標題會顯示在視窗中。 如果沒有任何標題，則會顯示檔案名稱。 若要關閉 **預覽** 您可以選取關閉圖示，或按一下窗格之外的任何位置。
+- **預覽**：在不開啟檔案的情況下取得檔案(.dita/.xml\)的快速預覽。
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
@@ -1016,7 +1011,7 @@ AEM Guides可讓您以自由格式文字格式指定標籤，或使用一組預�
   > - 如果檔案已由使用者鎖定或出庫，將滑鼠指標停留在鎖定圖示上會顯示已鎖定檔案的使用者\(name\)。
   > - 入庫檔案時，系統會提示您儲存變更。 如果您不儲存變更，則它只會入庫檔案。
 
-- **預覽**：取得檔案（.dita、.xml、音訊、視訊或影像）的快速預覽，而不需要開啟它。 您可以調整預覽窗格的大小。 如果內容包含任何 `<xref>` 或 `<conref>`，您可以選取它，以在新索引標籤中開啟它。  檔案的標題會顯示在視窗中。 如果沒有任何標題，則會顯示檔案名稱。 若要關閉 **預覽** 您可以選取關閉圖示，或按一下窗格之外的任何位置。
+- **預覽**：取得檔案\(.dita/.xml\)的快速預覽，而不開啟它。
 - **複製**：您可從下列選項中選擇：
    - **複製UUID**：將所選檔案的UUID複製到剪貼簿。
    - **複製路徑**：將所選檔案的完整路徑複製到剪貼簿。
@@ -1139,12 +1134,9 @@ DITA的主要功能之一是重複使用內容的能力。 可重複使用的內
 
   >[!NOTE]
   >
-  > 選取檔案，然後選取 **預覽** 從 **選項** 功能表以預覽檔案，而不開啟檔案。 您也可以預覽出現在主題中的參照。 參照ID會出現在視窗中。
-  >
-  > 此 **預覽** 選項也適用於 **選項** 元素的功能表，可讓您在插入元素之前快速預覽元素。
+  > 注意： **預覽** 選項也可在快顯選單中使用，這可讓您在插入元素之前快速預覽元素。
 
 - 從面板將可重複使用的內容專案拖放至檔案中的所需位置。
-
 
 
 **字彙表** -  ![](images/glossary.svg)
@@ -1280,138 +1272,86 @@ AEM Guides也支援巢狀層級主旨配置對應，您可以在根主旨配置�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-**處理主旨定義和分項清單的階層定義**
+   **處理主旨定義和分項清單的階層定義**
 
-除了處理相同地圖中存在的分項清單和主旨定義之外，AEM Guides還提供在兩個獨立地圖中定義分項清單和主旨定義的功能。 您可以在對應中定義一或多個主旨定義，在另一個對應中定義列舉定義，然後新增對應參照。 例如，下列XML程式碼會在兩個不同的對應中建立主旨定義和列舉定義。
+   除了處理相同地圖中存在的分項清單和主旨定義之外，AEM Guides還提供在兩個獨立地圖中定義分項清單和主旨定義的功能。 您可以在對應中定義主旨定義，在另一個對應中定義列舉定義，然後新增對應參照。 例如，下列XML程式碼會在兩個不同的對應中建立主旨定義和列舉定義。
 
-主旨定義定義定義於 `subject_scheme_map_1.ditamap`
-
-
-```XML
-  <?xml version="1.0" encoding="UTF-8"?> 
-    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
-
-    <title>subject_scheme_map_1</title> 
-    
-    <subjectdef keys="os" navtitle="Operating system">
-        <subjectdef keys="linux" navtitle="Linux">
-        <subjectdef keys="redhat" navtitle="RedHat Linux">
-        </subjectdef>
-        <subjectdef keys="suse" navtitle="SuSE Linux">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="windows" navtitle="Windows">
-        </subjectdef>
-        <subjectdef keys="zos" navtitle="z/OS">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="deliveryTargetValues">
-        <subjectdef keys="print">
-        </subjectdef>
-        <subjectdef keys="online">
-        </subjectdef>
-    </subjectdef>
-    <subjectdef keys="mobile" navtitle="Mobile">
-        <subjectdef keys="android" navtitle="Android">
-        </subjectdef>
-        <subjectdef keys="ios" navtitle="iOS">
-    </subjectdef>
-    </subjectdef>
-    <subjectdef keys="cloud" navtitle="Cloud">
-        <subjectdef keys="aws" navtitle="Amazon Web Services">
-        </subjectdef>
-        <subjectdef keys="azure" navtitle="Microsoft Azure">
-        </subjectdef>
-        <subjectdef keys="gcp" navtitle="Google Cloud Platform">
-        </subjectdef>
-    </subjectdef>
-    </subjectScheme>
-```
-
-列舉定義出現在subject_scheme_map_2.ditamap中。
-
-```XML
-    ?xml version="1.0" encoding="UTF-8"?> 
-        <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-        <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-        <title>subject_scheme_map_2</title> 
-        <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-        </mapref> 
-        <enumerationdef>
-        <attributedef name="platform">
-        </attributedef>
-        <subjectdef keyref="mobile">
-        </subjectdef>
-        <subjectdef keyref="cloud">
-        </subjectdef>
-        </enumerationdef>
-        </subjectScheme>
-```
-
-主旨定義的定義請參閱 `subject_scheme_map_1.ditamap`  當列舉def存在於 `subject_scheme_map_2.ditamap`. 的參考 `subject_scheme_map_1.ditamap` 也新增至 `subject_scheme_map_2.ditamap`.
-
->[!NOTE]
->
-> 作為 `subject_scheme_map_1.ditamap` 和 `subject_scheme_map_2.ditamap` 相互參照，因此會解析主旨Scheme。
-
-主旨列舉參考會依照下列優先順序來解析：
-
-1. 相同地圖
-1. 引用的地圖
+   主旨定義定義定義於 `subject_scheme_map_1.ditamap`
 
 
-如果在相同的對應和參照的對應中找不到分項清單，則不會解析參照。
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
+
+   列舉定義出現在subject_scheme_map_2.ditamap中
+
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
+
+   主旨定義的定義請參閱 `subject_scheme_map_1.ditamap`  當列舉def存在於 `subject_scheme_map_2.ditamap`. 的參考 `subject_scheme_map_1.ditamap` 也新增至 `subject_scheme_map_2.ditamap`.
+
+   >[!NOTE]
+   >
+   > 作為 `subject_scheme_map_1.ditamap` 和 `subject_scheme_map_2.ditamap` 相互參照，因此會解析主旨Scheme。
+
+   主旨列舉參考會依照下列優先順序來解析：
+
+   1. 相同地圖
+   1. 引用的地圖
 
 
+   如果在相同的對應和參照的對應中找不到分項清單，則不會解析參照。
 
+   **屬性下拉式清單**
 
-**將值限製為特定元素**
+   您也可以使用作者檢視中「內容屬性」面板的「屬性」下拉式清單，變更主旨Scheme的值。 若要變更值，請從「屬性」下拉式清單中選取值。
 
-您也可以將條件限製為主題中的某些元素。 使用 `<elementdef>` 標籤以定義元素和 `<attributedef>` 標籤定義可套用至元素的條件。  如果您未新增 `<elementdef>` 標籤中，您可以將條件套用至所有元素。
-例如，使用以下列舉來限制 `@platform` 屬性至 `<shortdesc>` 元素。  其他條件對於所有元素都是可見的。
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-```XML
-<enumerationdef>
-    <elementdef name="shortdesc">
-    </elementdef>
-    <attributedef name="platform">
-    </attributedef>
-    <subjectdef keyref="deliveryTargetValues">
-    </subjectdef>
-    <subjectdef keyref="os">
-    </subjectdef>
-  </enumerationdef>
-```
+   您也可以從下拉式選單中選取多個值，以套用屬性的值。
 
-</details>
+   **來源檢視**
 
+   您也可以從「來源檢視」中的屬性下拉式清單變更值。 「來源檢視」也會防止您新增任何不正確的值。
 
-**屬性下拉式清單**
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
 
-您也可以使用作者檢視中「內容屬性」面板的「屬性」下拉式清單，變更主旨Scheme的值。 若要變更值，請從「屬性」下拉式清單中選取值。
+   **從「條件」面板檢視並套用主旨配置**
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+   您也可以從「條件」面板檢視並套用主旨配置。
 
-您也可以從下拉式選單中選取多個值，以套用屬性的值。
+   若要從「條件」面板檢視主旨配置，您的系統管理員必須選取選項 **在條件面板中顯示主旨配置** 在「編輯器設定」的「條件」標籤下。 如需詳細資訊，請參閱 [條件索引標籤](#id21BMNE0602V).
 
-**來源檢視**
+   「條件」面板會顯示主旨配置中主旨定義的平面垂直結構。
 
-您也可以從「來源檢視」中的屬性下拉式清單變更值。 「來源檢視」也會防止您新增任何不正確的值。
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
-
-**從「條件」面板檢視並套用主旨配置**
-
-您也可以從「條件」面板檢視並套用主旨配置。
-
-若要從「條件」面板檢視主旨配置，您的系統管理員必須選取選項 **在條件面板中顯示主旨配置** 在「編輯器設定」的「條件」標籤下。 如需詳細資訊，請參閱 [條件索引標籤](#id21BMNE0602V).
-
-「條件」面板會顯示主旨配置中主旨定義的平面垂直結構。
-
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
-
-您可以將所需的條件拖放至內容上，藉此將條件新增至內容。 條件內容會使用為條件定義的顏色反白顯示。
+   您可以將所需的條件拖放至內容上，藉此將條件新增至內容。 條件內容會使用為條件定義的顏色反白顯示。
 
 **代碼片段** -  ![](images/insert-snippet-icon.svg)
 
