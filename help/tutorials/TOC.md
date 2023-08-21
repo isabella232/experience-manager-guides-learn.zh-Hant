@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
+source-git-commit: 49b1876f2e9ac653ced74bddb03a585c5154b8b6
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1444'
 ht-degree: 5%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 5%
          + [設定其他特殊字元](./web-editor/configure-additional-special-characters.md)
       + [使用發佈儀表板管理發布任務](./user-guide/generate-output-publish-dashboard.md)
       + [基本疑難排解](./user-guide/generate-output-basic-troubleshooting.md)
+      + [發佈至內容片段](./user-guide/publish-content-fragment.md)
       + 大量啟用內容 {#bulk-activation}
          + [大量啟用已發佈的內容](./user-guide/conf-bulk-activation.md)
          + [建立大量啟用地圖集合](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -255,6 +256,7 @@ ht-degree: 5%
                + [使用JavaScript處理內容或樣式](./native-pdf/use-javascript-content-style.md)
                + [在註腳中使用自訂樣式](./native-pdf/footnote-number-style.md)
             + [為原生PDF發佈設定JVM標幟](./native-pdf/configure-jvm-flags.md)
+         + [建立主題與內容片段之間的對應](./install-guide/conf-content-fragment-mapping.md)
       + 使用自訂工作流程 {#custom-workflow}
          + [設定和自訂工作流程](./install-guide/customize-workflows.md)
       + 使用翻譯設定 {#translate-config}
