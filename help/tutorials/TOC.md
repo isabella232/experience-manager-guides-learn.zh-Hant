@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 49b1876f2e9ac653ced74bddb03a585c5154b8b6
+source-git-commit: 7ec353bcb943e70e0c40a2c494eaa4729f31880e
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1456'
 ht-degree: 5%
 
 ---
@@ -198,6 +198,9 @@ ht-degree: 5%
          + [使用者管理與安全性](./install-guide/user-admin-sec.md)
       + 內容移轉 {#content-migration}
          + [非UUID移轉至UUID內容](./install-guide/migrate-uuid-non-uuid.md)
+         + 移轉程式 {#migration-process}
+            + [使用版本移轉非UUID內容](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            + [移轉不含版本的非UUID內容](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          + [移轉現有內容](./install-guide/migrate-content.md)
          + [上傳現有DITA內容](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [移轉非DITA內容](./install-guide/migrate-content-non-dita.md)
