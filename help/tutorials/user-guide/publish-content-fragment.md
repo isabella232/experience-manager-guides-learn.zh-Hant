@@ -1,9 +1,9 @@
 ---
 title: 發佈主題至內容片段
 description: 瞭解如何將主題發佈至內容片段。
-source-git-commit: 6cd7d2ec76f90a192dbcd0ef552789d42c23a4fb
+source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,22 @@ AEM Guides可讓您將主題或主題內的元素發佈到內容片段。 您可
    * **模型**：選取您要用來建立內容片段的內容片段模式。 模型是從您已在雲端服務中設定的資料夾中選取。
    * **對應**：從下拉式清單中選取對應。 它會從 *contentFragmentMapping.json* 檔案。
 
-     >[!NOTE]
-     >
-     >您的管理員可以在以下位置新增對應： *contentFragmentMapping.json* 檔案。  進一步瞭解如何 [建立主題與內容片段之間的對應](../install-guide/conf-content-fragment-mapping.md) 在 *On-premise安裝和設定指南*.
 
 
+     根據您的設定，您的管理員可以在以下位置新增對應： *contentFragmentMapping.json* 檔案。
+
+     <details>
+        <summary>雲端服務</summary>
+
+     進一步瞭解如何 [建立主題與內容片段之間的對應](../cs-install-guide/conf-content-fragment-mapping-cs.md) 在Cloud Service安裝與設定指南中。
+     </details>
+
+     <details>
+        <summary> 內部部署軟體</summary>
+
+     進一步瞭解如何 [建立主題與內容片段之間的對應](../install-guide/conf-content-fragment-mapping.md) ，位於On-premise安裝與設定指南中。
+
+     </details>
    * 選取 **覆寫** 核取方塊（如果您的內容片段已經存在且您想要覆寫它）。 如果您未勾選核取方塊，而且您的內容片段已存在，AEM Guides會顯示錯誤。
 1. 按一下 **建立** 以發佈內容片段。
 1. 您可以在底下檢視主題的內容片段 **片段** 中的區段 **檔案屬性**.

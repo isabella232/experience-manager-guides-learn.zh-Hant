@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe Experience Manager Guides的氧氣外掛程
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: a77f93ddc14b6beb440eaa314eebe53fd00265d7
+source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
 workflow-type: tm+mt
-source-wordcount: '5952'
+source-wordcount: '6038'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
    選取檔案的位置會新增至安裝精靈中。
 
-1. 按一下&#x200B;**下一步**。
+1. 按一下「**下一步**」。
 
 1. 按一下 **安裝**.
 
@@ -146,7 +146,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
 - **Web驗證設定**：AEM Guides外掛程式中SSO驗證的設定。
 - **一般設定**：外掛程式的連線設定，例如AEM伺服器URL、登入詳細資料等。
-- **設定屬性自訂的偏好設定**：說明檔案集的設定屬性配置需要此設定。
+- **在交叉參照中設定屬性自訂和檔案名稱的偏好設定**：說明檔案集的設定屬性配置需要此設定。
 
 ### Web驗證設定
 
@@ -236,11 +236,11 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
    - **開啟時自動簽出檔案**：如果選取，在檔案上按兩下會自動將其出庫並開啟以進行編輯。 如果檔案已經簽出，則開啟檔案進行編輯。 如果未選取此選項，則開啟沒有鎖定的檔案會在唯讀模式下將其開啟。
 1. 按一下&#x200B;**「確定」**。
 
-### 設定屬性自訂的偏好設定 {#id1827K0D0OHT}
+### 在交叉參照中設定屬性自訂和檔案名稱的偏好設定 {#id1827K0D0OHT}
 
-您需要在Oxygon XML Author中設定偏好設定，以使用與AEM存放庫中的DITA主題相關的設定屬性。
+您需要在Oxygon XML Author中設定偏好設定，以使用與AEM存放庫中的DITA主題相關的設定屬性。 您還需要設定偏好設定，以在交叉參照中顯示檔案名稱，取代GUID。
 
-執行以下步驟來設定效能分析屬性：
+執行以下步驟來設定效能分析屬性和互動參照：
 
 1. 在Oxygon XML Author中，按一下 **選項** \> **偏好設定**.
 1. 在 **檔案型別關聯** 索引標籤，選取 **DITA**，然後按一下 **延伸**.
@@ -256,6 +256,11 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
    - 按一下 **選擇** 在 **作者自訂屬性值編輯器** 在 **個別擴充功能** 並選取「 」中的「CustomValueEditor - com.adobe.o2.framework.extn」 **類別** 清單。 按一下&#x200B;**「確定」**。下列熒幕擷圖顯示設定的 **副檔名** DITA主題的索引標籤：
 
      ![為DITA主題設定的擴充功能](images/dita-topic-extension-tab.png){width="650" align="left"}
+
+   - 按一下 **選擇** 在 **擴充功能套裝** 並選取LinkResolverExtensionBundle - com.adobe.o2.framework.extn於 **類別** 清單。 按一下&#x200B;**「確定」**。
+
+     ![為DITA主題設定的擴充功能](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+
 
 1. 按一下 **確定** 以儲存變更。
 
@@ -495,6 +500,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
 - 當您從AEM存放庫簽出內容並在本機系統上變更時，請確保在上傳檔案時檔案名稱未變更。
 
+- 當您在DITA Map管理員中插入參照時，會顯示檔案的標題，而非UUID。 如果標題不存在，則會顯示檔案名稱。
 
 ### 新增或移除我的最愛 {#id195HC04405P}
 
@@ -548,7 +554,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 1. \（可選\）在搜尋結果中按兩下檔案，以透氧XML作者開啟該檔案。
 1. 若要返回「AEM存放庫」檢視，請執行下列任一項作業：
    - 若要檢視「AEM儲存區域」檢視而不清除搜尋結果，請按一下 **瀏覽** 標籤。
-   - 若要清除搜尋結果並檢視AEM存放庫，請按一下刪除搜尋圖示。
+   - 若要清除搜尋結果並檢視「AEM存放庫」，請按一下刪除搜尋圖示。
 
 ## 從AEM網頁介面在Oxygon XML Author中開啟DITA主題 {#id182CE0I905Z}
 

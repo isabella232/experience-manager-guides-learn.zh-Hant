@@ -1,9 +1,9 @@
 ---
 title: 從您的資料來源插入內容片段
 description: 瞭解如何從您的資料來源插入內容片段
-source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
+source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,22 @@ A **資料來源** 是您儲存和管理組織資料的系統。 這些是您的
 
 ## 資料來源面板
 
-選取 **資料來源** ![](images/data-source-icon.svg) 以檢視連線的資料來源。 「資料來源」面板隨即開啟並顯示所有連線的資料來源。 如需詳細資訊，請檢視 [設定資料來源聯結器](../install-guide/conf-data-source-connector.md).
+選取 **資料來源** ![](images/data-source-icon.svg) 以檢視連線的資料來源。 「資料來源」面板隨即開啟並顯示所有連線的資料來源。
+
+根據您的設定，管理員可以設定資料來源聯結器：
+
+<details>
+<summary> 雲端服務 </summary>
+
+瞭解如何 [設定資料來源聯結器](../cs-install-guide/conf-data-source-connector.md) 在Cloud Service安裝與設定指南中。
+</details>
+
+<details>    
+<summary>  內部部署軟體 </summary>
+
+瞭解如何 [設定資料來源聯結器](../install-guide/conf-data-source-connector.md)  ，位於On-premise安裝與設定指南中。
+</details>
+
 
 >[!NOTE]
 >

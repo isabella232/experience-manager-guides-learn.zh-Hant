@@ -2,10 +2,10 @@
 title: 使用地圖集合產生輸出
 description: 瞭解如何使用地圖集合產生輸出
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
+source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 1%
+source-wordcount: '941'
+ht-degree: 0%
 
 ---
 
@@ -79,7 +79,13 @@ AEM Guides可讓您使用名為「地圖收集」的控制面板，組織內容�
      >  
      > 依預設，任何新預設集都會停用。
 
-   - 您可以選取 **啟用/停用所有資料夾設定檔預設集** 讓DITA map一次選取其所有資料夾設定檔。
+1. 您可以透過下列方式啟用DITA map的預設集：
+
+   - 啟用任何個別的預設集。
+   - 啟用 **所有預設集** 讓DITA map一次選取所有預設集。 此選項預設為停用。
+   - 啟用 **資料夾設定檔預設集** 為DITA map選取其所有資料夾設定檔預設集。 此選項預設為停用。
+     ![在雲端服務上編輯地圖集合](images/edit-map-collection-cs.png){width="800" align="left"}
+
 
 
 1. 執行下列任一項作業：

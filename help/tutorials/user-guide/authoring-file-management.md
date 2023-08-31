@@ -2,9 +2,9 @@
 title: 管理檔案和資料夾
 description: 瞭解如何管理檔案和資料夾
 exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: d0b3ccb87901c54b86aa7d0dba14dc7201c072e9
+source-git-commit: 8154cfe11f2f032d457671ebca60c1ab3f090385
 workflow-type: tm+mt
-source-wordcount: '3079'
+source-wordcount: '3082'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
   如果您選擇 **覆寫現有檔案** 選項，則上傳的檔案會取代原始位置現有檔案的目前使用中版本。 未建立或變更UUID。
 
-  如果您選擇 **保留兩個檔案** 選項，則會建立檔案的新復本，其尾碼為\（如filename0.extension\）。 新的UUID也會指派給新複製的檔案。
+  如果您選擇 **保留兩個檔案** 選項，則會以尾碼\（如filename0.extension\）建立檔案的新復本。 新的UUID也會指派給新複製的檔案。
 
   使用「覆寫現有檔案」選項，如果您選擇從現有的工作副本建立版本的選項，則也會從檔案的工作副本建立新版本。
 
@@ -129,7 +129,7 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
    <details>
 
-   <summary> 內部部署UUID型檔案系統 </summary>
+   <summary> Cloud Service及內部部署UUID型檔案系統 </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 

@@ -2,9 +2,9 @@
 title: 原生PDF |產生PDF輸出
 description: 在Adobe Experience Manager Guidesas a Cloud Service中產生PDF輸出
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: c11a9d2153dd2971a133ecd40325266b1d6e236c
+source-git-commit: 70801ab0e9465cea7568c7d8e67fcc7f41bae8ab
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '3083'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 0%
 | **使用完全壓縮來最佳化PDF大小** | 如果要壓縮/縮小大型PDF的大小，請選取此選項。 請記住，壓縮PDF可能會降低檔案品質。 |
 | **使用影像壓縮來最佳化PDF大小** | 如果要在PDF中壓縮/減少使用的影像大小，請選取此選項。 請記住，壓縮影像可能會降低影像品質。 |
 | **使用自訂解析度（每英吋畫素）** | 這是以畫素/英吋為單位的頁面顯示解析度。 在選取此選項時顯示的欄位中輸入偏好值。 預設值為每英吋96畫素。 設定較高的值以在一英吋內容納更多內容，反之亦然（如果您設定較低的值）。 |
-| **顯示浮水印** | 選取此選項以呈現內容中出現的MathML方程式。 否則將忽略方程式。 |
+| **顯示浮水印** | 選取此選項可在輸出中重疊浮水印。 您可以在文字方塊中輸入新的文字字串，其字元大小寫如您所需。 |
 | **啟用MathML公式** | 選取此選項以呈現內容中出現的MathML方程式。 否則預設會忽略方程式。 |
 | **PDF符合性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請參閱 [關於PDF標準](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **下載暫存檔案** | 如果您想要下載在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔案。 |
