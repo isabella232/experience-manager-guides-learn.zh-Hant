@@ -2,9 +2,9 @@
 title: 原生PDF |產生PDF輸出
 description: 在Adobe Experience Manager Guidesas a Cloud Service中產生PDF輸出
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 70801ab0e9465cea7568c7d8e67fcc7f41bae8ab
+source-git-commit: 85075a51d141afa451c22f7a29d21fc7ae391d49
 workflow-type: tm+mt
-source-wordcount: '3083'
+source-wordcount: '3211'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,13 @@ ht-degree: 0%
 例如，在/中定義的其中一個中繼資料屬性`jcr:content/metadata` 節點為
 `dc:title`. 您可以指定 `${dc:title}`，而標題值會用於最終輸出中。
 
-您可以使用單一或一組變數來定義中繼資料。 例如，`${dc:title} ${dc:docstate}`。
+您可以使用單一或一組變數來定義中繼資料。 例如 `${dc:title} ${dc:docstate}`。您也可以使用變數和字串的組合。  例如，`View ${dc:title} in ${dc:language}`。
 
-您也可以使用變數和字串的組合。  例如，`View ${dc:title} in ${dc:language}`。
+使用語言變數來定義中繼資料屬性的本地化值。 系統會根據您選擇的語言，在PDF輸出中自動挑選當地語系化的值。 例如，您可以將「作者」列印為英文的中繼資料值，並將「Autorin」列印為德文。
+
+格式: `${lng:<variable name>}`. 例如， `${lng:author-label}` 位置 `author-label` 是語言變數。
+
+暫留在 <img src="./assets/info-details.svg" alt= "資訊圖示" width="25"> 接近選項以檢視更多相關詳細資訊。
 
 
 **配置**
@@ -159,7 +163,7 @@ ht-degree: 0%
 | **使用完全壓縮來最佳化PDF大小** | 如果要壓縮/縮小大型PDF的大小，請選取此選項。 請記住，壓縮PDF可能會降低檔案品質。 |
 | **使用影像壓縮來最佳化PDF大小** | 如果要在PDF中壓縮/減少使用的影像大小，請選取此選項。 請記住，壓縮影像可能會降低影像品質。 |
 | **使用自訂解析度（每英吋畫素）** | 這是以畫素/英吋為單位的頁面顯示解析度。 在選取此選項時顯示的欄位中輸入偏好值。 預設值為每英吋96畫素。 設定較高的值以在一英吋內容納更多內容，反之亦然（如果您設定較低的值）。 |
-| **顯示浮水印** | 選取此選項可在輸出中重疊浮水印。 您可以在文字方塊中輸入新的文字字串，其字元大小寫如您所需。 |
+| **顯示浮水印** | 選取此選項可在輸出中重疊浮水印。 您可以在文字方塊中輸入新的文字字串，其字元大小寫如您所需。 <br><br>使用靜態文字或語言變數來發佈浮水印的本地化版本。  系統會根據您選擇的語言，在PDF輸出中自動挑選當地語系化的值。 例如，您可以將&#39;Publisher&#39;列印成英文的浮水印，並將&#39;Auteure&#39;列印成法文。  <br> 格式: `${lng:<variable name>}`. 例如， `$ {lng:publisher-label}` 位置 `publisher-label` 是語言變數。 <br> 暫留在 <img src="./assets/info-details.svg" alt= "資訊圖示" width="25"> 接近選項以檢視更多相關詳細資訊。 |
 | **啟用MathML公式** | 選取此選項以呈現內容中出現的MathML方程式。 否則預設會忽略方程式。 |
 | **PDF符合性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請參閱 [關於PDF標準](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **下載暫存檔案** | 如果您想要下載在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔案。 |

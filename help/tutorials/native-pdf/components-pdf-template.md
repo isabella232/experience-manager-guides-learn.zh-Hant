@@ -2,9 +2,9 @@
 title: 原生PDF發佈功能 |PDF範本的元件
 description: 瞭解PDF範本的各種元件，以及如何自訂和設定它們。
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
+source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,14 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
   >
   >如果您是CSS開發人員，則也可以直接在CSS檔案中定義導線格式。
 
-* **使用表格繼續標籤**：選取此選項可定義跨多頁之長表格的標籤。 <!--For more information on using table continuation markers, see Use table continuation markers.-->
+* **使用表格繼續標籤**：選取此選項可定義跨多頁之長表格的標籤。
+您可以定義要在分頁前後顯示的文字。 例如，表格會在第5頁分隔，而您定義 `<Continued on page %page-num%>` 的 **分隔之前的文字**.  文字在第5頁底部顯示「繼續於第6頁」。
+
+  使用語言變數來定義分行前後連續標籤文字。 系統會根據您選擇的語言，在PDF輸出中自動挑選當地語系化的值。 例如，您可以發佈 `Continued on page %page-num%` 以英文和文字顯示 `Fortsetzung auf Seite %page-num%` 德文版。
+
+  暫留在 <img src="./assets/info-details.svg" alt= "資訊圖示" width="25"> 接近選項以檢視更多相關詳細資訊。
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### 頁面配置 {#page-layouts}
 
@@ -356,11 +363,11 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
 
 ### 交叉引用 {#cross-references}
 
-使用「互動參照」標籤來定義如何在PDF中發佈互動參照。 您可以設定主題標題、表格、插圖等專案的互動參照格式。
+使用 **互動參照** 標籤定義互動參照在PDF中的發佈方式。 您可以設定主題標題、表格、插圖等專案的互動參照格式。
 
 您也可以使用變數來定義互動參照。  使用變數時，系統會從屬性中挑選變數值。 您可以使用單一變數或變陣列合來定義互動參照。 您也可以使用字串和變數的組合。
 
-例如，您可以使用檢視詳細資訊 {chapter}. 如果章節名稱是「一般設定」，則輸出中的互動參照是「檢視一般設定的詳細資料」。
+例如，您可以使用 `View details on {chapter}`. 如果章節名稱是「一般設定」，則輸出中的互動參照是「檢視一般設定的詳細資料」。
 
 AEM Guides提供下列現成可用的變數：
 
@@ -371,7 +378,7 @@ AEM Guides提供下列現成可用的變數：
 * {bookmarkText}：建立書籤化文字的互動參照。 例如，請參閱第5頁的stop_words 。
 * {captionText}：建立主題中圖形或表格標題的互動參照。 例如，請參閱第2頁上的氣流。
 * {figure}：新增圖數的互動參照。 從您為圖形定義的自動編號樣式中挑選圖形編號。  例如，您可以使用 {figure} 在頁面上 {page}「。 輸出中的互動參照包含自動產生的數字及其頁碼「請參見第5頁的圖1」。
-* {table}：新增表格編號的互動參照。 從您為註解定義的自動編號樣式中挑選表格編號。 例如，您可以使用 {table} 在頁面上 {page}「。 輸出中的對照參考包含自動產生的表格編號及其頁碼「請參閱第5頁的表1」。
+* {table}：新增表格編號的互動參照。 從您為註解定義的自動編號樣式中挑選表格編號。 例如，您可以使用 {table} 在頁面上 {page}「。 輸出中的互動參照包含自動產生的表格編號及其頁碼「請參閱第5頁的表1」。
 
 
 
@@ -380,8 +387,25 @@ AEM Guides提供下列現成可用的變數：
   >您可以為註解和圖形標籤建立自動編號樣式。
 
 
+#### 交叉引用中的語言變數
+
+您也可以使用語言變數來定義當地語系化的互動參照。 系統會根據您選擇的語言，在PDF輸出中自動挑選當地語系化的值。
+
+例如，您可以新增語言變數「reference-label」，並以英文和德文定義值。
+
+* 英文 — 「在頁面上檢視」 {page}&quot;
+* 德文 — 「Einzelheiten finden Sie auf der Seite {page}&quot;
 
 
+當您新增時 `${lng:<variable name>}` 對於「段落」區段，輸出段落中的互動參照包含本地化文字和頁碼。\
+例如，下列熒幕擷取畫面以英文顯示「View on page 1」互動參照，以德文顯示「Einzelheiten finden Sie auf der Seite 1」。
 
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出" width ="800">
+
+*以英文發佈之段落中的互動參照。*
+
+<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出" width ="800">
+
+*以德文發佈之段落中的對照參照。*
 
 <!--For more information, see *Format cross-references*.-->
