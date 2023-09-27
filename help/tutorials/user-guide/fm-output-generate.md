@@ -1,10 +1,10 @@
 ---
 title: 產生.book或.fm檔案的輸出
-description: 瞭解如何產生.book或.fm檔案的輸出
+description: 瞭解如何在AEM Guides中產生.book或.fm檔案的輸出。
 exl-id: 578cff9f-cb27-4df3-8571-277f81b930d7
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您可以按一下「輸出」，檢視輸出產生請求的目前狀態。 如需詳細資訊，請參閱 [檢視輸出產生任務的狀態](fm-output-view-status.md).
+> 您可以按一下「輸出」，檢視輸出產生請求的目前狀態。 如需詳細資訊，請參閱 [檢視輸出產生工作的狀態](fm-output-view-status.md).
 
 **父級主題：**[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)

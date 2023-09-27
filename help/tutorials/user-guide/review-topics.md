@@ -1,10 +1,10 @@
 ---
 title: 檢閱主題
-description: 瞭解如何檢閱主題
+description: 瞭解如何在AEM Guides中檢閱主題並將功能作為檢閱者、檔案檢視、主題檢視、內容工具列、預覽模式、新增附件至註解及條件面板使用。
 exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: b9bf08ccbe2eb17ca8d4dac675155e0b4631f0a9
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2348'
 ht-degree: 0%
 
 ---
@@ -172,7 +172,7 @@ ht-degree: 0%
 
    在「註解」面板中，您可以看到檔案名稱及其大小。 您也可以選擇按一下刪除圖示來移除檔案 ![](images/Delete_icon.svg) 與檔案名稱相關聯。
 
-1. 按一下 **提交**.
+1. 按一下「**提交**」。
 
    附件會上傳並新增至註解。
 

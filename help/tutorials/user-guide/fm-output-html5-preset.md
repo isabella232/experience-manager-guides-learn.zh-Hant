@@ -1,21 +1,21 @@
 ---
 title: HTML5
-description: 瞭解如何HTML5
+description: 在AEM Guides中產生並設定FrameMaker檔案的HTML5輸出。
 exl-id: 9ac39237-c6b3-47d9-8d54-67150002c050
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 5%
 
 ---
 
 # HTML5 {#id205BB0U70MG}
 
-下列選項可用於HTML5輸出：
+下列選項適用於HTML5輸出：
 
 >[!NOTE]
 >
-> 若要開啟HTML5的輸出預設集，請按一下FrameMaker \(`.fm` 或 `.book`\)檔案，然後按一下「輸出預設集」，再按一下「HTML5」選項。
+> 若要開啟HTML5的輸出預設集，請按一下FrameMaker\(`.fm` 或 `.book`\)檔案，按一下「輸出預設集」，然後按一下「HTML5」選項。
 
 | HTML5選項 | 說明 |
 |------------|-----------|

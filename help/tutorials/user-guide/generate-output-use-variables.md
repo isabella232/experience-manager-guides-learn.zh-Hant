@@ -1,10 +1,10 @@
 ---
 title: 使用變數來設定目的地路徑、網站名稱或檔案名稱選項
-description: 瞭解如何使用變數來設定目的地路徑、網站名稱或檔案名稱選項
+description: 瞭解如何使用變數來設定目的地路徑、網站名稱或檔案名稱選項。 瞭解AEM Guides支援的現成可用變數。
 exl-id: e8d5b7c7-4f80-4ab6-9ad1-308bf0d4cf74
-source-git-commit: cf45be23a6369de1e510b7e8ee9cd1a2b61721e3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---

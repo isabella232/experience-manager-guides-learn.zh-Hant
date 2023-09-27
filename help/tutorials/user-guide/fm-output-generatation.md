@@ -1,17 +1,17 @@
 ---
 title: 產生FrameMaker檔案的輸出
-description: 瞭解如何產生FrameMaker檔案的輸出
+description: 瞭解如何在AEM指南中產生FrameMaker檔案的輸出，以以PDF、HTML5和EPUB格式發佈。
 exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
 # 產生FrameMaker檔案的輸出 {#id1645H8040HD}
 
-從AEM Guides 1.1開始，您也可以發佈FrameMaker檔案\(`.book` 和 `.fm`\)在您的AEM存放庫中提供。 如果書冊檔案包含DITA和FrameMaker檔案的組合，AEM Guides也可讓您發佈這類檔案。 FrameMaker檔案可發佈為下列格式：
+從AEM Guides 1.1開始，您也可以發佈FrameMaker檔案\(`.book` 和 `.fm`\)在您的AEM存放庫中提供。 如果書冊檔案包含DITA和FrameMaker檔案的組合，AEM Guides也可讓您發行此類檔案。 FrameMaker檔案可發佈為下列格式：
 
 - PDF
 
@@ -20,9 +20,9 @@ ht-degree: 1%
 - ePub
 
 
-身為作者，您只要按一下幾個連結，就會產生輸出。 您可以產生整個書冊檔案的輸出，也可以選擇性地發佈個別FrameMaker檔案。 在產生輸出之前，您也可以變更FrameMaker檔案。 當您在AEM存放庫中選取.fm或.book檔案時，您會收到 **在FrameMaker中開啟** 按鈕。 按一下此按鈕會在FrameMaker中開啟選取的檔案。
+身為作者，您只需按一下幾個連結，就能產生輸出。 您可以產生整個書冊檔案的輸出，也可以選擇性地發佈個別FrameMaker檔案。 在產生輸出之前，您也可以變更FrameMaker檔案。 當您在AEM存放庫中選取.fm或.book檔案時，您會收到 **以FrameMaker開啟** 工具列上的按鈕。 按一下此按鈕會以FrameMaker開啟選取的檔案。
 
-以下小節中的資訊適用於將使用輸出產生工作流程來發佈FrameMaker檔案的發行者：
+以下小節中的資訊適用於將使用輸出產生工作流程來發佈FrameMaker檔案的發佈者：
 
 - [瞭解輸出預設集](fm-output-understand-presets.md#)
 

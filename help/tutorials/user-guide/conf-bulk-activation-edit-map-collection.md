@@ -1,10 +1,10 @@
 ---
 title: 編輯大量啟用地圖集合
-description: 瞭解如何編輯大量啟用地圖集合
+description: 在AEM Guides中使用大量發佈儀表板。 瞭解如何透過新增或移除地圖檔案來編輯大量啟用地圖集合。
 exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
-source-git-commit: 25641f5c3207d98228d406e3b553c06d2bad1e10
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: 使用地圖集合產生輸出
-description: 瞭解如何使用地圖集合產生輸出
+description: 瞭解如何建立及刪除對應集合，以及新增或刪除DITA map。 在AEM Guides中，從地圖集合設定、產生和取消輸出產生工作。
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---

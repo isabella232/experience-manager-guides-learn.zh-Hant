@@ -1,9 +1,9 @@
 ---
 title: 發佈主題至內容片段
-description: 瞭解如何將主題發佈至內容片段。
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+description: 在AEM Guides中將主題或主題內的元素發佈到內容片段。  瞭解如何檢視主題目前的內容片段並重新發佈。
+source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---

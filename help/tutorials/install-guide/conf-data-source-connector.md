@@ -1,7 +1,7 @@
 ---
 title: 設定資料來源聯結器
 description: 瞭解如何設定資料來源聯結器
-source-git-commit: bb04590ccb08cde0826dcb60c664f47d7305c9d1
+source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -176,7 +176,7 @@ AEM Guides可讓您自訂設定檔案中的某些值，以符合使用者的需�
 
 將檔案上傳到AEM Assets中的某個位置。
 
-例如 `/var/dxml/konnect/jira.json`
+例如， `/content/dam/jira.json`
 
 ## 使用REST API建立設定
 

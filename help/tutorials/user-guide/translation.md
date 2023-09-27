@@ -1,25 +1,25 @@
 ---
 title: 瞭解如何翻譯內容
-description: 瞭解如何翻譯內容
+description: 在AEM Guides中將您的內容翻譯成多種語言。 瞭解人力和機器翻譯工作流程。
 exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
 
 # 翻譯內容 {#id1645H700L67}
 
-AEM Guides隨附強大的功能，可讓您將內容翻譯成多種語言。 AEM Guides支援人工翻譯和機器翻譯工作流程。
+AEM Guides隨附強大的功能，可讓您將內容翻譯成多種語言。 AEM Guides同時支援人工翻譯與機器翻譯工作流程。
 
-- **人工翻譯**  — 資產會傳送給您的翻譯提供者，並由專業翻譯人員進行翻譯。 完成後，系統會傳回翻譯後的資產，並將其匯回AEM。
+- **人工翻譯**  — 資產會傳送給您的翻譯提供者，並由專業翻譯人員進行翻譯。 完成後，系統會傳回翻譯的資產，並將其匯回AEM。
 
 - **機器翻譯**  — 這是AEM中的預設服務，其中會使用機器翻譯即時即時翻譯內容。 現成的AEM提供連線至Microsoft Translator的功能。
 
-   >[!NOTE]
-   >
-   > Microsoft Translator僅可作為試用版授權使用。
+  >[!NOTE]
+  >
+  > Microsoft Translator僅提供試用版授權。
 
 
 - **[內容翻譯的最佳實務](translation-first-time.md)**

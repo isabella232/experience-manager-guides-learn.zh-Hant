@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 8ee493dbcdf68b83a55a65945febfa52c56ef09e
+source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1597'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 5%
       + 雲端服務 {#cloud-release-notes}
          + [部署指示](./release-info/deploy-xml-on-aemaacs.md)
          + 2023版本 {#2023-releases}
+            + 10月發行 {#2310-release}
+               + [新增功能](./release-info/whats-new-2023.10.0.md)
+               + [發行說明](./release-info/release-notes-2023.10.0.md)
             + 9月發行 {#2309-release}
                + [新增功能](./release-info/whats-new-2023.9.0.md)
                + [發行說明](./release-info/release-notes-2023.9.0.md)
@@ -241,6 +244,7 @@ ht-degree: 5%
          + [設定資料來源聯結器](./install-guide/conf-data-source-connector.md)
          + [將進階地圖編輯器設定為預設值](./install-guide/conf-map-editor.md)
          + [預設包含@navtitle屬性](./install-guide/auto-add-navtitle.md)
+         + [設定在Oxygon中編輯的選項](./cs-install-guide/conf-edit-in-oxygen.md)
       + 使用全域和檔案夾層級的設定檔 {#global-folder-profiles}
          + [設定全域或資料夾層級設定檔](./install-guide/conf-folder-level.md)
       + 設定版本 {#version-mgt}
@@ -318,6 +322,7 @@ ht-degree: 5%
          + [設定單一主題PDF產生](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [在網頁編輯器中設定翻譯功能](./cs-install-guide/conf-translation-web-editor.md)
          + [設定資料來源聯結器](./cs-install-guide/conf-data-source-connector.md)
+         + [使用工具設定資料來源聯結器](./cs-install-guide/conf-data-source-connector-tools.md)
          + [將進階地圖編輯器設定為預設值](./cs-install-guide/conf-map-editor.md)
          + [預設包含@navtitle屬性](./cs-install-guide/auto-add-navtitle.md)
       + 使用全域和檔案夾層級的設定檔 {#global-folder-profiles-cs}

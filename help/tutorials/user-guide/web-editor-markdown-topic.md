@@ -1,21 +1,21 @@
 ---
 title: 編寫Markdown檔案
-description: 瞭解如何編寫Markdown檔案
+description: 從網頁編輯器撰寫Markdown檔案。 瞭解如何在AEM Guides中建立、編寫和預覽Markdown主題。
 exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
 # 從網頁編輯器編寫Markdown檔案 {#id223MIE0B079}
 
-Markdown是一種輕量型的標籤語言，可以幫助您將格式元素新增到純文字檔案。 AEM Guides提供從網頁編輯器建立、編寫和預覽Markdown \(.md\)主題的功能。 您也可以上傳現有的Markdown檔案，並在網頁編輯器中加以編輯。
+Markdown是一種輕量型的標籤語言，可以協助您將格式元素新增至純文字檔案。 AEM Guides提供從網頁編輯器建立、編寫和預覽Markdown \(.md\)主題的功能。 您也可以上傳現有的Markdown檔案，並在網頁編輯器中加以編輯。
 
 ## 建立Markdown主題
 
-執行下列步驟，從網頁編輯器建立Markdown主題：
+執行以下步驟，從網頁編輯器建立Markdown主題：
 
 1. 在「存放庫檢視」中選取資料夾。
 1. 建立 **Markdown主題** 以下列其中一種方式：
@@ -27,22 +27,22 @@ Markdown是一種輕量型的標籤語言，可以幫助您將格式元素新增
 
    ![](images/create-markdown-options-menu.png){width="550" align="left"}
 
-1. 在中輸入Markdown主題的名稱和路徑 **建立新的Markdown主題** 對話方塊。
+1. 在「 」中，輸入Markdown主題的名稱和路徑 **建立新的Markdown主題** 對話方塊。
 
 ![](images/create-markdown-dialog.png){width="350" align="left"}
 
 1. 按一下&#x200B;**建立**。
 
-Markdown主題會在選取的路徑上建立，並開啟以進行編輯。
+Markdown主題會在選取的路徑中建立，並開啟以進行編輯。
 
 ## 製作和預覽Markdown主題
 
-執行以下步驟，從網頁編輯器編寫Markdown主題：
+執行以下步驟，從網頁編輯器撰寫Markdown主題：
 
 1. 在「存放庫檢視」中選取現有的Markdown主題\(.md\)。
-1. 連按兩下主題以在編輯視窗中開啟它。
+1. 連按兩下主題，在編輯視窗中開啟主題。
 
-   主題會在「來源」模式中開啟。
+   主題會以「來源」模式開啟。
 
 1. 更新Markdown主題中的內容。
 1. 按一下 **預覽** 以預覽主題。

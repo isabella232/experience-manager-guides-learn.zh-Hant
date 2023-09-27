@@ -1,10 +1,10 @@
 ---
 title: 原生PDF |產生PDF輸出
-description: 在Adobe Experience Manager Guidesas a Cloud Service中產生PDF輸出
+description: 瞭解如何使用原生PDF發佈、建立和產生PDF輸出預設集、產生原生PDF輸出後下載暫存檔案，以及在AEM Guides中使用語言變數。
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 85075a51d141afa451c22f7a29d21fc7ae391d49
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3229'
 ht-degree: 0%
 
 ---

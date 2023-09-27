@@ -1,10 +1,10 @@
 ---
 title: 使用AEM Guides製作內容
-description: 瞭解如何使用AEM Guides創作內容
+description: 使用AEM Guides高效地創作內容。 瞭解如何在AEM Guides中建立、編輯和發佈檔案。
 exl-id: 6a6354ce-29cc-4bd7-8235-579fe3647682
-source-git-commit: 3c3aef9f6beefad69c1bf13f55643a79992ac6f7
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ AEM Guides隨附三個現成的編輯器。 您可以使用它們來建立、編
 
 1. **網頁編輯器**：用它來建立和編輯結構化檔案。
 1. **地圖編輯器**：使用它來建立和編輯DITA map和bookmap檔案。
-1. **Ditaval編輯器**：使用它產生條件式輸出。
+1. **Ditaval編輯器**：使用它來產生條件式輸出。
 
 - **[使用網頁編輯器](web-editor.md)**
 
