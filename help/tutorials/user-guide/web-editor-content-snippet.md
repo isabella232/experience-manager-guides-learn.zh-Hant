@@ -1,9 +1,9 @@
 ---
 title: 從您的資料來源插入內容片段
-description: 瞭解如何從您的資料來源插入內容片段
-source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
+description: 在AEM Guides中使用來自您資料來源的資料。 瞭解如何從您的資料來源插入內容片段。 使用主題產生器建立主題。
+source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ A **資料來源** 是您儲存和管理組織資料的系統。 這些是您的
 <details>
 <summary> 雲端服務 </summary>
 
-瞭解如何 [設定資料來源聯結器](../cs-install-guide/conf-data-source-connector.md) 在Cloud Service安裝與設定指南中。
+
+- 如果您使用2023年10月版或更新版本，瞭解如何 [使用工具設定資料來源聯結器](../cs-install-guide/conf-data-source-connector-tools.md) 在Cloud Service安裝與設定指南中。
+
+- 如果您使用2023年7月或2023年9月版本，瞭解如何 [設定資料來源聯結器](../cs-install-guide/conf-data-source-connector.md) 在Cloud Service安裝與設定指南中。
+
 </details>
 
 <details>    
@@ -83,6 +87,8 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
    >[!NOTE]
    >  
    > 如果管理員已設定自訂範本，則您也會在下拉式清單中顯示這些範本（根據管理員完成的範本路徑設定）。
+   >   
+   >您也可以在範本中使用Velocity工具。 進一步瞭解如何 [使用Velocity工具](#use-velocity-tools).
 
 1. 按一下 **擷取** 從資料來源擷取資料，並將範本套用至從SQL查詢產生的資料。
 
@@ -215,9 +221,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
 在主題產生器上按一下滑鼠右鍵以開啟 **選項**. 您可以使用這些選項執行下列操作：
 
-- **預覽**：使用此選項可開啟窗格並檢視資料在輸出中顯示的少量方式。
-- **產生內容**：此選項會產生所選主題產生器的主題。 您也可以使用此選項來更新現有的主題。 它會連線至資料來源並擷取更新的資料。
-
+- **產生**：此選項會產生所選主題產生器的主題。 您也可以使用此選項來更新現有的主題。 它會連線至資料來源並擷取更新的資料。 產生內容時，此選項會停用，而且您會檢視載入器。
   >[!NOTE]
   >
   >如果您的主題已經存在，您可以覆寫主題中的資料，或將其儲存為新版本。
@@ -225,11 +229,50 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
   ![](images/generate-topic-options.png)
 
   *產生主題，如果檔案已存在，請將其儲存為新版本或覆寫它。*
+- **檢視記錄**：選取此選項可檢視內容產生記錄檔。 日誌檔案會在新標籤中開啟。 您可以在記錄檔中檢視錯誤、警告、資訊訊息和例外。 如果您已產生所選主題產生器的內容，則會啟用此選項。
 
-- **編輯**：使用此選項來變更和儲存主題產生器。
-- **刪除**：使用此選項可刪除選取的主題產生器。
+- **預覽**：使用此選項可開啟窗格並檢視資料在輸出中顯示的少量方式。
+
+
+
+- **編輯**：使用此選項來變更和儲存主題產生器。 產生內容時，此選項會停用。
+- **刪除**：使用此選項可刪除選取的主題產生器。 產生內容時，此選項會停用。
 - **複製**：此選項會建立所選主題產生器的重複或副本。 重複專案是以尾碼建立(例如 `topic-sample_1`)預設情況下。
 
+
+
+## 在資料來源範本中使用Velocity工具 {#use-velocity-tools}
+
+Experience Manager範本也支援Velocity工具（2.0版）。 這些工具可協助您將各種功能套用至從資料來源擷取的資料。 進一步瞭解如何使用 [Velocity工具](https://velocity.apache.org/tools/2.0/generic.html) 以及可套用的功能。
+
+若要在範本中使用「速度」工具，請執行下列步驟：
+1. 在網頁編輯器中編輯Velocity範本。
+1. 在中新增工具及其功能 `<tool.function>` 格式。 例如：
+   - 若要使用數學工具產生隨機數字，請使用 `$mathTool.random`.
+   - 若要使用數學工具產生數字總和，請使用 `$mathTool.add(num1, num2)`.
+1. 使用範本建立內容片段或主題。
+1. 將範本套用至資料後，您可以在預覽或DITA來源檢視中檢視資料。
+
+
+
+
+您可以在Velocity範本內使用下列工具，將各種功能套用至您從聯結器擷取的資料： -`$alternatorTool`
+- `$classTool`
+- `$contextTool`
+- `$conversionTool`
+- `$dateTool`
+- `$comparisonDateTool`
+- `$displayTool`
+- `$escapeTool`
+- `$fieldTool`
+- `$loopTool`
+- `$linkTool`
+- `$listTool`
+- `$mathTool`
+- `$numberTool`
+- `$renderTool`
+- `$resourceTool`
+- `$sortTool`
 
 
 
