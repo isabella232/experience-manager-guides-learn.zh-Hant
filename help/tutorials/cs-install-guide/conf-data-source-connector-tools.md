@@ -1,15 +1,17 @@
 ---
 title: 使用工具設定資料來源聯結器
 description: 瞭解如何使用工具設定資料來源聯結器。
-source-git-commit: 87e907a1fbc27c9b3f8db5e4ab3c78143b03001e
+exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 
-# 使用工具設定資料來源聯結器
+
+# 從使用者介面設定資料來源聯結器
 
 Experience Manager指南隨附於 **資料來源** 可協助您為資料來源設定現成可用聯結器的工具。 您可以為JIRA、SQL (MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce和Elasticsearch資料庫設定聯結器。
 
@@ -74,7 +76,3 @@ Experience Manager指南隨附於 **資料來源** 可協助您為資料來源�
 
 
 設定資料來源後，聯結器會列在 **資料來源面板** 在Web編輯器中。 然後，您可以連線至資料來源，並將內容片段插入主題中。 如需詳細資訊，請檢視 [從您的資料來源插入內容片段](../user-guide/web-editor-content-snippet.md).
-
-
-
-

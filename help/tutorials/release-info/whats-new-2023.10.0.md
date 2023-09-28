@@ -1,9 +1,10 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides的新增功能，2023年10月發行
 description: 在2023年10月發行的Adobe Experience Manager Guidesas a Cloud Service中瞭解新功能和增強功能。
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 0%
 如需有關升級指示、相容性矩陣，以及此版本中修正問題的詳細資訊，請參閱 [發行說明](release-notes-2023.10.0.md).
 
 
-## 使用工具設定資料來源聯結器
+## 從使用者介面設定資料來源聯結器
 
 Experience Manager指南現在提供 **資料來源** 可協助您為資料來源設定現成可用聯結器的工具。 您可以輕鬆建立JIRA、SQL (MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce和Elasticsearch資料庫的聯結器。
 
-您也可以輕鬆編輯、重新連線、複製或刪除資料來源聯結器。 瞭解如何 [使用工具設定資料來源聯結器](../cs-install-guide/conf-data-source-connector-tools.md).
+您也可以輕鬆編輯、重新連線、複製或刪除資料來源聯結器。 瞭解如何 [從使用者介面輕鬆設定資料來源聯結器](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![「資料來源」面板中列出的資料來源聯結器](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -65,4 +66,3 @@ Experience Manager指南在目錄(TOC)中顯示章節編號以及章節名稱。
 Experience Manager指南現在可讓您在網頁編輯器中選取檔案，然後選擇在氧氣聯結器外掛程式中編輯檔案。 這個選項並未啟用為現成支援的一部分。
 
 如需詳細資訊，請參閱 **檔案的選項** 內的功能說明 [左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 區段。
-
