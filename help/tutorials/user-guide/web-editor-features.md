@@ -1,10 +1,10 @@
 ---
 title: 瞭解網頁編輯器功能
 description: 探索AEM Guides中的網頁編輯器功能。 瞭解網頁編輯器的介面，包括主工具列、次要工具列、左側面板、內容編輯區域以及右側面板。
-exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '16066'
+source-wordcount: '16500'
 ht-degree: 0%
 
 ---
@@ -141,17 +141,62 @@ ht-degree: 0%
 
 - **屬性清單**：與「元素清單」類似，您可以控制要在元素的屬性清單中顯示的屬性清單及其顯示名稱。 在下列熒幕擷圖中，只有3個屬性已設定為顯示在元素的屬性清單中：
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+  ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-透過此設定，當您嘗試將屬性新增至元素時，您只會看到清單中設定的屬性清單。
+  透過此設定，當您嘗試將屬性新增至元素時，您只會看到清單中設定的屬性清單。
 
-![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+  ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+
+- **發佈設定檔**：這包含可用來發佈知識庫輸出的發佈設定檔。 您可以為選取的消費者型別建立新的設定檔。 例如，Salesforce。
+
+   - **建立Salesforce發佈設定檔的需求**
+
+      - 為Salesforce建立連線應用程式。 如需詳細資訊，請參閱 [啟用API整合的OAuth設定](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+
+      - 設定連線應用程式時，請確定下列事項：
+
+         - 指定回呼。
+
+           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+
+         - 選取下列OAuth範圍：
+            - 完整存取權（完整）
+            - 選取「透過API管理使用者資料(API)」
+
+  設定應用程式後，Salesforce會提供 **使用者金鑰** 和 **使用者密碼**.
+
+  這些可用來建立Salesforce發佈設定檔。
+  ![編輯器設定中的設定檔](./images/create-profile-editor-settings.png){width="300" align="left"}
+
+
+
+- 若要建立「發佈設定檔」，您可以從 **伺服器型別** 下拉式清單。 輸入設定檔名稱。 在 **網站URL** 輸入您要用於發佈輸出的消費者網站，然後新增 **使用者金鑰** 和 **使用者密碼** 由Salesforce等消費者網站所提供。 然後登入新建立的設定檔。
+
+  >[!NOTE]
+  >
+  >若要在Experience Manager指南中設定Salesforce的Proxy，請在AEM中使用Apache HTTP元件Proxy Configuration 。 瞭解如何 [設定AEM連結檢查器的Proxy](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+
+
+  登入後，您可以在DITA Map的輸出預設集中選取發佈設定檔，並使用產生所選文章的輸出。 如需詳細資訊，請參閱 [從網頁編輯器以文章為基礎的發佈](../install-guide/configure-article-based-publishing.md) 安裝及設定指南中的。
+
+- **驗證**：此索引標籤包含在網頁編輯器中設定「方案驗證」的選項。 您可以啟用下列功能：
+
+   - **在儲存檔案之前執行驗證檢查**：選取此選項，在任何儲存操作之前使用選取的Schematron檔案執行Schematron驗證。 您可以按一下+圖示來新增Schematron檔案。 隨即列出選取的Schematron檔案。
+
+     >[!NOTE]
+     >選取的結構描述檔案將會在選取的資料夾設定檔中持續存在。
+
+     ![在編輯器設定中驗證](./images/editor-setting-validation.png){width="300" align="left"}
+這可防止使用者儲存任何破壞所選Schematron檔案中定義規則的檔案。 如果未選取此專案，在儲存變更之前，將不會驗證檔案。
+
+   - **允許所有使用者在驗證面板中新增結構描述檔案**：選取此項可允許使用者在網頁編輯器的「驗證」面板中新增任何Schematron檔案。 這可讓使用者新增Schematron檔案，然後針對Schematron檔案驗證主題。 若未選取此專案， **新增Schematron檔案** 按鈕無法供中的使用者使用。 **驗證面板** 網頁編輯器的。
+
 
 - **顯示屬性**：如同「屬性清單」，您可以控制要在元素的屬性清單中顯示的屬性清單。 依預設，四個 **顯示屬性**  — 對象、平台、產品和prop已設定為顯示在元素的屬性清單中。 您也可以使用 **新增** 圖示在頂端。 您也可以使用 **刪除** 圖示。
 
-為元素定義的屬性會顯示在「配置圖」和「大綱」檢視中。
+  為元素定義的屬性會顯示在「配置圖」和「大綱」檢視中。
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+  ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
 - **翻譯**：此標籤包含將來源標籤傳播至目標版本的選項。
 

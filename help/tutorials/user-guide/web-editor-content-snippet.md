@@ -1,10 +1,10 @@
 ---
 title: 從您的資料來源插入內容片段
 description: 在AEM Guides中使用來自您資料來源的資料。 瞭解如何從您的資料來源插入內容片段。 使用主題產生器建立主題。
-exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ A **資料來源** 是您儲存和管理組織資料的系統。 這些是您的
 <details>    
 <summary>  內部部署軟體 </summary>
 
-瞭解如何 [設定資料來源聯結器](../install-guide/conf-data-source-connector.md)  ，位於On-premise安裝與設定指南中。
+- 如果您是使用4.3.1版或更新版本，瞭解如何 [從使用者介面設定資料來源聯結器](../cs-install-guide/conf-data-source-connector-tools.md) ，位於On-premise安裝與設定指南中。
+
+- 如果您是使用4.3版，瞭解如何 [設定資料來源聯結器](../cs-install-guide/conf-data-source-connector.md) ，位於On-premise安裝與設定指南中。
 </details>
 
 

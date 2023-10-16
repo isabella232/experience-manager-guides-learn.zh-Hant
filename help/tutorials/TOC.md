@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
+source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1612'
 ht-degree: 5%
 
 ---
@@ -54,8 +54,10 @@ ht-degree: 5%
       + 內部部署/Managed Services {#on-prem-release-notes}
          + 4.3.0版 {#43-release}
             + 新增功能 {#43-whats-new}
+               + [4.3.1新增功能](./release-info/whats-new-4.3.1-release.md)
                + [4.3.0新增功能](./release-info/whats-new-4.3-release.md)
             + 發行說明 {#43-release-notes}
+               + [4.3.1發行說明](./release-info/release-notes-4.3.1.md)
                + [4.3.0發行說明](./release-info/release-notes-4.3.md)
          + 4.2版 {#42-release}
             + 新增功能 {#42-whats-new}
@@ -242,6 +244,7 @@ ht-degree: 5%
          + [設定查詢的LimitReads數目](./install-guide/conf-query-limitreads.md)
          + [安裝文章式發佈的套件](./install-guide/configure-article-based-publishing.md)
          + [設定資料來源聯結器](./install-guide/conf-data-source-connector.md)
+         + [從使用者介面設定資料來源聯結器](./install-guide/conf-data-source-connector-tools.md)
          + [將進階地圖編輯器設定為預設值](./install-guide/conf-map-editor.md)
          + [預設包含@navtitle屬性](./install-guide/auto-add-navtitle.md)
          + [設定在Oxygon中編輯的選項](./cs-install-guide/conf-edit-in-oxygen.md)
@@ -322,7 +325,7 @@ ht-degree: 5%
          + [設定單一主題PDF產生](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [在網頁編輯器中設定翻譯功能](./cs-install-guide/conf-translation-web-editor.md)
          + [設定資料來源聯結器](./cs-install-guide/conf-data-source-connector.md)
-         + [使用工具設定資料來源聯結器](./cs-install-guide/conf-data-source-connector-tools.md)
+         + [從使用者介面設定資料來源聯結器](./cs-install-guide/conf-data-source-connector-tools.md)
          + [將進階地圖編輯器設定為預設值](./cs-install-guide/conf-map-editor.md)
          + [預設包含@navtitle屬性](./cs-install-guide/auto-add-navtitle.md)
       + 使用全域和檔案夾層級的設定檔 {#global-folder-profiles-cs}
