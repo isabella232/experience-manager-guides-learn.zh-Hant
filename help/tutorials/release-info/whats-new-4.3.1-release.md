@@ -1,22 +1,22 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 4.3.1版的新增功能
 description: 瞭解Adobe Experience Manager Guides 4.3.1版的新增和增強功能
-source-git-commit: 5c51ff7f52624c6403e5486e099d1262f324e523
+source-git-commit: a865630527045574ef5a96622537e767eacd9fc2
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager Guides 4.3.1版的新增功能（2023年10月）
 
-本文介紹Adobe Experience Manager Guides 4.3.1版的新增和增強功能(以下稱為 *AEM指南*)。
+本文介紹Adobe Experience Manager Guides 4.3.1版的新增和增強功能(以下稱為 *Experience Manager指南*)。
 
 如需有關升級指示、相容性矩陣，以及此版本中修正問題的詳細資訊，請參閱 [發行說明](./release-notes-4.3.1.md).
 
 ## 連線至資料來源並插入主題
 
-Experience Manager指南提供現成的聯結器，可協助您連線資料來源，讓AEM Guides成為真正的內容中樞。 這可讓您節省原本用於手動新增或複製資料的時間和精力。
+Experience Manager指南提供現成的聯結器，可協助您連線資料來源，讓Experience Manager指南成為真正的內容中樞。 這可讓您節省原本用於手動新增或複製資料的時間和精力。
 
 除了現有的現成可用聯結器(例如JIRA和SQL (MySQL、PostgreSQL、SQL Server、SQLite)，您的管理員還可以為MariaDB、H2DB、AdobeCommerce和Elasticsearch資料庫設定聯結器。 它們也可以藉由擴充預設介面來新增其他聯結器。
 
