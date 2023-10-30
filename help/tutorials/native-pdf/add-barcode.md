@@ -1,7 +1,7 @@
 ---
 title: 原生PDF發佈功能 |新增條碼
 description: 瞭解如何新增條碼。
-source-git-commit: 5a845d91882742dfcbe70421e62110630b3b85b2
+source-git-commit: 31225583f45337b209f325174176b9a4199db648
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 您也可以在編寫模式中編輯資源ID。
 
-<img src="./assets/barcode-map.png" alt="含條碼的範例輸出" width="700" border="2px solid gray">
+<img src="./assets/barcode-map.png" alt="含條碼的範例輸出" width="700" border="2px solid blue">
 
 
 ### 在範本標題中新增條碼預留位置
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 下列熒幕擷圖顯示PDF輸出中的條碼範例。
 
-<kbd><img src="./assets/barcode-output-sample.png" alt="含條碼的範例輸出" width="700"></kbd>
+<img src="./assets/barcode-output-sample.png" alt="含條碼的範例輸出" width="700">
 
 
 ## 條碼型別 {#barcode-types}
