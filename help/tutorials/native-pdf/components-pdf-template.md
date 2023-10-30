@@ -2,9 +2,9 @@
 title: 原生PDF發佈功能 |PDF範本的元件
 description: 瞭解PDF範本的各種元件，以及如何自訂和設定它們。
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 7fe45a2bb55e9cb72518edd3cb2aa81b99612613
 workflow-type: tm+mt
-source-wordcount: '4376'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -413,11 +413,11 @@ AEM Guides提供下列現成可用的變數：
 當您新增時 `${lng:<variable name>}` 對於「段落」區段，輸出段落中的互動參照包含本地化文字和頁碼。\
 例如，下列熒幕擷取畫面以英文顯示「View on page 1」互動參照，以德文顯示「Einzelheiten finden Sie auf der Seite 1」。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出" width ="800">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出" width ="800" border="2px solid blue">
 
 *以英文發佈之段落中的互動參照。*
 
-<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出" width ="800">
+<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出" width ="800" border="2px solid blue">
 
 *以德文發佈之段落中的對照參照。*
 
