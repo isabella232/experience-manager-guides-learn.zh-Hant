@@ -1,19 +1,17 @@
 ---
 title: 使用工具設定資料來源聯結器
 description: 瞭解如何使用工具設定資料來源聯結器。
-exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-
-
 # 從使用者介面設定資料來源聯結器
 
-Experience Manager指南隨附於 **資料來源** 可協助您為資料來源設定現成可用聯結器的工具。 您可以為JIRA、SQL (MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce和Elasticsearch資料庫設定聯結器。
+Experience Manager指南隨附於 **資料來源** 可協助您為資料來源設定現成可用聯結器的工具。 您可以設定JIRA、SQL (MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce、Elasticsearch和一般REST使用者端聯結器。
 
 若要設定聯結器，請執行下列步驟：
 

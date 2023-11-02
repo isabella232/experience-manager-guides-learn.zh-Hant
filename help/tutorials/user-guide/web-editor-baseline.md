@@ -1,10 +1,10 @@
 ---
 title: 從Web編輯器建立和管理基準線
 description: 從AEM Guides的網頁編輯器建立和管理基準線。 瞭解如何根據標籤建立基準並將篩選器套用至基準線。
-exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
+exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ AEM Guides提供整合在網頁編輯器中的基準線功能，可讓使用者�
   > 新增或移除標籤的程式是非同步進行的，因此您可以在網頁編輯器中繼續處理其他檔案。 新增或移除標籤後，會顯示快顯訊息，確認已新增或移除標籤，且您也會收到該標籤的收件匣通知。
 
 - **編輯屬性** 建立基準線時設定的現有靜態基準線。
-- 使用將基準線的快照匯出為CSV檔案 **匯出基準線** 選項。
+- 使用將基準線的快照匯出Microsoft Excel檔案 **匯出基準線** 選項。
 
 **基線篩選**
 
