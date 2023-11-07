@@ -1,9 +1,10 @@
 ---
 title: 原生PDF發佈「實驗操作 — BYOS」 — 互動式學習
 description: 這場「實驗操作 — BYOS」課程深入探究原生PDF的發佈方式。 探索各種使用案例、運用主要功能，並直接與Adobe專家互動，以解決您的特定問題陳述和需求。
-source-git-commit: 03da00daf0118b66ef5653dfb80918c33bc8f76b
+exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
+source-git-commit: befe892ce4c9a6643593469bdc7fdd808ceb0c31
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -61,8 +62,8 @@ ht-degree: 0%
 
 ## 下一次專家會議
 
-- **主題**  — 待定
-- **排程日期**  — 待定
+- **主題** - Guides擴充功能框架
+- **排程日期** - 2023年11月02日
 
 ## 聯絡我們
 
