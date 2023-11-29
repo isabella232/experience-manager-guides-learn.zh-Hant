@@ -2,9 +2,9 @@
 title: 從Web編輯器建立和管理基準線
 description: 從AEM Guides的網頁編輯器建立和管理基準線。 瞭解如何根據標籤建立基準並將篩選器套用至基準線。
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ AEM Guides提供整合在網頁編輯器中的基準線功能，可讓使用者�
 1. 在「存放庫」面板中，在「對映檢視」中開啟DITA map檔案。
 1. 按一下 **管理** 標籤。 此 **基線** 面板會顯示DITA map的基準線。
 
-   ![](images/baseline-manage.png){width="800" align="left"}
+   ![基線面板](images/baseline-manage.png){width="800" align="left"}
 
 1. 在 **基線** 面板，按一下右上方的+圖示。 您可以使用特定版本的主題和參考內容（可在特定日期和時間使用），或是使用為某個版本的主題定義的標籤，來建立基準線。
 1. 輸入基準的名稱 **基準線名稱**.
@@ -56,7 +56,7 @@ AEM Guides提供整合在網頁編輯器中的基準線功能，可讓使用者�
 
    根據標籤的基準線會動態更新。 如果您產生基準線、下載基準線或使用基準線建立翻譯專案，系統會根據更新的標籤動態挑選檔案。 例如，如果您已將標籤版本為1.0的主題版本1.2用於基準線，並使用標籤版本為1.0更新版本1.5，則基準線將會動態更新，而版本1.5將會使用。
 
-   ![](images/dynamic-baseline.png){width="550" align="left"}
+   ![建立基準線](images/dynamic-baseline.png){width="550" align="left"}
 
    - **選取標籤**：如果主題有為其指定的標籤，標籤會列在 **選取標籤** 下拉式清單。 您可以從清單中選擇標籤。 先選取的標籤會獲得較高的優先順序。
 
@@ -83,7 +83,9 @@ AEM Guides提供整合在網頁編輯器中的基準線功能，可讓使用者�
 
   ![基準線選項](images/baseline-options.png){width="800" align="left"}
 
-您也可以從「選項」功能表對基準線執行下列操作：
+
+
+  您也可以從「選項」功能表對基準線執行下列操作：
 
 - **編輯**， **複製，** **重新命名**，或 **刪除** 現有的基準線。
 
@@ -106,7 +108,7 @@ AEM Guides提供整合在網頁編輯器中的基準線功能，可讓使用者�
 
 使用中的篩選器圖示 **基線篩選** 面板您可以在基線編輯視窗中開啟的基線上套用篩選器：
 
-![](images/baseline-filter.png){width="350" align="left"}
+![基線篩選](images/baseline-filter.png){width="300" align="left"}
 
 - 根據檔案名稱或檔案位置篩選檔案。
 - 根據不同欄的值（如「檔案型別」、「參照型別」等）篩選檔案。

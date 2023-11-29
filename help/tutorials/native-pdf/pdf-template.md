@@ -2,9 +2,9 @@
 title: 建立和自訂原生PDF範本
 description: 瞭解如何建立及自訂原生PDF範本。
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: da6ada7329aa338849de86ebfda94587bbc4ab54
+source-git-commit: 9e806ae9a06eb77441e47413981f27f6e69bd2f9
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,10 @@ ht-degree: 0%
      除了外觀之外，您還可以定義頁面元素（例如頁首、頁尾和頁面上的內容區域）的排列。 若要進一步瞭解自訂頁面的版面，請參閱 [建立和自訂頁面配置](components-pdf-template.md#create-customize-page-layout).
 
    * 樣式表：「樣式表」區段中的設定可讓您自訂頁面配置元件如目錄、索引、字彙表、引文等的外觀和風格。 此外，您也可以自訂DITA內容的樣式，例如標題、段落、清單等。 若要進一步瞭解如何使用樣式表，請參閱 [使用樣式表來自訂PDF](components-pdf-template.md#stylesheet-customization).
-   * 資源：儲存自訂或設計PDF範本所需的資產檔案。 標誌、自訂字型、背景影像等資產會儲存在「資源」中。 若要進一步瞭解如何利用資源，請參閱 [使用資源](components-pdf-template.md#work-with-resources).
+   * 資源：儲存自訂或設計PDF範本所需的資產檔案。 標誌、自訂字型、背景影像等資產會儲存在「資源」中。
+您也可以使用存在於存放庫中任何其他位置的資源。 您不需要為每個範本建立重複資源，您可以將它們儲存在共用資料夾中，並在所有原生PDF範本中使用它們。
+
+     若要進一步瞭解如何利用資源，請參閱 [使用資源](components-pdf-template.md#work-with-resources).
    * 設定：設定輸出設定，以使用範本產生PDF。 本節可讓您為PDF中的各種頁面、章節開始頁面、列印標籤、引文等定義範本對應。
 您也可以排列它們在最終PDF輸出中的顯示順序。
 如需套用設定的詳細資訊，請參閱 [進階PDF設定](components-pdf-template.md#advanced-pdf-settings).

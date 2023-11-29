@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 的教學課程
 user-guide-description: 閱讀 Adobe Experience Manager Guides 的教學課程系列。
 breadcrumb-title: AEM Guides 教學課程
-source-git-commit: 3da096cd419b63a5a68e4ee8dc39ceaa5f58d7de
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1633'
 ht-degree: 5%
 
 ---
@@ -20,30 +20,33 @@ ht-degree: 5%
       + 雲端服務 {#cloud-release-notes}
          + [部署指示](./release-info/deploy-xml-on-aemaacs.md)
          + 2023版本 {#2023-releases}
-         + 11月發行 {#2311-release}
-            + [新增功能](./release-info/whats-new-2023.11.0.md)
-            + [發行說明](./release-info/release-notes-2023.11.0.md)
-         + 10月發行 {#2310-release}
-            + [新增功能](./release-info/whats-new-2023.10.0.md)
-            + [發行說明](./release-info/release-notes-2023.10.0.md)
-         + 9月發行 {#2309-release}
-            + [新增功能](./release-info/whats-new-2023.9.0.md)
-            + [發行說明](./release-info/release-notes-2023.9.0.md)
-         + 7月發行 {#2307-release}
-            + [新增功能](./release-info/whats-new-2023.7.0.md)
-            + [發行說明](./release-info/release-notes-2023.7.0.md)
-         + 6月發行版本 {#2306-release}
-            + [新增功能](./release-info/whats-new-2023.6.0.md)
-            + [發行說明](./release-info/release-notes-2023.6.0.md)
-         + 4月發行 {#2304-release}
-            + [新增功能](./release-info/whats-new-2023.4.0.md)
-            + [發行說明](./release-info/release-notes-2023.4.0.md)
-         + 3月發行 {#2303-release}
-            + [新增功能](./release-info/whats-new-2023.3.0.md)
-            + [發行說明](./release-info/release-notes-2023.3.0.md)
-         + 2月發行 {#2302-release}
-            + [新增功能](./release-info/whats-new-2023.2.0.md)
-            + [發行說明](./release-info/release-notes-2023.2.0.md)
+            + 12月發行 {#2312-release}
+               + [新增功能](./release-info/whats-new-2023.12.0.md)
+               + [發行說明](./release-info/release-notes-2023.12.0.md)
+            + 11月發行 {#2311-release}
+               + [新增功能](./release-info/whats-new-2023.11.0.md)
+               + [發行說明](./release-info/release-notes-2023.11.0.md)
+            + 10月發行 {#2310-release}
+               + [新增功能](./release-info/whats-new-2023.10.0.md)
+               + [發行說明](./release-info/release-notes-2023.10.0.md)
+            + 9月發行 {#2309-release}
+               + [新增功能](./release-info/whats-new-2023.9.0.md)
+               + [發行說明](./release-info/release-notes-2023.9.0.md)
+            + 7月發行 {#2307-release}
+               + [新增功能](./release-info/whats-new-2023.7.0.md)
+               + [發行說明](./release-info/release-notes-2023.7.0.md)
+            + 6月發行版本 {#2306-release}
+               + [新增功能](./release-info/whats-new-2023.6.0.md)
+               + [發行說明](./release-info/release-notes-2023.6.0.md)
+            + 4月發行 {#2304-release}
+               + [新增功能](./release-info/whats-new-2023.4.0.md)
+               + [發行說明](./release-info/release-notes-2023.4.0.md)
+            + 3月發行 {#2303-release}
+               + [新增功能](./release-info/whats-new-2023.3.0.md)
+               + [發行說明](./release-info/release-notes-2023.3.0.md)
+            + 2月發行 {#2302-release}
+               + [新增功能](./release-info/whats-new-2023.2.0.md)
+               + [發行說明](./release-info/release-notes-2023.2.0.md)
          + 2022版本 {#2022-releases}
             + [11月發行說明](./release-info/release-notes-2022.11.0.md)
             + [10月發行說明](./release-info/release-notes-2022.10.0.md)
@@ -362,7 +365,9 @@ ht-degree: 5%
    + [使用資料夾設定檔的Java型API](./api-reference/folder-profile-java.md)
    + [用於建立和啟用套件的Java型API](./api-reference/create-activate-package-java.md)
    + [後續處理事件處理常式](./api-reference/post-process-event.md)
+   + [大量啟用完成事件處理常式](./api-reference/bulk-activation-complete-event.md)
    + [轉換程式事件處理常式](./api-reference/conversion-complete-event.md)
+
 + 知識庫 {#knowledge-base}
    + 專家講座 {#expert-session}
       + [專家會議概述](./knowledge-base/expert-sessions/expert-session.md)

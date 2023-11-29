@@ -1,10 +1,10 @@
 ---
 title: 使用進階地圖編輯器
 description: 瞭解如何在AEM Guides中使用進階地圖編輯器。 瞭解進階地圖編輯器的功能。 透過DITA map編輯主題，並使用版面檢視、作者檢視和預覽模式。
-exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '3701'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    主題會新增至地圖中。
 
-   ![](images/map-editor-add-topic.png){width="800" align="left"}
+   ![地圖編輯器新增主題](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. 若要新增後續主題或子地圖，請拖放主題或子地圖至地圖中的必要位置。
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 - **其他屬性** 如果您的管理員已建立屬性的設定檔，則您將會取得這些屬性及其設定的值。 使用內容屬性面板，您可以選擇這些屬性，並將其指派給主題中的相關內容。 您也可以指派管理員設定的屬性，在 **顯示屬性** 索引標籤進行編輯。 為元素定義的屬性會顯示在「配置圖」和「大綱」檢視中。 這可協助您快速檢視地圖中定義特定屬性的所有主題。 例如，所有將platform屬性定義為「Android」的主題。
 
-  ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![版面配置檢視](images/layout-inline-attributes.png){width="650" align="left"}
 
 
   如需詳細資訊，請參閱 *顯示屬性* 在 *編輯器設定* 中的功能說明 [左側面板](web-editor-features.md#id2051EA0M0HS) 區段。

@@ -2,9 +2,9 @@
 title: 設定輸出產生設定
 description: 瞭解如何設定輸出產生設定
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '5340'
+source-wordcount: '5496'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,23 @@ AEM Guides隨附的預設設計範本可讓您自訂登陸、主題和搜尋頁�
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | 布林值\(true/false\)。 如果您想使用頁面標題產生輸出，則將此屬性設定為true。 預設會設定為使用檔案名稱。<br> **預設值**： false |
+
+### 設定AEM網站輸出的URL以使用檔案標題
+
+您可以在AEM Site輸出的URL中使用檔案標題。 如果檔案名稱不存在或包含所有特殊字元，您可以設定系統在AEM Site輸出的URL中，以分隔符號取代特殊字元。 您也可以將其設定為使用第一個子主題名稱來取代。
+
+
+若要設定頁面名稱，請執行下列步驟：
+
+1. 使用中提供的指示 [設定覆寫](download-install-additional-config-override.md#) 以建立組態檔。
+1. 在組態檔中，提供下列（屬性）詳細資訊，以設定主題的頁面名稱。
+
+| PID | 屬性索引鍵 | 屬性值 |
+|---|------------|--------------|
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 布林值 (`true/false`). **預設值**: `false` |
+
+例如，如果 *@navtitle* 在 `<topichead>` 包含所有特殊字元，而您設定 `aemsite.pagetitle` 屬性設為true，則預設會使用分隔符號。 如果您設定 `nodename.systemDefinedPageName` 屬性設為true，會顯示第一個子系主題的名稱。
+
 
 ### 設定檔案名稱清理規則，以建立主題和發佈AEM網站輸出 {#id2164D0KD0XA}
 

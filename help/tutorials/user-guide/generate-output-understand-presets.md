@@ -1,11 +1,11 @@
 ---
 title: 瞭解輸出預設集
 description: 瞭解AEM Guides中的輸出預設集。 從網頁編輯器和地圖儀表板建立AEM網站、PDF、HTML5、EPUB、自訂和JSON格式的輸出預設集。
-exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '208'
+ht-degree: 1%
 
 ---
 
@@ -34,5 +34,6 @@ AEM Guides支援以最熱門的格式建立輸出，例如AEM Site、PDF、HTML5
 
 - **[JSON](generate-output-json.md)**
 
+身為管理員，「Experience Manager指南」可讓您建立並管理全域和資料夾設定檔的輸出預設集。 如需詳細資訊，請檢視 [管理全域和資料夾設定檔輸出預設集](./web-editor-manage-output-presets.md).
 
 **父級主題：**[&#x200B;產生輸出](generate-output.md)

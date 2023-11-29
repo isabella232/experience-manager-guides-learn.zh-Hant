@@ -1,10 +1,10 @@
 ---
 title: 建立大量啟用地圖集合
 description: 瞭解如何在AEM Guides中建立大量啟用地圖集合。
-exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
   > 小型 ![](images/global-preset-icon.svg) 圖示會指出資料夾設定檔層級預設集。
 - **已修改**：指出DITA map是否於上次發佈後更新。 根據此資訊，您可以決定是否要啟動此DITA map的輸出。
 - **已產生**：顯示上次產生輸出的日期和時間。
-- **已發佈**：顯示上次發佈\（或已啟動\）輸出的日期和時間。 如果按一下連結，會顯示「啟用結果」頁面，其中包含啟用內容的根路徑相關資訊。
+- **已發佈**：顯示上次發佈（或已啟動）輸出的日期和時間。 如果您選取連結， **啟用結果** 此時會顯示頁面，其中包含記錄檔，其中包含啟動內容的根路徑相關資訊。
 
 
 左側面板上有以下篩選選項：

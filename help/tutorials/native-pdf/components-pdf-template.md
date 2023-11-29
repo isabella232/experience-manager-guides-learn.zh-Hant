@@ -2,9 +2,9 @@
 title: 原生PDF發佈功能 |PDF範本的元件
 description: 瞭解PDF範本的各種元件，以及如何自訂和設定它們。
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '4859'
+source-wordcount: '4947'
 ht-degree: 0%
 
 ---
@@ -419,6 +419,10 @@ PDF檔案中的頁面通常會根據DITA map或bookmap檔案中組織的內容�
 
 使用 **互動參照** 標籤定義互動參照在PDF中的發佈方式。 您可以設定主題標題、表格、插圖等專案的互動參照格式。
 
+>[!NOTE]
+>
+> 如果您已在插入互動參照時定義連結文字，則其優先順序會高於「原生PDF」範本中定義的互動參照。
+
 您也可以使用變數來定義互動參照。  使用變數時，系統會從屬性中挑選變數值。 您可以使用單一變數或變陣列合來定義互動參照。 您也可以使用字串和變數的組合。
 
 例如，您可以使用 `View details on {chapter}`. 如果章節名稱是「一般設定」，則輸出中的互動參照是「檢視一般設定的詳細資料」。
@@ -440,6 +444,22 @@ AEM Guides提供下列現成可用的變數：
   >
   >您可以為註解和圖形標籤建立自動編號樣式。
 
+#### 預設互動參照格式
+
+如果您將文字欄位保留為空白，而且您在插入互動參照時尚未定義連結文字，則「Experience Manager參考線」會為個別互動參照新增下列變數：
+
+* **標題**: `{title}`
+* **說明**: `{description}`
+* **段落**： `{bookmarkText}`
+* **書籤**： `{bookmarkText}`
+* **圖**： `{captionText}`
+* **表格**： `{captionText}`
+
+互動參照的優先順序為：
+* 交叉引用中新增的連結文字
+* 在原生PDF範本中定義的互動參照格式
+* 預設互動參照格式
+
 
 #### 交叉引用中的語言變數
 
@@ -454,11 +474,12 @@ AEM Guides提供下列現成可用的變數：
 當您新增時 `${lng:<variable name>}` 對於「段落」區段，輸出段落中的互動參照包含本地化文字和頁碼。\
 例如，下列熒幕擷取畫面以英文顯示「View on page 1」互動參照，以德文顯示「Einzelheiten finden Sie auf der Seite 1」。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出" width ="800" border="2px solid blue">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出" width ="800" border="2px">
 
 *以英文發佈之段落中的互動參照。*
 
-<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出" width ="800" border="2px solid blue">
+<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出" width ="800" border="2px">
+
 
 *以德文發佈之段落中的對照參照。*
 

@@ -1,7 +1,8 @@
 ---
 title: 發行說明 | 2023年11月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年11月版的Adobe Experience Manager Guidesas a Cloud Service
-source-git-commit: 1d8f00a82e92e1648615c409d4652b6ce3da7a1f
+exl-id: 80839890-075f-4187-a167-444c73215496
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 3%
@@ -12,7 +13,7 @@ ht-degree: 3%
 
 本發行說明涵蓋升級指示、相容性矩陣，以及2023年11月版Adobe Experience Manager Guidesas a Cloud Service修正的問題(後稱為 *Experience Manager指南as a Cloud Service*)。
 
-如需新功能和增強功能的詳細資訊，請參閱 [2023年11月版Experience Manager指南as a Cloud Service的新增功能](whats-new-2023.11.0.md).
+如需新功能和增強功能的詳細資訊，請檢視 [2023年11月版Experience Manager指南as a Cloud Service的新增功能](whats-new-2023.11.0.md).
 
 ## 升級至2023年11月發行版本
 
@@ -88,11 +89,11 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
-1. 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||例如： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
+1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
-1. 此API會傳回jobId。 若要檢查作業的狀態，您可以傳送作業識別碼的GET要求至相同的端點 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. 此API會傳回jobId。 若要檢查作業的狀態，您可以傳送作業識別碼的GET要求至相同的端點 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`)
 
 
 1. 工作完成後，先前的GET請求會以成功回應，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。

@@ -1,10 +1,10 @@
 ---
 title: 管理全域和資料夾設定檔輸出預設集
 description: 瞭解如何在AEM Guides中建立、編輯、重新命名、複製和刪除全域和資料夾設定檔輸出預設集以作為管理使用者。
-exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
    - 名稱
    - Target \（適用於知識庫預設集\）
 1. 選取 **新增至資料夾設定檔** 核取方塊以建立相關資料夾設定檔的輸出預設集，然後按一下 **新增**. 預設集隨即建立，並顯示在 **輸出** 標籤中選取所有相關的對映。 \( ![](images/global-preset-icon.svg)\)圖示表示資料夾設定檔層級預設集。
-1. 輸入組態詳細資訊。
+1. 輸入組態詳細資訊。 如需輸出預設集的詳細資訊，請檢視 [瞭解輸出預設集](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >
