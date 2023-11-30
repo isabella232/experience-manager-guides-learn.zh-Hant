@@ -1,9 +1,9 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides的新增功能，2023年12月發行
 description: 在2023年12月版本的Adobe Experience Manager Guidesas a Cloud Service中瞭解新增和增強功能。
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: 8d24048af5f5583988da50927e31f2643d844e68
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ Experience Manager指南提供增強的地圖集合儀表板。 在地圖集合�
 ![對應集合儀表板](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *從地圖集合儀表板檢視、編輯和產生輸出。*
+
+瞭解如何 [使用地圖集合產生輸出](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 ## 在地圖檢視中檢視索引鍵屬性
 

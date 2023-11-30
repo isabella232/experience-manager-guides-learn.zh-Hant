@@ -1,9 +1,10 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides的新增功能，2023年11月發行
 description: 在2023年11月發行的Adobe Experience Manager Guidesas a Cloud Service中瞭解新增和增強功能。
-source-git-commit: 6cc5299f8f4566e38c5a8c96e17fadd915f6e206
+exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
+source-git-commit: 57ff1a3b6ceb9debc8e29065fd37cab21adc1b96
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -43,6 +44,7 @@ Experience Manager指南提供現成或原廠的PDF範本。 複製工廠PDF範�
 ### 改善原生PDF範本的資源管理
 
 Experience Manager指南現在已改善原生PDF範本的資源管理。 您現在可以在多個原生PDF範本間共用及重複使用資源，例如影像、CSS檔案和字型檔案。 經過這項改善後，管理大量範本的資源就變得簡單多了。 您不需要為每個範本建立重複資源，您可以將它們儲存在共用資料夾中，並在所有原生PDF範本中使用它們。
+如需詳細資訊，請檢視 [PDF範本](../native-pdf/pdf-template.md).
 
 ## Web Editor增強功能
 
@@ -64,6 +66,8 @@ Experience Manager指南現在已改善原生PDF範本的資源管理。 您現�
 
 ![來自網頁編輯器「管理」標籤的條件預設集 ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
+如需詳細資訊，請檢視 [使用條件預設集](../user-guide/generate-output-use-condition-presets.md).
+
 ### 在重新整理瀏覽器時還原檔案索引標籤
 
 當您重新整理瀏覽器時，「Experience Manager指南」會恢復網頁編輯器中已開啟檔案標籤的狀態。 如需詳細資訊，請檢視 **編輯檔案時重新整理瀏覽器** 區段在 [在網頁編輯器中編輯主題](../user-guide/web-editor-edit-topics.md).
@@ -78,4 +82,3 @@ Experience Manager指南現在已改善原生PDF範本的資源管理。 您現�
 Experience Manager參考線現在也可讓您使用鍵盤快速鍵在網頁編輯器中移動游標。 您可以使用鍵盤快速鍵，快速向左或向右移動一個單字。 您也可以在鍵盤快速鍵的協助下移至行的開頭或結尾。
 現在，您也可以使用鍵盤快速鍵，將游標移至下一個元素的開頭或上一個元素的結尾。
 進一步瞭解 [網頁編輯器中的鍵盤快速鍵](../user-guide/web-editor-keyboard-shortcuts.md).
-
