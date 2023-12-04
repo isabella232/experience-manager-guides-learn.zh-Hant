@@ -1,10 +1,10 @@
 ---
 title: 發行說明 | 2023年12月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年12月版的Adobe Experience Manager Guidesas a Cloud Service。
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: b4bbed1de8fc2d8ef81332445a5c96161be508d4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 3%
+source-wordcount: '1319'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 執行下列步驟，升級您目前的Experience Manager指南as a Cloud Service設定：
 
 1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將您的Cloud Service Git程式碼檔案改成2023.12.0.15。
+2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將您的Cloud Service Git程式碼檔案設為2023.12.0.16。
 3. 提交變更並執行Cloud Service管道，以升級至2023年12月版本的Experience Manager指南as a Cloud Service。
 
 ## 透過servlet啟用指令碼觸發的步驟
@@ -34,7 +34,7 @@ POST：
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-回應:
+回應：
 
 ```
 {
