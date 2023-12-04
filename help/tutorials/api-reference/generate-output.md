@@ -1,13 +1,12 @@
 ---
 title: 使用以Java為基礎的API來產生輸出
 description: 瞭解用於產生輸出的Java型API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # 使用以Java為基礎的API來產生輸出 {#id175UB30E05Z}
 
@@ -48,4 +47,3 @@ throws GuidesApiException
 **引數**： |名稱|型別|說明| --------資----------- |`session`|javax.jcr.Session|有效的JCR工作階段。| |``sourcePath``|字串|需要產生輸出的DITA map檔案的路徑\(在AEM存放庫中\)。| |``outputName``|字串|要用於產生輸出的輸出預設集名稱。 例如，可以使用垂直號\(「\|」\)分隔符號指定多個輸出預設集 `aemsite\|pdfoutput`.|
 
 **例外**：擲回 ``javax.jcr.RepositoryException``， `java.io.IOException`、和 `java.lang.Exception`.
-

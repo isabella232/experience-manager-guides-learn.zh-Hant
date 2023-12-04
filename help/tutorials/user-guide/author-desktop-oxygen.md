@@ -1,8 +1,7 @@
 ---
 title: 使用氧氣
 description: 瞭解AEM Guides對內容製作和發佈的Oxygon XML編輯器支援。
-exl-id: 9fc690a6-fee3-4315-ad86-256cedb7b7d6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%

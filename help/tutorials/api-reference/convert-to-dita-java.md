@@ -1,13 +1,12 @@
 ---
 title: 用於轉換工作流程的Java型API
 description: 瞭解用於轉換工作流程的Java型API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
-
 
 # 用於轉換工作流程的Java型API {#id175UB30E05Z}
 
@@ -68,4 +67,3 @@ public static void convertWordToDita(Session session,
 **引數**： |名稱|型別|說明| --------資----------- |`session`|javax.jcr.Session|有效的JCR工作階段。| |`inputFile`|字串|AEM存放庫中來源Word檔案的絕對路徑。| |`destPath`|字串|將儲存轉換之DITA檔案的目的地位置的絕對路徑。| |`style2tagMap`|字串|用於轉換的樣式對應檔案的絕對路徑。| |`createRev`|布林值|指定是否建立檔案的修訂版本\( `true`\)是否在指定的目的地\( `false`\)。 只有在目的地位置包含轉換檔案的現有版本時，才會考慮使用此選項。|
 
 **例外**：擲回 `RepositoryException`.
-

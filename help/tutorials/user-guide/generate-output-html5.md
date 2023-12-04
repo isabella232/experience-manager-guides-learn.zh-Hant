@@ -1,10 +1,9 @@
 ---
 title: 使用HTML5
 description: 瞭解如何從網頁編輯器和地圖儀表板建立HTML5預設集。 在AEM Guides中設定HTML5輸出預設集。
-exl-id: c484289b-92aa-4790-b62b-650ecbe1b86b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1153'
 ht-degree: 1%
 
 ---

@@ -1,11 +1,10 @@
 ---
 title: 發行說明 | 2023年6月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年6月Adobe Experience Manager Guidesas a Cloud Service版本
-exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: 4359d857f3662ae29a55420c0fafc4a244258389
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 3%
+source-wordcount: '1170'
+ht-degree: 1%
 
 ---
 
@@ -19,9 +18,9 @@ ht-degree: 3%
 
 執行下列步驟，升級您目前的AEM Guidesas a Cloud Service設定：
 
-1. 檢視Cloud Services的Git程式碼，並切換到在Cloud Services管線中設定的分支，該分支與您要升級的環境相對應。
-2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將Cloud Services Git程式碼的檔案設為2023.6.297。
-3. 提交變更並執行Cloud Services管道，以升級至2023年6月版本的AEM Guidesas a Cloud Service。
+1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
+2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將Cloud Service Git程式碼的檔案設為2023.6.297。
+3. 提交變更並執行Cloud Service管道，以升級至2023年6月版本的AEM Guidesas a Cloud Service。
 
 ## 透過servlet啟用指令碼觸發的步驟
 
@@ -33,7 +32,7 @@ POST：
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-回應:
+回應：
 
 ```
 {
@@ -88,7 +87,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
+1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
 1. 此API將傳回jobId。 若要檢查作業的狀態，您可以傳送作業識別碼的GET要求至相同的端點 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 

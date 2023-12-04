@@ -1,10 +1,9 @@
 ---
 title: 設定AEM環境以進行原生PDF發佈
 description: 設定AEM環境以進行原生PDF發佈
-exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 45dfe6078039001327e91ae85ea2a5beeacb2d59
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -17,7 +16,7 @@ AEM Guides包含原生PDF發佈引擎，可讓使用者設計、開發及發佈P
 
 在AEM Guides中設定此原生PDF的步驟因作業系統而異。 請根據安裝AEM的作業系統，使用下列設定步驟。
 
-## 必備條件
+## 先決條件
 
 設定原生PDF的最低需求：
 
@@ -29,7 +28,7 @@ AEM Guides包含原生PDF發佈引擎，可讓使用者設計、開發及發佈P
 
 - Windows 10、windows 2019 server及更新版本。
 - Linux - （RHEL 8及更高版本、CentOS 7及更高版本、Ubuntu 18及更高版本）
-- Mac作業系統（Intel架構）
+- Mac作業系統（以Intel為基礎）
 
 ## Windows Server (JAVA 11/8)的設定步驟
 
@@ -146,7 +145,7 @@ AEM Guides包含原生PDF發佈引擎，可讓使用者設計、開發及發佈P
 
    i)執行 **./node-darwin/bin/節點** /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166資料夾中的命令
 
-   ![Mac](../assets/publishing/mac.png)
+   ![mac](../assets/publishing/mac.png)
 
    ii) a = require(&#39;java&#39;)
 

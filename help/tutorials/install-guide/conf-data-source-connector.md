@@ -1,13 +1,12 @@
 ---
 title: 設定資料來源聯結器
 description: 瞭解如何設定資料來源聯結器
-source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # 設定資料來源聯結器
 
@@ -176,11 +175,10 @@ AEM Guides可讓您自訂設定檔案中的某些值，以符合使用者的需�
 
 將檔案上傳到AEM Assets中的某個位置。
 
-例如， `/content/dam/jira.json`
+例如，  `/content/dam/jira.json`
 
 ## 使用REST API建立設定
 
 您可以使用REST API註冊設定。 如需詳細資訊，請檢視 *REST API可註冊資料來源聯結器* Adobe Experience Manager Guides的API參考資料中的區段。
 
 設定資料來源後，聯結器會列在網頁編輯器的「資料來源」面板下。 然後，您可以連線至資料來源，並將內容片段插入主題中。 如需詳細資訊，請檢視 [從您的資料來源插入內容片段](../user-guide/web-editor-content-snippet.md).
-

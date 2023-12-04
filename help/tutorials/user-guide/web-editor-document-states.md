@@ -1,8 +1,7 @@
 ---
 title: 檔案狀態
 description: 瞭解AEM Guides中的檔案狀態型別。 瞭解如何變更或檢視檔案狀態，以及如何在DDLC中使用檔案狀態。
-exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%

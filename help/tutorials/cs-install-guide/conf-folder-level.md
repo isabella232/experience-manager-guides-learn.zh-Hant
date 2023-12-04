@@ -1,10 +1,9 @@
 ---
 title: 設定全域或資料夾層級設定檔
 description: 瞭解如何設定全域或檔案夾層級的設定檔
-exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3961'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -187,7 +186,7 @@ AEM Guides可讓您在企業\(global\)層級和檔案夾層級設定編寫\(topi
 
 1. 按一下 **編輯**.
 
-1. 按一下&#x200B;**「新增」**。
+1. 按一下 **新增**.
 
 1. 輸入 **名稱**， **值**，和 **標籤** 用於條件屬性。
 
@@ -266,7 +265,7 @@ AEM Guides隨附7個現成的主題範本、2個DITA map範本和3個PDF範本�
 
    - 按一下 **瀏覽** 並從DAM中選取範本。
 
-1. 按一下&#x200B;**「新增」**。
+1. 按一下 **新增**.
 
    選取的範本會新增至範本清單中。
 

@@ -1,17 +1,16 @@
 ---
 title: 設定覆寫
 description: 瞭解如何設定覆寫
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
-
 # 設定覆寫 {#id216IFC003XA}
 
-在進行任何設定更新時，應使用下列通用方法：
+要進行任何設定更新，應使用以下通用方法：
 
 1. 存取您的Cloud Manager的Git存放庫。
 
@@ -23,7 +22,7 @@ ht-degree: 0%
 
    $\{PID\}.cfg.json
 
-   在此，PID是設定的程式ID。
+   在此，PID是設定的處理序ID。
 
 1. 使用以下格式在JSON檔案中新增屬性：
 
@@ -39,4 +38,3 @@ ht-degree: 0%
 
 
 **父級主題：**[&#x200B;下載並安裝](download-install.md)
-

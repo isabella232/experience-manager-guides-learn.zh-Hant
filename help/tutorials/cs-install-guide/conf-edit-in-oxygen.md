@@ -1,13 +1,12 @@
 ---
 title: 設定在Oxygon中編輯的選項
 description: 瞭解如何設定氧聯結器外掛程式中編輯的選項。
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
 
 ---
-
 
 # 設定在Oxygon中編輯的選項
 
@@ -26,4 +25,3 @@ AEM Guides也可讓使用者在氧氣聯結器外掛程式中編輯其DITA主題
 > 此設定預設為停用，且選項在網頁編輯器中無法使用。
 
 **父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
-

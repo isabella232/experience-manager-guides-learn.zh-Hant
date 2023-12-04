@@ -1,11 +1,10 @@
 ---
 title: 自訂
 description: 瞭解如何從網頁編輯器和地圖儀表板建立自訂預設集。 在AEM Guides中設定自訂輸出預設集。
-exl-id: 72e59379-b092-49a2-8cd6-a929fe880750
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 2%
+source-wordcount: '945'
+ht-degree: 1%
 
 ---
 

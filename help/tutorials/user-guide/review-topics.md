@@ -1,10 +1,9 @@
 ---
 title: 檢閱主題
 description: 瞭解如何在AEM Guides中檢閱主題並將功能作為檢閱者、檔案檢視、主題檢視、內容工具列、預覽模式、新增附件至註解及條件面板使用。
-exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2348'
+source-wordcount: '2351'
 ht-degree: 0%
 
 ---

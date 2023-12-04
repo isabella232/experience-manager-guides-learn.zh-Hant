@@ -1,10 +1,9 @@
 ---
 title: 使用條件預設集
 description: 瞭解AEM Guides中條件預設集的使用。 瞭解如何在AEM中建立、編輯、複製和刪除條件預設集。
-exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1210'
 ht-degree: 1%
 
 ---
@@ -43,7 +42,8 @@ Experience Manager指南可讓您從網頁編輯器管理條件預設集，並�
    >
    > 如果名稱欄位空白，或輸入「無效」字元或與現有條件預設集相同的名稱，則會檢視錯誤。 您可以使用連字型大小「 — 」或底線「_」做為分隔符號。
 
-1. 選擇 **建立**。新的條件預設集會新增至清單中。
+1. 選取 **建立**.
+新的條件預設集會新增至清單中。
 1. 連按兩下條件預設集以檢視屬性和動作。
 此 **屬性** 面板會顯示新增至地圖中出現之任何參照的所有屬性。 右側面板只會顯示您新增至條件預設集的條件。
 1. 執行下列任一項作業以新增屬性：

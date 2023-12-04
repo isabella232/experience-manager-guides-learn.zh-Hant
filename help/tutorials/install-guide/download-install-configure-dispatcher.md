@@ -1,25 +1,24 @@
 ---
-title: 設定 Dispatcher
+title: 設定Dispatcher
 description: 瞭解如何設定Dispatcher
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '302'
+ht-degree: 5%
 
 ---
 
+# 設定Dispatcher {#id213BCM0M05U}
 
-# 設定 Dispatcher {#id213BCM0M05U}
-
-如果您打算搭配AEM Guides使用AEM Author例項上的Dispatcher，則您需要執行下列額外設定以完成設定：
+如果您打算在AEM Author執行個體上將Dispatcher與AEM Guides搭配使用，則您需要執行下列額外設定以完成設定：
 
 >[!NOTE]
 >
-> Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如需有關使用Dispatcher的詳細資訊，請參閱 [Dispatcher總覽](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=zh-Hant).
+> Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如需有關使用Dispatcher的詳細資訊，請參閱 [Dispatcher綜覽](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## 在URL中啟用AllowEncodedSlases
 
-AEM Dispatcher設定中預設不會啟用具有編碼斜線的URL，但是當您在AEM Guides中工作時，需要啟用此設定。 若要這麼做，您需要在Apache設定中將AllowEncodedSlashes引數設定為On，如下列程式碼片段所示：
+在AEM Dispatcher設定中，預設不會啟用包含編碼斜線的URL，但是當您在AEM Guides中工作時，需要啟用此設定。 為此，您需要在Apache設定中將AllowEncodedSlashes引數設定為On ，如下列程式碼片段所示：
 
 ```XML
 <VirtualHost *:80>
@@ -46,24 +45,24 @@ AEM Dispatcher設定中預設不會啟用具有編碼斜線的URL，但是當您
 
 1. 檢查「 mime.types」檔案的路徑。
 
-1. 開啟mime.types檔案並搜尋「 text/html」。 「text/html」的預設對應為：
+1. 開啟mime.types檔案並搜尋「text/html」。 「text/html」的預設對應為：
 
    `text/html html htm`
 
-1. 新增ditamap和dita擴充功能以更新對應，如下所示：
+1. 透過將ditamap和dita擴充功能新增為來更新對應：
 
    `text/html html htm ditamap dita`
 
 1. 儲存並關閉檔案。
 
 
-此設定更新可確保Dispatcher轉譯的DITA map和主題檔案在Assets UI中顯示為HTML。
+此設定更新會確保Dispatcher轉譯的DITA map和主題檔案在Assets UI中會顯示為HTML。
 
 ## 允許使用者偏好設定請求URL
 
-搭配AEM Guides使用Dispatcher時，如果您的作者執行個體前面有Dispatcher，則進行以下兩個變更：
+搭配AEM Guides使用Dispatcher時，如果您的作者執行個體前面有Dispatcher，則進行下列兩項變更：
 
-- 將POST請求URL加入白名單。 範例» `/filters`「規則如下 — 將此規則新增到Dispatcher設定檔案：
+- 將POST請求URL加入白名單。 範例» `/filters`&quot;規則如下所示 — 將此規則新增到Dispatcher設定檔案：
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}
@@ -79,4 +78,3 @@ AEM Dispatcher設定中預設不會啟用具有編碼斜線的URL，但是當您
 ```
 
 **父級主題：**[&#x200B;下載並安裝](download-install.md)
-

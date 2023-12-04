@@ -1,15 +1,12 @@
 ---
 title: 將具有版本的非UUID內容轉換為UUID內容
 description: 瞭解如何使用版本移轉非UUID內容。
-source-git-commit: 33cdc1b14db0d123c01bbc719c2833ce0df4c9d9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
-
-
-
 
 # 使用版本移轉非UUID內容
 

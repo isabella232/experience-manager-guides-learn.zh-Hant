@@ -1,8 +1,7 @@
 ---
 title: 使用案頭工具製作內容
 description: 使用AEM Guides中的案頭工具製作內容。 瞭解如何使用Adobe FrameMaker和Oxygon XML編輯器來製作和發佈DITA內容。
-exl-id: 43ffb7a6-9740-4e39-bb03-4f8a124f26d3
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%

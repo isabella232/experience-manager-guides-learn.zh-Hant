@@ -1,8 +1,7 @@
 ---
 title: 檢閱主題或地圖
 description: 在AEM Guides中有效率地檢閱主題或地圖，以順暢地評估內容。 瞭解AEM Guides中可供作者和檢閱者使用的功能。
-exl-id: 26860f5d-d744-49b4-8483-4e0f3798af93
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%

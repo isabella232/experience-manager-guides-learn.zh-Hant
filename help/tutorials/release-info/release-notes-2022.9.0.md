@@ -1,31 +1,30 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2022年9月發行
-description: Adobe Experience Manager Guides的9月版本as a Cloud Service
-exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+description: Adobe Experience Manager Guidesas a Cloud Service9月版
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 3%
+source-wordcount: '1299'
+ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guides的9月版本as a Cloud Service
+# Adobe Experience Manager Guidesas a Cloud Service9月版
 
 ## 升級至9月版
 
-as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱為 *AEM指南as a Cloud Service*)進行設定：
-1. 檢視Cloud Services的Git程式碼，並切換到在Cloud Services管道中設定的分支，該分支與您要升級的環境相對應。
-1. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將您的Cloud Services Git程式碼檔案改成2022.9.178。
-1. 提交變更並執行Cloud Services管道，以升級至AEM Guides的9月版本as a Cloud Service。
+as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱為 *AEM Guidesas a Cloud Service*)進行設定，請執行以下步驟：
+1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
+1. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將您的Cloud Service Git程式碼檔案設為2022.9.178。
+1. 提交變更並執行Cloud Service管道，以升級至AEM Guides的9月版本as a Cloud Service。
 
 ## 索引現有內容的步驟
 
 執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
 * 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexin`.
-(可選：您可以傳遞地圖的特定路徑來為其建立索引，預設情況下，所有地圖都會建立索引 ||範例：   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
-* 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||範例：   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* 此API將傳回jobId。 若要檢查作業的狀態，您可以傳送作業識別碼的GET要求至相同的端點 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (例如： `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
-* 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功建立索引的對應。
+* 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
 
 
 ## 相容性矩陣
@@ -36,10 +35,10 @@ as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱�
 
 | FMPS | FrameMaker |
 | --- | --- |
-| 不相容 | 2020 Update 4及更高版本 |
-|  |  |
+| 不相容 | 2020 Update 4及更新版本 |
+| | |
 
-*自2020.2開始的FMPS版本支援AEM中建立的基準和條件。
+*從2020.2開始的FMPS版本支援AEM中建立的基準和條件。
 
 ### 氧氣聯結器
 
@@ -49,14 +48,14 @@ as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱�
 |  |  |  |  |
 
 
-## 新增功能和功能改善
+## 新功能和增強功能
 
-AEM Guidesas a Cloud Service在9月版本中提供許多增強功能和新功能：
+AEM Guidesas a Cloud Service在9月版本中提供了許多增強功能和新功能：
 
 
 ### 根據標籤建立動態基準線
 
-現在AEM Guides提供您根據標籤建立動態基準的功能。 如果您產生基準線、下載基準線或使用基準線建立翻譯專案，系統會根據更新的標籤動態挑選檔案。 此功能很實用，因為更新標籤時不需要修改基準線。
+現在，AEM Guides提供您根據標籤建立動態基準的功能。 如果您產生基準線、下載基準線或使用基準線建立翻譯專案，系統會根據更新的標籤動態挑選檔案。 此功能相當實用，因為更新標籤時不需要修改基準線。
 您也可以將基準線的快照匯出為CSV。
 
 ![建立基準線](assets/dynamic-baseline.png)
@@ -64,25 +63,25 @@ AEM Guidesas a Cloud Service在9月版本中提供許多增強功能和新功能
 ### 在地圖層級尋找和取代文字
 
 您現在可以在地圖中搜尋包含特定文字的檔案。 搜尋的文字會在檔案中反白顯示。 您也可以將搜尋到的字詞或片語取代為檔案中的其他字詞或片語。
-選取 **Replace** 圖示取代目前的專案和 **取代檔案中的所有專案** 圖示取代所選檔案中的所有出現位置。
+選取 **取代** 圖示取代目前的專案和 **取代檔案中的所有專案** 圖示可取代所選檔案中的所有出現位置。
 
 ![在地圖中尋找取代](assets/map-find-replace.png)
 
-依預設，選項 **取代前簽出檔案** 和 **取代後建立新版本** 會選取，因此會在您取代文字之前出庫檔案，並在取代文字之後建立新版本。
+依預設，選項 **取代前簽出檔案** 和 **取代後建立新版本** 即會選取，因此會在您取代文字之前出庫檔案，並在取代文字之後建立新版本。
 
 ### 從翻譯儀表板檢視不同步檔案的版本差異
 
-您現在可以選擇翻譯 **不同步** 根據兩個版本主題之間完成的變更的檔案。\
+您現在可以選擇翻譯 **不同步** 根據兩個主題版本之間完成的變更的檔案。\
 ![翻譯儀表板](assets/translation-version-diff.png)
-從翻譯圖示板中，您可以輕鬆檢視所選檔案的上次翻譯版本與目前版本之間的差異。
+從翻譯圖示板中，您可以輕鬆檢視上次翻譯版本與所選檔案目前版本之間的差異。
 
 ![版本差異對話方塊](assets/version-diff.png)
 
 根據差異，您可以決定是否要翻譯主題。
 
-### PDF預設集可用的中繼資料UI
+### 中繼資料UI可用於PDF預設集
 
-您可以從DITA map的輸出預設集設定中繼資料。 您可以設定標題、作者、主旨和關鍵字中繼資料。 此中繼資料會對應至輸出PDF之檔案屬性中的中繼資料。
+您可以從DITA map的輸出預設集設定中繼資料。 您可以設定「標題」、「作者」、「主旨」和「關鍵字」中繼資料。 此中繼資料會對應至輸出PDF之檔案屬性中的中繼資料。
 此中繼資料會覆寫在書籍層級定義的中繼資料。 您可以具體定義每個輸出預設集中的中繼資料，並將其傳遞給輸出PDF。
 
 ![預設集中的中繼資料](assets/preset-metadata.png)
@@ -90,49 +89,49 @@ AEM Guidesas a Cloud Service在9月版本中提供許多增強功能和新功能
 
 ## 已修正的問題
 
-修復了各種區域的錯誤如下所列：
+以下列出各種區域中修正的錯誤：
 
 * 網頁編輯器 |在主題中移動元素時，元素上的已指派ID會由自動指派的ID覆寫。 (7895)
-* 追蹤變更 |使用Enter鍵輸入新元素時，內容遺失。 (10246)
-* 未建立dita-templates中參照至主要對應的子對應。 (10231)
+* 追蹤變更 |使用Enter鍵輸入新元素時，內容會遺失。 (10246)
+* 未建立dita-templates中參照到主對映的子對映。 (10231)
 * XML編輯器 |複製貼上在製作模式中無法運作。 (10309)
 * 選取多個版本標籤後，就不會取消選取。 (9561)
 * 在網站瀏覽對話方塊中自動導覽至路徑的方式與檔案瀏覽不同。 (9920)
 * 從切換時，大綱面板不顯示內容 **作者** 至 **來源** 模式。 (10319)
 * 使用主題範本中的內容建立的新主題中的Conref無法運作。 複製的雜湊ID不會在內容副本中更新。 (9890)
 * Web編輯器 |從對應範本建立對應時沒有載入器。 (9891)
-* 新增地圖編輯器 |如果我們從「 」切換，「 」對映標題中的粗體或斜體文字將不會保留 **作者** 至 **版面** 檢視。 (10218)
-* 新增地圖編輯器 |無法從「版面」檢視中移除套用到任何參考的條件。 (10213)
-* 新增地圖編輯器 |套用條件參考在「版面」檢視中無法運作，例如「作者」檢視。 (10198)
-* 新增地圖編輯器 |如果參照無法向左移動，從快顯選單向左移動會移除該參照。 (10219)
-* 新增地圖編輯器 |使用「版面」檢視建立的對應中，參照的圖示顯示不正確。 (10197)
+* 新增地圖編輯器 |如果我們從「 」切換，「 」對映標題中新增的粗體或斜體文字將不會保留 **作者** 至 **版面** 檢視。 (10218)
+* 新增地圖編輯器 |套用到任何參考的條件無法從版面檢視中移除。 (10213)
+* 新增地圖編輯器 |在「版面」檢視中，套用條件參考無法如同「作者」檢視般運作。 (10198)
+* 新增地圖編輯器 |如果參照無法向左移動，從快顯選單向左移動會移除參照。 (10219)
+* 新增地圖編輯器 |在使用「版面」檢視建立的地圖中，參照的圖示顯示不正確。 (10197)
 * 存放庫面板 |在存放庫面板中按一下滑鼠右鍵會出現應用程式錯誤。 (10123)
 * 尋找和取代 |在網頁編輯器中，搜尋結果的深色模式無法讀取。 (9978)
 * 翻譯 |中繼資料和標籤不會傳播至翻譯的副本。 (4696)
 * 複製貼上(ctrl+c/ctrl+v)內容會在製作模式中擲回錯誤。 (10304)
-* PDF範本 |將背景影像新增至任何頁面版面時，絕對會顯示影像路徑，且影像不會顯示在輸出PDF中。 (10297)
+* PDF範本 |將背景影像新增至任何頁面版面會顯示「影像路徑」絕對值，且影像不會顯示在輸出PDF中。 (10297)
 * 原生PDF |章節標題和章節標題在PDF發佈中無法運作。 (9947)
-* 原生PDF | `xref` 無法正確解析特定DITA主題的概念。 (10229)
-* 原生PDF |無法在產生的PDF輸出中檢視表格的註解文字。 (9827)
-* 原生PDF |附錄中的參考不會在PDF輸出中顯示為附錄。 (10182)
-* 原生PDF |資料表的Frame屬性不會傳播至暫存HTML（以類別形式）。 (10353)
-* 原生PDF |臨時HTML檔案會將colsep和rowsep類別新增至td和th，即使它們在來源DITA中的值是0亦然。 (10352)
+* 原生PDF | `xref` 針對特定DITA主題，無法正確解析概念。 (10229)
+* 原生PDF |無法在產生的PDF輸出中檢視表格的標題文字。 (9827)
+* 原生PDF |附錄中的參照不會在PDF輸出中顯示為附錄。 (10182)
+* 原生PDF |表格的Frame屬性不會傳播到tempHTML(as class)。 (10353)
+* 原生PDF |臨時HTML檔案會將colsep和rowsep類別新增至td和th，即使它們在來源DITA中的值為0。 (10352)
 * 原生PDF |不會接受在頁面配置中新增之條件的中繼資料。 (10377)
-* 原生PDF |特定內容的PDF產生失敗。 (9927)
-* 原生PDF |PDF輸出中未顯示透過conkeyref的內容。 (9836)
-* 原生PDF |無法解析含有影像或外部連結的Keydef的關鍵參考。 (10063)
-* 地圖的「作者」檢視未顯示表格清單和資料清單的預留位置文字。 (10330)
+* 原生PDF |針對特定內容產生PDF失敗。 (9927)
+* 原生PDF |透過conkeyref的內容未顯示在PDF輸出中。 (9836)
+* 原生PDF |含有影像或外部連結之Keydef的關鍵參考資料無法解析。 (10063)
+* 地圖的「作者」檢視不會顯示表格清單和資料清單的預留位置文字。 (10330)
 * 建立新基準線時，不會套用已選取的基準線篩選。 (9954)
-* 如果父資料夾名稱包含空格字元，則基線中缺少視訊檔案。 10031)
-* 當使用者時區與伺服器時區不同時，基準線建立不會挑選最新版本。 (10190)
-* 在AEM 6.5.12上安裝AEM Guides 4.1後，Control + F捷徑未在Assets Console上開啟瀏覽器搜尋強制回應視窗。 (10189)
+* 如果父資料夾名稱含有空格字元，基準線中會遺失視訊檔案。 10031)
+* 當使用者時區與伺服器時區不同時，建立基準線不會挑選最新版本。 (10190)
+* 在AEM 6.5.12上安裝AEM Guides 4.1後，Control + F捷徑沒有在Assets Console上開啟瀏覽器搜尋強制回應視窗。 (10189)
 
 
 ## 已知問題
 
-Adobe已在2022年9月as a Cloud Service發行的AEM Guides中找出下列已知問題。
+Adobe已確認2022年9月AEM Guidesas a Cloud Service版本的下列已知問題。
 
 
 * 動態基準線未與知識庫發佈整合。
 
-* 翻譯 |由於目標內容中的任何變更，來源內容的「版本差異」圖示會出現。
+* 翻譯 |由於目標內容的任何變更，來源內容會顯示版本差異圖示。

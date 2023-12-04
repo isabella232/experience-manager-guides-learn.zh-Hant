@@ -1,13 +1,12 @@
 ---
 title: 轉換程式事件處理常式
 description: 了解轉換程式事件處理常式
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # 轉換程式事件處理常式 {#id175UB30E05Z}
 
@@ -23,6 +22,5 @@ AEM Guides會公開com/adobe/fmdita/conversion/complete事件，用於在檔案�
 com/adobe/fmdita/conversion/complete 
 ```
 
-**參數**:\
+**引數**：\
 |名稱|型別|說明| --------資----------- |`status`|字串|所執行作業的傳回狀態。 可能的選項包括： — 成功：轉換程式已成功完成。 <br>  — 已完成，但發生錯誤：轉換程式已完成，但發生一些錯誤。 <br> — 失敗：轉換程式因某些嚴重錯誤而失敗。| |`filePath`|字串|AEM存放庫中來源檔案\（待轉換\）的絕對路徑。| |`outputPath`|字串|將儲存轉換之DITA檔案的目的地位置的絕對路徑。| |`logPath`|字串|將儲存轉換記錄檔之節點的絕對路徑。|
-

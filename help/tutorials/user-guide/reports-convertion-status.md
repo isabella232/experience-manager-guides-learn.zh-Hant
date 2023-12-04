@@ -1,8 +1,7 @@
 ---
 title: 轉換狀態報表
 description: 在AEM Guides中將不同格式的檔案轉換為DITA。 瞭解如何新增篩選器並檢視轉換狀態報告。
-exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -27,7 +26,7 @@ AEM Guides提供強大的轉換功能，可將各種格式的檔案轉換成DITA
 
 1. 報告頁面分為兩個部分：
 
-   - **篩選:**
+   - **篩選：**
 
      您可以根據「檔案型別」和「轉換狀態」來篩選報表資料。 在「檔案型別」中，您可以選擇檢視Word檔案、結構化HTML、XML和DocBook檔案型別的報表資料。 在「狀態」中，您可以選擇檢視已成功執行、失敗、作用中或佇列之工作的報表資料。
 

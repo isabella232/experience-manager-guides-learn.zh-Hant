@@ -1,13 +1,12 @@
 ---
 title: 發佈主題至內容片段
 description: 在AEM Guides中將主題或主題內的元素發佈到內容片段。  瞭解如何檢視主題目前的內容片段並重新發佈。
-source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 1%
+source-wordcount: '605'
+ht-degree: 0%
 
 ---
-
 
 # 發佈至內容片段
 
@@ -65,4 +64,3 @@ AEM Guides可讓您將主題或主題內的元素發佈到內容片段。 您可
 
 
 發佈內容片段後，您也可以在任何AEM網站中使用這些片段。
-

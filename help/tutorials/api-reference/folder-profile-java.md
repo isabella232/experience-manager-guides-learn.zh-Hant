@@ -1,13 +1,12 @@
 ---
 title: 使用資料夾設定檔的Java型API
 description: 瞭解如何使用資料夾設定檔的Java型API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # 使用資料夾設定檔的Java型API {#id175UB30E05Z}
 
@@ -62,4 +61,3 @@ Session session) throws GuidesApiException
 - 如果透過未經授權的使用者工作階段呼叫API，例如不是指定資料夾設定檔管理員的使用者。
 
 [1](#fnsrc_1) 此 `attributeNames`， `values`、和 `labels` 在陣列清單中的相同索引上，必須對應至相同的專案。
-

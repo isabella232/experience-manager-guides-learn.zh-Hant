@@ -1,10 +1,9 @@
 ---
 title: 原生PDF發佈功能 |設計頁面配置
 description: 瞭解如何設計您的版面配置，以在PDF輸出的不同區段中呈現資訊。
-exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4807'
+source-wordcount: '4825'
 ht-degree: 0%
 
 ---
@@ -416,7 +415,7 @@ PDF檔案通常包含下列區段：
 
    1. 按一下階層連結上的「欄位」元素，以選取「章節標題」欄位。
 
-   1. 在右側面板中，按一下 **內容屬性** (<img src="./assets/content-properties-icon.png" width="25">) 圖示.
+   1. 在右側面板中，按一下 **內容屬性** (<img src="./assets/content-properties-icon.png" width="25">)圖示。
 
    1. 展開 **版面** 屬性區段，並設定 **浮點數** 屬性值至 **右**.
       <img src="./assets/float-prop-html-content.png" width="400">
@@ -468,7 +467,7 @@ PDF檔案通常包含下列區段：
 
 1. 將游標置於頁面配置的內容區域中。
 
-1. 按一下章節目錄(<img src="./assets/chapter-toc-icon.svg">) 圖示.
+1. 按一下章節目錄(<img src="./assets/chapter-toc-icon.svg">)圖示。
 
    預設章節TOC會插入內容區域中。
 

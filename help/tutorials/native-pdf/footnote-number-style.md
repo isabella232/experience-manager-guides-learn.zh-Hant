@@ -1,10 +1,9 @@
 ---
 title: 原生PDF發佈功能 |在註腳中使用自訂樣式
 description: 瞭解如何在註腳中的數字上套用樣式。
-exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
-source-git-commit: cb2aa028330c1e1b8b71e9e928d724cc0d87bf44
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ ht-degree: 0%
 您可以變更註腳呼叫和標籤的樣式，並管理它們在PDF輸出中的外觀。 這些樣式可協助您快速識別檔案中的註腳。
 
 
-**範例 1**:
+**範例1**：
 
 使用給定的範例，在註腳呼叫和標籤之前和之後新增括弧：
 
@@ -50,7 +49,7 @@ content: "(" counter(footnote, decimal) ")";
 
 *在註腳呼叫和註腳標籤周圍新增括弧。*
 
-**範例 2**:
+**範例2**：
 
 您也可以以星號或小希臘字元（而非數字）標示註腳註呼叫和標籤。
 

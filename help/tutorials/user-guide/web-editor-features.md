@@ -1,10 +1,9 @@
 ---
 title: 瞭解網頁編輯器功能
 description: 探索AEM Guides中的網頁編輯器功能。 瞭解網頁編輯器的介面，包括主工具列、次要工具列、左側面板、內容編輯區域以及右側面板。
-exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '17231'
+source-wordcount: '17222'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 主工具列位於網頁編輯器介面的頂端，並提供網頁編輯器中可用的檔案層級功能和各種撰寫模式。 頂端工具列中的可用功能說明如下：
 
-**儲存全部** - ![](images/SaveFloppy_icon.svg)
+**全部儲存** - ![](images/SaveFloppy_icon.svg)
 
 儲存您在所有開啟的主題中所做的變更。 如果您在網頁編輯器中開啟了多個主題，請按一下 **全部儲存** 或使用 **Crtl**+**S** 按一下快速鍵即可儲存所有檔案。 您不必個別儲存每個檔案。
 
@@ -1797,7 +1796,7 @@ AEM Guides提供可在您的專案中顯示所有稽核任務的功能。 您可
 
 **注意：** 您可以將「檔案」屬性中各個欄位的屬性值複製到剪貼簿。
 
-**參考**
+**引用**
 
 「參照」區段可讓您存取下列功能：
 

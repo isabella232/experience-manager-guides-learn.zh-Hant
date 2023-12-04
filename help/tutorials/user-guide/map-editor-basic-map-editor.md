@@ -1,10 +1,9 @@
 ---
 title: 使用基本地圖編輯器
 description: 瞭解如何在AEM Guides中使用基本地圖編輯器。 瞭解地圖層級和主題層級的基本地圖編輯器的功能。 在DITA map中建立及編輯關係表。
-exl-id: 85194806-db3f-442b-a551-540d148d26ec
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---

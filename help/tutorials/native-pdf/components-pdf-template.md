@@ -1,10 +1,9 @@
 ---
 title: 原生PDF發佈功能 |PDF範本的元件
 description: 瞭解PDF範本的各種元件，以及如何自訂和設定它們。
-exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4947'
+source-wordcount: '4975'
 ht-degree: 0%
 
 ---
@@ -64,7 +63,8 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
 
 1. 在 _復製版面_ 對話方塊中，輸入頁面配置的名稱。
 
-1. 按一下&#x200B;**「完成」**。所選頁面配置圖的副本隨即建立並新增至「頁面配置」下。
+1. 按一下 **完成**.
+所選頁面配置圖的副本隨即建立並新增至「頁面配置」下。
 
 ### 自訂頁面配置 {#customize-page-layout}
 
@@ -380,7 +380,7 @@ PDF檔案中的頁面通常會根據DITA map或bookmap檔案中組織的內容�
    * &quot;a，b，c&quot; — 新頁面順序a、b、c。
    * &quot;a*b&quot; — 頁面a重複b次。
    * &quot;-a&quot; — 負頁數會從最後一頁開始往後計數，並可與其他自訂訂單結合。
-   * 「X」 — 檔案的所有頁面。 與「1..-1&quot;.
+   * 「X」 — 檔案的所有頁面。 與「1..-1」。
 
 例如，您可以提供自訂順序，例如「2,3，5*2,7..10，-1，-2」。
 給定的頁面順序會導致PDF具有來自原始檔案的以下頁碼，假設它共有25頁：2、3、5、5、7、8、9、10、25、24。
@@ -448,8 +448,8 @@ AEM Guides提供下列現成可用的變數：
 
 如果您將文字欄位保留為空白，而且您在插入互動參照時尚未定義連結文字，則「Experience Manager參考線」會為個別互動參照新增下列變數：
 
-* **標題**: `{title}`
-* **說明**: `{description}`
+* **標題**： `{title}`
+* **說明**： `{description}`
 * **段落**： `{bookmarkText}`
 * **書籤**： `{bookmarkText}`
 * **圖**： `{captionText}`

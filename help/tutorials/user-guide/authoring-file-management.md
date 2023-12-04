@@ -1,10 +1,9 @@
 ---
 title: 管理檔案和資料夾
 description: 瞭解如何在AEM Guides中管理檔案和資料夾。 複製並貼上、拖放、刪除、大量移動檔案和資料夾，以及搜尋DITA內容。
-exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---

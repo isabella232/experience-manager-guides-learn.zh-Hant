@@ -1,10 +1,9 @@
 ---
 title: AEM Guides發行
 description: 最新AEM Guides發行版本和必要的AEM版本
-exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
-source-git-commit: 8e18fa8c6c022c4101efb40b5033cd6ee81c3a21
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -57,7 +56,7 @@ UUID和非UUID組建之間的主要差異如下：
 >
 >請聯絡您的客戶成功案例經理，以取得 [!DNL AEM Guides] AEMas a Cloud Service組建。
 
-| [!DNL AEM Guides] 發行 | 發行說明 | AEM必要條件 | 建立下載連結 |
+| [!DNL AEM Guides] 版本 | 發行說明 | AEM必要條件 | 建立下載連結 |
 |---|---|---|---|
 | **AEM Guides 4.3.0** | [4.3.1發行說明](./release-notes-4.3.1.md)<br><br>[4.3.0發行說明](./release-notes-4.3.md) | **非UUID與UUID 4.3.1** <br>AEM 6.5 SP18、SP17、SP16、SP15或SP14 <br><br>   Java： 11或8 <br><br> **非UUID與UUID 4.3.0** <br>AEM 6.5 SP18、SP17、SP16、SP15或SP14 <br><br>   Java： 11或8 | **非UUID AEM 6.5** <br> [4.3.1](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3-1%2Fcom.adobe.fmdita-6.5-4.3.1.390.zip) <br> [4.3.0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3%2Fcom.adobe.fmdita-6.5-4.3.0.347.zip)<br> **UUID AEM 6.5** <br> [4.3.1](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3-1%2Fcom.adobe.fmdita-6.5-uuid-4.3.1.390.zip)<br>[4.3.0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3%2Fcom.adobe.fmdita-6.5-uuid-4.3.0.347.zip) |
 | **AEM Guides 4.2** | [4.2.1發行說明](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/42-release/42-release-notes/release-notes-4.2.1.html?lang=en)<br> <br> [4.2發行說明](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/42-release/42-release-notes/release-notes-4.2.html?lang=en) | **非UUID與UUID 4.2.1**<br><br> AEM 6.5 SP15、SP14、SP13或SP12 <br><br>Java： 11或8 <br><br>**非UUID與UUID 4.2**<br><br> AEM 6.5 SP15、SP14、SP13或SP12 <br><br>Java： 11或8<br><br> | **非UUID**： <br> **AEM 6.5** <br>[4.2.1](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-2-1%2F4-2-1-non-uuid%2Fcom.adobe.fmdita-6.5-4.2.1.270.zip)<br>[4.2](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-2%2F4-2-non-uuid%2Fcom.adobe.fmdita-6.5-4.2.229.zip)<br><br> **UUID** <br>**AEM 6.5** <br>[4.2.1](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-2-1%2F4-2-1-uuid%2Fcom.adobe.fmdita-6.5-uuid-4.2.1.270.zip)<br>[4.2](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-2%2F4-2-uuid%2Fcom.adobe.fmdita-6.5-uuid-4.2.229.zip)<br> |

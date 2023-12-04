@@ -1,13 +1,12 @@
 ---
 title: 重設轉換工作流程的API
 description: 了解轉換工作流程的REST API
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
-
 
 # 重設轉換工作流程的API {#id175UB30E05Z}
 
@@ -42,4 +41,3 @@ ht-degree: 0%
 **引數**： |名稱|型別|必要|說明| --------------------------- |``operation``|字串|是|要呼叫的作業名稱。 此引數的值為 ``idml2dita``. <br> **注意：** 值不區分大小寫。| |`inputFile`|字串|是|AEM存放庫中來源InDesign檔案的絕對路徑。| |`destPath`|字串|是|將儲存轉換的DITA檔案之目的地位置的絕對路徑。| |`createRev`|布林值|是|指定是否建立檔案的修訂版本\( `true`\)是否在指定的目的地\( `false`\)。 只有在目的地位置包含轉換檔案的現有版本時，才會考慮使用此選項。|
 
 **回應值**：傳回HTTP 200 \(Successful\)回應。
-

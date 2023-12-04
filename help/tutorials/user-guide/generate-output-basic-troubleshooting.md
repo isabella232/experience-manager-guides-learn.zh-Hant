@@ -1,8 +1,7 @@
 ---
 title: 基本疑難排解
 description: 解決AEM Guides中基本疑難排解的問題。 瞭解如何在文字編輯器中檢視、複製和檢查記錄檔，以及解決JSP編譯錯誤。
-exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%

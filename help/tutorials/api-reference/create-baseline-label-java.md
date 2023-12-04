@@ -1,13 +1,12 @@
 ---
 title: 使用基線和標籤的Java式API
 description: 瞭解如何使用基線和標籤的Java式API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
-
 
 # 使用基線和標籤的Java式API {#id175UB30E05Z}
 
@@ -50,7 +49,7 @@ LinkedHashMap indirectContext)
 throws GuidesApiException
 ```
 
-**引數**： |名稱|型別|說明| --------資----------- |`session`|javax.jcr.Session|有效的JCR工作階段。 使用者工作階段需要同時擁有DITA map的讀取和寫入許可權，以及基準線中包含之所有參照檔案的讀取許可權。| |`sourcePath`|字串|AEM存放庫中DITA map檔案的絕對路徑。| |`baselineTitle`|字串|基準的唯一標題。| |`label`|字串|選取已套用指定標籤的主題版本。| |`directContext`|LinkedHashMap&lt;string object=&quot;&quot;>|選取直接參考主題\(content\)所依據的設定，依照對應中提及的順序來解析版本。 <br> 如果在對映的所有索引鍵執行反複專案之後，找不到任何版本，則基準線建立程式會失敗。 <br> 如果HashMap是空的\（傳送空白且預設值不是null的對應\），則預設會填入為： <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> 如果您希望基準線建立僅能挑選指定標籤的版本，而且如果不存在此類版本，則會失敗，請將 `label` 索引鍵和您要在其上建立基準線的標籤。| |`indirectContext`|LinkedHashMap&lt;string object=&quot;&quot;>|選取間接參考主題\（參考的內容\）所依據的設定，依照對應中提及的順序來解析版本。 <br> 如果在對映的所有索引鍵執行反複專案之後，找不到任何版本，則基準線建立程式會失敗。 <br> 如果HashMap是空的\（傳送空白且預設值不是null的對應\），則預設會填入為： <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> 如果您希望它是最新版本，而不是自動擷取版本，請取代： <br>`indirectContext.put("pickAutomatically", null);` <br> _替換為:_ <br>`indirectContext.put("latest", true)`|
+**引數**： |名稱|型別|說明| --------資----------- |`session`|javax.jcr.Session|有效的JCR工作階段。 使用者工作階段需要同時擁有DITA map的讀取和寫入許可權，以及基準線中包含之所有參照檔案的讀取許可權。| |`sourcePath`|字串|AEM存放庫中DITA map檔案的絕對路徑。| |`baselineTitle`|字串|基準的唯一標題。| |`label`|字串|選取已套用指定標籤的主題版本。| |`directContext`|LinkedHashMap&lt;string object=&quot;&quot;>|選取直接參考主題\(content\)所依據的設定，依照對應中提及的順序來解析版本。 <br> 如果在對映的所有索引鍵執行反複專案之後，找不到任何版本，則基準線建立程式會失敗。 <br> 如果HashMap是空的\（傳送空白且預設值不是null的對應\），則預設會填入為： <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> 如果您希望基準線建立僅能挑選指定標籤的版本，而且如果不存在此類版本，則會失敗，請將 `label` 索引鍵和您要在其上建立基準線的標籤。| |`indirectContext`|LinkedHashMap&lt;string object=&quot;&quot;>|選取間接參考主題\（參考的內容\）所依據的設定，依照對應中提及的順序來解析版本。 <br> 如果在對映的所有索引鍵執行反複專案之後，找不到任何版本，則基準線建立程式會失敗。 <br> 如果HashMap是空的\（傳送空白且預設值不是null的對應\），則預設會填入為： <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> 如果您希望它是最新版本，而不是自動擷取版本，請取代： <br>`indirectContext.put("pickAutomatically", null);` <br> _替換為：_ <br>`indirectContext.put("latest", true)`|
 
 **傳回**：基準線的名稱，是JCR存放庫中基準線的節點名稱。 新建立之基準線的標題將顯示在DITA map的「基準線」頁面上。
 
@@ -109,4 +108,3 @@ String label) throws GuidesApiException
 **傳回**：對應包含 *key：value* 配對 `path:deletedlabels` 基準線中的所有檔案。
 
 **例外**：擲回 ``RepositoryException`, `VersionException`, `Exception``.
-

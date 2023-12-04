@@ -1,10 +1,9 @@
 ---
 title: DITA map報表（從map儀表板）
 description: 從AEM Guides中的Map儀表板產生DITA Map報表。 瞭解如何產生DITA map報表的CSV。
-exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ AEM Guides提供管理員報告功能，可在檔案上線或提供給一般使�
 
      列出所選地圖檔案的整體摘要。 透過檢視「摘要」，您可以快速瞭解地圖中的主題總數、缺少的主題、具有缺少元素的主題數、主題的狀態 — 草稿中、稽核中或稽核狀態。
 
-   - **詳細資料:**
+   - **詳細資料：**
 
      當您按一下主題時，會顯示所選主題的詳細報告。
 

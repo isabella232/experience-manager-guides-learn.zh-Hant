@@ -1,9 +1,9 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides的新增功能，2023年7月發行
 description: 在2023年7月發行的Adobe Experience Manager Guidesas a Cloud Service中瞭解新功能和增強功能
-source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---

@@ -1,8 +1,7 @@
 ---
 title: 使用快速產生面板
 description: 使用AEM Guides中的快速產生面板。 瞭解如何從快速產生面板產生和檢視輸出。
-exl-id: d48803d9-470c-4679-8def-72b45a85917b
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

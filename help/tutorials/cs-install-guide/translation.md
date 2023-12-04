@@ -1,19 +1,18 @@
 ---
 title: 翻譯內容
 description: 瞭解如何翻譯內容
-source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 14%
+source-wordcount: '651'
+ht-degree: 11%
 
 ---
-
 
 # 翻譯內容 {#id181GB0400UI}
 
 自動翻譯頁面內容、資產和使用者產生的內容，以建立和維護多語言網站。 若要自動化翻譯工作流程，您可以將翻譯服務提供商與 AEM 相整合，並建立用於將內容翻譯成多種語言的專案。AEM 支援人工和機器翻譯工作流程。
 
-- 人工翻譯：內容將傳送給您的翻譯提供商並由專業翻譯人員翻譯。完成後，翻譯後的內容將傳回並匯入到 AEM 中。當您的翻譯提供者與AEM整合時，內容會自動在AEM和翻譯提供者之間交換
+- 人工翻譯：內容會傳送給您的翻譯提供者，並由專業翻譯人員進行翻譯。 完成後，翻譯後的內容將傳回並匯入到 AEM 中。當您的翻譯提供者與AEM整合時，內容會自動在AEM和翻譯提供者之間交換
 
 - 機器翻譯：機器翻譯服務會立即翻譯您的內容
 
@@ -22,7 +21,7 @@ ht-degree: 14%
 
 1. 連線AEM與您的 [翻譯服務提供者](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) 和建立翻譯整合框架設定。
 
-1. 將您語言主版的頁面 與翻譯服務和框架設定相關聯。
+1. 將語言主版的頁面與翻譯服務和框架設定建立關聯。
 
 1. 識別型別 [要翻譯的內容](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
@@ -48,7 +47,7 @@ ht-degree: 14%
 
    | PID | 屬性索引鍵 | 屬性值 |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | 布林值\( true/ false\)。<br> **預設值**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | 布林值\( true/ false\)。<br> **預設值**： `true` |
 
    >[!NOTE]
    >
@@ -82,4 +81,3 @@ ht-degree: 14%
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布林值： <br>  — 如果不想對暫存檔執行後期處理作業，則 *停用* \( false\) **處理後語言副本** 選項。<br>  — 如果要在暫存檔上執行後續處理作業，則 *啟用* \( true\) **處理後語言副本** 選項。<br> **預設值**： false |
-

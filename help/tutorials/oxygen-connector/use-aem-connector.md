@@ -3,14 +3,12 @@ title: Adobe Experience Manager Guides的氧氣外掛程式
 description: 瞭解如何使用Adobe Experience Manager Guides的氧氣外掛程式來建立和管理您的內容。
 hide: true
 hidefromtoc: true
-exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6101'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Experience Manager Guides的氧氣外掛程式 {#id1645H6010Q5}
 
@@ -43,7 +41,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
 >[!IMPORTANT]
 >
->如果您的系統上安裝了舊版外掛程式，請務必先解除安裝該外掛程式，然後再開始安裝程式。 請參閱 **解除安裝套件** 中的區段 [如何使用套件](https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/package-manager.html) 解除安裝指示的文章。
+>如果您的系統上安裝了舊版外掛程式，請務必先解除安裝該外掛程式，然後再開始安裝程式。 請參閱 **解除安裝套件** 中的區段 [如何使用套件](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) 解除安裝指示的文章。
 
 在安裝Oxygon XML Author的系統上執行下列步驟：
 
@@ -77,7 +75,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
 >[!IMPORTANT]
 >
->如果您的系統上安裝了舊版外掛程式，請務必先解除安裝該外掛程式，然後再開始安裝程式。 請參閱 **解除安裝套件** 中的區段 [如何使用套件](https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/package-manager.html) 文章解除安裝指示。
+>如果您的系統上安裝了舊版外掛程式，請務必先解除安裝該外掛程式，然後再開始安裝程式。 請參閱 **解除安裝套件** 中的區段 [如何使用套件](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) 文章解除安裝指示。
 
 在安裝Oxygon XML Author的系統上執行下列步驟：
 
@@ -253,7 +251,8 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
 1. 在 **擴充功能** 標籤，進行下列變更：
    - 按一下 **選擇** 在 **作者擴充功能狀態監聽器** 在 **個別擴充功能** 並選取「 」中的「CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn」 **類別** 清單。 按一下&#x200B;**「確定」**。
-   - 按一下 **選擇** 在 **作者自訂屬性值編輯器** 在 **個別擴充功能** 並選取「 」中的「CustomValueEditor - com.adobe.o2.framework.extn」 **類別** 清單。 按一下&#x200B;**「確定」**。下列熒幕擷圖顯示設定的 **副檔名** DITA主題的索引標籤：
+   - 按一下 **選擇** 在 **作者自訂屬性值編輯器** 在 **個別擴充功能** 並選取「 」中的「CustomValueEditor - com.adobe.o2.framework.extn」 **類別** 清單。 按一下 **確定**.
+下列熒幕擷圖顯示設定的 **副檔名** DITA主題的索引標籤：
 
      ![為DITA主題設定的擴充功能](images/dita-topic-extension-tab.png){width="650" align="left"}
 
@@ -483,7 +482,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 - 您可以根據檔案名稱、標題或路徑來排序檔案清單。 如果新檔案已出庫，則檔案會以排序的順序顯示在檢視中。
 
 
-### 上傳檔案和檔案夾 {#id195HC03F03J}
+### 上傳檔案和資料夾 {#id195HC03F03J}
 
 執行以下步驟來上傳檔案或資料夾：
 
@@ -748,5 +747,3 @@ AEM Guides可讓您使用相關DITA屬性輕鬆建立及關聯條件屬性。 �
 
 
 使用先前的步驟，將啟用記錄並您可以使用它們來偵錯問題。
-
-

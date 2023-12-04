@@ -1,10 +1,9 @@
 ---
 title: 支援Schematron檔案
 description: 瞭解如何匯入及驗證DITA主題、使用判斷提示報表陳述式來檢查規則、使用規則運算式，以及在AEM Guides的Schematron檔案中定義抽象模式。
-exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
-source-git-commit: 05a7b46b0c6ec056f85a82759400717fce9a845c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---

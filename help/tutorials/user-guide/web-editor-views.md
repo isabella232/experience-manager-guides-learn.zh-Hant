@@ -1,8 +1,7 @@
 ---
 title: 網頁編輯器檢視
 description: 以作者、來源和預覽模式檢視檔案。 瞭解如何在AEM Guides中根據條件篩選器檢視內容、檢視追蹤變更標籤，以及將主題匯出為PDF。
-exl-id: 86d8abc2-1d0e-4744-91c9-848c00447971
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -52,7 +51,7 @@ AEM Guides的Web Editor支援以三種不同的模式或檢視檢視檢視檔案
   | 新增多個游標 | **Ctrl**+按一下左鍵 |
   | 多個非連續文字選取範圍 | **Ctrl**+按一下滑鼠左鍵以拖曳並選取文字 |
   | 選取跨越行與行之間的文字 | **Alt**+按一下滑鼠左鍵以拖曳並選取文字 |
-  | 復原多個選取範圍或退出全熒幕模式 | **Esc 鍵** |
+  | 復原多個選取範圍或退出全熒幕模式 | **Esc** |
   | 顯示自動完成 | **Ctrl**+**空格** |
   | 移至目前標籤的開頭或結尾標籤 | **Ctrl**+**J** |
   | 展開或收合目前的標籤及其內容 | **Ctrl**+**Q** |

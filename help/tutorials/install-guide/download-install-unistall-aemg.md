@@ -1,19 +1,18 @@
 ---
 title: 解除安裝AEM Guides
 description: 瞭解如何解除安裝AEM Guides
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
-
 # 解除安裝AEM Guides {#id21BHG0C0SXA}
 
-您可以使用CRX封裝管理員解除安裝AEM Guides。 在解除安裝期間，存放庫的內容會還原為緊接在安裝套件之前建立的快照。
+您可以使用CRX封裝管理員解除安裝AEM Guides。 在解除安裝期間，存放庫的內容會還原成安裝套件之前立即建立的快照。
 
-執行以下步驟以解除安裝AEM Guides：
+執行以下步驟來解除安裝AEM Guides：
 
 1. 登入您的AEM執行個體並導覽至CRX封裝管理員。 存取封裝管理器的預設URL為：
 
@@ -22,10 +21,10 @@ ht-degree: 0%
    ```
 
 1. 搜尋com.adobe.fmdita套件。
-1. 按一下封裝以將其展開。
+1. 按一下封裝以展開它。
 1. 按一下 **更多** 以開啟下拉式清單。
 1. 按一下 **解除安裝** 並等待解除安裝完成。
-1. 如果您不再需要此套件，請按一下 **刪除** 解除安裝套件之後。
+1. 如果您不再需要此封裝，請按一下 **刪除** 解除安裝套件之後。
 
 ## 解除安裝之後
 
@@ -47,4 +46,3 @@ ht-degree: 0%
 1. 清除瀏覽器的快取。
 
 **父級主題：**[&#x200B;下載並安裝](download-install.md)
-

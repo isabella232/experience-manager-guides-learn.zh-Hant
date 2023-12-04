@@ -1,19 +1,18 @@
 ---
 title: 原生PDF發佈要點
 description: 瞭解如何使用AEM Guides中的原生PDF引擎發佈PDF。
-exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '204'
 ht-degree: 1%
 
 ---
 
 # 原生PDF發佈要點
 
-AEM Guides具有內建的PDF發佈引擎，使用者能夠建立、開發和發佈PDF格式的內容。 其豐富的功能集可建立多樣化的頁面配置、自訂樣式表，以及設計無縫內容發佈所需的各種PDF元件。
+AEM Guides內建的PDF發佈引擎讓使用者能以PDF格式建立、開發和發佈內容。 其豐富的功能集可建立多樣化的頁面配置、自訂樣式表，以及設計無縫內容發佈所需的各種PDF元件。
 
-## 工作階段概觀
+## 工作階段概述
 
 在這場會議中，您將瞭解如何使用AEM Guides中的原生PDF引擎發佈PDF
 
@@ -31,9 +30,9 @@ AEM Guides具有內建的PDF發佈引擎，使用者能夠建立、開發和發�
 ## 關鍵重點
 
 在這場會議中，您將瞭解以下內容：
-- PDF發佈Essentials
+- PDF發佈要點
 - 建立和自訂PDF範本的各種元件
-- 發佈用的內容建構和樣式設定
+- 發佈用的內容結構和樣式
 - 透過指令碼操控輸出
 - 進階設定、安全性、列印與生產
 
@@ -43,14 +42,13 @@ AEM Guides具有內建的PDF發佈引擎，使用者能夠建立、開發和發�
 
 - **使用手冊** - [原生PDF發佈](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **社群論壇**  — 若為Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> 下列版本的AEM Guides提供本工作階段中顯示的功能：
+> 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
 > - 內部部署4.2或更新版本
-> - Cloud Services 2211和更新版本
-
+> - Cloud Service 2211和更新版本
 
 ## 聯絡我們
 

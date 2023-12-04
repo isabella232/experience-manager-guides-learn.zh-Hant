@@ -1,10 +1,9 @@
 ---
 title: 下載檔案
 description: 瞭解如何從AEM Guides中的DITA map主控台下載檔案，以及匯出AEM存放庫中的DITA map檔案。
-exl-id: 3b588256-da30-4a98-be5c-fa36cfa8a80b
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ ht-degree: 0%
 
    ![](images/download-map.png){width="300" align="left"}
 
-1. 按一下「**下載**」。在「下載對應」對話方塊中，您可以選擇下列選項：
+1. 按一下 **下載**. 在「下載對應」對話方塊中，您可以選擇下列選項：
 
    - **使用基準線**：選取此選項可取得為DITA map建立的基準清單。 如果您要根據特定的「基準線」下載對映檔案及其內容，請從下拉式清單中選取「基準線」。 如需有關使用基準線的詳細資訊，請參閱 [使用基準線](generate-output-use-baseline-for-publishing.md#).
    - **平面化檔案階層**：選取此選項，將所有參照的主題和媒體檔案儲存在單一資料夾中。

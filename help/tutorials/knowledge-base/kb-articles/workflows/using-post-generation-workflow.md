@@ -1,10 +1,9 @@
 ---
 title: 貼文產生工作流程
 description: 附範例的後生成工作流程概覽
-exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: b8fed051e235146cd797af2524a68d8d2d0f16c6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---

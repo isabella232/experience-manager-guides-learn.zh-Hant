@@ -1,14 +1,12 @@
 ---
 title: 使用工具設定資料來源聯結器
 description: 瞭解如何使用工具設定資料來源聯結器。
-source-git-commit: bcb8204197162cdff2a8a8002c03e4d98b442883
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
-
-
 
 # 從使用者介面設定資料來源聯結器
 

@@ -1,13 +1,12 @@
 ---
 title: 原生PDF |支援語言變數
 description: 在PDF輸出和輸出範本中使用語言變數
-source-git-commit: 6de4b4666d804c678674faa6fe1a54ef9b9dbbe0
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
-
 
 # 支援語言變數
 
@@ -96,7 +95,7 @@ Experience Manager指南支援匯出和匯入以所選語言呈現的語言變�
 
 >[!NOTE]
 > 
->如果語言變數中有任何未儲存的變更，您就無法匯出。 儲存變更以檢視已啟用的 **匯出** <img src="./assets/language-variable-export-icon.svg" alt="匯入圖示" width="25"> 圖示.
+>如果語言變數中有任何未儲存的變更，您就無法匯出。 儲存變更以檢視已啟用的 **匯出** <img src="./assets/language-variable-export-icon.svg" alt="匯入圖示" width="25"> 圖示。
 
 ### 匯入語言變數
 
@@ -233,6 +232,3 @@ h1:before {
 color: red;
 } 
 ```
-
-
-

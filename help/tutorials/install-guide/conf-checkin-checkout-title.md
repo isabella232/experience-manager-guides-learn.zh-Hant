@@ -1,7 +1,7 @@
 ---
 title: 設定簽入和簽出圖示的標題
 description: 瞭解如何設定簽入和簽出圖示的標題
-source-git-commit: bb4b875864b31197437a944ded5862bbf937bc29
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -29,4 +29,3 @@ AEM Guides可讓您在網頁編輯器中設定簽入和簽出圖示的標題。 
    ```
 
 1. 儲存檔案並上傳。
-

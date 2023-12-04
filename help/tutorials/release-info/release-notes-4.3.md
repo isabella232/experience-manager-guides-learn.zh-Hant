@@ -1,10 +1,10 @@
 ---
 title: 發行說明 |在Adobe Experience Manager Guides 4.3.0版本中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Guides 4.3.0版
-source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 5%
+source-wordcount: '1086'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 5%
 - 無法簽出網頁編輯器中的檔案，儘管選擇NO選項在簽入前捨棄變更。 (12557)
 - 在Web編輯器內的主工具列中，鎖定和解鎖檔案圖示的工具提示與「存放庫檢視」中顯示的圖示不一致。(12555)
 - 「取消簽出」和「解除鎖定」選項會顯示在Web編輯器中尚未在「地圖檢視」中籤出的檔案。 (12556)
-- 無法在現有的「topicref」連結中選取PDF資產。 (12477).
+- 無法在現有的「topicref」連結中選取PDF資產。 (12477)。
 - 在表格中執行合併和分割時，AEM Guides 4.2會產生額外的表格儲存格。 (11793)
 - 在「存放庫檢視」中，使用搜尋/篩選功能後無法拖曳主題或影像。 (12396)
 - 開啟一個搜尋的檔案後，「尋找和取代」面板中的搜尋結果會停用。 (12142)

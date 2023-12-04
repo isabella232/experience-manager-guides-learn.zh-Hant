@@ -1,13 +1,12 @@
 ---
 title: 使用DITA map的Java型API
 description: 瞭解搭配DITA map使用的Java型API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
-
 
 # 使用DITA map的Java型API {#id175UB30E05Z}
 
@@ -154,4 +153,3 @@ public static List
 **引數**： |名稱|型別|說明| --------資----------- |`rootNode`|javax.jcr.Node|要擷取其所有相依性的根節點。|
 
 **傳回**：包含根節點所有相依性的節點清單。
-

@@ -1,11 +1,10 @@
 ---
 title: 發行說明 | 2023年10月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年10月版的Adobe Experience Manager Guidesas a Cloud Service
-exl-id: fb1b74d7-25f2-4a20-9248-44dfdabf553d
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 2%
+source-wordcount: '1045'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +34,7 @@ POST：
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-回應:
+回應：
 
 ```
 {
@@ -165,4 +164,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 Adobe已發現2023年10月版本的下列已知問題。
 
 - 內容片段重新發佈失敗。
-

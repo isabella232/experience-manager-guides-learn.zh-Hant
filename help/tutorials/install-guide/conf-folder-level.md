@@ -1,10 +1,9 @@
 ---
 title: 設定全域或資料夾層級設定檔
 description: 瞭解如何設定全域或檔案夾層級的設定檔
-exl-id: 3370e22c-b996-4261-b250-8b8f8667c2a0
-source-git-commit: 192d807d0020193f39e8340fb6c0b6a50c6489f8
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3891'
+source-wordcount: '3896'
 ht-degree: 0%
 
 ---
@@ -317,7 +316,7 @@ AEM Guides提供建立製作範本的簡單方式。 作為系統管理員，您
    >
    > 您可以使用「空白」範本從頭開始。 「空白」範本沒有任何結構或元素。
 
-1. 按一下&#x200B;**下一步**。
+1. 按一下「**下一步**」。
 
 1. 在新範本的「屬性」頁面上，輸入 **標題**， **名稱**、和 **說明** 範本的。
 

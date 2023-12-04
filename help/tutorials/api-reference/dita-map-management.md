@@ -1,13 +1,12 @@
 ---
 title: 使用DITA map的REST API
 description: 瞭解使用DITA map的REST API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # 使用DITA map的REST API {#id175UB30E05Z}
 
@@ -43,4 +42,3 @@ ht-degree: 0%
 |名稱|型別|必要|說明| --------------------------- |`jobId`|字串|是|啟動匯出作業時擷取的作業識別碼。|
 
 **回應值**： |元素|說明| -------|-----------| |`status`|匯出作業的狀態。 可能的選項包括：「已開始」、「失敗」、「進行中」、「成功」、「缺少」、「已刪除」| |`jobId`|工作的唯一識別碼。 稍後可用於查詢狀態。| |`errorMessage`|發生失敗時工作的錯誤訊息\（如果狀態為FAILED、MISSING或DELETED\）。| |`filePath`|壓縮檔的檔案路徑。 只有在工作完成且狀態為「成功」時，才會出現此選項。 這可用來下載ZIP檔案。|
-

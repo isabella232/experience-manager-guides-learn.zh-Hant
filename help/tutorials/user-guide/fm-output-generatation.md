@@ -1,10 +1,9 @@
 ---
 title: 產生FrameMaker檔案的輸出
 description: 瞭解如何在AEM指南中產生FrameMaker檔案的輸出，以以PDF、HTML5和EPUB格式發佈。
-exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -31,4 +30,3 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 > 本主題中說明的功能僅供具有發佈者或管理員許可權的使用者使用。
-

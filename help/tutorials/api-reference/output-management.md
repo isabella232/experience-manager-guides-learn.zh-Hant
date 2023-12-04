@@ -1,13 +1,12 @@
 ---
 title: 用於輸出管理的REST API
 description: 瞭解輸出管理的REST API
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
-
 
 # 用於輸出管理的REST API {#id175UB30E05Z}
 
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 **請求URL**： http://*&lt;aem-guides-server>*： *&lt;port-number>*/bin/publishlistener
 
-**參數**:\
+**引數**：\
 |名稱|型別|必要|說明| --------------------------- |`:operation`|字串|是|要呼叫的作業名稱。 此引數的值為 `getalloutputs`.<br> **注意：** 值不區分大小寫。| |`sourcePath`|字串|是|DITA map檔案的絕對路徑。|
 
 **回應值**：傳回JSON輸出預設集物件陣列，每個物件包含下列元素：
@@ -134,4 +133,3 @@ ht-degree: 0%
 **引數**： |名稱|型別|必要|說明| --------------------------- |`:operation`|字串|是|要呼叫的作業名稱。 此引數的值為 `deleteoutput`.<br> **注意：** 值不區分大小寫。| |`sourcePath`|字串|是|DITA map檔案的絕對路徑。| |`outputName`|字串|是|要刪除的輸出預設集名稱。|
 
 **回應值**：傳回HTTP 200 \(Successful\)回應。
-

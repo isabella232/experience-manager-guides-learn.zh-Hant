@@ -1,8 +1,7 @@
 ---
 title: 從網頁編輯器以文章為基礎的發佈
 description: 瞭解如何從網頁編輯器發佈一或多篇文章。 在AEM Guides中為DITA map中的一個或多個主題產生輸出。
-exl-id: b827c606-0d4b-4e7b-8a82-75b375dffe1a
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%

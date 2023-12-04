@@ -1,31 +1,30 @@
 ---
 title: 自訂Web編輯器
-description: 瞭解如何自訂Web編輯器
-source-git-commit: 419cb49fb122d8cf05f82ed4588fc28eac1b81bd
+description: 瞭解如何自訂網頁編輯器
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
-
 # 自訂Web編輯器 {#id181AI0003PN}
 
-AEM Guides隨附了功能強大的Web Editor，可讓您的作者建立和編輯DITA檔案。 您可以自訂Web編輯器的工具列，以新增或移除您可以從工具列存取的任何功能。 此外，您也可以設定自動儲存檔案、在元素插入檔案中時為其產生ID等等。 以下各節說明您可以在Web編輯器中自訂的功能：
+AEM Guides隨附強大的網頁編輯器，可讓您的作者建立和編輯DITA檔案。 您可以自訂Web編輯器的工具列，以新增或移除您可以從工具列存取的任何功能。 此外，您也可以設定檔案的自動儲存、在元素插入檔案中時為其產生ID等等。 以下各節說明您可以在Web編輯器中自訂的功能：
 
 - [自訂工具列](conf-web-editor-customize-toolbar.md#)
 - [在網頁編輯器中設定檔案自動儲存](auto-save-in-editor.md#)
 - [自訂AEM預設字典](customize-aem-custom-dictionary.md#)
-- [自動產生元素ID](auto-generate-ids.md#)
+- [自動生成元素ID](auto-generate-ids.md#)
 - [設定允許的特殊字元](conf-special-chars.md#)
 - [設定檔案瀏覽對話方塊的篩選器](conf-custom-file-filters.md#)
-- [設定UUID型連結的顯示](conf-uuid-based-links.md#)
+- [設定UUID型連結的顯示方式](conf-uuid-based-links.md#)
 
 - **[自訂工具列](conf-web-editor-customize-toolbar.md)**
 
 - **[設定標籤檢視的預設值](configure-default-value-tags-view.md)**
 
-- **[設定UUID型連結的顯示](conf-uuid-based-links.md)**
+- **[設定UUID型連結的顯示方式](conf-uuid-based-links.md)**
 
 - **[在同一個索引標籤中開啟DITA主題或對應檔案](open-dita-files-same-tab.md)**
 
@@ -39,7 +38,7 @@ AEM Guides隨附了功能強大的Web Editor，可讓您的作者建立和編輯
 
 - **[設定允許的特殊字元](conf-special-chars.md)**
 
-- **[自動產生元素ID](auto-generate-ids.md)**
+- **[自動生成元素ID](auto-generate-ids.md)**
 
 - **[自訂AEM預設字典](customize-aem-custom-dictionary.md)**
 
@@ -53,8 +52,6 @@ AEM Guides隨附了功能強大的Web Editor，可讓您的作者建立和編輯
 
 - **[在網頁編輯器中設定翻譯功能](conf-translation-web-editor.md)**
 
-- **[將「進階地圖編輯器」設定為預設值](conf-map-editor.md)**
+- **[將進階地圖編輯器設定為預設值](conf-map-editor.md)**
 
 - **[預設包含@navtitle屬性](auto-add-navtitle.md)**
-
-

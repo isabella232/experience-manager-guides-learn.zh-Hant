@@ -1,10 +1,10 @@
 ---
 title: 發行說明 | 2023年9月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年9月Adobe Experience Manager Guidesas a Cloud Service版本
-source-git-commit: 3f79dfbc747b3d2efc05608d05df6ba45e53d877
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 3%
+source-wordcount: '1486'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ POST：
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-回應:
+回應：
 
 ```
 {
@@ -132,7 +132,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 無法簽出網頁編輯器中的檔案，儘管選擇NO選項在簽入前捨棄變更。 (12557)
 - 在Web編輯器內的主工具列中，鎖定和解鎖檔案圖示的工具提示與「存放庫檢視」中顯示的圖示不一致。(12555)
 - 「取消簽出」和「解除鎖定」選項會顯示在Web編輯器中尚未在「地圖檢視」中籤出的檔案。 (12556)
-- 無法在現有的「topicref」連結中選取PDF資產。 (12477).
+- 無法在現有的「topicref」連結中選取PDF資產。 (12477)。
 - 在「存放庫檢視」中，使用搜尋/篩選功能後無法拖曳主題或影像。 (12396)
 - 開啟一個搜尋的檔案後，「尋找和取代」面板中的搜尋結果會停用。 (12142)
 - 側邊鍵盤上的「8」數字鍵在AEM Guides編輯器中無法運作。 (12106)
@@ -176,7 +176,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 - 匯出重新命名的翻譯基準線的程式會失敗。 (12993)
 - 已翻譯檔案的標題會取代來源檔案的標題而顯示。 (11630)
-
-
-
-

@@ -1,11 +1,10 @@
 ---
 title: 設定輸出產生設定
 description: 瞭解如何設定輸出產生設定
-exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5496'
-ht-degree: 1%
+source-wordcount: '5470'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +21,7 @@ AEM Guides隨附許多設定選項，供您自訂輸出產生程式。 本主題
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | 布林值\(`true/false`\).**預設值**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Boolean\(`true/false`\)。**預設值**： `true` |
 
 >[!NOTE]
 >
@@ -106,7 +105,7 @@ AEM Guides隨附的預設設計範本可讓您自訂登陸、主題和搜尋頁�
 
    | 屬性 | 說明 |
    |--------|-----------|
-   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | 指定 `cq:Template` 這些對應頁面的節點\（登陸、搜尋和主題\）。 根據預設 `cq:Template` 這些頁面的節點可在以下位置找到： `/libs/fmdita/templates/default/cqtemplates` 節點。 此節點會定義登陸、搜尋和主題頁面的結構和屬性。<br> 此 `shadowPageTemplate` 用於最佳化區塊內容。 您必須將此屬性的值設為： `fmdita/templates/default/cqtemplates/shadowpage` <br> **注意：** 您必須指定 `topicPageTemplate`. 此 `landingPageTemplate` 和 `searchPageTemplate` 是選用屬性。 如果您不想產生搜尋和登入頁面，請勿指定這些屬性。 |
+   | `landingPageTemplate`， `searchPageTemplate`， `topicPageTemplate`， `shadowPageTemplate` | 指定 `cq:Template` 這些對應頁面的節點\（登陸、搜尋和主題\）。 根據預設 `cq:Template` 這些頁面的節點可在以下位置找到： `/libs/fmdita/templates/default/cqtemplates` 節點。 此節點會定義登陸、搜尋和主題頁面的結構和屬性。<br> 此 `shadowPageTemplate` 用於最佳化區塊內容。 您必須將此屬性的值設為： `fmdita/templates/default/cqtemplates/shadowpage` <br> **注意：** 您必須指定 `topicPageTemplate`. 此 `landingPageTemplate` 和 `searchPageTemplate` 是選用屬性。 如果您不想產生搜尋和登入頁面，請勿指定這些屬性。 |
    | `title` | 設計範本的描述性名稱。 |
    | `topicContentNode` | 將在主題頁面中包含DITA內容的節點位置。 路徑是相對於主題頁面的路徑。 |
    | `topicHeadNode` | 節點的位置，此節點將包含衍生自DITA內容的head值\（或metadata\）。 路徑是相對於主題頁面的路徑。 |
@@ -153,7 +152,7 @@ AEM Guides隨附的預設設計範本可讓您自訂登陸、主題和搜尋頁�
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 布林值 (`true/false`). **預設值**: `false` |
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 布林值(`true/false`)。 **預設值**： `false` |
 
 例如，如果 *@navtitle* 在 `<topichead>` 包含所有特殊字元，而您設定 `aemsite.pagetitle` 屬性設為true，則預設會使用分隔符號。 如果您設定 `nodename.systemDefinedPageName` 屬性設為true，會顯示第一個子系主題的名稱。
 
@@ -225,7 +224,7 @@ AEM Guides可讓您設定AEM Site輸出的節點結構在內部建立的方式�
 
    | PID | 屬性索引鍵 | 屬性值 |
    |---|------------|--------------|
-   | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | 布林值\(true/false\)。<br> **預設值**: `false` |
+   | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | 布林值\(true/false\)。<br> **預設值**： `false` |
 
 
 現在，當您產生AEM Site輸出時， `p` 元素會平面化並儲存在 `p` 元素本身。 您可以找到新的平面化屬性 `p` CRXDE中的元素。
@@ -271,7 +270,7 @@ AEM Guides可讓您設定AEM Site輸出的節點結構在內部建立的方式�
 
    | PID | 屬性索引鍵 | 屬性值 |
    |---|------------|--------------|
-   | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | 布林值\(true/false\)。<br> **預設值**: `true` |
+   | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | 布林值\(true/false\)。<br> **預設值**： `true` |
 
    >[!NOTE]
    >
@@ -305,7 +304,7 @@ AEM Guides提供在使用DITA-OT發佈輸出時傳遞自訂中繼資料的方法
 
 1. 按一下 **中繼資料結構** 圖磚。
 
-   此時會顯示「中繼資料結構描述表單」頁面。
+   此時會顯示「中繼資料結構Forms」頁面。
 
 1. 選取 **預設** 從清單中移除。
 

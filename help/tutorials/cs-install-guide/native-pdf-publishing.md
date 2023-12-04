@@ -1,15 +1,12 @@
 ---
 title: 自訂及設定原生PDF發佈功能
 description: 瞭解如何自訂和設定原生PDF功能的各種元件。
-source-git-commit: 7bee42be8975ee25254e185edee67778ff3e1294
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
-
-
 
 # 原生PDF發佈
 
@@ -30,4 +27,3 @@ ht-degree: 0%
    * [在PDF輸出中新增自訂書籤](../native-pdf/add-custom-bookmark.md)
    * [使用JavaScript處理內容或樣式](../native-pdf/use-javascript-content-style.md)
    * [在註腳中使用自訂樣式](../native-pdf/footnote-number-style.md)
-

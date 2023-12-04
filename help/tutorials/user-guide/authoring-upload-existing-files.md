@@ -1,10 +1,9 @@
 ---
 title: 上傳檔案
 description: 瞭解如何將檔案上傳至AEM存放庫並處理錯誤。 瞭解資產控制檯使用者介面、AEM案頭應用程式、資產大量擷取器，以及使用FrameMaker進行大量上傳。
-exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---

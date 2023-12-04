@@ -1,8 +1,7 @@
 ---
 title: 智慧標籤
 description: 瞭解如何在AEM Guides中新增智慧標籤。 使用XML關鍵字擷取工具來擷取相關關鍵字。
-exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%

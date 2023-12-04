@@ -1,10 +1,9 @@
 ---
 title: 使用基準線
 description: 瞭解AEM Guides中「基準線」的使用。 瞭解如何建立、檢視內容、編輯、複製、移除、新增標籤，以及匯出翻譯的基線。
-exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---

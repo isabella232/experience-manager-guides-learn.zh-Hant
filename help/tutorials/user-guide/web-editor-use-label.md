@@ -1,10 +1,9 @@
 ---
 title: 使用標籤
 description: 探索AEM Guides中不同版本檔案的標籤使用情形。 瞭解如何在主題版本中新增或刪除標籤。
-exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---

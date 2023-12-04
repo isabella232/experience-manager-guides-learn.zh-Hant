@@ -1,8 +1,7 @@
 ---
 title: 建立大量啟用地圖集合
 description: 瞭解如何在AEM Guides中建立大量啟用地圖集合。
-exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%

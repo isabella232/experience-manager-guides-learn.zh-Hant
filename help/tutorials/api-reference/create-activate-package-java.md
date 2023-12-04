@@ -1,13 +1,12 @@
 ---
 title: 用於建立和啟用套件的Java型API
 description: 瞭解用於建立和啟用套件的Java型API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
-
 
 # 用於建立和啟用套件的Java型API {#id175UB30E05Z}
 
@@ -90,4 +89,3 @@ throws GuidesApiException
 - 套件中只包含/content/dam/nested路徑下的.png、.jpg和.gif影像。
 - /content/output/sites/hierarchy\_ditamap下的所有節點都會包含在套件中。
 - 中存在的路徑 `fileReference` /content/output/sites/hierarchy\_ditamap下的節點屬性會包含在套件中。
-

@@ -1,8 +1,7 @@
 ---
 title: 傳送主題以供檢閱
 description: 瞭解如何在AEM Guides中建立評論任務和傳送主題以供評論。 在DITA map中傳送一或多個主題以供檢閱。
-exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%

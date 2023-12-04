@@ -1,10 +1,9 @@
 ---
 title: 內容重複使用報表
 description: 瞭解如何在AEM Guides中檢視內容重複使用報告。 產生報告以找出內容重複使用的百分比。
-exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -39,7 +38,7 @@ ht-degree: 0%
 
      列出「平均內容重複使用」，其計算方式為「內容重複使用例項/主題總數」。 此報表會考慮計算時所有第一層級直接內容參照和主題參照。 「內容重複使用例項」的計算方式為「重複使用次數」欄位中的值總數。 「報告摘要」中也會列出重複使用最廣泛的主題。 按一下重複使用最多的主題中的主題連結會開啟主題預覽。
 
-   - **詳細資料:**
+   - **詳細資料：**
 
      「詳細資訊」段落包含下列資料欄：
 

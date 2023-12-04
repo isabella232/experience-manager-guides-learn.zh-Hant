@@ -1,13 +1,12 @@
 ---
 title: 原生PDF |設定原生PDF發佈的節點程式
 description: 瞭解如何設定原生PDF發佈的節點程式
-source-git-commit: 45974b88a5b1bbbd2d83ea5cc18e0def2f15c51f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
-
 
 # 設定原生PDF發佈的節點程式
 
@@ -17,5 +16,4 @@ ht-degree: 3%
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|---|---|
-| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | 要設定任何標準的字串值 `NODE_OPTIONS`.<BR> 預設值: &quot;&quot; |
-
+| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | 要設定任何標準的字串值 `NODE_OPTIONS`.<BR> 預設值： &quot;&quot; |

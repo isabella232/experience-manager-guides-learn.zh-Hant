@@ -1,13 +1,12 @@
 ---
 title: 設定主題與內容片段模型之間的JSON型對應。
 description: 瞭解如何設定主題與內容片段模型之間的JSON型對應。
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # 建立主題與內容片段之間的對應
 
@@ -39,7 +38,7 @@ AEM Guides提供的功能可在主題和內容片段模型之間建立JSON型對
       `"outputType": string`
 1. 儲存檔案並上傳。
 
-範例檔案:
+範例檔案：
 
 ```
 [

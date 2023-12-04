@@ -1,11 +1,10 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2023年3月發行
 description: Adobe Experience Manager Guidesas a Cloud Service3月版
-exl-id: c62a65fb-b52d-455d-b42c-f0b19b4d5f63
-source-git-commit: f419281cdecb570f9e5c7ce5cd4c831cae349e11
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '561'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +17,9 @@ ht-degree: 2%
 ## 升級至2023年3月版本
 
 執行下列步驟，升級您目前的AEM Guidesas a Cloud Service設定：
-1. 檢視Cloud Services的Git程式碼，並切換到在Cloud Services管線中設定的分支，該分支與您要升級的環境相對應。
-2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將Cloud Services Git程式碼的檔案設為2023.3.242。
-3. 提交變更並執行Cloud Services管道，以升級至2023年3月版本的AEM Guidesas a Cloud Service。
+1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
+2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將Cloud Service Git程式碼的檔案設為2023.3.242。
+3. 提交變更並執行Cloud Service管道，以升級至2023年3月版本的AEM Guidesas a Cloud Service。
 
 ## 索引現有內容的步驟(僅限使用9月之前版本的AEM Guidesas a Cloud Service)
 
