@@ -1,11 +1,11 @@
 ---
-user-guide-title: Adobe Experience Manager指南教學課程
+user-guide-title: Adobe Experience Manager Guides 教學課程
 user-guide-description: Adobe Experience Manager Guides 的影片系列。
 breadcrumb-title: AEM Guides 影片
 source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Adobe Experience Manager Guides Editor課程3
-description: AEM Guides網頁編輯器的進階使用手冊
+description: AEM Guides 網頁編輯器進階使用者指南
 exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
 source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
