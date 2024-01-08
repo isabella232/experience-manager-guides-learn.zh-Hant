@@ -2,14 +2,14 @@
 title: 教學影片 [!DNL Adobe Experience Manager Guides]
 description: 觀看相關教學課程影片 [!DNL Adobe Experience Manager Guides]、AEM XML附加元件、AEM XML外掛程式、AEM DoX和AEM Dox。
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
+source-git-commit: 28aa657e4ab0bb1297469ea60f4b4f87ad07c961
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# 教學影片 [!DNL Adobe Experience Manager Guides] {#overview}
+# AEM Guides 影片
 
 請檢視此空間中的視訊課程： [!DNL Adobe Experience Manager Guides].
 
